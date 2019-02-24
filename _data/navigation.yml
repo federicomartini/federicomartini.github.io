@@ -3,9 +3,9 @@ main:
   - title: "Blog"
     url: https://federicomartini.github.io/blog
   - title: "About"
-   url: https://federicomartini.github.io/about
+    url: https://federicomartini.github.io/about
   - title: "Projects"
-   url: https://federicomartini.github.io/projects
+    url: https://federicomartini.github.io/projects
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
