@@ -1,8 +1,16 @@
 ---
-layout: single
-title:  "My first post"
-date:   2016-11-11
-author_profile: true
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 ---
 
-my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine 
+my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine my first post looks just fine
