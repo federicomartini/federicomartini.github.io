@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Federico Martini"
   avatar           : /assets/images/avatar_25.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Engineer with experience in developing Automation Systems and Android Applications. Artificial Intelligence enthusiast, and lifelong learner."
+  bio              : "Software Engineer with experience in developing Automation Systems and Android Apps. Artificial Intelligence enthusiast, and lifelong learner."
   location         : # insert your location here
   email            : martini.f@gmail.com
   links:
