@@ -24,7 +24,7 @@ url                      : https://federicomartini.github.io # the base hostname
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "fas fa-laptop" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Federico Martini"
   avatar           : /assets/images/avatar_25.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm a software engineer with experience first of all in dealing with Automation Systems, and Android Apps."
+  bio              : "Software Engineer with experience in developing Automation Systems and Android Applications. Artificial Intelligence enthusiast, and lifelong learner."
   location         : # insert your location here
   email            : martini.f@gmail.com
   links:
