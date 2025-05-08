@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Federico Martini"
 title_separator          : "-"
 name                     : "Federico Martini"
-description              : "A Software Engineer"
+description              : "AI, Software & slow life"
 url                      : https://federicomartini.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -112,47 +112,15 @@ author:
   location         : # insert your location here
   email            : martini.f@gmail.com
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:martini.f@gmail.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/martini__f"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    - label: "Linkedin"
+      icon: "fab fa-linkedin"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/federicomartini"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    - label: "Substack"
+      icon: "fab fa-envelope"
       # url: "https://instagram.com/"
-
-# Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/martini__f"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/federicomartini"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-
 
 # Reading Files
 include:
