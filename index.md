@@ -1,7 +1,6 @@
 ---
 layout: single
 author_profile: false
-classes: wide
 ---
 
 Hi, I'm Federico Martini 👋  
