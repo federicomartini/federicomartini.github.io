@@ -12,21 +12,16 @@ I build things that connect machines, data, and people.
 
 ### What I do
 
-- AI & Machine Learning for industry  
-- Industrial IoT, smart dashboards, predictive maintenance  
-- Community building and tech culture  
-
----
-
-### Projects
-
-- [Your GitHub Repo](https://github.com/tuonome/progetto) — industrial ML demo  
-- [Your Substack](https://tuosubstack.substack.com) — tech thoughts & ideas  
+- AI & Machine Learning applications for industry  
+- Industrial IoT, Data Analysis & Web Dashboards
+- Company Speaker on Digital Services
+- Lifelong Learner
+- Runner
 
 ---
 
 ### Find me
 
-- [GitHub](https://github.com/tuonome)  
-- [LinkedIn](https://linkedin.com/in/tuonome)  
-- [Substack](https://tuosubstack.substack.com)
+- [GitHub](https://github.com/federicomartini) 
+- [Linkedin](https://www.linkedin.com/in/federicomartini/)
+- [X](https://x.com/martinife)
