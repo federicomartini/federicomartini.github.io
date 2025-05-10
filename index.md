@@ -5,6 +5,7 @@ classes: wide
 ---
 
 Hi, I'm Federico Martini 👋
+
 I'm a software engineer and AI enthusiast based in Italy 🇮🇹.  
 I build things that connect machines, data, and people.
 
