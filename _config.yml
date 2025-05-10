@@ -106,7 +106,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Federico Martini"
+  name             : 
   avatar           : /assets/images/avatar_25.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : " "
   location         : # insert your location here
