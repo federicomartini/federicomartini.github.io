@@ -114,13 +114,10 @@ author:
   links:
     - label: "Linkedin"
       icon: "fab fa-linkedin"
-      # url: "https://facebook.com/"
+      url: "https://www.linkedin.com/in/federicomartini/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/federicomartini"
-    - label: "Substack"
-      icon: "fab fa-envelope"
-      # url: "https://instagram.com/"
 
 # Reading Files
 include:
