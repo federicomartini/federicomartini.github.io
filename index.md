@@ -7,12 +7,13 @@ classes: wide
 Hi, I'm Federico Martini 👋  
 I'm a software engineer and AI enthusiast based in Italy 🇮🇹  
 I build things that connect machines, data, and people.
+I love coding, learning, and trying new things
 
 ---
 
 ### What I do
 
-- AI & Machine Learning applications for industry  
+- AI & Machine Learning applications for industry
 - Industrial IoT, Data Analysis & Web Dashboards
 - Company Speaker on Digital Services
 - Lifelong Learner
@@ -27,6 +28,7 @@ I build things that connect machines, data, and people.
 - Rear-Mounted crane stability system in Codesys on custom control units
 - Management of sensors and actuators in every single applications
 - Management of the communication using OPC-UA, CAN, Modbus, Profinet, Ethernet/IP, Ethernet, Serial RS232/485, and many other protocols
+- Mentor for many courses released by Udacity on AI, Machine Learning, Deep Learning, Android Development, Azure AI tools, VR Development in Unity
 
 ---
 
