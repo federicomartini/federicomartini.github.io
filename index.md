@@ -4,11 +4,7 @@ author_profile: true
 permalink: /
 ---
 
-
-Hi, I'm Federico Martini 
-I'm a software engineer and AI enthusiast based in Italy 🇮🇹  
-I build things that connect machines, data, and people.
-I love coding, learning, and trying new things
+Helping others by calmly learning AI, building applications and sharing lessons.
 
 ---
 
