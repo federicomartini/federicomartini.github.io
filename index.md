@@ -48,6 +48,7 @@ I love coding, learning, and trying new things
 ---
 
 ### Recent Posts
+#### About my learnings, experiences and thoughts
 
 {% for post in site.posts limit:5 %}
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
@@ -60,6 +61,6 @@ I love coding, learning, and trying new things
   </article>
 {% endfor %}
 
-{% if site.posts.size > 1 %}
+{% if site.posts.size > 5 %}
   <p><a href="{{ '/posts/' | relative_url }}" class="btn btn--primary">View All Posts</a></p>
 {% endif %}
