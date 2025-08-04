@@ -88,27 +88,36 @@ label {
 }
 
 
-/* Pulsanti Previous e Next */
+// === Override pulsanti di paginazione ===
 .pagination__prev,
 .pagination__next {
   color: #ffffff !important;
   background-color: transparent !important;
   border-color: #ffffff !important;
+  
+  a {
+    color: #ffffff !important;
+  }
+  
+  &:hover {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    
+    a {
+      color: #ffffff !important;
+    }
+  }
 }
 
-.pagination__prev:hover,
-.pagination__next:hover {
-  color: #ffffff !important;
-  background-color: rgba(255, 255, 255, 0.1) !important;
+// Override per tutti i pulsanti di paginazione
+.pagination {
+  .pagination__prev,
+  .pagination__next {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+    
+    a {
+      color: #ffffff !important;
+    }
+  }
 }
-
-.pagination__prev a,
-.pagination__next a {
-  color: #ffffff !important;
-}
-
-.pagination__prev a:hover,
-.pagination__next a:hover {
-  color: #ffffff !important;
-}
-
