@@ -49,7 +49,7 @@ I love coding, learning, and trying new things
 
 ### Recent Posts
 
-{% for post in site.posts limit:1 %}
+{% for post in site.posts limit:5 %}
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     <h2 class="archive__item-title" itemprop="headline">
       <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
@@ -60,6 +60,6 @@ I love coding, learning, and trying new things
   </article>
 {% endfor %}
 
-{% if site.posts.size > 5 %}
+{% if site.posts.size > 1 %}
   <p><a href="{{ '/posts/' | relative_url }}" class="btn btn--primary">View All Posts</a></p>
 {% endif %}
