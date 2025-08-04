@@ -48,7 +48,7 @@ I love coding, learning, and trying new things
 ---
 
 ### Recent Posts
-#### About my learnings, experiences and thoughts
+About my learnings, experiences and thoughts
 
 {% for post in site.posts limit:5 %}
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
