@@ -89,35 +89,19 @@ label {
 
 
 // === Override pulsanti di paginazione ===
-.pagination__prev,
-.pagination__next {
+.pagination--pager {
   color: #ffffff !important;
   background-color: transparent !important;
   border-color: #ffffff !important;
-  
-  a {
-    color: #ffffff !important;
-  }
-  
-  &:hover {
-    color: #ffffff !important;
-    background-color: rgba(255, 255, 255, 0.1) !important;
-    
-    a {
-      color: #ffffff !important;
-    }
-  }
+  text-decoration: none !important;
 }
 
-// Override per tutti i pulsanti di paginazione
-.pagination {
-  .pagination__prev,
-  .pagination__next {
-    color: #ffffff !important;
-    border-color: #ffffff !important;
-    
-    a {
-      color: #ffffff !important;
-    }
-  }
+.pagination--pager:hover {
+  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.pagination--pager.disabled {
+  color: #666666 !important;
+  border-color: #666666 !important;
 }
