@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
   - title: "Posts"
-    url: /posts
+    url: /posts/
   - title: "Projects"
     url: /projects/
   # - title: "Sample Collections"
