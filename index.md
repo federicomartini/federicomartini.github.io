@@ -1,9 +1,9 @@
 ---
-layout: single
+layout: home
 author_profile: true
 ---
 
-Hi, I'm Federico Martini 👋  
+Hi, I'm Federico Martini 
 I'm a software engineer and AI enthusiast based in Italy 🇮🇹  
 I build things that connect machines, data, and people.
 I love coding, learning, and trying new things
