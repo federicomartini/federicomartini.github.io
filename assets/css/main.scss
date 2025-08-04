@@ -17,21 +17,24 @@ body,
 .page__content strong,
 .page__content em,
 .page__content blockquote,
-.page__content code,
-.page__content a {
-  color: #cccccc !important; // testo grigio chiaro
+.page__content code{
+  color: #949494 !important; // testo grigio chiaro
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
   color: #ffffff !important; // titoli bianchi
 }
 
-a {
-  color: #66ccff !important; // link azzurro neon
+a,
+a:visited,
+a:active {
+  color: #ffffff !important;
+  text-decoration: none !important;
 }
 
 a:hover {
-  color: #99ddff !important;
+  color: #b3b3b3 !important;
+  text-decoration: underline; // opzionale: solo al passaggio del mouse
 }
 
 // === Font Inter (Google Fonts) ===
