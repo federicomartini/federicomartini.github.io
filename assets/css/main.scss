@@ -137,34 +137,43 @@ label {
 }
 
 
-/* Menu di navigazione - sottolineatura bianca */
+/* Menu di navigazione - sottolineatura bianca FORZATA */
 .greedy-nav .site-nav a,
 .greedy-nav .site-nav a:hover,
-.greedy-nav .site-nav a:focus {
-  border-bottom-color: #ffffff !important;
-}
-
-.greedy-nav .site-nav a::after {
-  background-color: #ffffff !important;
-}
-
-/* Override per tutti i link del menu */
+.greedy-nav .site-nav a:focus,
 .greedy-nav a,
 .greedy-nav a:hover,
 .greedy-nav a:focus {
   border-bottom-color: #ffffff !important;
+  color: #ffffff !important;
 }
 
+.greedy-nav .site-nav a::after,
 .greedy-nav a::after {
   background-color: #ffffff !important;
 }
 
-/* Override specifico per il tema neon */
-body[class*="neon"] .greedy-nav a::after {
+/* Override specifico per il tema neon con selettori più specifici */
+body[class*="neon"] .greedy-nav a::after,
+body[class*="neon"] .greedy-nav .site-nav a::after,
+body[class*="neon"] .greedy-nav a,
+body[class*="neon"] .greedy-nav .site-nav a {
+  background-color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+/* Override ancora più specifico */
+.greedy-nav .site-nav a:hover::after,
+.greedy-nav a:hover::after {
   background-color: #ffffff !important;
 }
 
-body[class*="neon"] .greedy-nav .site-nav a::after {
-  background-color: #ffffff !important;
+/* Forza il colore bianco su tutti gli elementi del menu */
+.greedy-nav * {
+  border-bottom-color: #ffffff !important;
 }
 
+.greedy-nav *::after {
+  background-color: #ffffff !important;
+}
