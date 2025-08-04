@@ -1,6 +1,5 @@
 ---
 layout: home
-title: "Federico Martini"
 author_profile: true
 permalink: /
 ---
