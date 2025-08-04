@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 author_profile: true
 permalink: /
 ---
@@ -49,7 +49,7 @@ I love coding, learning, and trying new things
 
 ### Recent Posts
 
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:1 %}
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     <h2 class="archive__item-title" itemprop="headline">
       <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
