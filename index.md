@@ -10,16 +10,16 @@ Helping others by calmly learning AI, building applications and sharing lessons.
 
 ### What I do
 
-- AI & Machine Learning applications for industry
-- Industrial IoT, Data Analysis & Web Dashboards
-- Company Speaker on Digital Services
-- Lifelong Learner
-- Runner
+- Develop AI solutions for business processes
+- Present and share insights as a company speaker on digital transformation
+- Commit to lifelong learning and continuous improvement
 
 ---
 
 ### What I did
 
+- Developed Machine Learning solutions for industrial applications
+- Built Industrial IoT systems, analyze data, and create intuitive web dashboards
 - Toll payments systems in C and CPP
 - Minesweeper autopilot system in C and IEC-61131
 - Rear-Mounted crane stability system in Codesys on custom control units
