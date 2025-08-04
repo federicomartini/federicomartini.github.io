@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Federico Martini"
 title_separator          : "-"
 name                     : "Federico Martini"
-description              : "AI, Software & slow life"
+description              : "AI Engineer"
 url                      : https://federicomartini.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -108,8 +108,8 @@ analytics:
 author:
   name             : 
   avatar           : /assets/images/avatar_25.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : " "
-  location         : # insert your location here
+  bio              : "Software engineer learning and building AI & LLM stuff"
+  location         : "Italy"
   email            : 
   links:
     - label: "Linkedin"
