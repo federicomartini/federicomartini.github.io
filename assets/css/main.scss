@@ -135,3 +135,36 @@ label {
 .page__share .btn--linkedin * {
   color: #ffffff !important;
 }
+
+
+/* Menu di navigazione - sottolineatura bianca */
+.greedy-nav .site-nav a,
+.greedy-nav .site-nav a:hover,
+.greedy-nav .site-nav a:focus {
+  border-bottom-color: #ffffff !important;
+}
+
+.greedy-nav .site-nav a::after {
+  background-color: #ffffff !important;
+}
+
+/* Override per tutti i link del menu */
+.greedy-nav a,
+.greedy-nav a:hover,
+.greedy-nav a:focus {
+  border-bottom-color: #ffffff !important;
+}
+
+.greedy-nav a::after {
+  background-color: #ffffff !important;
+}
+
+/* Override specifico per il tema neon */
+body[class*="neon"] .greedy-nav a::after {
+  background-color: #ffffff !important;
+}
+
+body[class*="neon"] .greedy-nav .site-nav a::after {
+  background-color: #ffffff !important;
+}
+
