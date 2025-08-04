@@ -105,3 +105,37 @@ label {
   color: #666666 !important;
   border-color: #666666 !important;
 }
+
+
+/* Pulsanti di condivisione sociale - icone bianche */
+.page__share .btn {
+  color: #ffffff !important;
+}
+
+.page__share .btn i {
+  color: #ffffff !important;
+}
+
+.page__share .btn span {
+  color: #ffffff !important;
+}
+
+/* Override specifico per ogni pulsante */
+.page__share .btn--twitter,
+.page__share .btn--facebook,
+.page__share .btn--linkedin {
+  color: #ffffff !important;
+}
+
+.page__share .btn--twitter i,
+.page__share .btn--facebook i,
+.page__share .btn--linkedin i {
+  color: #ffffff !important;
+}
+
+.page__share .btn--twitter span,
+.page__share .btn--facebook span,
+.page__share .btn--linkedin span {
+  color: #ffffff !important;
+}
+
