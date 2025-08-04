@@ -86,3 +86,29 @@ label {
 .masthead .site-title a {
   font-family: 'Noto Sans Mono', monospace !important;
 }
+
+
+/* Pulsanti Previous e Next */
+.pagination__prev,
+.pagination__next {
+  color: #ffffff !important;
+  background-color: transparent !important;
+  border-color: #ffffff !important;
+}
+
+.pagination__prev:hover,
+.pagination__next:hover {
+  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.pagination__prev a,
+.pagination__next a {
+  color: #ffffff !important;
+}
+
+.pagination__prev a:hover,
+.pagination__next a:hover {
+  color: #ffffff !important;
+}
+
