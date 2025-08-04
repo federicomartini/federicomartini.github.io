@@ -1,7 +1,10 @@
 ---
 layout: home
+title: "Federico Martini"
 author_profile: true
+permalink: /
 ---
+
 
 Hi, I'm Federico Martini 
 I'm a software engineer and AI enthusiast based in Italy 🇮🇹  
