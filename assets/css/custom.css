@@ -1,24 +1,33 @@
-.page {
-  max-width: 600px;
-  margin: auto;
-  padding: 2rem;
+/* Forza il colore del testo del corpo */
+body,
+.page__content,
+.page__content p,
+.page__content li,
+.page__content span,
+.page__content strong,
+.page__content em,
+.page__content blockquote,
+.page__content code,
+.page__content a {
+  color: #cccccc !important;
 }
 
-/* Sovrascrive il colore del corpo */
-body {
-  color: #66ccff !important; /* Grigio chiaro */
+/* Colore titoli */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
 }
 
-/* Opzionale: link leggermente meno brillanti */
+/* Link */
 a {
-  color: #66ccff;
+  color: #66ccff !important;
 }
 
 a:hover {
-  color: #99ddff;
+  color: #99ddff !important;
 }
 
-/* Titoli più bianchi per contrasto */
-h1, h2, h3, h4, h5, h6 {
-  color: #ffffff !important;
+/* Codice */
+code, pre {
+  color: #dddddd !important;
+  background-color: #111111 !important;
 }
