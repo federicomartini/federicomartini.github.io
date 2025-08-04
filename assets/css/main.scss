@@ -6,3 +6,37 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// === OVERRIDE dello stile ===
+
+body,
+.page__content,
+.page__content p,
+.page__content li,
+.page__content span,
+.page__content strong,
+.page__content em,
+.page__content blockquote,
+.page__content code,
+.page__content a {
+  color: #cccccc !important; // testo grigio chiaro
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important; // titoli bianchi
+}
+
+a {
+  color: #66ccff !important; // link azzurro neon
+}
+
+a:hover {
+  color: #99ddff !important;
+}
+
+// === Font Inter (Google Fonts) ===
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+body {
+  font-family: 'Inter', sans-serif !important;
+}
