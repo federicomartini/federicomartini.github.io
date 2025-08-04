@@ -3,3 +3,22 @@
   margin: auto;
   padding: 2rem;
 }
+
+/* Sovrascrive il colore del corpo */
+body {
+  color: #cccccc !important; /* Grigio chiaro */
+}
+
+/* Opzionale: link leggermente meno brillanti */
+a {
+  color: #66ccff;
+}
+
+a:hover {
+  color: #99ddff;
+}
+
+/* Titoli più bianchi per contrasto */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
