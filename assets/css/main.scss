@@ -9,6 +9,24 @@
 
 // === OVERRIDE dello stile ===
 
+// Override responsivo della dimensione font base
+html {
+  font-size: 14px; // dimensione per schermi piccoli
+
+  @include breakpoint($medium) {
+    font-size: 15px; // tablet / medi
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px; // desktop normali
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 17px; // schermate più grandi
+  }
+}
+
+
 body,
 .page__content,
 .page__content p,
