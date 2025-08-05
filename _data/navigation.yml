@@ -6,6 +6,8 @@ main:
     url: /posts/
   - title: "Projects"
     url: /projects/
+  - title: "Toolbox"
+    url: /toolbox/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
