@@ -1,6 +1,5 @@
 ---
 layout: posts
-title: "Posts"
 permalink: /posts/
 ---
 
@@ -18,3 +17,5 @@ The newsletter where I share my experiences, lessons learned and other things I 
   
   <input type="submit" value="Subscribe" />
 </form>
+
+### Previous posts
