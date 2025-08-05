@@ -18,14 +18,13 @@ Helping others by calmly learning AI, building applications and sharing lessons.
 
 ### What I did
 
-- Designed and deployed Machine Learning solutions for real-world industrial use cases, from vision systems to predictive models
-- Developed full Industrial IoT pipelines, integrating data acquisition, processing, and web-based dashboards for factory insights
-- Engineered toll payment systems using C and C++, with a focus on embedded performance and reliability
-- Created a fully autonomous Minesweeper autopilot in C and IEC-61131 for PLC-based environments
-- Developed a stability control system for rear-mounted cranes using Codesys and custom hardware platforms
-- Handled low-level sensor and actuator integration across diverse applications, ensuring real-time performance
-- Managed industrial communication protocols including OPC-UA, CAN, Modbus, Profinet, Ethernet/IP, RS232/485, and more
-- Served as a Mentor and Reviewer for Udacity, supporting thousands of students in AI, ML, Deep Learning, Android, Azure AI, and VR with Unity
+- Delivered Machine Learning solutions tailored for manufacturing and industrial processes, enhancing automation and decision-making
+- Mentored thousands of developers through Udacity courses on AI, ML, Deep Learning, Android, Azure AI, and VR with Unity
+- Designed and implemented complete Industrial IoT architectures, from data collection to visualization through web dashboards
+- Handled industrial communication protocols such as OPC-UA, CAN, Modbus, Profinet, Ethernet/IP, RS232/485, and more
+- Integrated and managed sensors and actuators across various platforms, ensuring seamless hardware–software interaction
+- Built autonomous control systems in C and IEC-61131, including a Minesweeper autopilot and crane stability logic on custom hardware with Codesys
+- Developed low-level software for toll payment systems in C and C++, focusing on real-time performance and reliability
 
 ---
 
