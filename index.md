@@ -4,7 +4,7 @@ author_profile: true
 permalink: /
 ---
 
-*Helping others to understand AI by calmly learning, building, and sharing lessons learned.*
+Helping others to understand AI by calmly learning, building, and sharing lessons learned.
 
 ---
 
