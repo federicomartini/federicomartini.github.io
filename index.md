@@ -6,7 +6,20 @@ permalink: /
 
 Helping others to understand AI by calmly learning, building, and sharing lessons learned.
 
----
+### The Silent Commit
+The newsletter where I share experiences, lessons learned and other things I find interesting.
+
+<form
+  action="https://buttondown.com/api/emails/embed-subscribe/SilentCommit"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.com/SilentCommit', 'popupwindow')"
+  class="embeddable-buttondown-form">
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  
+  <input type="submit" value="Subscribe" />
+</form>
 
 ### What I do
 
@@ -14,7 +27,6 @@ Helping others to understand AI by calmly learning, building, and sharing lesson
 - Present and share insights as a company speaker on digital transformation
 - Commit to lifelong learning and continuous improvement
 
----
 
 ### What I did
 
@@ -26,13 +38,9 @@ Helping others to understand AI by calmly learning, building, and sharing lesson
 - Built autonomous control systems in C and IEC-61131, including a Minesweeper autopilot and crane stability logic on custom hardware with Codesys
 - Developed low-level software for toll payment systems in C and C++, focusing on real-time performance and reliability
 
----
-
 ### Education
 
 - I graduated in Automation & Computer Science Engineering MS from University of Ferrara
-
----
 
 ### Find me
 
