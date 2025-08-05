@@ -1,10 +1,10 @@
 ---
 layout: posts
-title: "The Silent Commit"
+title: ""
 permalink: /posts/
 ---
 
-The newsletter where I share my experiences, lessons learned and other things I find interesting.
+I share my experiences, lessons learned and other things I find interesting. Every Sunday.
 
 <form
   action="https://buttondown.com/api/emails/embed-subscribe/SilentCommit"
