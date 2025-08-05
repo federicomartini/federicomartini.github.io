@@ -122,6 +122,12 @@ author:
     #  icon: "fas fa-envelope-open-text"
     #  url: ""
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 # Reading Files
 include:
   - .htaccess
