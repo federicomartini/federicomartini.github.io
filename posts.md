@@ -1,9 +1,9 @@
 ---
 layout: posts
+title: "The Silent Commit"
 permalink: /posts/
 ---
 
-### The Silent Commit
 The newsletter where I share my experiences, lessons learned and other things I find interesting.
 
 <form
