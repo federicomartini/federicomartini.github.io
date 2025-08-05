@@ -177,3 +177,20 @@ body[class*="neon"] .greedy-nav .site-nav a {
 .greedy-nav *::after {
   background-color: #ffffff !important;
 }
+
+.embeddable-buttondown-form input[type="email"] {
+  max-width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  padding: 8px 12px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
