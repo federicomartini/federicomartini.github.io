@@ -5,8 +5,8 @@ layout: single
 author_profile: false
 read_time: false
 header:
-  image: /assets/images/progetto1.jpg
-  teaser: /assets/images/progetto1-thumb.jpg
+  image: https://guptadeepak.com/content/images/size/w2000/2024/07/The-Future-of-AI-and-Its-Impact-on-Humanity.webp
+  teaser: https://guptadeepak.com/content/images/size/w2000/2024/07/The-Future-of-AI-and-Its-Impact-on-Humanity.webp
 ---
 
 Qui metti il contenuto completo del progetto.
