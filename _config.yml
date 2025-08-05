@@ -127,6 +127,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  toolbox:
+    output: true
+    permalink: /toolbox/:path/
 
 # Reading Files
 include:
