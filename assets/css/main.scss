@@ -38,14 +38,6 @@ html {
   background-color: #000 !important;
 }
 
-.newsletter-wrapper {
-  display: flex;
-  justify-content: center;
-  margin-top: 2em;
-  background-color: #000; /* sfondo nero */
-  padding: 2em 0;
-}
-
 .embeddable-buttondown-form {
   display: flex;
   width: 100%;
@@ -55,28 +47,34 @@ html {
 .embeddable-buttondown-form input[type="email"] {
   flex: 1;
   padding: 0.5em;
-  border: 1px solid #ccc;   /* bordo grigio chiaro solo sull’input */
+  border: 1px solid #949494;
   border-radius: 4px;
-  background: transparent;  /* trasparente, lascia vedere il nero sotto */
-  color: white;
+  background-color: #111111;  /* leggermente più chiaro del nero */
+  color: #949494;
   font-size: 1rem;
 }
 
+.embeddable-buttondown-form input[type="email"]::placeholder {
+  color: #555555;  /* più chiaro dello sfondo input */
+}
+
 .embeddable-buttondown-form input[type="submit"] {
-  width: 120px;            /* larghezza fissa */
+  width: 120px;
   padding: 0.5em 1em;
-  background: black;        /* sfondo nero pieno */
-  color: white;
-  border: none;             /* niente bordo */
-  border-radius: 4px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 6px;
   cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
 }
 
 .embeddable-buttondown-form input[type="submit"]:hover {
-  background: #333;         /* leggero grigio scuro per hover */
+  background-color: #777777;  /* grigio scuro */
+  color: white;
 }
-
-
 
 html body header.masthead .masthead__menu {
   background-color: #000000 !important;
