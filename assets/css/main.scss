@@ -64,6 +64,13 @@ body {
   background-color: #444 !important;
 }
 
+.masthead__menu {
+  background: #000 !important;         // fornisce uno sfondo nero piatto
+  background-image: none !important;   // elimina eventuali gradienti o immagini
+  background-color: #000 !important;   // ridondante, ma sicuro
+  border: none !important;
+  box-shadow: none !important;
+}
 
 
 // Override responsivo della dimensione font base
