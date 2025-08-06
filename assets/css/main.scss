@@ -41,7 +41,6 @@ html {
 .embeddable-buttondown-form {
   display: flex;
   width: 100%;            /* tutta la larghezza del contenitore */
-  max-width: 600px;       /* opzionale: max larghezza per il form */
   gap: 0.5rem;
   box-sizing: border-box; /* assicura che padding e bordi non aumentino la larghezza */
 }
