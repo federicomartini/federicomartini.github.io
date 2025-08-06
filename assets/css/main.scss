@@ -40,26 +40,31 @@ html {
 
 .embeddable-buttondown-form {
   display: flex;
-  width: 100%;
+  width: 100%;            /* tutta la larghezza del contenitore */
+  max-width: 600px;       /* opzionale: max larghezza per il form */
   gap: 0.5rem;
+  box-sizing: border-box; /* assicura che padding e bordi non aumentino la larghezza */
 }
 
 .embeddable-buttondown-form input[type="email"] {
-  flex: 1;
+  flex-grow: 1;           /* si espande il più possibile */
+  min-width: 0;           /* importante per far funzionare flex-grow dentro contenitori piccoli */
   padding: 0.5em;
   border: 1px solid #949494;
   border-radius: 4px;
-  background-color: #111111;  /* leggermente più chiaro del nero */
+  background-color: #111111;
   color: #949494;
   font-size: 1rem;
+  box-sizing: border-box;
 }
 
 .embeddable-buttondown-form input[type="email"]::placeholder {
-  color: #555555;  /* più chiaro dello sfondo input */
+  color: #555555;
 }
 
 .embeddable-buttondown-form input[type="submit"] {
-  width: 120px;
+  flex-shrink: 0;         /* non si riduce */
+  width: 120px;           /* larghezza fissa */
   padding: 0.5em 1em;
   background-color: white;
   color: black;
@@ -69,10 +74,11 @@ html {
   font-weight: 600;
   font-size: 1rem;
   transition: background-color 0.3s ease;
+  box-sizing: border-box;
 }
 
 .embeddable-buttondown-form input[type="submit"]:hover {
-  background-color: #777777;  /* grigio scuro */
+  background-color: #777777;
   color: white;
 }
 
