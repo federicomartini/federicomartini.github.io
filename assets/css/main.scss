@@ -9,6 +9,22 @@
 
 // === OVERRIDE dello stile ===
 
+// Qui sotto metti i tuoi override personalizzati
+body {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.masthead,
+.page__footer {
+  background-color: #000 !important;
+}
+
+.page,
+.page__inner-wrap {
+  background-color: #000 !important;
+}
+
 // Override responsivo della dimensione font base
 html {
   font-size: 14px; // dimensione per schermi piccoli
