@@ -232,6 +232,10 @@ label {
   background-color: #ffffff !important;
 }
 
+.greedy-nav .hidden-links {
+  background-color: #000 !important
+}
+
 /* Override specifico per il tema neon con selettori più specifici */
 body[class*="neon"] .greedy-nav a::after,
 body[class*="neon"] .greedy-nav .site-nav a::after,
