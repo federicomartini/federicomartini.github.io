@@ -20,8 +20,6 @@ The newsletter where I share experiences, lessons learned and other things I fin
   <input type="submit" value="Subscribe" />
 </form>
 
-
-
 ### What I do
 
 - Develop AI solutions for business processes
