@@ -46,41 +46,36 @@ html {
   padding: 2em 0;
 }
 
-.newsletter-form {
+.embeddable-buttondown-form {
   display: flex;
-  flex-direction: row; /* input e bottone sulla stessa riga */
-  align-items: center;
-  gap: 0.5em;
-  background-color: #111; /* sfondo scuro leggermente diverso */
-  padding: 1em 1.5em;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #0ff; /* effetto neon azzurro */
+  width: 100%;
+  gap: 0.5rem;
 }
 
-.newsletter-form input[type="email"] {
+.embeddable-buttondown-form input[type="email"] {
   flex: 1;
   padding: 0.5em;
-  border: 1px solid #555;
+  border: 1px solid #ccc;   /* bordo grigio chiaro solo sull’input */
   border-radius: 4px;
-  background-color: #222;
-  color: #eee;
+  background: transparent;  /* trasparente, lascia vedere il nero sotto */
+  color: white;
   font-size: 1rem;
 }
 
-.newsletter-form input[type="submit"] {
-  padding: 0.5em 1.2em;
-  background-color: #0ff;
-  color: #000;
-  border: none;
+.embeddable-buttondown-form input[type="submit"] {
+  width: 120px;            /* larghezza fissa */
+  padding: 0.5em 1em;
+  background: black;        /* sfondo nero pieno */
+  color: white;
+  border: none;             /* niente bordo */
   border-radius: 4px;
   cursor: pointer;
-  font-weight: 700;
-  transition: background-color 0.3s ease;
 }
 
-.newsletter-form input[type="submit"]:hover {
-  background-color: #06c;
+.embeddable-buttondown-form input[type="submit"]:hover {
+  background: #333;         /* leggero grigio scuro per hover */
 }
+
 
 
 html body header.masthead .masthead__menu {
@@ -90,8 +85,6 @@ html body header.masthead .masthead__menu {
   border: none !important;
   color: #ffffff !important;
 }
-
-
 
 // Override responsivo della dimensione font base
 html {
