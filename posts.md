@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: ""
+author_profile: true
 permalink: /posts/
 ---
 
