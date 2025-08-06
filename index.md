@@ -15,7 +15,6 @@ The newsletter where I share experiences, lessons learned and other things I fin
   target="popupwindow"
   onsubmit="window.open('https://buttondown.com/SilentCommit', 'popupwindow')"
   class="embeddable-buttondown-form">
-  <label for="bd-email">Enter your email</label>
   <input type="email" name="email" id="bd-email" />
   
   <input type="submit" value="Subscribe" />
