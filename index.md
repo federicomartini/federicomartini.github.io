@@ -9,18 +9,17 @@ Helping others to understand AI by calmly learning, building, and sharing lesson
 ### The Silent Commit
 The newsletter where I share experiences, lessons learned and other things I find interesting.
 
-<div class="newsletter-wrapper">
-  <form
-    action="https://buttondown.com/api/emails/embed-subscribe/SilentCommit"
-    method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://buttondown.com/SilentCommit', 'popupwindow')"
-    class="newsletter-form"
-  >
-    <input type="email" name="email" id="bd-email" placeholder="Your email..." />
-    <input type="submit" value="Subscribe" />
-  </form>
-</div>
+<form
+  action="https://buttondown.com/api/emails/embed-subscribe/SilentCommit"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.com/SilentCommit', 'popupwindow')"
+  class="embeddable-buttondown-form">
+  
+  <input type="email" name="email" id="bd-email" placeholder="Your email..." />
+  <input type="submit" value="Subscribe" />
+</form>
+
 
 
 ### What I do
