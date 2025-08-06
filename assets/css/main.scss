@@ -33,6 +33,38 @@ body {
   background-color: #000 !important;
 }
 
+/* Imposta sfondo e colori scuri per il form di Buttondown */
+.embeddable-buttondown-form {
+  background-color: #000 !important;
+  color: #fff !important;
+  padding: 1em;
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+/* Rende il campo input e il bottone coerenti con lo stile dark */
+.embeddable-buttondown-form input[type="email"],
+.embeddable-buttondown-form input[type="submit"] {
+  background-color: #111 !important;
+  color: #fff !important;
+  border: 1px solid #555;
+  padding: 0.5em;
+  border-radius: 4px;
+  margin-top: 0.5em;
+  display: block;
+  width: 100%;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  background-color: #222 !important;
+  cursor: pointer;
+}
+
+.embeddable-buttondown-form input[type="submit"]:hover {
+  background-color: #444 !important;
+}
+
+
 
 // Override responsivo della dimensione font base
 html {
