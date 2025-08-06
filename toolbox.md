@@ -1,6 +1,7 @@
 ---
 title: "Toolbox"
 layout: single
+author_profile: true
 permalink: /toolbox/
 ---
 
