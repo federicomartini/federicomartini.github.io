@@ -136,8 +136,25 @@ a:hover {
 }
 
 // === Font Inter (Google Fonts) ===
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;600;700&display=swap');
 
+// Import Font ------------
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/assets/fonts/geistmono/GeistMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/assets/fonts/geistmono/GeistMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+//-------------------------
 
 *,
 *::before,
