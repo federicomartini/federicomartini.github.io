@@ -89,7 +89,7 @@ html {
 }
 
 @media screen and (max-width: $large) {
-  .sidebar {
+  body:not(.homepage) .sidebar {
     display: none !important;
   }
 }
