@@ -13,49 +13,49 @@
 body {
   color: #fff !important;
   font-family: 'Geist Mono', monospace;
-  font-size: 20px;
-  line-height: 4;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 html {
   background-image: none !important;
-  font-size: 20px;
-  line-height: 4;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
-@media (min-width: 768px) {
+@include breakpoint($medium) {
   html {
     font-size: 16px;
-    line-height: 4;
+    line-height: 1.7;
   }
 
   body {
     font-size: 16px;
-    line-height: 4;
+    line-height: 1.7;
   }
 }
 
-@media (min-width: 1024px) {
+@include breakpoint($large) {
   html {
-    font-size: 17px;
-    line-height: 6;
+    font-size: 16px;
+    line-height: 1.7;
   }
 
   body {
-    font-size: 17px;
-    line-height: 6;
+    font-size: 16px;
+    line-height: 1.7;
   }
 }
 
-@media (min-width: 1280px) {
+@include breakpoint($x-large) {
   html {
-    font-size: 18px;
-    line-height: 8;
+    font-size: 16px;
+    line-height: 1.7;
   }
 
   body {
-    font-size: 18px;
-    line-height: 8;
+    font-size: 16px;
+    line-height: 1.7;
   }
   
 }
