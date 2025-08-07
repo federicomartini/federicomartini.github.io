@@ -9,12 +9,11 @@
 
 // === OVERRIDE dello stile ===
 
-$body-line-height: 3.0 !default;
-
 // Qui sotto metti i tuoi override personalizzati
 body {
   color: #fff !important;
   font-family: 'Geist Mono', monospace;
+  line-height: 3.0 !important;
 }
 
 html {
