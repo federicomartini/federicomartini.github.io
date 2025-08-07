@@ -71,7 +71,7 @@ html body header.masthead .masthead__menu {
 
 html {
   font-size: 16px; // mobile: migliora leggibilità senza sacrificare spazio
-  line-height: 1.8 !important;
+  line-height: 2.0 !important;
   
   @include breakpoint($medium) {
     font-size: 16px; // tablet
