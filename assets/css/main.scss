@@ -13,11 +13,53 @@
 body {
   color: #fff !important;
   font-family: 'Geist Mono', monospace;
+  font-size: 20px;
+  line-height: 4;
 }
 
 html {
   background-image: none !important;
+  font-size: 20px;
+  line-height: 4;
 }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+    line-height: 4;
+  }
+
+  body {
+    font-size: 16px;
+    line-height: 4;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 17px;
+    line-height: 6;
+  }
+
+  body {
+    font-size: 17px;
+    line-height: 6;
+  }
+}
+
+@media (min-width: 1280px) {
+  html {
+    font-size: 18px;
+    line-height: 8;
+  }
+
+  body {
+    font-size: 18px;
+    line-height: 8;
+  }
+  
+}
+
 
 .embeddable-buttondown-form {
   display: flex;
@@ -68,35 +110,6 @@ html body header.masthead .masthead__menu {
   border: none !important;
   color: #ffffff !important;
 }
-
-html {
-  font-size: 20px;
-  line-height: 4;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-    line-height: 4;
-  }
-}
-
-@media (min-width: 1024px) {
-  html {
-    font-size: 17px;
-    line-height: 6;
-  }
-}
-
-@media (min-width: 1280px) {
-  html {
-    font-size: 18px;
-    line-height: 8;
-  }
-}
-
-
-
 
 body,
 .page__content,
