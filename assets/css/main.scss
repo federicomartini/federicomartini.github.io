@@ -66,6 +66,10 @@ html {
 
 // Forza l'hamburger sempre visibile su schermi piccoli
 @media screen and (max-width: 768px) {
+  .greedy-nav {
+    justify-content: space-between !important;
+  }
+  
   .greedy-nav__toggle {
     display: block !important;  // mostra sempre l'hamburger
   }
@@ -78,8 +82,7 @@ html {
     display: block !important;  // mostra i link nel menu a discesa
     position: absolute;
     background: #fff;
-    width: 100%;
-    left: 0;
+    width: auto;
     top: 100%;
     z-index: 999;
   }
