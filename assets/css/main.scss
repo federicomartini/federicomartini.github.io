@@ -88,9 +88,9 @@ html {
   }
 }
 
-@include breakpoint($small) {
+@media screen and (max-width: $small) {
   .author__profile {
-    display: none;
+    display: none !important;
   }
 }
 
