@@ -2,6 +2,7 @@
 layout: single
 author_profile: true
 permalink: /
+body_class: home-page
 ---
 
 Helping others to understand AI by calmly learning, building, and sharing lessons learned.
