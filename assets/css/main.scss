@@ -78,11 +78,11 @@ html {
   }
 
   @include breakpoint($large) {
-    font-size: 17px; // desktop
+    font-size: 16px; // desktop
   }
 
   @include breakpoint($x-large) {
-    font-size: 18px; // monitor grandi o 4K
+    font-size: 17px; // monitor grandi o 4K
   }
 }
 
