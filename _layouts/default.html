@@ -38,5 +38,18 @@
 
     {% include scripts.html %}
 
+    <script>
+      document.addEventListener('keydown', function (event) {
+        const activeElement = document.activeElement;
+        const isInput = ['INPUT', 'TEXTAREA'].includes(activeElement.tagName);
+      
+        if (isInput) return; // Evita conflitti mentre si scrive
+      
+        if (event.key === '2') {
+          window.location.href = '/posts/';
+        }
+      });
+    </script>
+
   </body>
 </html>
