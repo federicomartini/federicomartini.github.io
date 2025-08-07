@@ -70,22 +70,22 @@ html body header.masthead .masthead__menu {
 }
 
 html {
-  font-size: 15px; // mobile: migliora leggibilità senza sacrificare spazio
+  font-size: 16px; // mobile: migliora leggibilità senza sacrificare spazio
   line-height: 1.8 !important;
   
   @include breakpoint($medium) {
     font-size: 16px; // tablet
-    line-height: 1.7 !important;
+    line-height: 1.8 !important;
   }
 
   @include breakpoint($large) {
     font-size: 16px; // desktop
-    line-height: 1.7 !important;
+    line-height: 1.8 !important;
   }
 
   @include breakpoint($x-large) {
     font-size: 16px; // monitor grandi o 4K
-    line-height: 1.7 !important;
+    line-height: 1.8 !important;
   }
 }
 
