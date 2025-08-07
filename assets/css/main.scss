@@ -64,6 +64,28 @@ html {
   line-height: 1.6 !important;
 }
 
+// Forza l'hamburger sempre visibile su schermi piccoli
+@media screen and (max-width: 768px) {
+  .greedy-nav__toggle {
+    display: block !important;  // mostra sempre l'hamburger
+  }
+
+  .visible-links {
+    display: none !important;   // nasconde i link visibili
+  }
+
+  .hidden-links {
+    display: block !important;  // mostra i link nel menu a discesa
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    z-index: 999;
+  }
+}
+
+
 .embeddable-buttondown-form {
   display: flex;
   width: 100%;            /* tutta la larghezza del contenitore */
