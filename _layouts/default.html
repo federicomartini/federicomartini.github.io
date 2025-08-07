@@ -44,9 +44,21 @@
         const isInput = ['INPUT', 'TEXTAREA'].includes(activeElement.tagName);
       
         if (isInput) return; // Evita conflitti mentre si scrive
-      
+
+        if (event.key === '1') {
+          window.location.href = '/';
+        }
+        
         if (event.key === '2') {
           window.location.href = '/posts/';
+        }
+
+        if (event.key === '3') {
+          window.location.href = 'projects';
+        }
+
+        if (event.key === '4') {
+          window.location.href = 'toolbox';
         }
       });
     </script>
