@@ -65,7 +65,7 @@ html {
 }
 
 // Forza l'hamburger sempre visibile su schermi piccoli
-@media screen and (max-width: 768px) {
+@media screen and @include breakpoint($small) {
   .greedy-nav {
     justify-content: space-between !important;
   }
@@ -88,6 +88,11 @@ html {
   }
 }
 
+@include breakpoint($small) {
+  .author__profile {
+    display: none;
+  }
+}
 
 .embeddable-buttondown-form {
   display: flex;
