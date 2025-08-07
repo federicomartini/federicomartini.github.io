@@ -94,6 +94,10 @@ html {
   }
 }
 
+.author__content {
+  vertical-align: middle !important;
+}
+
 .embeddable-buttondown-form {
   display: flex;
   width: 100%;            /* tutta la larghezza del contenitore */
