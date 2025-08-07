@@ -108,7 +108,7 @@ analytics:
 author:
   name             : 
   avatar           : /assets/images/avatar_400x400.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software engineer learning and building AI & LLM stuff"
+  bio              : "Software engineer<br>learning and building AI & LLM stuff"
   location         : "Italy"
   email            : 
   links:
