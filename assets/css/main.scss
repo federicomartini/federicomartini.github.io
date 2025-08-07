@@ -84,8 +84,8 @@ html {
   }
 
   @include breakpoint($x-large) {
-    font-size: 17px; // monitor grandi o 4K
-    line-height: 1.6 !important;
+    font-size: 16px; // monitor grandi o 4K
+    line-height: 1.7 !important;
   }
 }
 
