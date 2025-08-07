@@ -13,7 +13,7 @@
 body {
   color: #fff !important;
   font-family: 'Geist Mono', monospace;
-  line-height: 1.8 !important;
+  line-height: 1.7 !important;
 }
 
 html {
@@ -70,22 +70,22 @@ html body header.masthead .masthead__menu {
   color: #ffffff !important;
 }
 
-// Override responsivo della dimensione font base
 html {
-  font-size: 14px; // dimensione per schermi piccoli
+  font-size: 15px; // mobile: migliora leggibilità senza sacrificare spazio
 
   @include breakpoint($medium) {
-    font-size: 15px; // tablet / medi
+    font-size: 16px; // tablet
   }
 
   @include breakpoint($large) {
-    font-size: 16px; // desktop normali
+    font-size: 17px; // desktop
   }
 
   @include breakpoint($x-large) {
-    font-size: 17px; // schermate più grandi
+    font-size: 18px; // monitor grandi o 4K
   }
 }
+
 
 
 body,
