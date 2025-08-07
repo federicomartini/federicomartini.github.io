@@ -65,7 +65,7 @@ html {
 }
 
 // Forza l'hamburger sempre visibile su schermi piccoli
-@media screen and @include breakpoint($small) {
+@media screen and (max-width: $small) {
   .greedy-nav {
     justify-content: space-between !important;
   }
