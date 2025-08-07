@@ -11,32 +11,12 @@
 
 // Qui sotto metti i tuoi override personalizzati
 body {
-  background-color: #000 !important;
   color: #fff !important;
   font-family: 'Geist Mono', monospace;
 }
 
 html {
-  background-color: #000 !important;
   background-image: none !important;
-}
-
-.masthead,
-.page__footer {
-  background-color: #000 !important;
-}
-
-.page,
-.page__inner-wrap {
-  background-color: #000 !important;
-}
-
-.masthead {
-  background-color: #000 !important;
-}
-
-.masthead__inner-wrap {
-  background-color: #000 !important;
 }
 
 .embeddable-buttondown-form {
@@ -83,7 +63,6 @@ html {
 }
 
 html body header.masthead .masthead__menu {
-  background-color: #000000 !important;
   background-image: none !important;
   box-shadow: none !important;
   border: none !important;
@@ -243,19 +222,6 @@ label {
 .greedy-nav a:focus {
   border-bottom-color: #ffffff !important;
   color: #ffffff !important;
-}
-
-.greedy-nav .site-nav a::after,
-.greedy-nav a::after {
-  background-color: #ffffff !important;
-}
-
-.greedy-nav .hidden-links {
-  background-color: #000 !important;
-}
-
-.author__urls-wrapper .author__urls {
-  background: #000 !important;
 }
 
 /* Override specifico per il tema neon con selettori più specifici */
