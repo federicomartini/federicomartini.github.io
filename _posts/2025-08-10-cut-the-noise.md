@@ -8,7 +8,7 @@ Even though that little voice in my head (and on every tech forum) kept saying, 
 - You can do almost **everything for free** or with minimal resources — and scale up later.  
 - The more you read online, the easier it is to get confused and think you “need” things you don’t.  
 
-Honestly, my real win this week was way simpler: I [**redesigned my GitHub profile**[(https://federicomartini.github.io).  
+Honestly, my real win this week was way simpler: I [**redesigned my GitHub profile**](https://federicomartini.github.io).  
 Bonus feature: you can now navigate menus using just number keys.  
 
 ---
