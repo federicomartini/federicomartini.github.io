@@ -1,3 +1,8 @@
+---
+title: "Sometimes Progress Means *Not* Buying the 64GB Mac"
+date: 2025-08-10
+---
+
 # Sometimes Progress Means *Not* Buying the 64GB Mac
 
 This week I finally made peace with something I’d been overthinking for months:  
