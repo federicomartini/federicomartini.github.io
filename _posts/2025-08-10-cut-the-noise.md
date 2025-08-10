@@ -3,8 +3,6 @@ title: "Sometimes Progress Means *Not* Buying the 64GB Mac"
 date: 2025-08-10
 ---
 
-# Sometimes Progress Means *Not* Buying the 64GB Mac
-
 This week I finally made peace with something I’d been overthinking for months:  
 No, I don’t need a Mac mini M4 Pro with 64GB of RAM.  
 Even though that little voice in my head (and on every tech forum) kept saying, *“If you’re serious about AI, you need the best hardware money can buy.”*
