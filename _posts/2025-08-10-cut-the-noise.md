@@ -37,6 +37,7 @@ And yes, this week the noise was a shiny Mac I almost bought just to feel “mor
 
 
 I hope you found this article inspiring and helpful.
+
 Take care, and have a great week.
 
 Federico
