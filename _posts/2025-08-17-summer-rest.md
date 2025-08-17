@@ -35,3 +35,7 @@ Open source has already been used to train models, licenses or not. I actually t
 ## Closing Thought
 This week reminded me: progress doesn’t always mean chasing big changes.  
 Sometimes it’s about **staying consistent**, making **small improvements**, and remembering that not everything needs to be “original” to be valuable.
+
+Take care, and have a great week.
+
+Federico
