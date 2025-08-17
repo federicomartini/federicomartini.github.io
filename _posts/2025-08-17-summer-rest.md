@@ -1,6 +1,6 @@
 ---
 title: "Consistency, Small Doses, and deserved rest"
-date: 2025-08-10
+date: 2025-08-17
 ---
 
 This week I completed the assessment for the **AI Engineering with AWS Nanodegree at Udacity**.  
