@@ -48,4 +48,4 @@ Federico
 
 - LLMs are not a bubble. The stock market might think so, but markets don’t care about technology—they care about speculation.  
 - Rejecting LLMs (and other AI technologies) is a mistake if you’re a software developer (and not only).  
-- Jobs evolve, disappea
+- Jobs evolve, disappear, and transform. That’s always been the case.
