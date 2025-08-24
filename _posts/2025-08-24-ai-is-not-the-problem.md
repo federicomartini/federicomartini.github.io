@@ -1,5 +1,5 @@
 ---
-title: "Consistency, Small Doses, and deserved rest"
+title: "AI is not the problem"
 date: 2025-08-24
 ---
 
