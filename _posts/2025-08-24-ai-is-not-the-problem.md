@@ -16,6 +16,7 @@ Since the first release of ChatGPT, Transformer-based technology (a specific neu
 The massive investments and the hype-filled narrative around every new feature or benchmark have created a huge buzz. At the same time, that buzz naturally triggered skepticism. That’s not new. Every disruptive innovation brings both hype and doubt.
 
 The biggest fear? **Jobs disappearing.**  
+
 But let’s be honest, that’s how it’s always been. Every technological revolution reshapes work. When was the last time you saw a knife sharpener on the street?
 
 I believe LLMs are truly revolutionary technology with impact on all of us, one way or another. Closing our eyes or rejecting them out of fear isn’t the solution. The real risk is building up a **technological gap** that becomes harder to close over time.
@@ -31,6 +32,7 @@ That’s why I agree with Bezos: it’s dumb to think about replacing software d
 That means more diverse opportunities, not fewer.
 
 So the real issue isn’t that LLMs are a bubble, or that they’ll “take all the jobs.”  
+
 The issue is that we need to **learn how to use them.** Developers should leverage them for code review, reducing repetitive boilerplate work, and crucially—understand them deeply enough to integrate them into the systems they’re building.
 
 LLMs are here to stay. They might eventually be replaced by other architectures or entirely new technologies. Who knows? The future is unpredictable. But one thing is clear: **we’re not going back.**  
