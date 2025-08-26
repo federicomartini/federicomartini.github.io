@@ -314,3 +314,14 @@ body[class*="neon"] .greedy-nav .site-nav a {
   background-color: #ffffff !important;
 }
 
+/* Personalizzazione selezione testo */
+::selection {
+  background: #ffffff;   /* sfondo bianco */
+  color: #000000;        /* testo nero */
+}
+
+::-moz-selection {
+  background: #ffffff;   /* per Firefox */
+  color: #000000;
+}
+
