@@ -1,15 +1,18 @@
-"""Aggrega articoli/paper AI da fonti esterne in _data/ai_feed.yml (letto dalla pagina /ai-feed/).
+"""Aggrega in _data/ai_feed.yml (letto dalla pagina /ai-feed/) sia articoli/paper da
+leggere sia tool AI nuovi da provare (prodotti, librerie, progetti open source).
 
-Fonti con RSS nativo: Hugging Face Blog, arXiv, OpenAI News, Google DeepMind Blog.
+Fonti con RSS nativo: Hugging Face Blog, arXiv, OpenAI News, Google DeepMind Blog,
+Simon Willison, Ahead of AI, One Useful Thing, antirez, Product Hunt (AI).
 Fonti senza RSS (scraping mirato sulla pagina di listing): Anthropic News, The Batch.
 Hugging Face Papers: API JSON pubblica usata dalla loro stessa pagina /papers.
+GitHub: API di ricerca pubblica, repo taggati "llm" creati di recente per stelle.
 
 Ogni fonte è isolata in try/except: se una fonte cambia struttura o è irraggiungibile,
 le altre continuano a essere aggiornate normalmente.
 """
 
 import time
-from datetime import datetime
+from datetime import date, datetime, timedelta
 
 import feedparser
 import requests
@@ -141,6 +144,39 @@ def fetch_the_batch() -> list[dict]:
     return items
 
 
+def fetch_product_hunt() -> list[dict]:
+    return parse_rss("https://www.producthunt.com/feed?category=artificial-intelligence", "Product Hunt")
+
+
+def fetch_github_new_repos() -> list[dict]:
+    """Repo taggati 'llm' creati negli ultimi 14 giorni, ordinati per stelle: proxy
+    ragionevole di 'nuovo e già notato da qualcuno', senza bisogno di autenticazione
+    (API pubblica di ricerca di GitHub, limite 10 richieste/minuto, ne serve una sola)."""
+    since = (date.today() - timedelta(days=14)).isoformat()
+    r = requests.get(
+        "https://api.github.com/search/repositories",
+        params={"q": f"topic:llm created:>{since}", "sort": "stars", "order": "desc", "per_page": MAX_PER_SOURCE},
+        headers={"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT},
+        timeout=20,
+    )
+    r.raise_for_status()
+    items = []
+    for repo in r.json().get("items", [])[:MAX_PER_SOURCE]:
+        description = (repo.get("description") or "").strip()
+        title = f"{repo['full_name']} ({repo['stargazers_count']}★)"
+        if description:
+            title += f" · {description}"
+        items.append(
+            {
+                "source": "GitHub (new LLM projects)",
+                "title": title[:180],
+                "link": repo["html_url"],
+                "date": repo["created_at"][:10],
+            }
+        )
+    return items
+
+
 SOURCES = [
     ("Hugging Face Blog", lambda: parse_rss("https://huggingface.co/blog/feed.xml", "Hugging Face Blog")),
     ("arXiv (cs.AI)", lambda: parse_rss("https://rss.arxiv.org/rss/cs.AI", "arXiv (cs.AI)")),
@@ -153,6 +189,8 @@ SOURCES = [
     ("Ahead of AI (Sebastian Raschka)", lambda: parse_rss("https://magazine.sebastianraschka.com/feed", "Ahead of AI")),
     ("One Useful Thing (Ethan Mollick)", lambda: parse_rss("https://www.oneusefulthing.org/feed", "One Useful Thing")),
     ("antirez (Salvatore Sanfilippo)", lambda: parse_rss("https://antirez.com/rss", "antirez")),
+    ("Product Hunt (AI)", fetch_product_hunt),
+    ("GitHub (new LLM projects)", fetch_github_new_repos),
 ]
 
 

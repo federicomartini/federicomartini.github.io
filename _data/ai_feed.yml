@@ -50,6 +50,10 @@
   title: Improving Fable 5's biology safeguards
   link: https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
   date: '2026-08-07'
+- source: Product Hunt
+  title: AgentOne Desktop
+  link: https://www.producthunt.com/products/agentone-desktop
+  date: '2026-08-07'
 - source: Hugging Face Blog
   title: Baseten on Hugging Face Inference Providers 🔥
   link: https://huggingface.co/blog/baseten
@@ -71,6 +75,14 @@
 - source: Google DeepMind
   title: 'WeatherNext: AI model achieves breakthrough in forecasting cyclones'
   link: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
+  date: '2026-08-06'
+- source: Product Hunt
+  title: HAR
+  link: https://www.producthunt.com/products/har
+  date: '2026-08-06'
+- source: Product Hunt
+  title: Prompt Bridge
+  link: https://www.producthunt.com/products/prompt-bridge-2
   date: '2026-08-06'
 - source: Hugging Face Papers
   title: 'MameLoshnLM: Yiddish Language Model and Evaluation Benchmark'
@@ -101,6 +113,14 @@
 - source: Simon Willison
   title: One-shotting a Raccoon Heist game using Claude Fable 5
   link: https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-entries
+  date: '2026-08-05'
+- source: Product Hunt
+  title: Progress AI Observability
+  link: https://www.producthunt.com/products/progress-ai-observability
+  date: '2026-08-05'
+- source: Product Hunt
+  title: StepShot
+  link: https://www.producthunt.com/products/stepshot-2
   date: '2026-08-05'
 - source: Hugging Face Blog
   title: Deploy local agents everywhere with LFM2.5-2.6B
@@ -134,6 +154,10 @@
     tools, and smarter logging
   link: https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-entries
   date: '2026-08-04'
+- source: Product Hunt
+  title: Troopr AI Scrum Master
+  link: https://www.producthunt.com/products/troopr
+  date: '2026-08-04'
 - source: OpenAI
   title: Apple is getting this wrong
   link: https://openai.com/index/apple-is-getting-this-wrong
@@ -151,6 +175,22 @@
     Workspaces'
   link: https://huggingface.co/papers/2608.03451
   date: '2026-08-03'
+- source: Product Hunt
+  title: Rindler
+  link: https://www.producthunt.com/products/rindler
+  date: '2026-08-03'
+- source: GitHub (new LLM projects)
+  title: patchy631/time-to-first-token (340★) · A 10-week, 30-minutes-a-day roadmap
+    for LLM inference serving and optimization. vLLM, SGLang, quantization, speculative
+    decoding, benchmarkin
+  link: https://github.com/patchy631/time-to-first-token
+  date: '2026-08-02'
+- source: GitHub (new LLM projects)
+  title: 'alikon-art/DeterminFlow (241★) · A production-oriented AI workflow runtime
+    for building, validating, recovering, and shipping complex AI workflows as dependable
+    services. 面向生产的 AI '
+  link: https://github.com/alikon-art/DeterminFlow
+  date: '2026-08-02'
 - source: OpenAI
   title: Ten advances in mathematics and theoretical computer science
   link: https://openai.com/index/ten-advances-in-mathematics
@@ -160,6 +200,18 @@
     Stimulus Features That Drive Retrieval'
   link: https://huggingface.co/papers/2608.01481
   date: '2026-08-01'
+- source: GitHub (new LLM projects)
+  title: 'FareedKhan-dev/kimi-k3-in-c (3034★) · A 2.78-trillion-parameter Kimi K3
+    running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no
+    framework, no GPU.'
+  link: https://github.com/FareedKhan-dev/kimi-k3-in-c
+  date: '2026-08-01'
+- source: GitHub (new LLM projects)
+  title: Anionex/agent-vision-toolkit (345★) · 为纯文本模型"看图“设计更好的视觉工具箱和技能，支持多图理解，图片问答，前端UI还原、GUI
+    自动化等，并可选无缝接入多个主流agent｜ A vision toolkit and skill designed for text-only llms
+    — image Q&A, long
+  link: https://github.com/Anionex/agent-vision-toolkit
+  date: '2026-08-01'
 - source: The Batch
   title: Opus Outshines Even Fable, Inside the Hugging Face Hack, AI Companies Spend
     Big for Compute
@@ -168,6 +220,15 @@
 - source: Simon Willison
   title: Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)
   link: https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-entries
+  date: '2026-07-31'
+- source: Product Hunt
+  title: Nitro 4.0
+  link: https://www.producthunt.com/products/alconost-localization
+  date: '2026-07-31'
+- source: GitHub (new LLM projects)
+  title: 0xwilliamortiz/ratchet (438★) · Your agent reads the rules. This checks whether
+    it followed them.
+  link: https://github.com/0xwilliamortiz/ratchet
   date: '2026-07-31'
 - source: Hugging Face Blog
   title: 'GPU Management: Why Idle GPUs Are the New Grounded Aircraft'
@@ -182,10 +243,20 @@
   title: Investigating three real-world incidents in our cybersecurity evaluations
   link: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
   date: '2026-07-30'
+- source: GitHub (new LLM projects)
+  title: 'Pan-Chera/Multi-Agent-CAD (341★) · MAC (Multi-Agent CAD): A decoupled multi-agent
+    framework for text-to-CAD generation via constrained test-time compute'
+  link: https://github.com/Pan-Chera/Multi-Agent-CAD
+  date: '2026-07-30'
 - source: Google DeepMind
   title: We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality,
     lyrics, vocals, and creative control
   link: https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/
+  date: '2026-07-29'
+- source: GitHub (new LLM projects)
+  title: 'aigclink/geolook (395★) · Open-source end-to-end GEO implementation: status
+    analysis, diagnosis, strategy, tickets, execution, verification'
+  link: https://github.com/aigclink/geolook
   date: '2026-07-29'
 - source: Hugging Face Blog
   title: 'The OlmoEarth Platform: Geospatial inference at planetary scale'
@@ -218,6 +289,21 @@
     clients
   link: https://www.anthropic.com/news/cognizant-anthropic
   date: '2026-07-27'
+- source: GitHub (new LLM projects)
+  title: hardrave/NIGHTRUN (197★) · Boot your PC straight into an LLM. Rust, UEFI-resident,
+    no operating system underneath.
+  link: https://github.com/hardrave/NIGHTRUN
+  date: '2026-07-27'
+- source: GitHub (new LLM projects)
+  title: 0xwilliamortiz/openclaude-improved (569★) · runs anywhere. uses anything
+  link: https://github.com/0xwilliamortiz/openclaude-improved
+  date: '2026-07-26'
+- source: GitHub (new LLM projects)
+  title: deerwork-ai/deer-workflow (404★) · An open-source graph engineering runtime
+    that keeps orchestration in TypeScript and delegates semantic work to replaceable
+    Agent runtimes.
+  link: https://github.com/deerwork-ai/deer-workflow
+  date: '2026-07-26'
 - source: antirez
   title: Being Linux Torvalds
   link: http://antirez.com/news/171
@@ -293,6 +379,10 @@
   title: AI Overviews Land Google In Hot Water, GPT-Live Puts Reasoning in the Background,
     How to Tell If Your Model is Manipulative
   link: https://www.deeplearning.ai/the-batch/issue-362
+  date: '2026-07-17'
+- source: Product Hunt
+  title: Coldtea.ai
+  link: https://www.producthunt.com/products/coldtea
   date: '2026-07-17'
 - source: Hugging Face Blog
   title: Newer Models, Same Advantage
@@ -457,6 +547,10 @@
   title: Introducing DeepLearning.AI Pro
   link: https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro
   date: '2025-10-31'
+- source: Product Hunt
+  title: BrowserOS neo
+  link: https://www.producthunt.com/products/browseros_ai
+  date: '2025-10-28'
 - source: The Batch
   title: 'DeepSeek Sharpens Its Reasoning: DeepSeek-R1, an affordable rival to OpenAI’s
     o1'

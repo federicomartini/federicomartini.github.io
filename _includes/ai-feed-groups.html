@@ -1,0 +1,18 @@
+{% comment %}
+  Renderizza site.data.ai_feed raggruppato per fonte.
+  Parametri: include.items (array), include.sources (array di nomi fonte, nell'ordine desiderato)
+{% endcomment %}
+{% for source in include.sources %}
+  {% assign group_items = include.items | where: "source", source %}
+  {% if group_items.size > 0 %}
+<h3 class="ai-feed-group-title">{{ source }}</h3>
+<ul class="ai-feed-list">
+{% for item in group_items %}
+  <li class="ai-feed-item">
+    {% if item.date and item.date != "" %}<span class="ai-feed-date">{{ item.date }}</span>{% endif %}
+    <a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+  {% endif %}
+{% endfor %}
