@@ -98,6 +98,10 @@
     Object Removal'
   link: https://huggingface.co/papers/2608.05565
   date: '2026-08-05'
+- source: Simon Willison
+  title: One-shotting a Raccoon Heist game using Claude Fable 5
+  link: https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-entries
+  date: '2026-08-05'
 - source: Hugging Face Blog
   title: Deploy local agents everywhere with LFM2.5-2.6B
   link: https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b
@@ -124,6 +128,11 @@
   title: Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs
     Officer
   link: https://www.anthropic.com/news/tino-cuellar
+  date: '2026-08-04'
+- source: Simon Willison
+  title: New release of LLM adds support for reasoning traces, OpenAI Responses, server-side
+    tools, and smarter logging
+  link: https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-entries
   date: '2026-08-04'
 - source: OpenAI
   title: Apple is getting this wrong
@@ -155,6 +164,10 @@
   title: Opus Outshines Even Fable, Inside the Hugging Face Hack, AI Companies Spend
     Big for Compute
   link: https://www.deeplearning.ai/the-batch/issue-364
+  date: '2026-07-31'
+- source: Simon Willison
+  title: Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)
+  link: https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-entries
   date: '2026-07-31'
 - source: Hugging Face Blog
   title: 'GPU Management: Why Idle GPUs Are the New Grounded Aircraft'
@@ -214,6 +227,10 @@
   title: Bringing Nunchaku 4-bit Diffusion Inference to Diffusers
   link: https://huggingface.co/blog/nunchaku-diffusers
   date: '2026-07-23'
+- source: One Useful Thing
+  title: An opinionated guide to which AI to use to do stuff
+  link: https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22
+  date: '2026-07-23'
 - source: Google DeepMind
   title: 'Accelerating the frontiers of scientific discovery: Google’s $40M commitment
     to the Genesis Mission'
@@ -227,6 +244,11 @@
   title: Ask Claude about the Anthropic Economic Index
   link: https://www.anthropic.com/news/anthropic-economic-index-connector
   date: '2026-07-22'
+- source: Simon Willison
+  title: OpenAI’s accidental cyberattack against Hugging Face is science fiction that
+    happened
+  link: https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-entries
+  date: '2026-07-22'
 - source: Hugging Face Blog
   title: 'Grabette: an open system to record robot-manipulation data'
   link: https://huggingface.co/blog/grabette
@@ -239,10 +261,18 @@
   title: Anthropic is donating another $20 million to Public First Action
   link: https://www.anthropic.com/news/donation-public-first-action
   date: '2026-07-21'
+- source: Simon Willison
+  title: A Fireside Chat with Cat and Thariq from the Claude Code team
+  link: https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-entries
+  date: '2026-07-21'
 - source: Anthropic
   title: Apply for Anthropic’s AI for Science rare disease research grants
   link: https://www.anthropic.com/news/rare-disease-research-grants
   date: '2026-07-20'
+- source: Ahead of AI
+  title: Controlling Reasoning Effort in LLMs
+  link: https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms
+  date: '2026-07-18'
 - source: Google DeepMind
   title: Introducing Gemini 3.5 Flash Cyber
   link: https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
@@ -264,6 +294,10 @@
   title: Our approach to bioresilience
   link: https://deepmind.google/blog/our-approach-to-bioresilience/
   date: '2026-07-16'
+- source: Simon Willison
+  title: Kimi K3, and what we can still learn from the pelican benchmark
+  link: https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-entries
+  date: '2026-07-16'
 - source: Google DeepMind
   title: Empowering India’s next generation of innovators with ATL Saathi
   link: https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/
@@ -273,6 +307,18 @@
     Up Speculative Decoding
   link: https://www.deeplearning.ai/the-batch/issue-361
   date: '2026-07-10'
+- source: Simon Willison
+  title: 'The new GPT-5.6 family: Luna, Terra, Sol'
+  link: https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-entries
+  date: '2026-07-09'
+- source: Simon Willison
+  title: sqlite-utils 4.0, now with database schema migrations
+  link: https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-entries
+  date: '2026-07-07'
+- source: Simon Willison
+  title: sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)
+  link: https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-entries
+  date: '2026-07-05'
 - source: Google DeepMind
   title: Google DeepMind and A24 announce first-of-its-kind research partnership
   link: https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/
@@ -281,6 +327,18 @@
   title: OpenAI’s GPT-5.6 Family, New Ways to Train Robots, Models Invoking Models
   link: https://www.deeplearning.ai/the-batch/issue-360
   date: '2026-07-03'
+- source: Simon Willison
+  title: Have your agent record video demos of its work with shot-scraper video
+  link: https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-entries
+  date: '2026-06-30'
+- source: One Useful Thing
+  title: The twilight of the chatbots
+  link: https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots
+  date: '2026-06-30'
+- source: Ahead of AI
+  title: Using Local Coding Agents
+  link: https://magazine.sebastianraschka.com/p/using-local-coding-agents
+  date: '2026-06-27'
 - source: The Batch
   title: A New Generation Studies AI, Apple's Recipe for On-Device Models, GLM5.2
     Tackles Open-Ended Problems
@@ -290,6 +348,71 @@
   title: Testing Mythos and Fable, Moving Beyond SWE-bench,  Nvidia's Open Contender
   link: https://www.deeplearning.ai/the-batch/issue-358
   date: '2026-06-19'
+- source: One Useful Thing
+  title: What it feels like to work with Mythos
+  link: https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos
+  date: '2026-06-09'
+- source: Ahead of AI
+  title: 'LLM Research Papers: The 2026 List (January to May)'
+  link: https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1
+  date: '2026-06-06'
+- source: One Useful Thing
+  title: Co-Existence and the End of Co-Intelligence
+  link: https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence
+  date: '2026-06-04'
+- source: One Useful Thing
+  title: Choosing to Stay Human
+  link: https://www.oneusefulthing.org/p/choosing-to-stay-human
+  date: '2026-05-26'
+- source: Ahead of AI
+  title: 'Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed
+    Attention'
+  link: https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures
+  date: '2026-05-16'
+- source: One Useful Thing
+  title: 'Sign of the future: GPT-5.5'
+  link: https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55
+  date: '2026-04-23'
+- source: Ahead of AI
+  title: My Workflow for Understanding LLM Architectures
+  link: https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms
+  date: '2026-04-18'
+- source: Ahead of AI
+  title: Components of A Coding Agent
+  link: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent
+  date: '2026-04-04'
+- source: One Useful Thing
+  title: Claude Dispatch and the Power of Interfaces
+  link: https://www.oneusefulthing.org/p/claude-dispatch-and-the-power-of
+  date: '2026-03-31'
+- source: Ahead of AI
+  title: A Visual Guide to Attention Variants in Modern LLMs
+  link: https://magazine.sebastianraschka.com/p/visual-attention-variants
+  date: '2026-03-22'
+- source: One Useful Thing
+  title: The Shape of the Thing
+  link: https://www.oneusefulthing.org/p/the-shape-of-the-thing
+  date: '2026-03-12'
+- source: Ahead of AI
+  title: 'A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026'
+  link: https://magazine.sebastianraschka.com/p/a-dream-of-spring-for-open-weight
+  date: '2026-02-25'
+- source: One Useful Thing
+  title: A Guide to Which AI to Use in the Agentic Era
+  link: https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the
+  date: '2026-02-18'
+- source: One Useful Thing
+  title: Management as AI superpower
+  link: https://www.oneusefulthing.org/p/management-as-ai-superpower
+  date: '2026-01-27'
+- source: Ahead of AI
+  title: Categories of Inference-Time Scaling for Improved LLM Reasoning
+  link: https://magazine.sebastianraschka.com/p/categories-of-inference-time-scaling
+  date: '2026-01-24'
+- source: Ahead of AI
+  title: 'The State Of LLMs 2025: Progress, Problems, and Predictions'
+  link: https://magazine.sebastianraschka.com/p/state-of-llms-2025
+  date: '2025-12-30'
 - source: The Batch
   title: Introducing DeepLearning.AI Pro
   link: https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro

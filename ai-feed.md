@@ -5,10 +5,10 @@ author_profile: true
 permalink: /ai-feed/
 ---
 
-Automatic digest from Hugging Face, arXiv, OpenAI, Anthropic, Google DeepMind and The Batch. Updated daily, every title links to the original source.
+Automatic digest from Hugging Face, arXiv, OpenAI, Anthropic, Google DeepMind, The Batch, and independent voices (Simon Willison, Ahead of AI, One Useful Thing). Updated daily, every title links to the original source.
 
 {% assign items = site.data.ai_feed %}
-{% assign sources = "Hugging Face Blog,Hugging Face Papers,arXiv (cs.AI),OpenAI,Anthropic,Google DeepMind,The Batch" | split: "," %}
+{% assign sources = "Hugging Face Blog,Hugging Face Papers,arXiv (cs.AI),OpenAI,Anthropic,Google DeepMind,The Batch,Simon Willison,Ahead of AI,One Useful Thing" | split: "," %}
 {% if items and items.size > 0 %}
 {% for source in sources %}
   {% assign group_items = items | where: "source", source %}

@@ -149,6 +149,9 @@ SOURCES = [
     ("Hugging Face Papers", fetch_hf_papers),
     ("Anthropic News", fetch_anthropic_news),
     ("The Batch", fetch_the_batch),
+    ("Simon Willison", lambda: parse_rss("https://simonwillison.net/atom/entries/", "Simon Willison")),
+    ("Ahead of AI (Sebastian Raschka)", lambda: parse_rss("https://magazine.sebastianraschka.com/feed", "Ahead of AI")),
+    ("One Useful Thing (Ethan Mollick)", lambda: parse_rss("https://www.oneusefulthing.org/feed", "One Useful Thing")),
 ]
 
 
