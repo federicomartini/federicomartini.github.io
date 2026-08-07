@@ -50,8 +50,12 @@
   title: Improving Fable 5's biology safeguards
   link: https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
   date: '2026-08-07'
+- source: Product Hunt
+  title: AgentOne Desktop
+  link: https://www.producthunt.com/products/agentone-desktop
+  date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'microsoft/skill-recorder (2242★) · Desktop app that records your on-screen
+  title: 'microsoft/skill-recorder (2244★) · Desktop app that records your on-screen
     work session and uses the GitHub Copilot CLI to reconstruct it as an intent +
     ordered steps, then builds '
   link: https://github.com/microsoft/skill-recorder
@@ -63,7 +67,7 @@
   link: https://github.com/petergyang/human-review
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (48307★) · LocalAI is the open-source AI engine. Run any model
+  title: mudler/LocalAI (48308★) · LocalAI is the open-source AI engine. Run any model
     - LLMs, vision, voice, image, video - on any hardware. No GPU required.
   link: https://github.com/mudler/LocalAI
   date: '2026-08-07'
@@ -102,19 +106,19 @@
   link: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
   date: '2026-08-06'
 - source: Product Hunt
-  title: HAR
-  link: https://www.producthunt.com/products/har
-  date: '2026-08-06'
-- source: Product Hunt
-  title: Prompt Bridge
-  link: https://www.producthunt.com/products/prompt-bridge-2
+  title: Soloop
+  link: https://www.producthunt.com/products/soloop
   date: '2026-08-06'
 - source: Product Hunt
   title: Whop CLI
   link: https://www.producthunt.com/products/whop-cli
   date: '2026-08-06'
+- source: Product Hunt
+  title: HAR
+  link: https://www.producthunt.com/products/har
+  date: '2026-08-06'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'FareedKhan-dev/kimi-k3-in-c (3043★) · A 2.78-trillion-parameter Kimi K3
+  title: 'FareedKhan-dev/kimi-k3-in-c (3052★) · A 2.78-trillion-parameter Kimi K3
     running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no
     framework, no GPU.'
   link: https://github.com/FareedKhan-dev/kimi-k3-in-c
@@ -148,6 +152,10 @@
 - source: Simon Willison
   title: One-shotting a Raccoon Heist game using Claude Fable 5
   link: https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-entries
+  date: '2026-08-05'
+- source: Product Hunt
+  title: The new Firecrawl MCP
+  link: https://www.producthunt.com/products/extract-by-firecrawl
   date: '2026-08-05'
 - source: Product Hunt
   title: Reference
@@ -192,10 +200,6 @@
   title: New release of LLM adds support for reasoning traces, OpenAI Responses, server-side
     tools, and smarter logging
   link: https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-entries
-  date: '2026-08-04'
-- source: Product Hunt
-  title: Troopr AI Scrum Master
-  link: https://www.producthunt.com/products/troopr
   date: '2026-08-04'
 - source: GitHub (trending AI/LLM/Agents)
   title: 0xwilliamortiz/ratchet (438★) · Your agent reads the rules. This checks whether
@@ -264,7 +268,7 @@
   link: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
   date: '2026-07-30'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'jeecgboot/JeecgBoot (47312★) · 【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+  title: 'jeecgboot/JeecgBoot (47313★) · 【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
     AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
     生成 → 在线配置 '
   link: https://github.com/jeecgboot/JeecgBoot
@@ -295,6 +299,10 @@
   title: 'Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July
     2026 Incident'
   link: https://huggingface.co/blog/agent-intrusion-technical-timeline
+  date: '2026-07-27'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'Kimi K3: Open Frontier Intelligence'
+  link: https://arxiv.org/abs/2607.24653v1
   date: '2026-07-27'
 - source: Anthropic
   title: Our position on open-weights models
@@ -384,10 +392,6 @@
   title: AI Overviews Land Google In Hot Water, GPT-Live Puts Reasoning in the Background,
     How to Tell If Your Model is Manipulative
   link: https://www.deeplearning.ai/the-batch/issue-362
-  date: '2026-07-17'
-- source: Product Hunt
-  title: Coldtea.ai
-  link: https://www.producthunt.com/products/coldtea
   date: '2026-07-17'
 - source: Hugging Face Blog
   title: Newer Models, Same Advantage
@@ -504,6 +508,14 @@
   title: Sequoia Ascent 2026 summary
   link: https://karpathy.bearblog.dev/sequoia-ascent-2026/
   date: '2026-04-30'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents'
+  link: https://arxiv.org/abs/2604.26752v3
+  date: '2026-04-29'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence'
+  link: https://arxiv.org/abs/2606.19348v1
+  date: '2026-04-26'
 - source: One Useful Thing
   title: 'Sign of the future: GPT-5.5'
   link: https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55
@@ -512,6 +524,10 @@
   title: My Workflow for Understanding LLM Architectures
   link: https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms
   date: '2026-04-18'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: Qwen3.5-Omni Technical Report
+  link: https://arxiv.org/abs/2604.15804v2
+  date: '2026-04-17'
 - source: antirez
   title: AI cybersecurity is not proof of work
   link: http://antirez.com/news/163
@@ -528,6 +544,10 @@
   title: A Visual Guide to Attention Variants in Modern LLMs
   link: https://magazine.sebastianraschka.com/p/visual-attention-variants
   date: '2026-03-22'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: Attention Residuals
+  link: https://arxiv.org/abs/2603.15031v1
+  date: '2026-03-16'
 - source: One Useful Thing
   title: The Shape of the Thing
   link: https://www.oneusefulthing.org/p/the-shape-of-the-thing
@@ -540,6 +560,10 @@
   title: A Guide to Which AI to Use in the Agentic Era
   link: https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the
   date: '2026-02-18'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'Kimi K2.5: Visual Agentic Intelligence'
+  link: https://arxiv.org/abs/2602.02276v1
+  date: '2026-02-02'
 - source: One Useful Thing
   title: Management as AI superpower
   link: https://www.oneusefulthing.org/p/management-as-ai-superpower
@@ -564,6 +588,10 @@
   title: Auto-grading decade-old Hacker News discussions with hindsight
   link: https://karpathy.bearblog.dev/auto-grade-hn/
   date: '2025-12-10'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models'
+  link: https://arxiv.org/abs/2512.02556v1
+  date: '2025-12-02'
 - source: Andrej Karpathy
   title: The space of minds
   link: https://karpathy.bearblog.dev/the-space-of-minds/
@@ -576,10 +604,22 @@
   title: Introducing DeepLearning.AI Pro
   link: https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro
   date: '2025-10-31'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'Kimi Linear: An Expressive, Efficient Attention Architecture'
+  link: https://arxiv.org/abs/2510.26692v2
+  date: '2025-10-30'
 - source: Andrej Karpathy
   title: Animals vs Ghosts
   link: https://karpathy.bearblog.dev/animals-vs-ghosts/
   date: '2025-10-01'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models'
+  link: https://arxiv.org/abs/2508.06471v1
+  date: '2025-08-08'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'Kimi K2: Open Agentic Intelligence'
+  link: https://arxiv.org/abs/2507.20534v2
+  date: '2025-07-28'
 - source: Andrej Karpathy
   title: Vibe coding MenuGen
   link: https://karpathy.bearblog.dev/vibe-coding-menugen/

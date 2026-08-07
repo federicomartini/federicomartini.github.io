@@ -206,9 +206,57 @@ def fetch_github_new_repos() -> list[dict]:
     return items
 
 
+def fetch_chinese_labs_papers() -> list[dict]:
+    """Paper dei team dietro i modelli cinesi piu' rilevanti (DeepSeek, Qwen, Kimi,
+    GLM). Cerca per autore, non per parola nel titolo: "DeepSeek-AI", "Qwen Team" e
+    "Kimi Team" sono le firme collettive che questi team usano davvero su arXiv,
+    zero falsi positivi. GLM non ha una firma fissa (cambia ad ogni versione:
+    "GLM-5-Team", "GLM-V Team", ecc.) quindi si combina titolo+autore ("GLM" nel
+    titolo E un autore che contiene "Team"): da sola la parola "GLM" nel titolo
+    prenderebbe anche paper di statistica (Generalized Linear Model, sigla
+    decennale scorrelata) o di "Graph Language Model", niente a che fare con Zhipu."""
+    queries = [
+        'au:"DeepSeek-AI"',
+        'au:"Qwen Team"',
+        'au:"Kimi Team"',
+        "ti:GLM AND au:Team",
+    ]
+    seen_ids: set[str] = set()
+    papers = []
+    for q in queries:
+        r = requests.get(
+            "https://export.arxiv.org/api/query",
+            params={"search_query": q, "max_results": MAX_PER_SOURCE},
+            headers={"User-Agent": USER_AGENT},
+            timeout=20,
+        )
+        r.raise_for_status()
+        for entry in feedparser.parse(r.text).entries:
+            arxiv_id = entry.get("id", "")
+            if arxiv_id and arxiv_id not in seen_ids:
+                seen_ids.add(arxiv_id)
+                papers.append(entry)
+
+    papers.sort(key=lambda e: e.get("published", ""), reverse=True)
+    items = []
+    for entry in papers[:MAX_PER_SOURCE]:
+        parsed_date = entry.get("published_parsed")
+        date_str = time.strftime("%Y-%m-%d", parsed_date) if parsed_date else ""
+        items.append(
+            {
+                "source": "arXiv (DeepSeek/Qwen/Kimi/GLM)",
+                "title": entry.get("title", "").replace("\n", " ").strip(),
+                "link": entry.get("link", ""),
+                "date": date_str,
+            }
+        )
+    return items
+
+
 SOURCES = [
     ("Hugging Face Blog", lambda: parse_rss("https://huggingface.co/blog/feed.xml", "Hugging Face Blog")),
     ("arXiv (cs.AI)", lambda: parse_rss("https://rss.arxiv.org/rss/cs.AI", "arXiv (cs.AI)")),
+    ("arXiv (DeepSeek/Qwen/Kimi/GLM)", fetch_chinese_labs_papers),
     ("OpenAI News", lambda: parse_rss("https://openai.com/news/rss.xml", "OpenAI")),
     ("Google DeepMind Blog", lambda: parse_rss("https://deepmind.google/blog/rss.xml", "Google DeepMind")),
     ("Hugging Face Papers", fetch_hf_papers),
