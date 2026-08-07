@@ -195,6 +195,10 @@
   title: Gemini Robotics 2 brings whole body intelligence to robots
   link: https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/
   date: '2026-07-28'
+- source: antirez
+  title: The real AI risk is inside the labs
+  link: http://antirez.com/news/172
+  date: '2026-07-28'
 - source: Hugging Face Blog
   title: 'NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical
     Robotics'
@@ -214,6 +218,10 @@
     clients
   link: https://www.anthropic.com/news/cognizant-anthropic
   date: '2026-07-27'
+- source: antirez
+  title: Being Linux Torvalds
+  link: http://antirez.com/news/171
+  date: '2026-07-25'
 - source: Anthropic
   title: Introducing Claude Opus 5
   link: https://www.anthropic.com/news/claude-opus-5
@@ -248,6 +256,10 @@
   title: OpenAI’s accidental cyberattack against Hugging Face is science fiction that
     happened
   link: https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-entries
+  date: '2026-07-22'
+- source: antirez
+  title: Not just development, distribution of software may change as well
+  link: http://antirez.com/news/170
   date: '2026-07-22'
 - source: Hugging Face Blog
   title: 'Grabette: an open system to record robot-manipulation data'
@@ -302,6 +314,10 @@
   title: Empowering India’s next generation of innovators with ATL Saathi
   link: https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/
   date: '2026-07-13'
+- source: antirez
+  title: Control the ideas, not the code
+  link: http://antirez.com/news/169
+  date: '2026-07-13'
 - source: The Batch
   title: Restoration of Claude Fable 5, Gemini's Video Dev Engine, DeepSeek Speeds
     Up Speculative Decoding
@@ -352,6 +368,10 @@
   title: What it feels like to work with Mythos
   link: https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos
   date: '2026-06-09'
+- source: antirez
+  title: A new era for software testing
+  link: http://antirez.com/news/168
+  date: '2026-06-07'
 - source: Ahead of AI
   title: 'LLM Research Papers: The 2026 List (January to May)'
   link: https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1
@@ -364,11 +384,27 @@
   title: Choosing to Stay Human
   link: https://www.oneusefulthing.org/p/choosing-to-stay-human
   date: '2026-05-26'
+- source: antirez
+  title: Distributing LLM inference in DwarfStar
+  link: http://antirez.com/news/167
+  date: '2026-05-25'
+- source: antirez
+  title: Alternatives for the EDIT tool of LLM agents
+  link: http://antirez.com/news/166
+  date: '2026-05-19'
 - source: Ahead of AI
   title: 'Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed
     Attention'
   link: https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures
   date: '2026-05-16'
+- source: antirez
+  title: A few words on DS4
+  link: http://antirez.com/news/165
+  date: '2026-05-14'
+- source: antirez
+  title: 'Redis array type: short story of a long development'
+  link: http://antirez.com/news/164
+  date: '2026-05-04'
 - source: One Useful Thing
   title: 'Sign of the future: GPT-5.5'
   link: https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55
@@ -377,6 +413,10 @@
   title: My Workflow for Understanding LLM Architectures
   link: https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms
   date: '2026-04-18'
+- source: antirez
+  title: AI cybersecurity is not proof of work
+  link: http://antirez.com/news/163
+  date: '2026-04-16'
 - source: Ahead of AI
   title: Components of A Coding Agent
   link: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent

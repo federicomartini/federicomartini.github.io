@@ -152,6 +152,7 @@ SOURCES = [
     ("Simon Willison", lambda: parse_rss("https://simonwillison.net/atom/entries/", "Simon Willison")),
     ("Ahead of AI (Sebastian Raschka)", lambda: parse_rss("https://magazine.sebastianraschka.com/feed", "Ahead of AI")),
     ("One Useful Thing (Ethan Mollick)", lambda: parse_rss("https://www.oneusefulthing.org/feed", "One Useful Thing")),
+    ("antirez (Salvatore Sanfilippo)", lambda: parse_rss("https://antirez.com/rss", "antirez")),
 ]
 
 
