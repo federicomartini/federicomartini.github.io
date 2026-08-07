@@ -54,6 +54,35 @@
   title: AgentOne Desktop
   link: https://www.producthunt.com/products/agentone-desktop
   date: '2026-08-07'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'microsoft/skill-recorder (2238★) · Desktop app that records your on-screen
+    work session and uses the GitHub Copilot CLI to reconstruct it as an intent +
+    ordered steps, then builds '
+  link: https://github.com/microsoft/skill-recorder
+  date: '2026-08-07'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'petergyang/human-review (544★) · A visual tool to edit HTML and Markdown
+    files, leave comments like a Google Doc, and send feedback to your AI agent. Works
+    inside your favorite AI '
+  link: https://github.com/petergyang/human-review
+  date: '2026-08-07'
+- source: GitHub (trending AI/LLM/Agents)
+  title: mudler/LocalAI (48306★) · LocalAI is the open-source AI engine. Run any model
+    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
+  link: https://github.com/mudler/LocalAI
+  date: '2026-08-07'
+- source: GitHub (trending AI/LLM/Agents)
+  title: HKUDS/nanobot (46740★) · Ultra-lightweight, open-source, self-hosted personal
+    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
+    automation, and ch
+  link: https://github.com/HKUDS/nanobot
+  date: '2026-08-07'
+- source: GitHub (trending AI/LLM/Agents)
+  title: zhayujie/CowAgent (46396★) · Open-source super AI assistant & Agent Harness.
+    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model,
+    multi-channel.
+  link: https://github.com/zhayujie/CowAgent
+  date: '2026-08-07'
 - source: Hugging Face Blog
   title: Baseten on Hugging Face Inference Providers 🔥
   link: https://huggingface.co/blog/baseten
@@ -77,12 +106,18 @@
   link: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
   date: '2026-08-06'
 - source: Product Hunt
-  title: HAR
-  link: https://www.producthunt.com/products/har
+  title: Soloop
+  link: https://www.producthunt.com/products/soloop
   date: '2026-08-06'
 - source: Product Hunt
-  title: Prompt Bridge
-  link: https://www.producthunt.com/products/prompt-bridge-2
+  title: Whop CLI
+  link: https://www.producthunt.com/products/whop-cli
+  date: '2026-08-06'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'FareedKhan-dev/kimi-k3-in-c (3041★) · A 2.78-trillion-parameter Kimi K3
+    running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no
+    framework, no GPU.'
+  link: https://github.com/FareedKhan-dev/kimi-k3-in-c
   date: '2026-08-06'
 - source: Hugging Face Papers
   title: 'MameLoshnLM: Yiddish Language Model and Evaluation Benchmark'
@@ -115,12 +150,12 @@
   link: https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-entries
   date: '2026-08-05'
 - source: Product Hunt
-  title: Progress AI Observability
-  link: https://www.producthunt.com/products/progress-ai-observability
-  date: '2026-08-05'
-- source: Product Hunt
   title: StepShot
   link: https://www.producthunt.com/products/stepshot-2
+  date: '2026-08-05'
+- source: Product Hunt
+  title: Reference
+  link: https://www.producthunt.com/products/reference-2
   date: '2026-08-05'
 - source: Hugging Face Blog
   title: Deploy local agents everywhere with LFM2.5-2.6B
@@ -158,6 +193,16 @@
   title: Troopr AI Scrum Master
   link: https://www.producthunt.com/products/troopr
   date: '2026-08-04'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 0xwilliamortiz/ratchet (438★) · Your agent reads the rules. This checks whether
+    it followed them.
+  link: https://github.com/0xwilliamortiz/ratchet
+  date: '2026-08-04'
+- source: GitHub (trending AI/LLM/Agents)
+  title: rohitg00/ai-engineering-from-scratch (46182★) · Learn it. Build it. Ship
+    it for others.
+  link: https://github.com/rohitg00/ai-engineering-from-scratch
+  date: '2026-08-04'
 - source: OpenAI
   title: Apple is getting this wrong
   link: https://openai.com/index/apple-is-getting-this-wrong
@@ -179,18 +224,6 @@
   title: Rindler
   link: https://www.producthunt.com/products/rindler
   date: '2026-08-03'
-- source: GitHub (new LLM projects)
-  title: patchy631/time-to-first-token (340★) · A 10-week, 30-minutes-a-day roadmap
-    for LLM inference serving and optimization. vLLM, SGLang, quantization, speculative
-    decoding, benchmarkin
-  link: https://github.com/patchy631/time-to-first-token
-  date: '2026-08-02'
-- source: GitHub (new LLM projects)
-  title: 'alikon-art/DeterminFlow (241★) · A production-oriented AI workflow runtime
-    for building, validating, recovering, and shipping complex AI workflows as dependable
-    services. 面向生产的 AI '
-  link: https://github.com/alikon-art/DeterminFlow
-  date: '2026-08-02'
 - source: OpenAI
   title: Ten advances in mathematics and theoretical computer science
   link: https://openai.com/index/ten-advances-in-mathematics
@@ -199,18 +232,6 @@
   title: 'Interpretable MEG Decoding of Perceived Speech: Cortical Sources and the
     Stimulus Features That Drive Retrieval'
   link: https://huggingface.co/papers/2608.01481
-  date: '2026-08-01'
-- source: GitHub (new LLM projects)
-  title: 'FareedKhan-dev/kimi-k3-in-c (3034★) · A 2.78-trillion-parameter Kimi K3
-    running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no
-    framework, no GPU.'
-  link: https://github.com/FareedKhan-dev/kimi-k3-in-c
-  date: '2026-08-01'
-- source: GitHub (new LLM projects)
-  title: Anionex/agent-vision-toolkit (345★) · 为纯文本模型"看图“设计更好的视觉工具箱和技能，支持多图理解，图片问答，前端UI还原、GUI
-    自动化等，并可选无缝接入多个主流agent｜ A vision toolkit and skill designed for text-only llms
-    — image Q&A, long
-  link: https://github.com/Anionex/agent-vision-toolkit
   date: '2026-08-01'
 - source: The Batch
   title: Opus Outshines Even Fable, Inside the Hugging Face Hack, AI Companies Spend
@@ -225,11 +246,6 @@
   title: Nitro 4.0
   link: https://www.producthunt.com/products/alconost-localization
   date: '2026-07-31'
-- source: GitHub (new LLM projects)
-  title: 0xwilliamortiz/ratchet (438★) · Your agent reads the rules. This checks whether
-    it followed them.
-  link: https://github.com/0xwilliamortiz/ratchet
-  date: '2026-07-31'
 - source: Hugging Face Blog
   title: 'GPU Management: Why Idle GPUs Are the New Grounded Aircraft'
   link: https://huggingface.co/blog/Dharma-AI/gpu-management
@@ -243,20 +259,16 @@
   title: Investigating three real-world incidents in our cybersecurity evaluations
   link: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
   date: '2026-07-30'
-- source: GitHub (new LLM projects)
-  title: 'Pan-Chera/Multi-Agent-CAD (341★) · MAC (Multi-Agent CAD): A decoupled multi-agent
-    framework for text-to-CAD generation via constrained test-time compute'
-  link: https://github.com/Pan-Chera/Multi-Agent-CAD
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'jeecgboot/JeecgBoot (47312★) · 【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+    AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
+    生成 → 在线配置 '
+  link: https://github.com/jeecgboot/JeecgBoot
   date: '2026-07-30'
 - source: Google DeepMind
   title: We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality,
     lyrics, vocals, and creative control
   link: https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/
-  date: '2026-07-29'
-- source: GitHub (new LLM projects)
-  title: 'aigclink/geolook (395★) · Open-source end-to-end GEO implementation: status
-    analysis, diagnosis, strategy, tickets, execution, verification'
-  link: https://github.com/aigclink/geolook
   date: '2026-07-29'
 - source: Hugging Face Blog
   title: 'The OlmoEarth Platform: Geospatial inference at planetary scale'
@@ -289,20 +301,9 @@
     clients
   link: https://www.anthropic.com/news/cognizant-anthropic
   date: '2026-07-27'
-- source: GitHub (new LLM projects)
-  title: hardrave/NIGHTRUN (197★) · Boot your PC straight into an LLM. Rust, UEFI-resident,
-    no operating system underneath.
-  link: https://github.com/hardrave/NIGHTRUN
-  date: '2026-07-27'
-- source: GitHub (new LLM projects)
+- source: GitHub (trending AI/LLM/Agents)
   title: 0xwilliamortiz/openclaude-improved (569★) · runs anywhere. uses anything
   link: https://github.com/0xwilliamortiz/openclaude-improved
-  date: '2026-07-26'
-- source: GitHub (new LLM projects)
-  title: deerwork-ai/deer-workflow (404★) · An open-source graph engineering runtime
-    that keeps orchestration in TypeScript and delegates semantic work to replaceable
-    Agent runtimes.
-  link: https://github.com/deerwork-ai/deer-workflow
   date: '2026-07-26'
 - source: antirez
   title: Being Linux Torvalds

@@ -148,30 +148,59 @@ def fetch_product_hunt() -> list[dict]:
     return parse_rss("https://www.producthunt.com/feed?category=artificial-intelligence", "Product Hunt")
 
 
-def fetch_github_new_repos() -> list[dict]:
-    """Repo taggati 'llm' creati negli ultimi 14 giorni, ordinati per stelle: proxy
-    ragionevole di 'nuovo e già notato da qualcuno', senza bisogno di autenticazione
-    (API pubblica di ricerca di GitHub, limite 10 richieste/minuto, ne serve una sola)."""
-    since = (date.today() - timedelta(days=14)).isoformat()
+GITHUB_TOPICS = ["llm", "ai-agents", "rag"]
+
+
+def _github_search(query: str, per_page: int) -> list[dict]:
     r = requests.get(
         "https://api.github.com/search/repositories",
-        params={"q": f"topic:llm created:>{since}", "sort": "stars", "order": "desc", "per_page": MAX_PER_SOURCE},
+        params={"q": query, "sort": "stars", "order": "desc", "per_page": per_page},
         headers={"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT},
         timeout=20,
     )
     r.raise_for_status()
+    return r.json().get("items", [])
+
+
+def fetch_github_new_repos() -> list[dict]:
+    """Meta' degli slot da repo appena creati (novita' genuine, con una soglia minima
+    di stelle per escludere rumore), meta' da repo con push recente in una fascia di
+    stelle che esclude sia il rumore sia i soliti giganti storici (transformers,
+    ollama, ecc.), sempre uguali giorno dopo giorno se si ordinasse per stelle assolute
+    senza limite superiore: l'obiettivo e' roba di valore che sta avendo un momento
+    ora, non la top list eterna ne' tutto cio' che viene caricato a prescindere."""
+    since = (date.today() - timedelta(days=14)).isoformat()
+    half = MAX_PER_SOURCE // 2
+
+    seen_ids: set[int] = set()
+    fresh: list[dict] = []
+    active: list[dict] = []
+    for topic in GITHUB_TOPICS:
+        for repo in _github_search(f"topic:{topic} created:>{since} stars:>20", half):
+            if repo["id"] not in seen_ids:
+                seen_ids.add(repo["id"])
+                fresh.append(repo)
+        for repo in _github_search(f"topic:{topic} pushed:>{since} stars:200..50000", half):
+            if repo["id"] not in seen_ids:
+                seen_ids.add(repo["id"])
+                active.append(repo)
+
+    fresh.sort(key=lambda r: r["stargazers_count"], reverse=True)
+    active.sort(key=lambda r: r["stargazers_count"], reverse=True)
+    selected = fresh[:half] + active[: MAX_PER_SOURCE - half]
+
     items = []
-    for repo in r.json().get("items", [])[:MAX_PER_SOURCE]:
+    for repo in selected:
         description = (repo.get("description") or "").strip()
         title = f"{repo['full_name']} ({repo['stargazers_count']}★)"
         if description:
             title += f" · {description}"
         items.append(
             {
-                "source": "GitHub (new LLM projects)",
+                "source": "GitHub (trending AI/LLM/Agents)",
                 "title": title[:180],
                 "link": repo["html_url"],
-                "date": repo["created_at"][:10],
+                "date": repo["pushed_at"][:10],
             }
         )
     return items
@@ -190,7 +219,7 @@ SOURCES = [
     ("One Useful Thing (Ethan Mollick)", lambda: parse_rss("https://www.oneusefulthing.org/feed", "One Useful Thing")),
     ("antirez (Salvatore Sanfilippo)", lambda: parse_rss("https://antirez.com/rss", "antirez")),
     ("Product Hunt (AI)", fetch_product_hunt),
-    ("GitHub (new LLM projects)", fetch_github_new_repos),
+    ("GitHub (trending AI/LLM/Agents)", fetch_github_new_repos),
 ]
 
 

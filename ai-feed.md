@@ -30,7 +30,7 @@ Automatic digest from Hugging Face, arXiv, OpenAI, Anthropic, Google DeepMind, T
 
 ## Tools to try
 
-{% assign tool_sources = "Product Hunt,GitHub (new LLM projects)" | split: "," %}
+{% assign tool_sources = "Product Hunt,GitHub (trending AI/LLM/Agents)" | split: "," %}
 {% for source in tool_sources %}
   {% assign group_items = items | where: "source", source %}
   {% if group_items.size > 0 %}
