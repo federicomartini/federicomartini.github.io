@@ -50,29 +50,25 @@
   title: Improving Fable 5's biology safeguards
   link: https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
   date: '2026-08-07'
-- source: Product Hunt
-  title: AgentOne Desktop
-  link: https://www.producthunt.com/products/agentone-desktop
-  date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'microsoft/skill-recorder (2238★) · Desktop app that records your on-screen
+  title: 'microsoft/skill-recorder (2242★) · Desktop app that records your on-screen
     work session and uses the GitHub Copilot CLI to reconstruct it as an intent +
     ordered steps, then builds '
   link: https://github.com/microsoft/skill-recorder
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'petergyang/human-review (544★) · A visual tool to edit HTML and Markdown
+  title: 'petergyang/human-review (545★) · A visual tool to edit HTML and Markdown
     files, leave comments like a Google Doc, and send feedback to your AI agent. Works
     inside your favorite AI '
   link: https://github.com/petergyang/human-review
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (48306★) · LocalAI is the open-source AI engine. Run any model
+  title: mudler/LocalAI (48307★) · LocalAI is the open-source AI engine. Run any model
     - LLMs, vision, voice, image, video - on any hardware. No GPU required.
   link: https://github.com/mudler/LocalAI
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (46740★) · Ultra-lightweight, open-source, self-hosted personal
+  title: HKUDS/nanobot (46742★) · Ultra-lightweight, open-source, self-hosted personal
     AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
     automation, and ch
   link: https://github.com/HKUDS/nanobot
@@ -106,15 +102,19 @@
   link: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
   date: '2026-08-06'
 - source: Product Hunt
-  title: Soloop
-  link: https://www.producthunt.com/products/soloop
+  title: HAR
+  link: https://www.producthunt.com/products/har
+  date: '2026-08-06'
+- source: Product Hunt
+  title: Prompt Bridge
+  link: https://www.producthunt.com/products/prompt-bridge-2
   date: '2026-08-06'
 - source: Product Hunt
   title: Whop CLI
   link: https://www.producthunt.com/products/whop-cli
   date: '2026-08-06'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'FareedKhan-dev/kimi-k3-in-c (3041★) · A 2.78-trillion-parameter Kimi K3
+  title: 'FareedKhan-dev/kimi-k3-in-c (3043★) · A 2.78-trillion-parameter Kimi K3
     running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no
     framework, no GPU.'
   link: https://github.com/FareedKhan-dev/kimi-k3-in-c
@@ -150,12 +150,16 @@
   link: https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-entries
   date: '2026-08-05'
 - source: Product Hunt
+  title: Reference
+  link: https://www.producthunt.com/products/reference-2
+  date: '2026-08-05'
+- source: Product Hunt
   title: StepShot
   link: https://www.producthunt.com/products/stepshot-2
   date: '2026-08-05'
 - source: Product Hunt
-  title: Reference
-  link: https://www.producthunt.com/products/reference-2
+  title: Progress AI Observability
+  link: https://www.producthunt.com/products/progress-ai-observability
   date: '2026-08-05'
 - source: Hugging Face Blog
   title: Deploy local agents everywhere with LFM2.5-2.6B
@@ -199,7 +203,7 @@
   link: https://github.com/0xwilliamortiz/ratchet
   date: '2026-08-04'
 - source: GitHub (trending AI/LLM/Agents)
-  title: rohitg00/ai-engineering-from-scratch (46182★) · Learn it. Build it. Ship
+  title: rohitg00/ai-engineering-from-scratch (46183★) · Learn it. Build it. Ship
     it for others.
   link: https://github.com/rohitg00/ai-engineering-from-scratch
   date: '2026-08-04'
@@ -496,6 +500,10 @@
   title: 'Redis array type: short story of a long development'
   link: http://antirez.com/news/164
   date: '2026-05-04'
+- source: Andrej Karpathy
+  title: Sequoia Ascent 2026 summary
+  link: https://karpathy.bearblog.dev/sequoia-ascent-2026/
+  date: '2026-04-30'
 - source: One Useful Thing
   title: 'Sign of the future: GPT-5.5'
   link: https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55
@@ -544,14 +552,46 @@
   title: 'The State Of LLMs 2025: Progress, Problems, and Predictions'
   link: https://magazine.sebastianraschka.com/p/state-of-llms-2025
   date: '2025-12-30'
+- source: Andrej Karpathy
+  title: 2025 LLM Year in Review
+  link: https://karpathy.bearblog.dev/year-in-review-2025/
+  date: '2025-12-19'
+- source: Andrej Karpathy
+  title: Chemical hygiene
+  link: https://karpathy.bearblog.dev/chemical-hygiene/
+  date: '2025-12-18'
+- source: Andrej Karpathy
+  title: Auto-grading decade-old Hacker News discussions with hindsight
+  link: https://karpathy.bearblog.dev/auto-grade-hn/
+  date: '2025-12-10'
+- source: Andrej Karpathy
+  title: The space of minds
+  link: https://karpathy.bearblog.dev/the-space-of-minds/
+  date: '2025-11-29'
+- source: Andrej Karpathy
+  title: Verifiability
+  link: https://karpathy.bearblog.dev/verifiability/
+  date: '2025-11-17'
 - source: The Batch
   title: Introducing DeepLearning.AI Pro
   link: https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro
   date: '2025-10-31'
-- source: Product Hunt
-  title: BrowserOS neo
-  link: https://www.producthunt.com/products/browseros_ai
-  date: '2025-10-28'
+- source: Andrej Karpathy
+  title: Animals vs Ghosts
+  link: https://karpathy.bearblog.dev/animals-vs-ghosts/
+  date: '2025-10-01'
+- source: Andrej Karpathy
+  title: Vibe coding MenuGen
+  link: https://karpathy.bearblog.dev/vibe-coding-menugen/
+  date: '2025-04-27'
+- source: Andrej Karpathy
+  title: 'Power to the people: How LLMs flip the script on technology diffusion'
+  link: https://karpathy.bearblog.dev/power-to-the-people/
+  date: '2025-04-07'
+- source: Andrej Karpathy
+  title: Finding the Best Sleep Tracker
+  link: https://karpathy.bearblog.dev/finding-the-best-sleep-tracker/
+  date: '2025-03-24'
 - source: The Batch
   title: 'DeepSeek Sharpens Its Reasoning: DeepSeek-R1, an affordable rival to OpenAI’s
     o1'
