@@ -120,10 +120,6 @@
     Context Routing'
   link: https://huggingface.co/papers/2608.04956
   date: '2026-08-04'
-- source: Hugging Face Papers
-  title: 'Invisible Shortcuts: Why Vision Encoders Know Your Camera'
-  link: https://huggingface.co/papers/2608.05424
-  date: '2026-08-04'
 - source: Anthropic
   title: Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs
     Officer
@@ -141,10 +137,25 @@
   title: Circles powers telco personalization with OpenAI technology
   link: https://openai.com/index/circles
   date: '2026-08-03'
+- source: Hugging Face Papers
+  title: 'DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous
+    Workspaces'
+  link: https://huggingface.co/papers/2608.03451
+  date: '2026-08-03'
 - source: OpenAI
   title: Ten advances in mathematics and theoretical computer science
   link: https://openai.com/index/ten-advances-in-mathematics
   date: '2026-08-01'
+- source: Hugging Face Papers
+  title: 'Interpretable MEG Decoding of Perceived Speech: Cortical Sources and the
+    Stimulus Features That Drive Retrieval'
+  link: https://huggingface.co/papers/2608.01481
+  date: '2026-08-01'
+- source: The Batch
+  title: Opus Outshines Even Fable, Inside the Hugging Face Hack, AI Companies Spend
+    Big for Compute
+  link: https://www.deeplearning.ai/the-batch/issue-364
+  date: '2026-07-31'
 - source: Hugging Face Blog
   title: 'GPU Management: Why Idle GPUs Are the New Grounded Aircraft'
   link: https://huggingface.co/blog/Dharma-AI/gpu-management
@@ -162,11 +173,6 @@
   title: We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality,
     lyrics, vocals, and creative control
   link: https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/
-  date: '2026-07-29'
-- source: Hugging Face Papers
-  title: 'OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use
-    Reward Models'
-  link: https://huggingface.co/papers/2607.28609
   date: '2026-07-29'
 - source: Hugging Face Blog
   title: 'The OlmoEarth Platform: Geospatial inference at planetary scale'
@@ -198,6 +204,11 @@
 - source: Anthropic
   title: Introducing Claude Opus 5
   link: https://www.anthropic.com/news/claude-opus-5
+  date: '2026-07-24'
+- source: The Batch
+  title: Kimi K3 Redraws the Open Frontier, Muse Spark 1.1 Undercuts Competitors,
+    Cloudflare Moves to Cut Off Crawlers
+  link: https://www.deeplearning.ai/the-batch/issue-363
   date: '2026-07-24'
 - source: Hugging Face Blog
   title: Bringing Nunchaku 4-bit Diffusion Inference to Diffusers
@@ -236,6 +247,11 @@
   title: Introducing Gemini 3.5 Flash Cyber
   link: https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
   date: '2026-07-17'
+- source: The Batch
+  title: AI Overviews Land Google In Hot Water, GPT-Live Puts Reasoning in the Background,
+    How to Tell If Your Model is Manipulative
+  link: https://www.deeplearning.ai/the-batch/issue-362
+  date: '2026-07-17'
 - source: Hugging Face Blog
   title: Newer Models, Same Advantage
   link: https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages
@@ -252,54 +268,39 @@
   title: Empowering India’s next generation of innovators with ATL Saathi
   link: https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/
   date: '2026-07-13'
+- source: The Batch
+  title: Restoration of Claude Fable 5, Gemini's Video Dev Engine, DeepSeek Speeds
+    Up Speculative Decoding
+  link: https://www.deeplearning.ai/the-batch/issue-361
+  date: '2026-07-10'
 - source: Google DeepMind
   title: Google DeepMind and A24 announce first-of-its-kind research partnership
   link: https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/
   date: '2026-07-03'
 - source: The Batch
-  title: Search The Batch
-  link: https://www.deeplearning.ai/the-batch/search
-  date: ''
-- source: The Batch
-  title: Opus Outshines Even Fable, Inside the Hugging Face Hack, AI Companies Spend
-    Big for Compute
-  link: https://www.deeplearning.ai/the-batch/issue-364
-  date: ''
-- source: The Batch
-  title: Introducing DeepLearning.AI Pro
-  link: https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro
-  date: ''
-- source: The Batch
-  title: Reinforcement Learning Heats Up, White House Orders Muscular AI Policy, Computer
-    Use Gains Momentum, Fine Control of Fine-Tuning
-  link: https://www.deeplearning.ai/the-batch/issue-286
-  date: ''
-- source: The Batch
-  title: 'DeepSeek Sharpens Its Reasoning: DeepSeek-R1, an affordable rival to OpenAI’s
-    o1'
-  link: https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1
-  date: ''
-- source: The Batch
-  title: Kimi K3 Redraws the Open Frontier, Muse Spark 1.1 Undercuts Competitors,
-    Cloudflare Moves to Cut Off Crawlers
-  link: https://www.deeplearning.ai/the-batch/issue-363
-  date: ''
-- source: The Batch
-  title: AI Overviews Land Google In Hot Water, GPT-Live Puts Reasoning in the Background,
-    How to Tell If Your Model is Manipulative
-  link: https://www.deeplearning.ai/the-batch/issue-362
-  date: ''
-- source: The Batch
-  title: Restoration of Claude Fable 5, Gemini's Video Dev Engine, DeepSeek Speeds
-    Up Speculative Decoding
-  link: https://www.deeplearning.ai/the-batch/issue-361
-  date: ''
-- source: The Batch
   title: OpenAI’s GPT-5.6 Family, New Ways to Train Robots, Models Invoking Models
   link: https://www.deeplearning.ai/the-batch/issue-360
-  date: ''
+  date: '2026-07-03'
 - source: The Batch
   title: A New Generation Studies AI, Apple's Recipe for On-Device Models, GLM5.2
     Tackles Open-Ended Problems
   link: https://www.deeplearning.ai/the-batch/issue-359
+  date: '2026-06-26'
+- source: The Batch
+  title: Testing Mythos and Fable, Moving Beyond SWE-bench,  Nvidia's Open Contender
+  link: https://www.deeplearning.ai/the-batch/issue-358
+  date: '2026-06-19'
+- source: The Batch
+  title: Introducing DeepLearning.AI Pro
+  link: https://www.deeplearning.ai/the-batch/introducing-deeplearning-ai-pro
+  date: '2025-10-31'
+- source: The Batch
+  title: 'DeepSeek Sharpens Its Reasoning: DeepSeek-R1, an affordable rival to OpenAI’s
+    o1'
+  link: https://www.deeplearning.ai/the-batch/deepseek-r1-an-affordable-rival-to-openais-o1
+  date: '2025-01-22'
+- source: The Batch
+  title: Reinforcement Learning Heats Up, White House Orders Muscular AI Policy, Computer
+    Use Gains Momentum, Fine Control of Fine-Tuning
+  link: https://www.deeplearning.ai/the-batch/issue-286
   date: ''

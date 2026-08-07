@@ -21,6 +21,29 @@ MAX_PER_SOURCE = 10
 OUTPUT_PATH = "_data/ai_feed.yml"
 
 HEADERS = {"User-Agent": USER_AGENT}
+THE_BATCH_DATE_FORMATS = ("%B %d, %Y", "%b %d, %Y")
+
+
+def _the_batch_article_date(article) -> str:
+    """Le card 'in evidenza' mettono la data in un badge (formato abbreviato 'Jul 31, 2026'),
+    le card secondarie in un footer (formato esteso 'January 22, 2025'). Si provano entrambe."""
+    candidates = []
+    footer = article.find("footer")
+    if footer:
+        span = footer.find("span")
+        if span:
+            candidates.append(span.get_text(strip=True))
+    tag_link = article.find("a", href=lambda h: h and "/the-batch/tag/" in h)
+    if tag_link:
+        candidates.append(tag_link.get_text(strip=True))
+
+    for text in candidates:
+        for fmt in THE_BATCH_DATE_FORMATS:
+            try:
+                return datetime.strptime(text, fmt).strftime("%Y-%m-%d")
+            except ValueError:
+                continue
+    return ""
 
 
 def parse_rss(url: str, source: str) -> list[dict]:
@@ -99,16 +122,20 @@ def fetch_the_batch() -> list[dict]:
     soup = BeautifulSoup(r.text, "html.parser")
     items = []
     seen_links = set()
-    skip = {"/the-batch", "/the-batch/", "/the-batch/about"}
-    for a in soup.find_all("a", attrs={"aria-label": True, "href": True}):
-        href = a["href"]
-        if not href.startswith("/the-batch/") or href in skip:
+    # Scoping to <article> cards (not just any link with aria-label) esclude di per se
+    # i link di navigazione come la search box ("/the-batch/search"), che non sono card.
+    for article in soup.find_all("article"):
+        a = article.find("a", attrs={"aria-label": True, "href": True})
+        if not a or not a["href"].startswith("/the-batch/"):
             continue
-        link = "https://www.deeplearning.ai" + href
+        link = "https://www.deeplearning.ai" + a["href"]
         if link in seen_links:
             continue
         seen_links.add(link)
-        items.append({"source": "The Batch", "title": a["aria-label"].strip(), "link": link, "date": ""})
+
+        date_str = _the_batch_article_date(article)
+
+        items.append({"source": "The Batch", "title": a["aria-label"].strip(), "link": link, "date": date_str})
         if len(items) >= MAX_PER_SOURCE:
             break
     return items
