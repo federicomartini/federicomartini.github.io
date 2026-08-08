@@ -63,13 +63,13 @@
   link: https://www.producthunt.com/products/conduit-12
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'FareedKhan-dev/kimi-k3-in-c (3546★) · A 2.78-trillion-parameter Kimi K3
+  title: 'FareedKhan-dev/kimi-k3-in-c (3551★) · A 2.78-trillion-parameter Kimi K3
     running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no
     framework, no GPU.'
   link: https://github.com/FareedKhan-dev/kimi-k3-in-c
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'microsoft/skill-recorder (2471★) · Desktop app that records your on-screen
+  title: 'microsoft/skill-recorder (2472★) · Desktop app that records your on-screen
     work session and uses the GitHub Copilot CLI to reconstruct it as an intent +
     ordered steps, then builds '
   link: https://github.com/microsoft/skill-recorder
@@ -117,8 +117,8 @@
   link: https://www.producthunt.com/products/blueberry-6
   date: '2026-08-06'
 - source: Product Hunt
-  title: HAR
-  link: https://www.producthunt.com/products/har
+  title: Prompt Bridge
+  link: https://www.producthunt.com/products/prompt-bridge-2
   date: '2026-08-06'
 - source: Hugging Face Papers
   title: 'KVAE: Family of Tokenizers for Multimodal Generative Models'
@@ -161,10 +161,6 @@
   title: The new Firecrawl MCP
   link: https://www.producthunt.com/products/extract-by-firecrawl
   date: '2026-08-05'
-- source: Product Hunt
-  title: Progress AI Observability
-  link: https://www.producthunt.com/products/progress-ai-observability
-  date: '2026-08-05'
 - source: GitHub (trending AI/LLM/Agents)
   title: 'Pan-Chera/Multi-Agent-CAD (463★) · MAC (Multi-Agent CAD): A decoupled multi-agent
     framework for text-to-CAD generation via constrained test-time compute'
@@ -192,7 +188,7 @@
   link: https://www.producthunt.com/products/troopr
   date: '2026-08-04'
 - source: GitHub (trending AI/LLM/Agents)
-  title: rohitg00/ai-engineering-from-scratch (46274★) · Learn it. Build it. Ship
+  title: rohitg00/ai-engineering-from-scratch (46275★) · Learn it. Build it. Ship
     it for others.
   link: https://github.com/rohitg00/ai-engineering-from-scratch
   date: '2026-08-04'
@@ -216,6 +212,10 @@
 - source: Product Hunt
   title: Hexis
   link: https://www.producthunt.com/products/bevel-4
+  date: '2026-08-03'
+- source: Product Hunt
+  title: Rindler
+  link: https://www.producthunt.com/products/rindler
   date: '2026-08-03'
 - source: Hugging Face Papers
   title: 'Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting
