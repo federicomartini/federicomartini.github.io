@@ -132,6 +132,11 @@ def fetch_the_batch() -> list[dict]:
         timeout=20,
         check=True,
     )
+    print(
+        f"The Batch DEBUG: returncode={result.returncode} bytes={len(result.stdout or '')} "
+        f"has_article_tag={'<article' in (result.stdout or '')} "
+        f"snippet={(result.stdout or '')[:300]!r}"
+    )
     soup = BeautifulSoup(result.stdout, "html.parser")
     items = []
     seen_links = set()
