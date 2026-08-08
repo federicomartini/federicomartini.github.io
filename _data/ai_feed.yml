@@ -18,7 +18,7 @@
   link: https://github.com/mudler/LocalAI
   date: '2026-08-08'
 - source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (46764★) · Ultra-lightweight, open-source, self-hosted personal
+  title: HKUDS/nanobot (46765★) · Ultra-lightweight, open-source, self-hosted personal
     AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
     automation, and ch
   link: https://github.com/HKUDS/nanobot
@@ -63,7 +63,7 @@
   link: https://www.producthunt.com/products/conduit-12
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'FareedKhan-dev/kimi-k3-in-c (3557★) · A 2.78-trillion-parameter Kimi K3
+  title: 'FareedKhan-dev/kimi-k3-in-c (3560★) · A 2.78-trillion-parameter Kimi K3
     running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no
     framework, no GPU.'
   link: https://github.com/FareedKhan-dev/kimi-k3-in-c
@@ -117,12 +117,16 @@
   link: https://www.producthunt.com/products/prompt-bridge-2
   date: '2026-08-06'
 - source: Product Hunt
-  title: HAR
-  link: https://www.producthunt.com/products/har
+  title: Whop CLI
+  link: https://www.producthunt.com/products/whop-cli
   date: '2026-08-06'
 - source: Product Hunt
   title: Soloop
   link: https://www.producthunt.com/products/soloop
+  date: '2026-08-06'
+- source: Product Hunt
+  title: HAR
+  link: https://www.producthunt.com/products/har
   date: '2026-08-06'
 - source: Hugging Face Papers
   title: 'KVAE: Family of Tokenizers for Multimodal Generative Models'
@@ -154,11 +158,15 @@
   link: https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything
   date: '2026-08-05'
 - source: Product Hunt
+  title: The new Firecrawl MCP
+  link: https://www.producthunt.com/products/extract-by-firecrawl
+  date: '2026-08-05'
+- source: Product Hunt
   title: Progress AI Observability
   link: https://www.producthunt.com/products/progress-ai-observability
   date: '2026-08-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'Pan-Chera/Multi-Agent-CAD (465★) · MAC (Multi-Agent CAD): A decoupled multi-agent
+  title: 'Pan-Chera/Multi-Agent-CAD (466★) · MAC (Multi-Agent CAD): A decoupled multi-agent
     framework for text-to-CAD generation via constrained test-time compute'
   link: https://github.com/Pan-Chera/Multi-Agent-CAD
   date: '2026-08-05'
@@ -212,10 +220,6 @@
 - source: Product Hunt
   title: Hexis
   link: https://www.producthunt.com/products/bevel-4
-  date: '2026-08-03'
-- source: Product Hunt
-  title: Rindler
-  link: https://www.producthunt.com/products/rindler
   date: '2026-08-03'
 - source: Hugging Face Papers
   title: 'Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting
@@ -563,10 +567,6 @@
   title: 'Kimi Linear: An Expressive, Efficient Attention Architecture'
   link: https://arxiv.org/abs/2510.26692v2
   date: '2025-10-30'
-- source: Product Hunt
-  title: BrowserOS neo
-  link: https://www.producthunt.com/products/browseros_ai
-  date: '2025-10-28'
 - source: Andrej Karpathy
   title: Animals vs Ghosts
   link: https://karpathy.bearblog.dev/animals-vs-ghosts/
