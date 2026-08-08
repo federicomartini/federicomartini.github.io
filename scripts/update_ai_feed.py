@@ -2,7 +2,8 @@
 leggere sia tool AI nuovi da provare (prodotti, librerie, progetti open source).
 
 Fonti con RSS nativo: Hugging Face Blog, OpenAI News, Google DeepMind Blog,
-Simon Willison, Ahead of AI, One Useful Thing, antirez, Andrej Karpathy, Product Hunt (AI).
+MIT Technology Review (AI), Simon Willison, Ahead of AI, One Useful Thing, antirez,
+Andrej Karpathy, Nate's Newsletter, Product Hunt (AI).
 Fonti senza RSS (scraping mirato sulla pagina di listing): Anthropic News.
 Hugging Face Papers: API JSON pubblica usata dalla loro stessa pagina /papers.
 arXiv (DeepSeek/Qwen/Kimi/GLM): API di ricerca arXiv per autore, non un feed fisso.
@@ -214,6 +215,12 @@ SOURCES = [
     ("OpenAI News", lambda: parse_rss("https://openai.com/news/rss.xml", "OpenAI")),
     ("Anthropic News", fetch_anthropic_news),
     ("Google DeepMind Blog", lambda: parse_rss("https://deepmind.google/blog/rss.xml", "Google DeepMind")),
+    (
+        "MIT Technology Review (AI)",
+        lambda: parse_rss(
+            "https://www.technologyreview.com/topic/artificial-intelligence/feed/", "MIT Technology Review"
+        ),
+    ),
     ("Hugging Face Blog", lambda: parse_rss("https://huggingface.co/blog/feed.xml", "Hugging Face Blog")),
     ("Hugging Face Papers", fetch_hf_papers),
     ("arXiv (DeepSeek/Qwen/Kimi/GLM)", fetch_chinese_labs_papers),
@@ -222,6 +229,7 @@ SOURCES = [
     ("One Useful Thing (Ethan Mollick)", lambda: parse_rss("https://www.oneusefulthing.org/feed", "One Useful Thing")),
     ("antirez (Salvatore Sanfilippo)", lambda: parse_rss("https://antirez.com/rss", "antirez")),
     ("Andrej Karpathy", lambda: parse_rss("https://karpathy.bearblog.dev/feed/", "Andrej Karpathy")),
+    ("Nate's Newsletter", lambda: parse_rss("https://natesnewsletter.substack.com/feed", "Nate's Newsletter")),
     ("Product Hunt (AI)", fetch_product_hunt),
     ("GitHub (trending AI/LLM/Agents)", fetch_github_new_repos),
 ]
