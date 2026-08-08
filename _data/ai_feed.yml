@@ -63,7 +63,7 @@
   link: https://www.producthunt.com/products/conduit-12
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'FareedKhan-dev/kimi-k3-in-c (3551★) · A 2.78-trillion-parameter Kimi K3
+  title: 'FareedKhan-dev/kimi-k3-in-c (3557★) · A 2.78-trillion-parameter Kimi K3
     running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no
     framework, no GPU.'
   link: https://github.com/FareedKhan-dev/kimi-k3-in-c
@@ -113,12 +113,16 @@
   link: https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything
   date: '2026-08-06'
 - source: Product Hunt
-  title: Blueberry
-  link: https://www.producthunt.com/products/blueberry-6
-  date: '2026-08-06'
-- source: Product Hunt
   title: Prompt Bridge
   link: https://www.producthunt.com/products/prompt-bridge-2
+  date: '2026-08-06'
+- source: Product Hunt
+  title: HAR
+  link: https://www.producthunt.com/products/har
+  date: '2026-08-06'
+- source: Product Hunt
+  title: Soloop
+  link: https://www.producthunt.com/products/soloop
   date: '2026-08-06'
 - source: Hugging Face Papers
   title: 'KVAE: Family of Tokenizers for Multimodal Generative Models'
@@ -150,19 +154,11 @@
   link: https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything
   date: '2026-08-05'
 - source: Product Hunt
-  title: StepShot
-  link: https://www.producthunt.com/products/stepshot-2
-  date: '2026-08-05'
-- source: Product Hunt
-  title: Reference
-  link: https://www.producthunt.com/products/reference-2
-  date: '2026-08-05'
-- source: Product Hunt
-  title: The new Firecrawl MCP
-  link: https://www.producthunt.com/products/extract-by-firecrawl
+  title: Progress AI Observability
+  link: https://www.producthunt.com/products/progress-ai-observability
   date: '2026-08-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'Pan-Chera/Multi-Agent-CAD (463★) · MAC (Multi-Agent CAD): A decoupled multi-agent
+  title: 'Pan-Chera/Multi-Agent-CAD (465★) · MAC (Multi-Agent CAD): A decoupled multi-agent
     framework for text-to-CAD generation via constrained test-time compute'
   link: https://github.com/Pan-Chera/Multi-Agent-CAD
   date: '2026-08-05'
@@ -183,12 +179,8 @@
   title: Deploy local agents everywhere with LFM2.5-2.6B
   link: https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b
   date: '2026-08-04'
-- source: Product Hunt
-  title: Troopr AI Scrum Master
-  link: https://www.producthunt.com/products/troopr
-  date: '2026-08-04'
 - source: GitHub (trending AI/LLM/Agents)
-  title: rohitg00/ai-engineering-from-scratch (46275★) · Learn it. Build it. Ship
+  title: rohitg00/ai-engineering-from-scratch (46277★) · Learn it. Build it. Ship
     it for others.
   link: https://github.com/rohitg00/ai-engineering-from-scratch
   date: '2026-08-04'
@@ -203,6 +195,14 @@
 - source: OpenAI
   title: Circles powers telco personalization with OpenAI technology
   link: https://openai.com/index/circles
+  date: '2026-08-03'
+- source: MIT Technology Review
+  title: Trump’s AI protectionism has come for robotics
+  link: https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/
+  date: '2026-08-03'
+- source: MIT Technology Review
+  title: Here’s why AI agents lie and cheat to reach their goals
+  link: https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/
   date: '2026-08-03'
 - source: Hugging Face Papers
   title: 'DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous
@@ -237,6 +237,10 @@
     Stimulus Features That Drive Retrieval'
   link: https://huggingface.co/papers/2608.01481
   date: '2026-08-01'
+- source: Product Hunt
+  title: Nitro 4.0
+  link: https://www.producthunt.com/products/alconost-localization
+  date: '2026-07-31'
 - source: Anthropic
   title: Investigating three real-world incidents in our cybersecurity evaluations
   link: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
@@ -245,6 +249,10 @@
   title: 'Gemini Robotics ER 2: powering robotics with video understanding, task orchestration,
     and multi-robot collaboration'
   link: https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/
+  date: '2026-07-30'
+- source: MIT Technology Review
+  title: A fundamental flaw leaves LLMs strikingly vulnerable to attack
+  link: https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/
   date: '2026-07-30'
 - source: Hugging Face Blog
   title: 'GPU Management: Why Idle GPUs Are the New Grounded Aircraft'
@@ -261,9 +269,17 @@
     lyrics, vocals, and creative control
   link: https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/
   date: '2026-07-29'
+- source: MIT Technology Review
+  title: 'The AI Hype Index: Unsexy AI'
+  link: https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/
+  date: '2026-07-29'
 - source: Google DeepMind
   title: Gemini Robotics 2 brings whole body intelligence to robots
   link: https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/
+  date: '2026-07-28'
+- source: MIT Technology Review
+  title: Samsung’s chip workers are jumping ship to rival SK Hynix
+  link: https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/
   date: '2026-07-28'
 - source: antirez
   title: The real AI risk is inside the labs
@@ -277,6 +293,23 @@
   title: Cognizant and Anthropic expand their partnership to bring Claude to enterprise
     clients
   link: https://www.anthropic.com/news/cognizant-anthropic
+  date: '2026-07-27'
+- source: MIT Technology Review
+  title: OpenAI called the Hugging Face attack unprecedented. But we’ve been here
+    before.
+  link: https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/
+  date: '2026-07-27'
+- source: MIT Technology Review
+  title: The path to artificial superintelligence
+  link: https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/
+  date: '2026-07-27'
+- source: MIT Technology Review
+  title: Closing the data loop in AI-driven drug discovery
+  link: https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/
+  date: '2026-07-27'
+- source: MIT Technology Review
+  title: Building the enterprise environment for agentic AI
+  link: https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/
   date: '2026-07-27'
 - source: Hugging Face Blog
   title: 'NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical
@@ -304,6 +337,10 @@
   title: Introducing Claude Opus 5
   link: https://www.anthropic.com/news/claude-opus-5
   date: '2026-07-24'
+- source: MIT Technology Review
+  title: How AI helps scientists design the next generation of medicines
+  link: https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/
+  date: '2026-07-23'
 - source: Hugging Face Blog
   title: Bringing Nunchaku 4-bit Diffusion Inference to Diffusers
   link: https://huggingface.co/blog/nunchaku-diffusers
@@ -526,6 +563,10 @@
   title: 'Kimi Linear: An Expressive, Efficient Attention Architecture'
   link: https://arxiv.org/abs/2510.26692v2
   date: '2025-10-30'
+- source: Product Hunt
+  title: BrowserOS neo
+  link: https://www.producthunt.com/products/browseros_ai
+  date: '2025-10-28'
 - source: Andrej Karpathy
   title: Animals vs Ghosts
   link: https://karpathy.bearblog.dev/animals-vs-ghosts/
