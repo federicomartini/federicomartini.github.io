@@ -34,6 +34,11 @@ HEADERS = {"User-Agent": USER_AGENT}
 
 def parse_rss(url: str, source: str) -> list[dict]:
     feed = feedparser.parse(url, agent=USER_AGENT)
+    if source == "Nate's Newsletter":
+        print(
+            f"Nate DEBUG: status={feed.get('status')} bozo={feed.get('bozo')} "
+            f"bozo_exception={feed.get('bozo_exception')} n_entries={len(feed.entries)}"
+        )
     items = []
     for entry in feed.entries[:MAX_PER_SOURCE]:
         parsed_date = entry.get("published_parsed") or entry.get("updated_parsed")
