@@ -5,14 +5,14 @@ author_profile: true
 permalink: /ai-feed/
 ---
 
-Automatic digest from Hugging Face, arXiv, OpenAI, Anthropic, Google DeepMind, MIT Technology Review, independent voices (Simon Willison, Ahead of AI, One Useful Thing, antirez, Nate's Newsletter), and new AI tools worth trying (Product Hunt, GitHub). Updated daily, every title links to the original source.
+Automatic digest from Hugging Face, arXiv, OpenAI, Anthropic, Google DeepMind, MIT Technology Review, independent voices (Simon Willison, Ahead of AI, One Useful Thing, antirez), and new AI tools worth trying (Product Hunt, GitHub). Updated daily, every title links to the original source.
 
 {% assign items = site.data.ai_feed %}
 {% if items and items.size > 0 %}
 
 ## Reading
 
-{% assign reading_sources = "OpenAI,Anthropic,Google DeepMind,MIT Technology Review,Hugging Face Blog,Hugging Face Papers,arXiv (DeepSeek/Qwen/Kimi/GLM),Simon Willison,Ahead of AI,One Useful Thing,antirez,Andrej Karpathy,Nate's Newsletter" | split: "," %}
+{% assign reading_sources = "OpenAI,Anthropic,Google DeepMind,MIT Technology Review,Hugging Face Blog,Hugging Face Papers,arXiv (DeepSeek/Qwen/Kimi/GLM),Simon Willison,Ahead of AI,One Useful Thing,antirez,Andrej Karpathy" | split: "," %}
 {% for source in reading_sources %}
   {% assign group_items = items | where: "source", source %}
   {% if group_items.size > 0 %}

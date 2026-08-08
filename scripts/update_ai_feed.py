@@ -3,21 +3,21 @@ leggere sia tool AI nuovi da provare (prodotti, librerie, progetti open source).
 
 Fonti con RSS nativo: Hugging Face Blog, OpenAI News, Google DeepMind Blog,
 MIT Technology Review (AI), Simon Willison, Ahead of AI, One Useful Thing, antirez,
-Andrej Karpathy, Nate's Newsletter, Product Hunt (AI).
+Andrej Karpathy, Product Hunt (AI).
 Fonti senza RSS (scraping mirato sulla pagina di listing): Anthropic News.
 Hugging Face Papers: API JSON pubblica usata dalla loro stessa pagina /papers.
 arXiv (DeepSeek/Qwen/Kimi/GLM): API di ricerca arXiv per autore, non un feed fisso.
 GitHub: API di ricerca pubblica, repo taggati "llm" creati di recente per stelle.
 
-The Batch (deeplearning.ai) e' stato rimosso: Cloudflare risponde ai runner GitHub
-Actions con una sfida JavaScript ("Just a moment...") invece della pagina, e uno
-scraping leggero (requests o curl) non puo' superarla.
+The Batch (deeplearning.ai) e Nate's Newsletter (Substack) sono stati valutati e
+scartati: entrambi dietro Cloudflare, che risponde ai runner GitHub Actions con una
+sfida JavaScript ("Just a moment...") invece della pagina - uno scraping leggero
+(requests o curl) non puo' superarla, serve un browser headless.
 
 Ogni fonte è isolata in try/except: se una fonte cambia struttura o è irraggiungibile,
 le altre continuano a essere aggiornate normalmente.
 """
 
-import subprocess
 import time
 from datetime import date, datetime, timedelta
 
@@ -52,24 +52,6 @@ def _feed_entries_to_items(entries, source: str) -> list[dict]:
 def parse_rss(url: str, source: str) -> list[dict]:
     feed = feedparser.parse(url, agent=USER_AGENT)
     return _feed_entries_to_items(feed.entries, source)
-
-
-def fetch_nate_newsletter() -> list[dict]:
-    """Substack risponde 403 a feedparser (blocco per firma HTTP, come accadeva con
-    requests su The Batch): la richiesta viene delegata al binario curl."""
-    result = subprocess.run(
-        ["curl", "-s", "-A", USER_AGENT, "https://natesnewsletter.substack.com/feed"],
-        capture_output=True,
-        encoding="utf-8",
-        timeout=20,
-        check=True,
-    )
-    print(
-        f"Nate DEBUG: returncode={result.returncode} bytes={len(result.stdout or '')} "
-        f"snippet={(result.stdout or '')[:300]!r}"
-    )
-    feed = feedparser.parse(result.stdout)
-    return _feed_entries_to_items(feed.entries, "Nate's Newsletter")
 
 
 def fetch_hf_papers() -> list[dict]:
@@ -252,7 +234,6 @@ SOURCES = [
     ("One Useful Thing (Ethan Mollick)", lambda: parse_rss("https://www.oneusefulthing.org/feed", "One Useful Thing")),
     ("antirez (Salvatore Sanfilippo)", lambda: parse_rss("https://antirez.com/rss", "antirez")),
     ("Andrej Karpathy", lambda: parse_rss("https://karpathy.bearblog.dev/feed/", "Andrej Karpathy")),
-    ("Nate's Newsletter", fetch_nate_newsletter),
     ("Product Hunt (AI)", fetch_product_hunt),
     ("GitHub (trending AI/LLM/Agents)", fetch_github_new_repos),
 ]
