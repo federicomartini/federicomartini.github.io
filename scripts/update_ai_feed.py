@@ -64,6 +64,10 @@ def fetch_nate_newsletter() -> list[dict]:
         timeout=20,
         check=True,
     )
+    print(
+        f"Nate DEBUG: returncode={result.returncode} bytes={len(result.stdout or '')} "
+        f"snippet={(result.stdout or '')[:300]!r}"
+    )
     feed = feedparser.parse(result.stdout)
     return _feed_entries_to_items(feed.entries, "Nate's Newsletter")
 
