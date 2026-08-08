@@ -11,13 +11,13 @@
   link: https://www.producthunt.com/products/basedash
   date: '2026-08-08'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'petergyang/human-review (602★) · A visual tool to edit HTML and Markdown
+  title: 'petergyang/human-review (603★) · A visual tool to edit HTML and Markdown
     files, leave comments like a Google Doc, and send feedback to your AI agent. Works
     inside your favorite AI '
   link: https://github.com/petergyang/human-review
   date: '2026-08-08'
 - source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (48323★) · LocalAI is the open-source AI engine. Run any model
+  title: mudler/LocalAI (48325★) · LocalAI is the open-source AI engine. Run any model
     - LLMs, vision, voice, image, video - on any hardware. No GPU required.
   link: https://github.com/mudler/LocalAI
   date: '2026-08-08'
@@ -67,13 +67,13 @@
   link: https://www.producthunt.com/products/conduit-12
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'FareedKhan-dev/kimi-k3-in-c (3586★) · A 2.78-trillion-parameter Kimi K3
+  title: 'FareedKhan-dev/kimi-k3-in-c (3590★) · A 2.78-trillion-parameter Kimi K3
     running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no
     framework, no GPU.'
   link: https://github.com/FareedKhan-dev/kimi-k3-in-c
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'microsoft/skill-recorder (2481★) · Desktop app that records your on-screen
+  title: 'microsoft/skill-recorder (2482★) · Desktop app that records your on-screen
     work session and uses the GitHub Copilot CLI to reconstruct it as an intent +
     ordered steps, then builds '
   link: https://github.com/microsoft/skill-recorder
@@ -117,12 +117,16 @@
   link: https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything
   date: '2026-08-06'
 - source: Product Hunt
-  title: Prompt Bridge
-  link: https://www.producthunt.com/products/prompt-bridge-2
-  date: '2026-08-06'
-- source: Product Hunt
   title: Soloop
   link: https://www.producthunt.com/products/soloop
+  date: '2026-08-06'
+- source: Product Hunt
+  title: HAR
+  link: https://www.producthunt.com/products/har
+  date: '2026-08-06'
+- source: Product Hunt
+  title: Blueberry
+  link: https://www.producthunt.com/products/blueberry-6
   date: '2026-08-06'
 - source: Hugging Face Papers
   title: 'KVAE: Family of Tokenizers for Multimodal Generative Models'
@@ -233,6 +237,11 @@
     Stimulus Features That Drive Retrieval'
   link: https://huggingface.co/papers/2608.01481
   date: '2026-08-01'
+- source: Andrew Ng
+  title: 'Open Models, Open Harnesses, Open Security: What we did when Claude Fable
+    5 and GPT-5.6 Sol refused our security requests'
+  link: https://charonhub.deeplearning.ai/open-models-open-harnesses-open-security/
+  date: '2026-07-31'
 - source: Product Hunt
   title: Nitro 4.0
   link: https://www.producthunt.com/products/alconost-localization
@@ -333,6 +342,11 @@
   title: Introducing Claude Opus 5
   link: https://www.anthropic.com/news/claude-opus-5
   date: '2026-07-24'
+- source: Andrew Ng
+  title: 'When Guardrails Go Wrong: After a closed model went amok on a key vendor''s
+    system, an open weight model helped save the day'
+  link: https://charonhub.deeplearning.ai/when-guardrails-go-wrong/
+  date: '2026-07-24'
 - source: MIT Technology Review
   title: How AI helps scientists design the next generation of medicines
   link: https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/
@@ -386,6 +400,11 @@
   title: Introducing Gemini 3.5 Flash Cyber
   link: https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
   date: '2026-07-17'
+- source: Andrew Ng
+  title: 'AI Rewards Generalists Who Can Build New Skills: With AI assistance, full-stack
+    engineers are joined by full-stack recruiters, full-cycle marketers, and more.'
+  link: https://charonhub.deeplearning.ai/ai-rewards-generalists-who-can-build-new-skills/
+  date: '2026-07-17'
 - source: Product Hunt
   title: Coldtea.ai
   link: https://www.producthunt.com/products/coldtea
@@ -410,9 +429,21 @@
   title: Control the ideas, not the code
   link: http://antirez.com/news/169
   date: '2026-07-13'
+- source: Andrew Ng
+  title: 'Make All Your Tokens (and Your Brainwork) Count: Agentic loop coding works
+    until it fulfills a goal. Here''s an agentic way to iterate on your goals to find
+    the right one.'
+  link: https://charonhub.deeplearning.ai/make-all-your-tokens-and-your-brainwork-count/
+  date: '2026-07-10'
 - source: Google DeepMind
   title: Google DeepMind and A24 announce first-of-its-kind research partnership
   link: https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/
+  date: '2026-07-03'
+- source: Andrew Ng
+  title: 'How We Decide What Courses to Teach: The AI world is full of hype and sales
+    pitches. DeepLearning.AI focuses on most important tools and techniques in ways
+    you can apply to any AI vendor’s ecosystem.'
+  link: https://charonhub.deeplearning.ai/how-we-decide-what-courses-to-teach-the-ai-world-is-full-of-hype-and-sales-pitches-deeplearning-ai-focuses-on-most-important-tools-and-techniques-in-ways-you-can-apply-to-any-ai-vendors/
   date: '2026-07-03'
 - source: One Useful Thing
   title: The twilight of the chatbots
@@ -422,6 +453,10 @@
   title: Using Local Coding Agents
   link: https://magazine.sebastianraschka.com/p/using-local-coding-agents
   date: '2026-06-27'
+- source: Andrew Ng
+  title: Three Key Loops for Building Great Software
+  link: https://charonhub.deeplearning.ai/three-key-loops-for-building-great-software/
+  date: '2026-06-26'
 - source: One Useful Thing
   title: What it feels like to work with Mythos
   link: https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos
@@ -563,10 +598,6 @@
   title: 'Kimi Linear: An Expressive, Efficient Attention Architecture'
   link: https://arxiv.org/abs/2510.26692v2
   date: '2025-10-30'
-- source: Product Hunt
-  title: BrowserOS neo
-  link: https://www.producthunt.com/products/browseros_ai
-  date: '2025-10-28'
 - source: Andrej Karpathy
   title: Animals vs Ghosts
   link: https://karpathy.bearblog.dev/animals-vs-ghosts/
