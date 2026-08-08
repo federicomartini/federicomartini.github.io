@@ -1,3 +1,7 @@
+- source: Simon Willison
+  title: Quoting John Gruber
+  link: https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything
+  date: '2026-08-08'
 - source: Product Hunt
   title: Basedash Subscriptions
   link: https://www.producthunt.com/products/basedash
@@ -43,24 +47,29 @@
   date: '2026-08-07'
 - source: Simon Willison
   title: Now we have a timeline of the OpenAI accidental attack against Hugging Face
-  link: https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-entries
+  link: https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything
+  date: '2026-08-07'
+- source: Simon Willison
+  title: Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)
+  link: https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything
+  date: '2026-08-07'
+- source: Simon Willison
+  title: 'The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So
+    Much on AI'
+  link: https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything
   date: '2026-08-07'
 - source: Product Hunt
   title: Toolport
   link: https://www.producthunt.com/products/conduit-12
   date: '2026-08-07'
-- source: Product Hunt
-  title: AgentOne Desktop
-  link: https://www.producthunt.com/products/agentone-desktop
-  date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'FareedKhan-dev/kimi-k3-in-c (3530★) · A 2.78-trillion-parameter Kimi K3
+  title: 'FareedKhan-dev/kimi-k3-in-c (3532★) · A 2.78-trillion-parameter Kimi K3
     running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no
     framework, no GPU.'
   link: https://github.com/FareedKhan-dev/kimi-k3-in-c
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'microsoft/skill-recorder (2465★) · Desktop app that records your on-screen
+  title: 'microsoft/skill-recorder (2466★) · Desktop app that records your on-screen
     work session and uses the GitHub Copilot CLI to reconstruct it as an intent +
     ordered steps, then builds '
   link: https://github.com/microsoft/skill-recorder
@@ -87,9 +96,25 @@
   title: 'WeatherNext: AI model achieves breakthrough in forecasting cyclones'
   link: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
   date: '2026-08-06'
+- source: Simon Willison
+  title: datasette 1.0a38
+  link: https://simonwillison.net/2026/Aug/6/datasette/#atom-everything
+  date: '2026-08-06'
+- source: Simon Willison
+  title: datasette 0.65.3
+  link: https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything
+  date: '2026-08-06'
+- source: Simon Willison
+  title: Simon Willison on Technical Blogging
+  link: https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything
+  date: '2026-08-06'
+- source: Simon Willison
+  title: An AI model from Meta also hacked another company during testing
+  link: https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything
+  date: '2026-08-06'
 - source: Product Hunt
-  title: Blueberry
-  link: https://www.producthunt.com/products/blueberry-6
+  title: HAR
+  link: https://www.producthunt.com/products/har
   date: '2026-08-06'
 - source: Hugging Face Papers
   title: 'KVAE: Family of Tokenizers for Multimodal Generative Models'
@@ -113,12 +138,20 @@
   link: https://huggingface.co/papers/2608.05785
   date: '2026-08-05'
 - source: Simon Willison
-  title: One-shotting a Raccoon Heist game using Claude Fable 5
-  link: https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-entries
+  title: Introducing Muse Code and Muse Spark 1.2
+  link: https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything
+  date: '2026-08-05'
+- source: Simon Willison
+  title: Third-party cyber evaluations involving OpenAI models
+  link: https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything
   date: '2026-08-05'
 - source: Product Hunt
   title: The new Firecrawl MCP
   link: https://www.producthunt.com/products/extract-by-firecrawl
+  date: '2026-08-05'
+- source: Product Hunt
+  title: Progress AI Observability
+  link: https://www.producthunt.com/products/progress-ai-observability
   date: '2026-08-05'
 - source: GitHub (trending AI/LLM/Agents)
   title: 'Pan-Chera/Multi-Agent-CAD (461★) · MAC (Multi-Agent CAD): A decoupled multi-agent
@@ -142,13 +175,12 @@
     Officer
   link: https://www.anthropic.com/news/tino-cuellar
   date: '2026-08-04'
-- source: Simon Willison
-  title: New release of LLM adds support for reasoning traces, OpenAI Responses, server-side
-    tools, and smarter logging
-  link: https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-entries
+- source: Product Hunt
+  title: Troopr AI Scrum Master
+  link: https://www.producthunt.com/products/troopr
   date: '2026-08-04'
 - source: GitHub (trending AI/LLM/Agents)
-  title: rohitg00/ai-engineering-from-scratch (46271★) · Learn it. Build it. Ship
+  title: rohitg00/ai-engineering-from-scratch (46273★) · Learn it. Build it. Ship
     it for others.
   link: https://github.com/rohitg00/ai-engineering-from-scratch
   date: '2026-08-04'
@@ -197,10 +229,6 @@
     Stimulus Features That Drive Retrieval'
   link: https://huggingface.co/papers/2608.01481
   date: '2026-08-01'
-- source: Simon Willison
-  title: Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)
-  link: https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-entries
-  date: '2026-07-31'
 - source: Product Hunt
   title: Nitro 4.0
   link: https://www.producthunt.com/products/alconost-localization
@@ -293,11 +321,6 @@
   title: Ask Claude about the Anthropic Economic Index
   link: https://www.anthropic.com/news/anthropic-economic-index-connector
   date: '2026-07-22'
-- source: Simon Willison
-  title: OpenAI’s accidental cyberattack against Hugging Face is science fiction that
-    happened
-  link: https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-entries
-  date: '2026-07-22'
 - source: antirez
   title: Not just development, distribution of software may change as well
   link: http://antirez.com/news/170
@@ -314,10 +337,6 @@
   title: Anthropic is donating another $20 million to Public First Action
   link: https://www.anthropic.com/news/donation-public-first-action
   date: '2026-07-21'
-- source: Simon Willison
-  title: A Fireside Chat with Cat and Thariq from the Claude Code team
-  link: https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-entries
-  date: '2026-07-21'
 - source: Anthropic
   title: Apply for Anthropic’s AI for Science rare disease research grants
   link: https://www.anthropic.com/news/rare-disease-research-grants
@@ -329,10 +348,6 @@
 - source: Google DeepMind
   title: Introducing Gemini 3.5 Flash Cyber
   link: https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
-  date: '2026-07-17'
-- source: Product Hunt
-  title: Coldtea.ai
-  link: https://www.producthunt.com/products/coldtea
   date: '2026-07-17'
 - source: Hugging Face Blog
   title: Newer Models, Same Advantage
@@ -346,10 +361,6 @@
   title: Our approach to bioresilience
   link: https://deepmind.google/blog/our-approach-to-bioresilience/
   date: '2026-07-16'
-- source: Simon Willison
-  title: Kimi K3, and what we can still learn from the pelican benchmark
-  link: https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-entries
-  date: '2026-07-16'
 - source: Google DeepMind
   title: Empowering India’s next generation of innovators with ATL Saathi
   link: https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/
@@ -358,18 +369,6 @@
   title: Control the ideas, not the code
   link: http://antirez.com/news/169
   date: '2026-07-13'
-- source: Simon Willison
-  title: 'The new GPT-5.6 family: Luna, Terra, Sol'
-  link: https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-entries
-  date: '2026-07-09'
-- source: Simon Willison
-  title: sqlite-utils 4.0, now with database schema migrations
-  link: https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-entries
-  date: '2026-07-07'
-- source: Simon Willison
-  title: sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)
-  link: https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-entries
-  date: '2026-07-05'
 - source: Google DeepMind
   title: Google DeepMind and A24 announce first-of-its-kind research partnership
   link: https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/
