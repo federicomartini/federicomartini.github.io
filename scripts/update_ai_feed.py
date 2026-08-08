@@ -3,17 +3,19 @@ leggere sia tool AI nuovi da provare (prodotti, librerie, progetti open source).
 
 Fonti con RSS nativo: Hugging Face Blog, OpenAI News, Google DeepMind Blog,
 Simon Willison, Ahead of AI, One Useful Thing, antirez, Andrej Karpathy, Product Hunt (AI).
-Fonti senza RSS (scraping mirato sulla pagina di listing): Anthropic News, The Batch
-(quest'ultima via curl invece che requests: Cloudflare blocca la firma TLS di requests).
+Fonti senza RSS (scraping mirato sulla pagina di listing): Anthropic News.
 Hugging Face Papers: API JSON pubblica usata dalla loro stessa pagina /papers.
 arXiv (DeepSeek/Qwen/Kimi/GLM): API di ricerca arXiv per autore, non un feed fisso.
 GitHub: API di ricerca pubblica, repo taggati "llm" creati di recente per stelle.
+
+The Batch (deeplearning.ai) e' stato rimosso: Cloudflare risponde ai runner GitHub
+Actions con una sfida JavaScript ("Just a moment...") invece della pagina, e uno
+scraping leggero (requests o curl) non puo' superarla.
 
 Ogni fonte è isolata in try/except: se una fonte cambia struttura o è irraggiungibile,
 le altre continuano a essere aggiornate normalmente.
 """
 
-import subprocess
 import time
 from datetime import date, datetime, timedelta
 
@@ -27,29 +29,6 @@ MAX_PER_SOURCE = 10
 OUTPUT_PATH = "_data/ai_feed.yml"
 
 HEADERS = {"User-Agent": USER_AGENT}
-THE_BATCH_DATE_FORMATS = ("%B %d, %Y", "%b %d, %Y")
-
-
-def _the_batch_article_date(article) -> str:
-    """Le card 'in evidenza' mettono la data in un badge (formato abbreviato 'Jul 31, 2026'),
-    le card secondarie in un footer (formato esteso 'January 22, 2025'). Si provano entrambe."""
-    candidates = []
-    footer = article.find("footer")
-    if footer:
-        span = footer.find("span")
-        if span:
-            candidates.append(span.get_text(strip=True))
-    tag_link = article.find("a", href=lambda h: h and "/the-batch/tag/" in h)
-    if tag_link:
-        candidates.append(tag_link.get_text(strip=True))
-
-    for text in candidates:
-        for fmt in THE_BATCH_DATE_FORMATS:
-            try:
-                return datetime.strptime(text, fmt).strftime("%Y-%m-%d")
-            except ValueError:
-                continue
-    return ""
 
 
 def parse_rss(url: str, source: str) -> list[dict]:
@@ -117,43 +96,6 @@ def fetch_anthropic_news() -> list[dict]:
                 date_str = ""
 
         items.append({"source": "Anthropic", "title": title_el.get_text(strip=True), "link": link, "date": date_str})
-        if len(items) >= MAX_PER_SOURCE:
-            break
-    return items
-
-
-def fetch_the_batch() -> list[dict]:
-    """Cloudflare blocca la firma TLS di requests (403) ma lascia passare curl:
-    la richiesta viene delegata al binario curl invece che a requests.get."""
-    result = subprocess.run(
-        ["curl", "-s", "-A", USER_AGENT, "https://www.deeplearning.ai/the-batch"],
-        capture_output=True,
-        encoding="utf-8",
-        timeout=20,
-        check=True,
-    )
-    print(
-        f"The Batch DEBUG: returncode={result.returncode} bytes={len(result.stdout or '')} "
-        f"has_article_tag={'<article' in (result.stdout or '')} "
-        f"snippet={(result.stdout or '')[:300]!r}"
-    )
-    soup = BeautifulSoup(result.stdout, "html.parser")
-    items = []
-    seen_links = set()
-    # Scoping to <article> cards (not just any link with aria-label) esclude di per se
-    # i link di navigazione come la search box ("/the-batch/search"), che non sono card.
-    for article in soup.find_all("article"):
-        a = article.find("a", attrs={"aria-label": True, "href": True})
-        if not a or not a["href"].startswith("/the-batch/"):
-            continue
-        link = "https://www.deeplearning.ai" + a["href"]
-        if link in seen_links:
-            continue
-        seen_links.add(link)
-
-        date_str = _the_batch_article_date(article)
-
-        items.append({"source": "The Batch", "title": a["aria-label"].strip(), "link": link, "date": date_str})
         if len(items) >= MAX_PER_SOURCE:
             break
     return items
@@ -272,7 +214,6 @@ SOURCES = [
     ("OpenAI News", lambda: parse_rss("https://openai.com/news/rss.xml", "OpenAI")),
     ("Anthropic News", fetch_anthropic_news),
     ("Google DeepMind Blog", lambda: parse_rss("https://deepmind.google/blog/rss.xml", "Google DeepMind")),
-    ("The Batch", fetch_the_batch),
     ("Hugging Face Blog", lambda: parse_rss("https://huggingface.co/blog/feed.xml", "Hugging Face Blog")),
     ("Hugging Face Papers", fetch_hf_papers),
     ("arXiv (DeepSeek/Qwen/Kimi/GLM)", fetch_chinese_labs_papers),
