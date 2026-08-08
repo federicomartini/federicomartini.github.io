@@ -4,7 +4,8 @@ leggere sia tool AI nuovi da provare (prodotti, librerie, progetti open source).
 Fonti con RSS nativo: Hugging Face Blog, OpenAI News, Google DeepMind Blog,
 MIT Technology Review (AI), Simon Willison, Ahead of AI, One Useful Thing, antirez,
 Andrej Karpathy, Product Hunt (AI).
-Fonti senza RSS (scraping mirato sulla pagina di listing): Anthropic News.
+Fonti senza RSS (scraping mirato sulla pagina di listing): Anthropic News, Andrew Ng
+(andrewng.org/writing, le sue lettere personali, non il sito di The Batch).
 Hugging Face Papers: API JSON pubblica usata dalla loro stessa pagina /papers.
 arXiv (DeepSeek/Qwen/Kimi/GLM): API di ricerca arXiv per autore, non un feed fisso.
 GitHub: API di ricerca pubblica, repo taggati "llm" creati di recente per stelle.
@@ -102,6 +103,33 @@ def fetch_anthropic_news() -> list[dict]:
                 date_str = ""
 
         items.append({"source": "Anthropic", "title": title_el.get_text(strip=True), "link": link, "date": date_str})
+        if len(items) >= MAX_PER_SOURCE:
+            break
+    return items
+
+
+def fetch_andrew_ng_writing() -> list[dict]:
+    r = requests.get("https://www.andrewng.org/writing", headers=HEADERS, timeout=20)
+    r.raise_for_status()
+    soup = BeautifulSoup(r.text, "html.parser")
+    items = []
+    seen_links = set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        heading = a.find(["h2", "h3"])
+        time_el = a.find("time")
+        if not href.startswith("http") or not heading or not time_el:
+            continue
+        if href in seen_links:
+            continue
+        seen_links.add(href)
+
+        try:
+            date_str = datetime.strptime(time_el.get_text(strip=True), "%B %d, %Y").strftime("%Y-%m-%d")
+        except ValueError:
+            date_str = ""
+
+        items.append({"source": "Andrew Ng", "title": heading.get_text(strip=True), "link": href, "date": date_str})
         if len(items) >= MAX_PER_SOURCE:
             break
     return items
@@ -233,6 +261,7 @@ SOURCES = [
     ("Ahead of AI (Sebastian Raschka)", lambda: parse_rss("https://magazine.sebastianraschka.com/feed", "Ahead of AI")),
     ("One Useful Thing (Ethan Mollick)", lambda: parse_rss("https://www.oneusefulthing.org/feed", "One Useful Thing")),
     ("antirez (Salvatore Sanfilippo)", lambda: parse_rss("https://antirez.com/rss", "antirez")),
+    ("Andrew Ng (writing)", fetch_andrew_ng_writing),
     ("Andrej Karpathy", lambda: parse_rss("https://karpathy.bearblog.dev/feed/", "Andrej Karpathy")),
     ("Product Hunt (AI)", fetch_product_hunt),
     ("GitHub (trending AI/LLM/Agents)", fetch_github_new_repos),
