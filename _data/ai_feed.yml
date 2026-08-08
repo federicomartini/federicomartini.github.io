@@ -1,4 +1,8 @@
 - source: Simon Willison
+  title: Now we have a timeline of the OpenAI accidental attack against Hugging Face
+  link: https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything
+  date: '2026-08-08'
+- source: Simon Willison
   title: Quoting John Gruber
   link: https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything
   date: '2026-08-08'
@@ -7,7 +11,7 @@
   link: https://www.producthunt.com/products/basedash
   date: '2026-08-08'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'petergyang/human-review (601★) · A visual tool to edit HTML and Markdown
+  title: 'petergyang/human-review (602★) · A visual tool to edit HTML and Markdown
     files, leave comments like a Google Doc, and send feedback to your AI agent. Works
     inside your favorite AI '
   link: https://github.com/petergyang/human-review
@@ -18,7 +22,7 @@
   link: https://github.com/mudler/LocalAI
   date: '2026-08-08'
 - source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (46765★) · Ultra-lightweight, open-source, self-hosted personal
+  title: HKUDS/nanobot (46767★) · Ultra-lightweight, open-source, self-hosted personal
     AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
     automation, and ch
   link: https://github.com/HKUDS/nanobot
@@ -63,13 +67,13 @@
   link: https://www.producthunt.com/products/conduit-12
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'FareedKhan-dev/kimi-k3-in-c (3563★) · A 2.78-trillion-parameter Kimi K3
+  title: 'FareedKhan-dev/kimi-k3-in-c (3586★) · A 2.78-trillion-parameter Kimi K3
     running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no
     framework, no GPU.'
   link: https://github.com/FareedKhan-dev/kimi-k3-in-c
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'microsoft/skill-recorder (2472★) · Desktop app that records your on-screen
+  title: 'microsoft/skill-recorder (2481★) · Desktop app that records your on-screen
     work session and uses the GitHub Copilot CLI to reconstruct it as an intent +
     ordered steps, then builds '
   link: https://github.com/microsoft/skill-recorder
@@ -117,16 +121,8 @@
   link: https://www.producthunt.com/products/prompt-bridge-2
   date: '2026-08-06'
 - source: Product Hunt
-  title: Whop CLI
-  link: https://www.producthunt.com/products/whop-cli
-  date: '2026-08-06'
-- source: Product Hunt
   title: Soloop
   link: https://www.producthunt.com/products/soloop
-  date: '2026-08-06'
-- source: Product Hunt
-  title: HAR
-  link: https://www.producthunt.com/products/har
   date: '2026-08-06'
 - source: Hugging Face Papers
   title: 'KVAE: Family of Tokenizers for Multimodal Generative Models'
@@ -153,20 +149,12 @@
   title: Introducing Muse Code and Muse Spark 1.2
   link: https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything
   date: '2026-08-05'
-- source: Simon Willison
-  title: Third-party cyber evaluations involving OpenAI models
-  link: https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything
-  date: '2026-08-05'
-- source: Product Hunt
-  title: The new Firecrawl MCP
-  link: https://www.producthunt.com/products/extract-by-firecrawl
-  date: '2026-08-05'
 - source: Product Hunt
   title: Progress AI Observability
   link: https://www.producthunt.com/products/progress-ai-observability
   date: '2026-08-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'Pan-Chera/Multi-Agent-CAD (466★) · MAC (Multi-Agent CAD): A decoupled multi-agent
+  title: 'Pan-Chera/Multi-Agent-CAD (467★) · MAC (Multi-Agent CAD): A decoupled multi-agent
     framework for text-to-CAD generation via constrained test-time compute'
   link: https://github.com/Pan-Chera/Multi-Agent-CAD
   date: '2026-08-05'
@@ -188,7 +176,7 @@
   link: https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b
   date: '2026-08-04'
 - source: GitHub (trending AI/LLM/Agents)
-  title: rohitg00/ai-engineering-from-scratch (46277★) · Learn it. Build it. Ship
+  title: rohitg00/ai-engineering-from-scratch (46280★) · Learn it. Build it. Ship
     it for others.
   link: https://github.com/rohitg00/ai-engineering-from-scratch
   date: '2026-08-04'
@@ -220,6 +208,10 @@
 - source: Product Hunt
   title: Hexis
   link: https://www.producthunt.com/products/bevel-4
+  date: '2026-08-03'
+- source: Product Hunt
+  title: Rindler
+  link: https://www.producthunt.com/products/rindler
   date: '2026-08-03'
 - source: Hugging Face Papers
   title: 'Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting
@@ -263,7 +255,7 @@
   link: https://huggingface.co/blog/Dharma-AI/gpu-management
   date: '2026-07-30'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'jeecgboot/JeecgBoot (47322★) · 【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+  title: 'jeecgboot/JeecgBoot (47324★) · 【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
     AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
     生成 → 在线配置 '
   link: https://github.com/jeecgboot/JeecgBoot
@@ -393,6 +385,10 @@
 - source: Google DeepMind
   title: Introducing Gemini 3.5 Flash Cyber
   link: https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
+  date: '2026-07-17'
+- source: Product Hunt
+  title: Coldtea.ai
+  link: https://www.producthunt.com/products/coldtea
   date: '2026-07-17'
 - source: Google DeepMind
   title: Our approach to bioresilience
@@ -567,6 +563,10 @@
   title: 'Kimi Linear: An Expressive, Efficient Attention Architecture'
   link: https://arxiv.org/abs/2510.26692v2
   date: '2025-10-30'
+- source: Product Hunt
+  title: BrowserOS neo
+  link: https://www.producthunt.com/products/browseros_ai
+  date: '2025-10-28'
 - source: Andrej Karpathy
   title: Animals vs Ghosts
   link: https://karpathy.bearblog.dev/animals-vs-ghosts/
