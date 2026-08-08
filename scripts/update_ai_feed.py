@@ -1,16 +1,19 @@
 """Aggrega in _data/ai_feed.yml (letto dalla pagina /ai-feed/) sia articoli/paper da
 leggere sia tool AI nuovi da provare (prodotti, librerie, progetti open source).
 
-Fonti con RSS nativo: Hugging Face Blog, arXiv, OpenAI News, Google DeepMind Blog,
-Simon Willison, Ahead of AI, One Useful Thing, antirez, Product Hunt (AI).
-Fonti senza RSS (scraping mirato sulla pagina di listing): Anthropic News, The Batch.
+Fonti con RSS nativo: Hugging Face Blog, OpenAI News, Google DeepMind Blog,
+Simon Willison, Ahead of AI, One Useful Thing, antirez, Andrej Karpathy, Product Hunt (AI).
+Fonti senza RSS (scraping mirato sulla pagina di listing): Anthropic News, The Batch
+(quest'ultima via curl invece che requests: Cloudflare blocca la firma TLS di requests).
 Hugging Face Papers: API JSON pubblica usata dalla loro stessa pagina /papers.
+arXiv (DeepSeek/Qwen/Kimi/GLM): API di ricerca arXiv per autore, non un feed fisso.
 GitHub: API di ricerca pubblica, repo taggati "llm" creati di recente per stelle.
 
 Ogni fonte è isolata in try/except: se una fonte cambia struttura o è irraggiungibile,
 le altre continuano a essere aggiornate normalmente.
 """
 
+import subprocess
 import time
 from datetime import date, datetime, timedelta
 
@@ -120,9 +123,16 @@ def fetch_anthropic_news() -> list[dict]:
 
 
 def fetch_the_batch() -> list[dict]:
-    r = requests.get("https://www.deeplearning.ai/the-batch", headers=HEADERS, timeout=20)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
+    """Cloudflare blocca la firma TLS di requests (403) ma lascia passare curl:
+    la richiesta viene delegata al binario curl invece che a requests.get."""
+    result = subprocess.run(
+        ["curl", "-s", "-A", USER_AGENT, "https://www.deeplearning.ai/the-batch"],
+        capture_output=True,
+        encoding="utf-8",
+        timeout=20,
+        check=True,
+    )
+    soup = BeautifulSoup(result.stdout, "html.parser")
     items = []
     seen_links = set()
     # Scoping to <article> cards (not just any link with aria-label) esclude di per se
@@ -254,14 +264,13 @@ def fetch_chinese_labs_papers() -> list[dict]:
 
 
 SOURCES = [
-    ("Hugging Face Blog", lambda: parse_rss("https://huggingface.co/blog/feed.xml", "Hugging Face Blog")),
-    ("arXiv (cs.AI)", lambda: parse_rss("https://rss.arxiv.org/rss/cs.AI", "arXiv (cs.AI)")),
-    ("arXiv (DeepSeek/Qwen/Kimi/GLM)", fetch_chinese_labs_papers),
     ("OpenAI News", lambda: parse_rss("https://openai.com/news/rss.xml", "OpenAI")),
-    ("Google DeepMind Blog", lambda: parse_rss("https://deepmind.google/blog/rss.xml", "Google DeepMind")),
-    ("Hugging Face Papers", fetch_hf_papers),
     ("Anthropic News", fetch_anthropic_news),
+    ("Google DeepMind Blog", lambda: parse_rss("https://deepmind.google/blog/rss.xml", "Google DeepMind")),
     ("The Batch", fetch_the_batch),
+    ("Hugging Face Blog", lambda: parse_rss("https://huggingface.co/blog/feed.xml", "Hugging Face Blog")),
+    ("Hugging Face Papers", fetch_hf_papers),
+    ("arXiv (DeepSeek/Qwen/Kimi/GLM)", fetch_chinese_labs_papers),
     ("Simon Willison", lambda: parse_rss("https://simonwillison.net/atom/everything/", "Simon Willison")),
     ("Ahead of AI (Sebastian Raschka)", lambda: parse_rss("https://magazine.sebastianraschka.com/feed", "Ahead of AI")),
     ("One Useful Thing (Ethan Mollick)", lambda: parse_rss("https://www.oneusefulthing.org/feed", "One Useful Thing")),

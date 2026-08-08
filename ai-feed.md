@@ -12,7 +12,7 @@ Automatic digest from Hugging Face, arXiv, OpenAI, Anthropic, Google DeepMind, T
 
 ## Reading
 
-{% assign reading_sources = "Hugging Face Blog,Hugging Face Papers,arXiv (cs.AI),arXiv (DeepSeek/Qwen/Kimi/GLM),OpenAI,Anthropic,Google DeepMind,The Batch,Simon Willison,Ahead of AI,One Useful Thing,antirez,Andrej Karpathy" | split: "," %}
+{% assign reading_sources = "OpenAI,Anthropic,Google DeepMind,The Batch,Hugging Face Blog,Hugging Face Papers,arXiv (DeepSeek/Qwen/Kimi/GLM),Simon Willison,Ahead of AI,One Useful Thing,antirez,Andrej Karpathy" | split: "," %}
 {% for source in reading_sources %}
   {% assign group_items = items | where: "source", source %}
   {% if group_items.size > 0 %}
