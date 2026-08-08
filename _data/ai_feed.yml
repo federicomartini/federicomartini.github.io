@@ -7,7 +7,7 @@
   link: https://www.producthunt.com/products/basedash
   date: '2026-08-08'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'petergyang/human-review (598★) · A visual tool to edit HTML and Markdown
+  title: 'petergyang/human-review (601★) · A visual tool to edit HTML and Markdown
     files, leave comments like a Google Doc, and send feedback to your AI agent. Works
     inside your favorite AI '
   link: https://github.com/petergyang/human-review
@@ -24,15 +24,11 @@
   link: https://github.com/HKUDS/nanobot
   date: '2026-08-08'
 - source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (46415★) · Open-source super AI assistant & Agent Harness.
+  title: zhayujie/CowAgent (46416★) · Open-source super AI assistant & Agent Harness.
     Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model,
     multi-channel.
   link: https://github.com/zhayujie/CowAgent
   date: '2026-08-08'
-- source: Hugging Face Blog
-  title: 'TutorMoments: Do AI tutors know when to help and when to hold back?'
-  link: https://huggingface.co/blog/allenai/tutormoments
-  date: '2026-08-07'
 - source: OpenAI
   title: Responding to the next frontier of critical cyber capabilities
   link: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities
@@ -44,6 +40,10 @@
 - source: Anthropic
   title: Improving Fable 5's biology safeguards
   link: https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
+  date: '2026-08-07'
+- source: Hugging Face Blog
+  title: 'TutorMoments: Do AI tutors know when to help and when to hold back?'
+  link: https://huggingface.co/blog/allenai/tutormoments
   date: '2026-08-07'
 - source: Simon Willison
   title: Now we have a timeline of the OpenAI accidental attack against Hugging Face
@@ -63,21 +63,17 @@
   link: https://www.producthunt.com/products/conduit-12
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'FareedKhan-dev/kimi-k3-in-c (3532★) · A 2.78-trillion-parameter Kimi K3
+  title: 'FareedKhan-dev/kimi-k3-in-c (3546★) · A 2.78-trillion-parameter Kimi K3
     running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no
     framework, no GPU.'
   link: https://github.com/FareedKhan-dev/kimi-k3-in-c
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'microsoft/skill-recorder (2466★) · Desktop app that records your on-screen
+  title: 'microsoft/skill-recorder (2470★) · Desktop app that records your on-screen
     work session and uses the GitHub Copilot CLI to reconstruct it as an intent +
     ordered steps, then builds '
   link: https://github.com/microsoft/skill-recorder
   date: '2026-08-07'
-- source: Hugging Face Blog
-  title: Baseten on Hugging Face Inference Providers 🔥
-  link: https://huggingface.co/blog/baseten
-  date: '2026-08-06'
 - source: OpenAI
   title: Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for
     free users
@@ -96,6 +92,10 @@
   title: 'WeatherNext: AI model achieves breakthrough in forecasting cyclones'
   link: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
   date: '2026-08-06'
+- source: Hugging Face Blog
+  title: Baseten on Hugging Face Inference Providers 🔥
+  link: https://huggingface.co/blog/baseten
+  date: '2026-08-06'
 - source: Simon Willison
   title: datasette 1.0a38
   link: https://simonwillison.net/2026/Aug/6/datasette/#atom-everything
@@ -111,6 +111,10 @@
 - source: Simon Willison
   title: An AI model from Meta also hacked another company during testing
   link: https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything
+  date: '2026-08-06'
+- source: Product Hunt
+  title: Blueberry
+  link: https://www.producthunt.com/products/blueberry-6
   date: '2026-08-06'
 - source: Product Hunt
   title: HAR
@@ -146,6 +150,14 @@
   link: https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything
   date: '2026-08-05'
 - source: Product Hunt
+  title: StepShot
+  link: https://www.producthunt.com/products/stepshot-2
+  date: '2026-08-05'
+- source: Product Hunt
+  title: Reference
+  link: https://www.producthunt.com/products/reference-2
+  date: '2026-08-05'
+- source: Product Hunt
   title: The new Firecrawl MCP
   link: https://www.producthunt.com/products/extract-by-firecrawl
   date: '2026-08-05'
@@ -154,14 +166,10 @@
   link: https://www.producthunt.com/products/progress-ai-observability
   date: '2026-08-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'Pan-Chera/Multi-Agent-CAD (461★) · MAC (Multi-Agent CAD): A decoupled multi-agent
+  title: 'Pan-Chera/Multi-Agent-CAD (463★) · MAC (Multi-Agent CAD): A decoupled multi-agent
     framework for text-to-CAD generation via constrained test-time compute'
   link: https://github.com/Pan-Chera/Multi-Agent-CAD
   date: '2026-08-05'
-- source: Hugging Face Blog
-  title: Deploy local agents everywhere with LFM2.5-2.6B
-  link: https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b
-  date: '2026-08-04'
 - source: OpenAI
   title: Third-party cyber evaluations involving OpenAI models
   link: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models
@@ -175,12 +183,16 @@
     Officer
   link: https://www.anthropic.com/news/tino-cuellar
   date: '2026-08-04'
+- source: Hugging Face Blog
+  title: Deploy local agents everywhere with LFM2.5-2.6B
+  link: https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b
+  date: '2026-08-04'
 - source: Product Hunt
   title: Troopr AI Scrum Master
   link: https://www.producthunt.com/products/troopr
   date: '2026-08-04'
 - source: GitHub (trending AI/LLM/Agents)
-  title: rohitg00/ai-engineering-from-scratch (46273★) · Learn it. Build it. Ship
+  title: rohitg00/ai-engineering-from-scratch (46274★) · Learn it. Build it. Ship
     it for others.
   link: https://github.com/rohitg00/ai-engineering-from-scratch
   date: '2026-08-04'
@@ -205,10 +217,6 @@
   title: Hexis
   link: https://www.producthunt.com/products/bevel-4
   date: '2026-08-03'
-- source: Product Hunt
-  title: Rindler
-  link: https://www.producthunt.com/products/rindler
-  date: '2026-08-03'
 - source: Hugging Face Papers
   title: 'Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting
     Weights to Robots that Write their Own Skills'
@@ -229,22 +237,18 @@
     Stimulus Features That Drive Retrieval'
   link: https://huggingface.co/papers/2608.01481
   date: '2026-08-01'
-- source: Product Hunt
-  title: Nitro 4.0
-  link: https://www.producthunt.com/products/alconost-localization
-  date: '2026-07-31'
-- source: Hugging Face Blog
-  title: 'GPU Management: Why Idle GPUs Are the New Grounded Aircraft'
-  link: https://huggingface.co/blog/Dharma-AI/gpu-management
+- source: Anthropic
+  title: Investigating three real-world incidents in our cybersecurity evaluations
+  link: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
   date: '2026-07-30'
 - source: Google DeepMind
   title: 'Gemini Robotics ER 2: powering robotics with video understanding, task orchestration,
     and multi-robot collaboration'
   link: https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/
   date: '2026-07-30'
-- source: Anthropic
-  title: Investigating three real-world incidents in our cybersecurity evaluations
-  link: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
+- source: Hugging Face Blog
+  title: 'GPU Management: Why Idle GPUs Are the New Grounded Aircraft'
+  link: https://huggingface.co/blog/Dharma-AI/gpu-management
   date: '2026-07-30'
 - source: GitHub (trending AI/LLM/Agents)
   title: 'jeecgboot/JeecgBoot (47322★) · 【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
@@ -265,6 +269,15 @@
   title: The real AI risk is inside the labs
   link: http://antirez.com/news/172
   date: '2026-07-28'
+- source: Anthropic
+  title: Our position on open-weights models
+  link: https://www.anthropic.com/news/position-open-weights-models
+  date: '2026-07-27'
+- source: Anthropic
+  title: Cognizant and Anthropic expand their partnership to bring Claude to enterprise
+    clients
+  link: https://www.anthropic.com/news/cognizant-anthropic
+  date: '2026-07-27'
 - source: Hugging Face Blog
   title: 'NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical
     Robotics'
@@ -278,15 +291,6 @@
 - source: arXiv (DeepSeek/Qwen/Kimi/GLM)
   title: 'Kimi K3: Open Frontier Intelligence'
   link: https://arxiv.org/abs/2607.24653v1
-  date: '2026-07-27'
-- source: Anthropic
-  title: Our position on open-weights models
-  link: https://www.anthropic.com/news/position-open-weights-models
-  date: '2026-07-27'
-- source: Anthropic
-  title: Cognizant and Anthropic expand their partnership to bring Claude to enterprise
-    clients
-  link: https://www.anthropic.com/news/cognizant-anthropic
   date: '2026-07-27'
 - source: GitHub (trending AI/LLM/Agents)
   title: 0xwilliamortiz/openclaude-improved (569★) · runs anywhere. uses anything
@@ -308,11 +312,6 @@
   title: An opinionated guide to which AI to use to do stuff
   link: https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22
   date: '2026-07-23'
-- source: Google DeepMind
-  title: 'Accelerating the frontiers of scientific discovery: Google’s $40M commitment
-    to the Genesis Mission'
-  link: https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/
-  date: '2026-07-22'
 - source: Anthropic
   title: A research agenda for the Economic Futures Research Fund
   link: https://www.anthropic.com/news/economic-futures-research-fund-agenda
@@ -321,21 +320,26 @@
   title: Ask Claude about the Anthropic Economic Index
   link: https://www.anthropic.com/news/anthropic-economic-index-connector
   date: '2026-07-22'
+- source: Google DeepMind
+  title: 'Accelerating the frontiers of scientific discovery: Google’s $40M commitment
+    to the Genesis Mission'
+  link: https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/
+  date: '2026-07-22'
 - source: antirez
   title: Not just development, distribution of software may change as well
   link: http://antirez.com/news/170
   date: '2026-07-22'
-- source: Hugging Face Blog
-  title: 'Grabette: an open system to record robot-manipulation data'
-  link: https://huggingface.co/blog/grabette
+- source: Anthropic
+  title: Anthropic is donating another $20 million to Public First Action
+  link: https://www.anthropic.com/news/donation-public-first-action
   date: '2026-07-21'
 - source: Google DeepMind
   title: Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber
   link: https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/
   date: '2026-07-21'
-- source: Anthropic
-  title: Anthropic is donating another $20 million to Public First Action
-  link: https://www.anthropic.com/news/donation-public-first-action
+- source: Hugging Face Blog
+  title: 'Grabette: an open system to record robot-manipulation data'
+  link: https://huggingface.co/blog/grabette
   date: '2026-07-21'
 - source: Anthropic
   title: Apply for Anthropic’s AI for Science rare disease research grants
@@ -349,6 +353,10 @@
   title: Introducing Gemini 3.5 Flash Cyber
   link: https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
   date: '2026-07-17'
+- source: Google DeepMind
+  title: Our approach to bioresilience
+  link: https://deepmind.google/blog/our-approach-to-bioresilience/
+  date: '2026-07-16'
 - source: Hugging Face Blog
   title: Newer Models, Same Advantage
   link: https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages
@@ -356,10 +364,6 @@
 - source: Hugging Face Blog
   title: Security incident disclosure — July 2026
   link: https://huggingface.co/blog/security-incident-july-2026
-  date: '2026-07-16'
-- source: Google DeepMind
-  title: Our approach to bioresilience
-  link: https://deepmind.google/blog/our-approach-to-bioresilience/
   date: '2026-07-16'
 - source: Google DeepMind
   title: Empowering India’s next generation of innovators with ATL Saathi
@@ -522,10 +526,6 @@
   title: 'Kimi Linear: An Expressive, Efficient Attention Architecture'
   link: https://arxiv.org/abs/2510.26692v2
   date: '2025-10-30'
-- source: Product Hunt
-  title: BrowserOS neo
-  link: https://www.producthunt.com/products/browseros_ai
-  date: '2025-10-28'
 - source: Andrej Karpathy
   title: Animals vs Ghosts
   link: https://karpathy.bearblog.dev/animals-vs-ghosts/
