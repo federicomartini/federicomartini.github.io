@@ -1,3 +1,24 @@
+- source: GitHub (trending AI/LLM/Agents)
+  title: mudler/LocalAI (48336★) · LocalAI is the open-source AI engine. Run any model
+    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
+  link: https://github.com/mudler/LocalAI
+  date: '2026-08-09'
+- source: GitHub (trending AI/LLM/Agents)
+  title: HKUDS/nanobot (46780★) · Ultra-lightweight, open-source, self-hosted personal
+    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
+    automation, and ch
+  link: https://github.com/HKUDS/nanobot
+  date: '2026-08-09'
+- source: GitHub (trending AI/LLM/Agents)
+  title: zhayujie/CowAgent (46425★) · Open-source super AI assistant & Agent Harness.
+    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model,
+    multi-channel.
+  link: https://github.com/zhayujie/CowAgent
+  date: '2026-08-09'
+- source: Simon Willison
+  title: Auto mode is now the default in Claude Code for Pro, Max, and Team plans
+  link: https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything
+  date: '2026-08-08'
 - source: Simon Willison
   title: Now we have a timeline of the OpenAI accidental attack against Hugging Face
   link: https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything
@@ -11,27 +32,10 @@
   link: https://www.producthunt.com/products/basedash
   date: '2026-08-08'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'petergyang/human-review (603★) · A visual tool to edit HTML and Markdown
+  title: 'petergyang/human-review (629★) · A visual tool to edit HTML and Markdown
     files, leave comments like a Google Doc, and send feedback to your AI agent. Works
     inside your favorite AI '
   link: https://github.com/petergyang/human-review
-  date: '2026-08-08'
-- source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (48325★) · LocalAI is the open-source AI engine. Run any model
-    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
-  link: https://github.com/mudler/LocalAI
-  date: '2026-08-08'
-- source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (46767★) · Ultra-lightweight, open-source, self-hosted personal
-    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
-    automation, and ch
-  link: https://github.com/HKUDS/nanobot
-  date: '2026-08-08'
-- source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (46417★) · Open-source super AI assistant & Agent Harness.
-    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model,
-    multi-channel.
-  link: https://github.com/zhayujie/CowAgent
   date: '2026-08-08'
 - source: OpenAI
   title: Responding to the next frontier of critical cyber capabilities
@@ -66,14 +70,18 @@
   title: Toolport
   link: https://www.producthunt.com/products/conduit-12
   date: '2026-08-07'
+- source: Product Hunt
+  title: AgentOne Desktop
+  link: https://www.producthunt.com/products/agentone-desktop
+  date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'FareedKhan-dev/kimi-k3-in-c (3590★) · A 2.78-trillion-parameter Kimi K3
+  title: 'FareedKhan-dev/kimi-k3-in-c (3883★) · A 2.78-trillion-parameter Kimi K3
     running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no
     framework, no GPU.'
   link: https://github.com/FareedKhan-dev/kimi-k3-in-c
   date: '2026-08-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'microsoft/skill-recorder (2482★) · Desktop app that records your on-screen
+  title: 'microsoft/skill-recorder (2547★) · Desktop app that records your on-screen
     work session and uses the GitHub Copilot CLI to reconstruct it as an intent +
     ordered steps, then builds '
   link: https://github.com/microsoft/skill-recorder
@@ -117,16 +125,16 @@
   link: https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything
   date: '2026-08-06'
 - source: Product Hunt
+  title: Prompt Bridge
+  link: https://www.producthunt.com/products/prompt-bridge-2
+  date: '2026-08-06'
+- source: Product Hunt
   title: Soloop
   link: https://www.producthunt.com/products/soloop
   date: '2026-08-06'
 - source: Product Hunt
-  title: HAR
-  link: https://www.producthunt.com/products/har
-  date: '2026-08-06'
-- source: Product Hunt
-  title: Blueberry
-  link: https://www.producthunt.com/products/blueberry-6
+  title: Whop CLI
+  link: https://www.producthunt.com/products/whop-cli
   date: '2026-08-06'
 - source: Hugging Face Papers
   title: 'KVAE: Family of Tokenizers for Multimodal Generative Models'
@@ -149,16 +157,16 @@
   title: Task-Conditional Flow Matching for Balanced Multilingual Text Embedding Adaptation
   link: https://huggingface.co/papers/2608.05785
   date: '2026-08-05'
-- source: Simon Willison
-  title: Introducing Muse Code and Muse Spark 1.2
-  link: https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything
+- source: Product Hunt
+  title: Reference
+  link: https://www.producthunt.com/products/reference-2
   date: '2026-08-05'
 - source: Product Hunt
-  title: Progress AI Observability
-  link: https://www.producthunt.com/products/progress-ai-observability
+  title: StepShot
+  link: https://www.producthunt.com/products/stepshot-2
   date: '2026-08-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'Pan-Chera/Multi-Agent-CAD (467★) · MAC (Multi-Agent CAD): A decoupled multi-agent
+  title: 'Pan-Chera/Multi-Agent-CAD (516★) · MAC (Multi-Agent CAD): A decoupled multi-agent
     framework for text-to-CAD generation via constrained test-time compute'
   link: https://github.com/Pan-Chera/Multi-Agent-CAD
   date: '2026-08-05'
@@ -180,7 +188,12 @@
   link: https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b
   date: '2026-08-04'
 - source: GitHub (trending AI/LLM/Agents)
-  title: rohitg00/ai-engineering-from-scratch (46280★) · Learn it. Build it. Ship
+  title: 0xwilliamortiz/ratchet (438★) · Your agent reads the rules. This checks whether
+    it followed them.
+  link: https://github.com/0xwilliamortiz/ratchet
+  date: '2026-08-04'
+- source: GitHub (trending AI/LLM/Agents)
+  title: rohitg00/ai-engineering-from-scratch (46336★) · Learn it. Build it. Ship
     it for others.
   link: https://github.com/rohitg00/ai-engineering-from-scratch
   date: '2026-08-04'
@@ -213,10 +226,6 @@
   title: Hexis
   link: https://www.producthunt.com/products/bevel-4
   date: '2026-08-03'
-- source: Product Hunt
-  title: Rindler
-  link: https://www.producthunt.com/products/rindler
-  date: '2026-08-03'
 - source: Hugging Face Papers
   title: 'Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting
     Weights to Robots that Write their Own Skills'
@@ -242,10 +251,6 @@
     5 and GPT-5.6 Sol refused our security requests'
   link: https://charonhub.deeplearning.ai/open-models-open-harnesses-open-security/
   date: '2026-07-31'
-- source: Product Hunt
-  title: Nitro 4.0
-  link: https://www.producthunt.com/products/alconost-localization
-  date: '2026-07-31'
 - source: Anthropic
   title: Investigating three real-world incidents in our cybersecurity evaluations
   link: https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
@@ -264,7 +269,7 @@
   link: https://huggingface.co/blog/Dharma-AI/gpu-management
   date: '2026-07-30'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'jeecgboot/JeecgBoot (47324★) · 【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+  title: 'jeecgboot/JeecgBoot (47334★) · 【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
     AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
     生成 → 在线配置 '
   link: https://github.com/jeecgboot/JeecgBoot
@@ -326,14 +331,6 @@
     2026 Incident'
   link: https://huggingface.co/blog/agent-intrusion-technical-timeline
   date: '2026-07-27'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'Kimi K3: Open Frontier Intelligence'
-  link: https://arxiv.org/abs/2607.24653v1
-  date: '2026-07-27'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 0xwilliamortiz/openclaude-improved (569★) · runs anywhere. uses anything
-  link: https://github.com/0xwilliamortiz/openclaude-improved
-  date: '2026-07-26'
 - source: antirez
   title: Being Linux Torvalds
   link: http://antirez.com/news/171
@@ -502,14 +499,6 @@
   title: Sequoia Ascent 2026 summary
   link: https://karpathy.bearblog.dev/sequoia-ascent-2026/
   date: '2026-04-30'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents'
-  link: https://arxiv.org/abs/2604.26752v3
-  date: '2026-04-29'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence'
-  link: https://arxiv.org/abs/2606.19348v1
-  date: '2026-04-26'
 - source: One Useful Thing
   title: 'Sign of the future: GPT-5.5'
   link: https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55
@@ -518,10 +507,6 @@
   title: My Workflow for Understanding LLM Architectures
   link: https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms
   date: '2026-04-18'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: Qwen3.5-Omni Technical Report
-  link: https://arxiv.org/abs/2604.15804v2
-  date: '2026-04-17'
 - source: antirez
   title: AI cybersecurity is not proof of work
   link: http://antirez.com/news/163
@@ -538,10 +523,6 @@
   title: A Visual Guide to Attention Variants in Modern LLMs
   link: https://magazine.sebastianraschka.com/p/visual-attention-variants
   date: '2026-03-22'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: Attention Residuals
-  link: https://arxiv.org/abs/2603.15031v1
-  date: '2026-03-16'
 - source: One Useful Thing
   title: The Shape of the Thing
   link: https://www.oneusefulthing.org/p/the-shape-of-the-thing
@@ -554,10 +535,6 @@
   title: A Guide to Which AI to Use in the Agentic Era
   link: https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the
   date: '2026-02-18'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'Kimi K2.5: Visual Agentic Intelligence'
-  link: https://arxiv.org/abs/2602.02276v1
-  date: '2026-02-02'
 - source: One Useful Thing
   title: Management as AI superpower
   link: https://www.oneusefulthing.org/p/management-as-ai-superpower
@@ -582,10 +559,6 @@
   title: Auto-grading decade-old Hacker News discussions with hindsight
   link: https://karpathy.bearblog.dev/auto-grade-hn/
   date: '2025-12-10'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models'
-  link: https://arxiv.org/abs/2512.02556v1
-  date: '2025-12-02'
 - source: Andrej Karpathy
   title: The space of minds
   link: https://karpathy.bearblog.dev/the-space-of-minds/
@@ -594,22 +567,10 @@
   title: Verifiability
   link: https://karpathy.bearblog.dev/verifiability/
   date: '2025-11-17'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'Kimi Linear: An Expressive, Efficient Attention Architecture'
-  link: https://arxiv.org/abs/2510.26692v2
-  date: '2025-10-30'
 - source: Andrej Karpathy
   title: Animals vs Ghosts
   link: https://karpathy.bearblog.dev/animals-vs-ghosts/
   date: '2025-10-01'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models'
-  link: https://arxiv.org/abs/2508.06471v1
-  date: '2025-08-08'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'Kimi K2: Open Agentic Intelligence'
-  link: https://arxiv.org/abs/2507.20534v2
-  date: '2025-07-28'
 - source: Andrej Karpathy
   title: Vibe coding MenuGen
   link: https://karpathy.bearblog.dev/vibe-coding-menugen/
