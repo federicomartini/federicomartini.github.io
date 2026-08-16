@@ -1,17 +1,14 @@
 - source: Simon Willison
+  title: CORS Chat
+  link: https://simonwillison.net/2026/Aug/15/cors-chat/
+  date: '2026-08-15'
+- source: Simon Willison
   title: Northern Gannet
   link: https://simonwillison.net/2026/Aug/15/sighting-391300422/
   date: '2026-08-15'
-- source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (48471★) · LocalAI is the open-source AI engine. Run any model
-    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
-  link: https://github.com/mudler/LocalAI
-  date: '2026-08-15'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'diegosouzapw/OmniRoute (48140★) · Never stop coding. Free MIT AI gateway:
-    one endpoint, 339 providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini,
-    GLM, DeepSeek, MiniMax. '
-  link: https://github.com/diegosouzapw/OmniRoute
+- source: Ahead of AI
+  title: Building an AI Text Detector From Scratch
+  link: https://magazine.sebastianraschka.com/p/ai-detector-from-scratch
   date: '2026-08-15'
 - source: Anthropic
   title: How Claude’s text watermark works
@@ -31,31 +28,8 @@
   link: https://charonhub.deeplearning.ai/the-ai-engineering-skills-map/
   date: '2026-08-14'
 - source: Product Hunt
-  title: Basedash Tasks
-  link: https://www.producthunt.com/products/basedash
-  date: '2026-08-14'
-- source: GitHub (trending AI/LLM/Agents)
-  title: Leutenegger/book-to-skill (1080★) · Turn any technical book PDF into a Claude
-    Code skill — ready to study, reference, and use while you work.
-  link: https://github.com/Leutenegger/book-to-skill
-  date: '2026-08-14'
-- source: GitHub (trending AI/LLM/Agents)
-  title: fuxicodex/Fuxi (570★) · FuXi is a fast, self-contained AI coding agent that
-    lives in your terminal — edit code, run commands, and drive tools, with cost-aware
-    routing across LLM pr
-  link: https://github.com/fuxicodex/Fuxi
-  date: '2026-08-14'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'jeecgboot/JeecgBoot (47397★) · 【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
-    AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
-    生成 → 在线配置 '
-  link: https://github.com/jeecgboot/JeecgBoot
-  date: '2026-08-14'
-- source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (47007★) · Ultra-lightweight, open-source, self-hosted personal
-    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
-    automation, and ch
-  link: https://github.com/HKUDS/nanobot
+  title: GLM-5.3
+  link: https://www.producthunt.com/products/z-ai
   date: '2026-08-14'
 - source: OpenAI
   title: The builder’s guide to GPT‑5.6
@@ -114,19 +88,6 @@
   title: min.
   link: https://www.producthunt.com/products/min-4
   date: '2026-08-13'
-- source: Product Hunt
-  title: Gemini 3.7 Flash
-  link: https://www.producthunt.com/products/gemini-3-7-flash
-  date: '2026-08-13'
-- source: Product Hunt
-  title: Kin Health
-  link: https://www.producthunt.com/products/kin-health
-  date: '2026-08-13'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'deepseek-ai/deepseek-harness (101561★) · DeepSeek Harness: Everything is
-    a Plugin.'
-  link: https://github.com/deepseek-ai/deepseek-harness
-  date: '2026-08-13'
 - source: OpenAI
   title: 'From assistance to execution: How enterprises put AI to work'
   link: https://openai.com/index/how-enterprises-put-ai-to-work
@@ -174,17 +135,12 @@
   link: https://simonwillison.net/2026/Aug/12/florian-herrengt/
   date: '2026-08-12'
 - source: Product Hunt
-  title: Munder Difflin
-  link: https://www.producthunt.com/products/munder-difflin
+  title: nenspace
+  link: https://www.producthunt.com/products/nenspace
   date: '2026-08-12'
 - source: Product Hunt
-  title: ThreadPort
-  link: https://www.producthunt.com/products/threadport
-  date: '2026-08-12'
-- source: GitHub (trending AI/LLM/Agents)
-  title: SaladDay/pi-from-scratch (986★) · 600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的
-    pi-agent
-  link: https://github.com/SaladDay/pi-from-scratch
+  title: Munder Difflin
+  link: https://www.producthunt.com/products/munder-difflin
   date: '2026-08-12'
 - source: OpenAI
   title: Testing ads in ChatGPT
@@ -212,17 +168,9 @@
   title: 'AVA-Encoder: Towards Agent-Native Video Representation Learning'
   link: https://huggingface.co/papers/2608.12313
   date: '2026-08-11'
-- source: Simon Willison
-  title: There are no lossless transformations of natural-language text
-  link: https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/
-  date: '2026-08-11'
 - source: Product Hunt
-  title: Mem Agent
-  link: https://www.producthunt.com/products/mem-2-0
-  date: '2026-08-11'
-- source: Product Hunt
-  title: apra-fleet
-  link: https://www.producthunt.com/products/apra-fleet
+  title: Inferock Bench
+  link: https://www.producthunt.com/products/inferock-bench
   date: '2026-08-11'
 - source: OpenAI
   title: OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas
@@ -265,17 +213,6 @@
   title: Thought-Level Beam Search for Reasoning
   link: https://huggingface.co/papers/2608.08020
   date: '2026-08-10'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'sv-number/mcp-server (592★) · MCP server for AI agents that need a phone
-    number: order a private number in 200+ countries, read the SMS verification code,
-    hand it back. The widest '
-  link: https://github.com/sv-number/mcp-server
-  date: '2026-08-10'
-- source: GitHub (trending AI/LLM/Agents)
-  title: rohitg00/ai-engineering-from-scratch (46759★) · Learn it. Build it. Ship
-    it for others.
-  link: https://github.com/rohitg00/ai-engineering-from-scratch
-  date: '2026-08-10'
 - source: Hugging Face Papers
   title: 'RibAssist 3D: Biplanar Rib-Fracture Detection, Addressing, and Selective
     3D Localization from CT-Derived Projections'
@@ -285,9 +222,17 @@
   title: 'From Inaudible Inputs to Model Failures: Low-Frequency Safety Risks in LALMs'
   link: https://huggingface.co/papers/2608.09158
   date: '2026-08-09'
+- source: Product Hunt
+  title: Attyn
+  link: https://www.producthunt.com/products/attyn
+  date: '2026-08-09'
 - source: Hugging Face Papers
   title: Mitigating Gender Bias in English to Romanian Machine Translation
   link: https://huggingface.co/papers/2608.08606
+  date: '2026-08-08'
+- source: Product Hunt
+  title: Zetik
+  link: https://www.producthunt.com/products/zetik
   date: '2026-08-08'
 - source: Anthropic
   title: Improving Fable 5's biology safeguards
@@ -430,6 +375,10 @@
   title: Our approach to bioresilience
   link: https://deepmind.google/blog/our-approach-to-bioresilience/
   date: '2026-07-16'
+- source: Product Hunt
+  title: Big Mike
+  link: https://www.producthunt.com/products/big-mike
+  date: '2026-07-14'
 - source: antirez
   title: Control the ideas, not the code
   link: http://antirez.com/news/169
@@ -557,10 +506,6 @@
   title: Categories of Inference-Time Scaling for Improved LLM Reasoning
   link: https://magazine.sebastianraschka.com/p/categories-of-inference-time-scaling
   date: '2026-01-24'
-- source: Ahead of AI
-  title: 'The State Of LLMs 2025: Progress, Problems, and Predictions'
-  link: https://magazine.sebastianraschka.com/p/state-of-llms-2025
-  date: '2025-12-30'
 - source: Andrej Karpathy
   title: 2025 LLM Year in Review
   link: https://karpathy.bearblog.dev/year-in-review-2025/
