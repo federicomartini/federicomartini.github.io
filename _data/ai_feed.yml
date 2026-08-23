@@ -1,28 +1,56 @@
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'CopilotKit/OpenBot (2176★) · Open-source AI coworkers that each get a computer
+  title: 'yjh051108/dsh-routing-suite (6663★) · dsh-routing-suite — injector + router-standard
+    kit: install the runtime injector first, then the task-aware reasoning-mode router
+    preset (meas'
+  link: https://github.com/yjh051108/dsh-routing-suite
+  date: '2026-08-23'
+- source: GitHub (trending AI/LLM/Agents)
+  title: mudler/LocalAI (48627★) · LocalAI is the open-source AI engine. Run any model
+    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
+  link: https://github.com/mudler/LocalAI
+  date: '2026-08-23'
+- source: GitHub (trending AI/LLM/Agents)
+  title: HKUDS/nanobot (47289★) · Ultra-lightweight, open-source, self-hosted personal
+    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
+    automation, and ch
+  link: https://github.com/HKUDS/nanobot
+  date: '2026-08-23'
+- source: GitHub (trending AI/LLM/Agents)
+  title: zhayujie/CowAgent (46636★) · Open-source super AI assistant & Agent Harness.
+    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model,
+    multi-channel.
+  link: https://github.com/zhayujie/CowAgent
+  date: '2026-08-23'
+- source: Simon Willison
+  title: Quoting Linus Torvalds
+  link: https://simonwillison.net/2026/Aug/22/linus-torvalds/
+  date: '2026-08-22'
+- source: Simon Willison
+  title: llm 0.33
+  link: https://simonwillison.net/2026/Aug/22/llm/
+  date: '2026-08-22'
+- source: Simon Willison
+  title: More than just code review
+  link: https://simonwillison.net/2026/Aug/22/more-than-just-code-review/
+  date: '2026-08-22'
+- source: Ahead of AI
+  title: How Claude Watermarks AI-Generated Text
+  link: https://magazine.sebastianraschka.com/p/claude-watermarking
+  date: '2026-08-22'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'CopilotKit/OpenBot (2361★) · Open-source AI coworkers that each get a computer
     of their own: a browser, files and tools, with every action decided before it
     happens and recorded af'
   link: https://github.com/CopilotKit/OpenBot
   date: '2026-08-22'
 - source: GitHub (trending AI/LLM/Agents)
-  title: dataelement/dsh-desktop (1638★) · DSHDesktop：DeepSeek Harness Desktop
+  title: dataelement/dsh-desktop (1864★) · DSHDesktop：DeepSeek Harness Desktop
   link: https://github.com/dataelement/dsh-desktop
   date: '2026-08-22'
 - source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (48615★) · LocalAI is the open-source AI engine. Run any model
-    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
-  link: https://github.com/mudler/LocalAI
-  date: '2026-08-22'
-- source: GitHub (trending AI/LLM/Agents)
-  title: rohitg00/ai-engineering-from-scratch (47570★) · Learn it. Build it. Ship
+  title: rohitg00/ai-engineering-from-scratch (47666★) · Learn it. Build it. Ship
     it for others.
   link: https://github.com/rohitg00/ai-engineering-from-scratch
-  date: '2026-08-22'
-- source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (47268★) · Ultra-lightweight, open-source, self-hosted personal
-    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
-    automation, and ch
-  link: https://github.com/HKUDS/nanobot
   date: '2026-08-22'
 - source: Google DeepMind
   title: 'From Atari to EVE Online: Building on 15 Years of AI Research in Games'
@@ -54,23 +82,30 @@
   link: https://charonhub.deeplearning.ai/he-ai-engineering-skills-map-in-detail-building-and-deploying-ai-applications/
   date: '2026-08-21'
 - source: Product Hunt
-  title: ShogunAI
-  link: https://www.producthunt.com/products/shogunai
+  title: Pocket by Meta
+  link: https://www.producthunt.com/products/pocket-by-meta
+  date: '2026-08-21'
+- source: Product Hunt
+  title: AutoClaw
+  link: https://www.producthunt.com/products/z-ai
+  date: '2026-08-21'
+- source: Product Hunt
+  title: Port Radar for macOS
+  link: https://www.producthunt.com/products/port-radar-for-macos
   date: '2026-08-21'
 - source: Product Hunt
   title: Project SKY
   link: https://www.producthunt.com/products/project-sky
   date: '2026-08-21'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'deepseek-ai/deepseek-harness (182283★) · DeepSeek Harness: Everything is
+  title: 'deepseek-ai/deepseek-harness (185802★) · DeepSeek Harness: Everything is
     a Plugin.'
   link: https://github.com/deepseek-ai/deepseek-harness
   date: '2026-08-21'
 - source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (46630★) · Open-source super AI assistant & Agent Harness.
-    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model,
-    multi-channel.
-  link: https://github.com/zhayujie/CowAgent
+  title: wang2122/sprix-sage-router (1243★) · Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF
+    routing for A2A agent networks.
+  link: https://github.com/wang2122/sprix-sage-router
   date: '2026-08-21'
 - source: OpenAI
   title: Introducing AI Futures
@@ -101,12 +136,12 @@
   link: https://simonwillison.net/2026/Aug/20/bun-webview-json-api/
   date: '2026-08-20'
 - source: Product Hunt
-  title: Wizstar
-  link: https://www.producthunt.com/products/wizstar
+  title: Zero
+  link: https://www.producthunt.com/products/zero-15
   date: '2026-08-20'
 - source: Product Hunt
-  title: PixelRead AI OCR
-  link: https://www.producthunt.com/products/pixelread-ai-ocr
+  title: KerasFormers
+  link: https://www.producthunt.com/products/kerasformers
   date: '2026-08-20'
 - source: Product Hunt
   title: Flunkey
@@ -116,16 +151,8 @@
   title: Local
   link: https://www.producthunt.com/products/local-7
   date: '2026-08-20'
-- source: Product Hunt
-  title: Router by Ramp
-  link: https://www.producthunt.com/products/ramp-router
-  date: '2026-08-20'
-- source: Product Hunt
-  title: fx (by Vercel)
-  link: https://www.producthunt.com/products/fx-by-vercel
-  date: '2026-08-20'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'jeecgboot/JeecgBoot (47435★) · 【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+  title: 'jeecgboot/JeecgBoot (47443★) · 【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
     AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
     生成 → 在线配置 '
   link: https://github.com/jeecgboot/JeecgBoot
@@ -156,18 +183,6 @@
 - source: Simon Willison
   title: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript
   link: https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/
-  date: '2026-08-19'
-- source: Simon Willison
-  title: Quoting Jeremy Morrell
-  link: https://simonwillison.net/2026/Aug/19/jeremy-morrell/
-  date: '2026-08-19'
-- source: Simon Willison
-  title: Conceptual integrity and counting lines of code
-  link: https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/
-  date: '2026-08-19'
-- source: Product Hunt
-  title: Plow Latch
-  link: https://www.producthunt.com/products/plow-latch
   date: '2026-08-19'
 - source: OpenAI
   title: ChatGPT Ads expands across Europe
@@ -214,15 +229,6 @@
     Accuracy Cannot See'
   link: https://huggingface.co/papers/2608.17744
   date: '2026-08-18'
-- source: Simon Willison
-  title: Mojo🔥 is now open source
-  link: https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/
-  date: '2026-08-18'
-- source: GitHub (trending AI/LLM/Agents)
-  title: SaladDay/pi-from-scratch (1100★) · 600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的
-    pi-agent
-  link: https://github.com/SaladDay/pi-from-scratch
-  date: '2026-08-18'
 - source: MIT Technology Review
   title: What Flock’s defenders are missing
   link: https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/
@@ -248,6 +254,10 @@
   title: Building an AI Text Detector From Scratch
   link: https://magazine.sebastianraschka.com/p/ai-detector-from-scratch
   date: '2026-08-15'
+- source: Product Hunt
+  title: SubtitleGenerator
+  link: https://www.producthunt.com/products/subtitlegenerator
+  date: '2026-08-15'
 - source: Anthropic
   title: How Claude’s text watermark works
   link: https://www.anthropic.com/news/claude-text-watermark
@@ -261,10 +271,9 @@
     Essential Skills Every AI Engineer Needs in 2026'
   link: https://charonhub.deeplearning.ai/the-ai-engineering-skills-map/
   date: '2026-08-14'
-- source: GitHub (trending AI/LLM/Agents)
-  title: Leutenegger/book-to-skill (1225★) · Turn any technical book PDF into a Claude
-    Code skill — ready to study, reference, and use while you work.
-  link: https://github.com/Leutenegger/book-to-skill
+- source: Product Hunt
+  title: Agents Never Sleep
+  link: https://www.producthunt.com/products/agents-never-sleep
   date: '2026-08-14'
 - source: Google DeepMind
   title: Introducing Gemini 3.7 Flash
@@ -316,10 +325,6 @@
 - source: Hugging Face Blog
   title: Thinking of ACE? We Can Do It with Fewer Tokens
   link: https://huggingface.co/blog/ibm-research/altk-evolve-sldd
-  date: '2026-08-11'
-- source: Product Hunt
-  title: Supernova
-  link: https://www.producthunt.com/products/supernova-ai
   date: '2026-08-11'
 - source: MIT Technology Review
   title: AI professors are negotiating the new realities of academic research
@@ -560,10 +565,6 @@
   title: Management as AI superpower
   link: https://www.oneusefulthing.org/p/management-as-ai-superpower
   date: '2026-01-27'
-- source: Ahead of AI
-  title: Categories of Inference-Time Scaling for Improved LLM Reasoning
-  link: https://magazine.sebastianraschka.com/p/categories-of-inference-time-scaling
-  date: '2026-01-24'
 - source: Andrej Karpathy
   title: 2025 LLM Year in Review
   link: https://karpathy.bearblog.dev/year-in-review-2025/
