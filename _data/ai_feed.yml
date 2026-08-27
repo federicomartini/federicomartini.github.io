@@ -1,4 +1,85 @@
 - source: OpenAI
+  title: 'Better answers, broader thinking: What students gain from ChatGPT and critical-thinking
+    training'
+  link: https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training
+  date: '2026-08-27'
+- source: OpenAI
+  title: Expanding OpenAI’s presence in Brazil
+  link: https://openai.com/index/expanding-our-presence-in-brazil
+  date: '2026-08-27'
+- source: Google DeepMind
+  title: Gemini Omni 1.1 Flash lets you build with more control
+  link: https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/
+  date: '2026-08-27'
+- source: Google DeepMind
+  title: Piloting the world's first double-blind AI evaluations
+  link: https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/
+  date: '2026-08-27'
+- source: Product Hunt
+  title: Wondering Canvas
+  link: https://www.producthunt.com/products/wondering-2
+  date: '2026-08-27'
+- source: Product Hunt
+  title: IQ Routing
+  link: https://www.producthunt.com/products/iq-routing
+  date: '2026-08-27'
+- source: Product Hunt
+  title: Pluto
+  link: https://www.producthunt.com/products/pluto-11
+  date: '2026-08-27'
+- source: OpenAI
+  title: Bringing ChatGPT for Teachers to more U.S. school districts
+  link: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts
+  date: '2026-08-26'
+- source: OpenAI
+  title: 'Learning never stops: How AI makes learning continuous'
+  link: https://openai.com/index/learning-never-stops
+  date: '2026-08-26'
+- source: OpenAI
+  title: The Hugging Face incident and the road ahead
+  link: https://openai.com/index/hugging-face-incident-and-the-road-ahead
+  date: '2026-08-26'
+- source: OpenAI
+  title: How loveholidays is making everyone a builder with Codex
+  link: https://openai.com/index/loveholidays
+  date: '2026-08-26'
+- source: Google DeepMind
+  title: Intelligent transcription with Gemini 3.5 Transcribe
+  link: https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/
+  date: '2026-08-26'
+- source: MIT Technology Review
+  title: The inside story on why OpenAI agents hacked Hugging Face
+  link: https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/
+  date: '2026-08-26'
+- source: MIT Technology Review
+  title: Raised on AI
+  link: https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/
+  date: '2026-08-26'
+- source: MIT Technology Review
+  title: AI models flub these intelligence tests. Can you fare any better?
+  link: https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/
+  date: '2026-08-26'
+- source: MIT Technology Review
+  title: Bill Gates says we’ve passed AI’s danger thresholds. Now what?
+  link: https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/
+  date: '2026-08-26'
+- source: Hugging Face Blog
+  title: Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers
+  link: https://huggingface.co/blog/train-multi-vector-encoder
+  date: '2026-08-26'
+- source: Simon Willison
+  title: Qwen3.8-Flash-Next
+  link: https://simonwillison.net/2026/Aug/26/qwen38-flash-next/
+  date: '2026-08-26'
+- source: Simon Willison
+  title: Quoting Paul Dix
+  link: https://simonwillison.net/2026/Aug/26/paul-dix/
+  date: '2026-08-26'
+- source: Product Hunt
+  title: GitNexus (Akon Labs)
+  link: https://www.producthunt.com/products/gitnexus-akon-labs
+  date: '2026-08-26'
+- source: OpenAI
   title: The full stack behind abundant intelligence
   link: https://openai.com/index/the-full-stack-behind-abundant-intelligence
   date: '2026-08-25'
@@ -36,14 +117,23 @@
   title: 'Wire It, Run It, Deploy It: AI Workflows in Gradio'
   link: https://huggingface.co/blog/gradio-workflow-guide
   date: '2026-08-25'
+- source: Hugging Face Papers
+  title: 'Skill Issue: Are Skills Language-Invariant in LLMs?'
+  link: https://huggingface.co/papers/2608.25832
+  date: '2026-08-25'
+- source: Hugging Face Papers
+  title: Prefix Sliding for efficient test-time scaling
+  link: https://huggingface.co/papers/2608.26070
+  date: '2026-08-25'
+- source: Hugging Face Papers
+  title: 'RetrievalRouter: Joint Modality and Architecture Selection for Document
+    Retrieval'
+  link: https://huggingface.co/papers/2608.25625
+  date: '2026-08-25'
 - source: Simon Willison
   title: 'EVE Online: The Move to Python 3 Begins!'
   link: https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/
   date: '2026-08-25'
-- source: OpenAI
-  title: Advancing price-performance for developers with GPT‑5.6 in Kiro
-  link: https://openai.com/index/gpt-5-6-in-kiro
-  date: '2026-08-24'
 - source: MIT Technology Review
   title: How to encourage smarter AI use in the classroom
   link: https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/
@@ -53,33 +143,13 @@
   link: https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/
   date: '2026-08-24'
 - source: Hugging Face Papers
-  title: 'Game2World Engine: Unlocking In-the-Wild Gameplay Videos for World Model
-    Training'
-  link: https://huggingface.co/papers/2608.24680
+  title: 'LibriBrain100: One Hundred Hours of Broad and Deep MEG Data for Neural Speech
+    Decoding at Scale'
+  link: https://huggingface.co/papers/2608.25204
   date: '2026-08-24'
 - source: Hugging Face Papers
-  title: 'From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms'
-  link: https://huggingface.co/papers/2608.24877
-  date: '2026-08-24'
-- source: Hugging Face Papers
-  title: 'LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training'
-  link: https://huggingface.co/papers/2608.24845
-  date: '2026-08-24'
-- source: Hugging Face Papers
-  title: 'WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report'
-  link: https://huggingface.co/papers/2608.24053
-  date: '2026-08-24'
-- source: Hugging Face Papers
-  title: 'TorchMorph: CUDA-accelerated Morphological Transforms'
-  link: https://huggingface.co/papers/2608.24738
-  date: '2026-08-24'
-- source: Hugging Face Papers
-  title: Best Practice Critic Optimization
-  link: https://huggingface.co/papers/2608.23566
-  date: '2026-08-24'
-- source: Hugging Face Papers
-  title: On-policy Distillation with Verifiable Reward
-  link: https://huggingface.co/papers/2608.24696
+  title: 'The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents'
+  link: https://huggingface.co/papers/2608.24358
   date: '2026-08-24'
 - source: Simon Willison
   title: llm-anthropic 0.27
@@ -89,14 +159,15 @@
   title: Your executable is a SQLite database
   link: https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/
   date: '2026-08-24'
-- source: Product Hunt
-  title: session-indexer
-  link: https://www.producthunt.com/products/session-indexer
-  date: '2026-08-24'
 - source: Hugging Face Papers
-  title: 'AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent
-    Execution Traces'
-  link: https://huggingface.co/papers/2608.23041
+  title: 'SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository
+    Stack Migration?'
+  link: https://huggingface.co/papers/2608.23564
+  date: '2026-08-23'
+- source: Hugging Face Papers
+  title: Is Next-Chunk Reasoning RL Really Better than SFT? Revisiting Training Strategies
+    under no-CoT Data
+  link: https://huggingface.co/papers/2608.23256
   date: '2026-08-23'
 - source: Simon Willison
   title: Anthropic’s best AI model struggles to attract users as cheaper tools thrive
@@ -106,18 +177,6 @@
   title: Quoting Drew Breunig
   link: https://simonwillison.net/2026/Aug/23/drew-breunig/
   date: '2026-08-23'
-- source: Product Hunt
-  title: Agnost AI
-  link: https://www.producthunt.com/products/agnost-ai
-  date: '2026-08-23'
-- source: Product Hunt
-  title: Purchase API by Agentcard
-  link: https://www.producthunt.com/products/agent-card
-  date: '2026-08-23'
-- source: Hugging Face Papers
-  title: Length-Adaptive Decoding for Masked Diffusion Machine Translation
-  link: https://huggingface.co/papers/2608.22274
-  date: '2026-08-22'
 - source: Simon Willison
   title: Quoting Linus Torvalds
   link: https://simonwillison.net/2026/Aug/22/linus-torvalds/
@@ -135,8 +194,8 @@
   link: https://magazine.sebastianraschka.com/p/claude-watermarking
   date: '2026-08-22'
 - source: Product Hunt
-  title: Diet Claude
-  link: https://www.producthunt.com/products/diet-claude
+  title: Traccia
+  link: https://www.producthunt.com/products/traccia
   date: '2026-08-22'
 - source: Google DeepMind
   title: 'From Atari to EVE Online: Building on 15 Years of AI Research in Games'
@@ -151,27 +210,15 @@
   title: Measuring benchmark optimization in speech recognition
   link: https://huggingface.co/blog/asr-benchmark-optimization
   date: '2026-08-21'
-- source: Simon Willison
-  title: llm 0.32.1
-  link: https://simonwillison.net/2026/Aug/21/llm/
-  date: '2026-08-21'
-- source: Simon Willison
-  title: llm-openrouter 0.7
-  link: https://simonwillison.net/2026/Aug/21/llm-openrouter/
+- source: Hugging Face Papers
+  title: 'Real-TurnTurk: A Multimodal Turkish Corpus for Turn-Taking Prediction'
+  link: https://huggingface.co/papers/2608.22071
   date: '2026-08-21'
 - source: Andrew Ng
   title: 'The AI Engineering Skills Map In Detail — Building and Deploying AI Applications:
     What You Need to Know to Make AI Applications Work in Real Life'
   link: https://charonhub.deeplearning.ai/he-ai-engineering-skills-map-in-detail-building-and-deploying-ai-applications/
   date: '2026-08-21'
-- source: OpenAI
-  title: Introducing AI Futures
-  link: https://openai.com/index/introducing-ai-futures
-  date: '2026-08-20'
-- source: OpenAI
-  title: Stampli cuts launch hours by 68% using ChatGPT Work
-  link: https://openai.com/index/stampli
-  date: '2026-08-20'
 - source: MIT Technology Review
   title: Debates over AI consciousness are a trap
   link: https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/
@@ -184,34 +231,18 @@
   title: Up to 3.2x Faster Inference with LFM2.5-DSpark
   link: https://huggingface.co/blog/LiquidAI/lfm25-dspark
   date: '2026-08-20'
-- source: Product Hunt
-  title: Assistly
-  link: https://www.producthunt.com/products/assistly-4
-  date: '2026-08-20'
-- source: OpenAI
-  title: Offering Zero Data Retention for frontier models
-  link: https://openai.com/index/offering-zero-data-retention-for-frontier-models
-  date: '2026-08-19'
-- source: OpenAI
-  title: Replit expands access to software creation with GPT-5.6 Luna
-  link: https://openai.com/index/replit
-  date: '2026-08-19'
 - source: Hugging Face Papers
-  title: 'Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for
-    Video MLLMs'
-  link: https://huggingface.co/papers/2608.20492
-  date: '2026-08-19'
-- source: OpenAI
-  title: ChatGPT Ads expands across Europe
-  link: https://openai.com/index/chatgpt-ads-expands-across-europe
-  date: '2026-08-18'
+  title: A Modular Agent for Reliable and Auditable Spatial Relation Verification
+    in CT Scans
+  link: https://huggingface.co/papers/2608.21140
+  date: '2026-08-20'
+- source: Product Hunt
+  title: Enter Pro
+  link: https://www.producthunt.com/products/enter-pro
+  date: '2026-08-20'
 - source: MIT Technology Review
   title: We still don’t know how people are really using AI
   link: https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/
-  date: '2026-08-18'
-- source: MIT Technology Review
-  title: AI’s recursive self-improvement might not come so quickly after all
-  link: https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/
   date: '2026-08-18'
 - source: Hugging Face Blog
   title: How Much Memory Does Your Agent Actually Need?
@@ -221,14 +252,6 @@
   title: Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers
   link: https://huggingface.co/blog/multi-vector-encoder
   date: '2026-08-18'
-- source: MIT Technology Review
-  title: What Flock’s defenders are missing
-  link: https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/
-  date: '2026-08-17'
-- source: MIT Technology Review
-  title: What happens when a kid’s robot best friend dies?
-  link: https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/
-  date: '2026-08-17'
 - source: Hugging Face Blog
   title: 'Same Cluster, 33 Points More Utilization: What Changed Was the Order'
   link: https://huggingface.co/blog/Dharma-AI/gpu-management-pt2
@@ -241,10 +264,6 @@
   title: How Claude’s text watermark works
   link: https://www.anthropic.com/news/claude-text-watermark
   date: '2026-08-14'
-- source: Hugging Face Blog
-  title: 'State of Open Models: Summer 2026 Observations'
-  link: https://huggingface.co/blog/state-of-open-models-summer-2026
-  date: '2026-08-14'
 - source: Andrew Ng
   title: 'The AI Engineering Skills Map: Andrew Ng and DeepLearning.AI Present the
     Essential Skills Every AI Engineer Needs in 2026'
@@ -254,22 +273,10 @@
   title: Introducing Gemini 3.7 Flash
   link: https://deepmind.google/blog/introducing-gemini-3-7-flash/
   date: '2026-08-13'
-- source: MIT Technology Review
-  title: Flock is tightening its rules in response to a growing surveillance backlash
-  link: https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/
-  date: '2026-08-13'
-- source: Product Hunt
-  title: Ninjō AI
-  link: https://www.producthunt.com/products/ninjo-ai
-  date: '2026-08-13'
 - source: Google DeepMind
   title: Putting sign language AI into users’ hands
   link: https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/
   date: '2026-08-12'
-- source: Product Hunt
-  title: Jotform AI Data Assistant
-  link: https://www.producthunt.com/products/jotform
-  date: '2026-08-11'
 - source: Anthropic
   title: Improving Fable 5's biology safeguards
   link: https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
@@ -283,15 +290,15 @@
   title: 'WeatherNext: AI model achieves breakthrough in forecasting cyclones'
   link: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
   date: '2026-08-06'
-- source: Product Hunt
-  title: akta.pro
-  link: https://www.producthunt.com/products/akta-pro
-  date: '2026-08-06'
 - source: Anthropic
   title: Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs
     Officer
   link: https://www.anthropic.com/news/tino-cuellar
   date: '2026-08-04'
+- source: Product Hunt
+  title: Skydive
+  link: https://www.producthunt.com/products/skydive
+  date: '2026-08-03'
 - source: Andrew Ng
   title: 'Open Models, Open Harnesses, Open Security: What we did when Claude Fable
     5 and GPT-5.6 Sol refused our security requests'
@@ -306,14 +313,14 @@
     and multi-robot collaboration'
   link: https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/
   date: '2026-07-30'
+- source: Hugging Face Papers
+  title: Pushing the Limits of High-Resolution Weather Forecasting through Data Scaling
+  link: https://huggingface.co/papers/2608.14652
+  date: '2026-07-30'
 - source: Google DeepMind
   title: We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality,
     lyrics, vocals, and creative control
   link: https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/
-  date: '2026-07-29'
-- source: Product Hunt
-  title: Hacktron Automations
-  link: https://www.producthunt.com/products/hacktron
   date: '2026-07-29'
 - source: Google DeepMind
   title: Gemini Robotics 2 brings whole body intelligence to robots
@@ -361,27 +368,14 @@
   title: Ask Claude about the Anthropic Economic Index
   link: https://www.anthropic.com/news/anthropic-economic-index-connector
   date: '2026-07-22'
-- source: Google DeepMind
-  title: 'Accelerating the frontiers of scientific discovery: Google’s $40M commitment
-    to the Genesis Mission'
-  link: https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/
-  date: '2026-07-22'
 - source: antirez
   title: Not just development, distribution of software may change as well
   link: http://antirez.com/news/170
   date: '2026-07-22'
-- source: Google DeepMind
-  title: Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber
-  link: https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/
-  date: '2026-07-21'
 - source: Ahead of AI
   title: Controlling Reasoning Effort in LLMs
   link: https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms
   date: '2026-07-18'
-- source: Google DeepMind
-  title: Introducing Gemini 3.5 Flash Cyber
-  link: https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/
-  date: '2026-07-17'
 - source: Andrew Ng
   title: 'AI Rewards Generalists Who Can Build New Skills: With AI assistance, full-stack
     engineers are joined by full-stack recruiters, full-cycle marketers, and more.'
@@ -391,10 +385,18 @@
   title: Control the ideas, not the code
   link: http://antirez.com/news/169
   date: '2026-07-13'
+- source: Product Hunt
+  title: Ojin
+  link: https://www.producthunt.com/products/ojin
+  date: '2026-07-08'
 - source: One Useful Thing
   title: The twilight of the chatbots
   link: https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots
   date: '2026-06-30'
+- source: Product Hunt
+  title: Kira Community
+  link: https://www.producthunt.com/products/kira-art
+  date: '2026-06-29'
 - source: Ahead of AI
   title: Using Local Coding Agents
   link: https://magazine.sebastianraschka.com/p/using-local-coding-agents
@@ -403,10 +405,6 @@
   title: What it feels like to work with Mythos
   link: https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos
   date: '2026-06-09'
-- source: Product Hunt
-  title: Nimbia
-  link: https://www.producthunt.com/products/nimbia
-  date: '2026-06-08'
 - source: antirez
   title: A new era for software testing
   link: http://antirez.com/news/168
@@ -476,6 +474,10 @@
   title: Components of A Coding Agent
   link: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent
   date: '2026-04-04'
+- source: Product Hunt
+  title: Lenz
+  link: https://www.producthunt.com/products/lenz-2
+  date: '2026-04-01'
 - source: One Useful Thing
   title: Claude Dispatch and the Power of Interfaces
   link: https://www.oneusefulthing.org/p/claude-dispatch-and-the-power-of
