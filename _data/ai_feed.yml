@@ -1,49 +1,39 @@
 - source: OpenAI
+  title: Our decision on Cursor following its acquisition by SpaceX
+  link: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex
+  date: '2026-08-28'
+- source: OpenAI
   title: Supporting Thailand’s next generation of AI startups
   link: https://openai.com/index/supporting-next-generation-ai-startups-thailand
+  date: '2026-08-28'
+- source: Hugging Face Blog
+  title: The Open ASR Leaderboard Adds Its First Global South Language
+  link: https://huggingface.co/blog/open-asr-leaderboard-global-south
+  date: '2026-08-28'
+- source: Simon Willison
+  title: Just a rumour of a bug is enough to find a security exploit these days
+  link: https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/
   date: '2026-08-28'
 - source: Andrew Ng
   title: 'The AI Engineering Skills Map In Detail — Software Engineering Fundamentals:
     Why Software Fundamentals Remain Essential for AI Developers'
   link: https://charonhub.deeplearning.ai/the-ai-engineering-skills-map-in-detail-software-engineering-fundamentals/
   date: '2026-08-28'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'CopilotKit/OpenBot (3262★) · Open-source AI coworkers that each get a computer
-    of their own: a browser, files and tools, with every action decided before it
-    happens and recorded af'
-  link: https://github.com/CopilotKit/OpenBot
+- source: Product Hunt
+  title: Hy4 preview
+  link: https://www.producthunt.com/products/hunyuan-a13b
   date: '2026-08-28'
-- source: GitHub (trending AI/LLM/Agents)
-  title: wang2122/sprix-sage-router (2576★) · Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF
-    routing for A2A agent networks.
-  link: https://github.com/wang2122/sprix-sage-router
+- source: Product Hunt
+  title: Staats
+  link: https://www.producthunt.com/products/staats-3
   date: '2026-08-28'
-- source: GitHub (trending AI/LLM/Agents)
-  title: ApodexAI/FrontierAgent (1213★) · 🧩 FrontierAgent, our agent framework, open-sourced
-    alongside it — native command-line TUI, ReAct and Agent Team modes, one command
-    on macOS and Lin
-  link: https://github.com/ApodexAI/FrontierAgent
+- source: Product Hunt
+  title: Cohere Parse 5
+  link: https://www.producthunt.com/products/cohere-2
   date: '2026-08-28'
-- source: GitHub (trending AI/LLM/Agents)
-  title: Spielewoy/autoprompt-skill (924★) · Autoprompt is a coding-agent skill that
-    cuts failures by 45% on agentic coding tasks.
-  link: https://github.com/Spielewoy/autoprompt-skill
-  date: '2026-08-28'
-- source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (48723★) · LocalAI is the open-source AI engine. Run any model
-    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
-  link: https://github.com/mudler/LocalAI
-  date: '2026-08-28'
-- source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (47494★) · Ultra-lightweight, open-source, self-hosted personal
-    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
-    automation, and ch
-  link: https://github.com/HKUDS/nanobot
-  date: '2026-08-28'
-- source: GitHub (trending AI/LLM/Agents)
-  title: milvus-io/milvus (45850★) · Milvus is a high-performance, cloud-native vector
-    database built for scalable vector ANN search
-  link: https://github.com/milvus-io/milvus
+- source: Product Hunt
+  title: Revalvo
+  link: https://www.producthunt.com/products/revalvo
   date: '2026-08-28'
 - source: OpenAI
   title: 'Better answers, broader thinking: What students gain from ChatGPT and critical-thinking
@@ -79,46 +69,16 @@
   link: https://www.producthunt.com/products/screenpipe
   date: '2026-08-27'
 - source: Product Hunt
-  title: Gemini Omni 1.1 Flash
-  link: https://www.producthunt.com/products/gemini-omni-1-1-flash
-  date: '2026-08-27'
-- source: Product Hunt
   title: Microduck
   link: https://www.producthunt.com/products/hugging-face
   date: '2026-08-27'
-- source: Product Hunt
-  title: OpenTag
-  link: https://www.producthunt.com/products/opentag
-  date: '2026-08-27'
-- source: Product Hunt
-  title: Almanac
-  link: https://www.producthunt.com/products/almanac-5
-  date: '2026-08-27'
-- source: GitHub (trending AI/LLM/Agents)
-  title: duty1g/x64dbg-mcp-server (1656★) · x64dbg-MCP Server is a native MCP (Model
-    Context Protocol) plugin for x64dbg that exposes the debugger's full functionality
-    over HTTP. Connect an
-  link: https://github.com/duty1g/x64dbg-mcp-server
-  date: '2026-08-27'
-- source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (47520★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
-    AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
-    生成 → 在线配置 → 代码
-  link: https://github.com/jeecgboot/JeecgBoot
-  date: '2026-08-27'
-- source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (46710★) · Open-source super AI assistant & Agent Harness.
-    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model,
-    multi-channel.
-  link: https://github.com/zhayujie/CowAgent
-  date: '2026-08-27'
-- source: OpenAI
-  title: Bringing ChatGPT for Teachers to more U.S. school districts
-  link: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts
-  date: '2026-08-26'
 - source: OpenAI
   title: 'Learning never stops: How AI makes learning continuous'
   link: https://openai.com/index/learning-never-stops
+  date: '2026-08-26'
+- source: OpenAI
+  title: Bringing ChatGPT for Teachers to more U.S. school districts
+  link: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts
   date: '2026-08-26'
 - source: OpenAI
   title: The Hugging Face incident and the road ahead
@@ -153,6 +113,11 @@
   link: https://huggingface.co/blog/train-multi-vector-encoder
   date: '2026-08-26'
 - source: Hugging Face Papers
+  title: 'CritICL: Inference-Time Weak-to-Strong Generalization from Small Language
+    Model Failure Modes'
+  link: https://huggingface.co/papers/2608.27455
+  date: '2026-08-26'
+- source: Hugging Face Papers
   title: EditaLive! Unified Character Video Editing for Live Streaming
   link: https://huggingface.co/papers/2608.27123
   date: '2026-08-26'
@@ -164,15 +129,6 @@
   title: 'Thinking on Shots: Consistent Multi-Shot Video Editing with Agentic Reasoning'
   link: https://huggingface.co/papers/2608.26809
   date: '2026-08-26'
-- source: Hugging Face Papers
-  title: 'TTPO: Test-Time Policy Optimization'
-  link: https://huggingface.co/papers/2608.27448
-  date: '2026-08-26'
-- source: Hugging Face Papers
-  title: 'Aphanta: Diagnosing Task-Aligned Image-Edited Intermediates for Multimodal
-    Reasoning'
-  link: https://huggingface.co/papers/2608.26993
-  date: '2026-08-26'
 - source: Simon Willison
   title: Qwen3.8-Flash-Next
   link: https://simonwillison.net/2026/Aug/26/qwen38-flash-next/
@@ -180,10 +136,6 @@
 - source: Simon Willison
   title: Quoting Paul Dix
   link: https://simonwillison.net/2026/Aug/26/paul-dix/
-  date: '2026-08-26'
-- source: Product Hunt
-  title: Firecrawl Developer Index
-  link: https://www.producthunt.com/products/extract-by-firecrawl
   date: '2026-08-26'
 - source: OpenAI
   title: The full stack behind abundant intelligence
@@ -193,10 +145,6 @@
   title: Jalapeño’s first results show industry-leading speed and efficiency in AI
     inference
   link: https://openai.com/index/jalapeno-first-results
-  date: '2026-08-25'
-- source: OpenAI
-  title: Disrupting a new covert influence campaign from Russia
-  link: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia
   date: '2026-08-25'
 - source: Anthropic
   title: Funding better evaluations of AI’s impact on wellbeing
@@ -245,6 +193,10 @@
   link: https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/
   date: '2026-08-24'
 - source: Hugging Face Papers
+  title: 'Luce: Relightable Gaussians for 3D Asset Generation'
+  link: https://huggingface.co/papers/2608.23943
+  date: '2026-08-24'
+- source: Hugging Face Papers
   title: What Does an Evaluation License? A Commit-Bound Census of Claim-Relative
     Inference in Inspect Evals
   link: https://huggingface.co/papers/2608.19269
@@ -276,10 +228,6 @@
 - source: Simon Willison
   title: Quoting Linus Torvalds
   link: https://simonwillison.net/2026/Aug/22/linus-torvalds/
-  date: '2026-08-22'
-- source: Simon Willison
-  title: llm 0.33
-  link: https://simonwillison.net/2026/Aug/22/llm/
   date: '2026-08-22'
 - source: Ahead of AI
   title: How Claude Watermarks AI-Generated Text
@@ -331,14 +279,6 @@
   title: Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers
   link: https://huggingface.co/blog/multi-vector-encoder
   date: '2026-08-18'
-- source: Hugging Face Blog
-  title: 'Same Cluster, 33 Points More Utilization: What Changed Was the Order'
-  link: https://huggingface.co/blog/Dharma-AI/gpu-management-pt2
-  date: '2026-08-17'
-- source: Product Hunt
-  title: Caddi
-  link: https://www.producthunt.com/products/caddi-3
-  date: '2026-08-17'
 - source: Ahead of AI
   title: Building an AI Text Detector From Scratch
   link: https://magazine.sebastianraschka.com/p/ai-detector-from-scratch
@@ -450,6 +390,10 @@
 - source: antirez
   title: Control the ideas, not the code
   link: http://antirez.com/news/169
+  date: '2026-07-13'
+- source: Product Hunt
+  title: 1752vc Pitch Deck Analyzer
+  link: https://www.producthunt.com/products/1752vc-pitch-deck-analysis
   date: '2026-07-13'
 - source: One Useful Thing
   title: The twilight of the chatbots
