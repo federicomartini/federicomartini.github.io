@@ -1,3 +1,37 @@
+- source: GitHub (trending AI/LLM/Agents)
+  title: ApodexAI/FrontierAgent (1287★) · 🧩 FrontierAgent, our agent framework, open-sourced
+    alongside it — native command-line TUI, ReAct and Agent Team modes, one command
+    on macOS and Lin
+  link: https://github.com/ApodexAI/FrontierAgent
+  date: '2026-08-30'
+- source: GitHub (trending AI/LLM/Agents)
+  title: XiaoDuoYa/codex-with-chatgpt (1165★) · ChatGPT thinks. Codex works. Use ChatGPT
+    as the planning brain while keeping the Codex harness.
+  link: https://github.com/XiaoDuoYa/codex-with-chatgpt
+  date: '2026-08-30'
+- source: GitHub (trending AI/LLM/Agents)
+  title: mudler/LocalAI (48757★) · LocalAI is the open-source AI engine. Run any model
+    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
+  link: https://github.com/mudler/LocalAI
+  date: '2026-08-30'
+- source: GitHub (trending AI/LLM/Agents)
+  title: HKUDS/nanobot (47530★) · Ultra-lightweight, open-source, self-hosted personal
+    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
+    automation, and ch
+  link: https://github.com/HKUDS/nanobot
+  date: '2026-08-30'
+- source: Simon Willison
+  title: Introducing Hy4 Preview
+  link: https://simonwillison.net/2026/Aug/29/hy4/
+  date: '2026-08-29'
+- source: Product Hunt
+  title: Superagent
+  link: https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents
+  date: '2026-08-29'
+- source: Product Hunt
+  title: oMLX
+  link: https://www.producthunt.com/products/omlx
+  date: '2026-08-29'
 - source: OpenAI
   title: Our decision on Cursor following its acquisition by SpaceX
   link: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex
@@ -20,6 +54,10 @@
   link: https://charonhub.deeplearning.ai/the-ai-engineering-skills-map-in-detail-software-engineering-fundamentals/
   date: '2026-08-28'
 - source: Product Hunt
+  title: Cohere Parse 5
+  link: https://www.producthunt.com/products/cohere-2
+  date: '2026-08-28'
+- source: Product Hunt
   title: Hy4 preview
   link: https://www.producthunt.com/products/hunyuan-a13b
   date: '2026-08-28'
@@ -27,13 +65,21 @@
   title: Staats
   link: https://www.producthunt.com/products/staats-3
   date: '2026-08-28'
-- source: Product Hunt
-  title: Cohere Parse 5
-  link: https://www.producthunt.com/products/cohere-2
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'CopilotKit/OpenBot (3478★) · Open-source AI coworkers that each get a computer
+    of their own: a browser, files and tools, with every action decided before it
+    happens and recorded af'
+  link: https://github.com/CopilotKit/OpenBot
   date: '2026-08-28'
-- source: Product Hunt
-  title: Revalvo
-  link: https://www.producthunt.com/products/revalvo
+- source: GitHub (trending AI/LLM/Agents)
+  title: wang2122/sprix-sage-router (2791★) · Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF
+    routing for A2A agent networks.
+  link: https://github.com/wang2122/sprix-sage-router
+  date: '2026-08-28'
+- source: GitHub (trending AI/LLM/Agents)
+  title: milvus-io/milvus (45877★) · Milvus is a high-performance, cloud-native vector
+    database built for scalable vector ANN search
+  link: https://github.com/milvus-io/milvus
   date: '2026-08-28'
 - source: OpenAI
   title: 'Better answers, broader thinking: What students gain from ChatGPT and critical-thinking
@@ -65,12 +111,26 @@
   link: https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/
   date: '2026-08-27'
 - source: Product Hunt
-  title: screenpipe
-  link: https://www.producthunt.com/products/screenpipe
+  title: Topview Motion Studio
+  link: https://www.producthunt.com/products/topview-ai
   date: '2026-08-27'
-- source: Product Hunt
-  title: Microduck
-  link: https://www.producthunt.com/products/hugging-face
+- source: GitHub (trending AI/LLM/Agents)
+  title: duty1g/x64dbg-mcp-server (1759★) · x64dbg-MCP Server is a native MCP (Model
+    Context Protocol) plugin for x64dbg that exposes the debugger's full functionality
+    over HTTP. Connect an
+  link: https://github.com/duty1g/x64dbg-mcp-server
+  date: '2026-08-27'
+- source: GitHub (trending AI/LLM/Agents)
+  title: jeecgboot/JeecgBoot (47546★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+    AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
+    生成 → 在线配置 → 代码
+  link: https://github.com/jeecgboot/JeecgBoot
+  date: '2026-08-27'
+- source: GitHub (trending AI/LLM/Agents)
+  title: zhayujie/CowAgent (46724★) · Open-source super AI assistant & Agent Harness.
+    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model,
+    multi-channel.
+  link: https://github.com/zhayujie/CowAgent
   date: '2026-08-27'
 - source: OpenAI
   title: 'Learning never stops: How AI makes learning continuous'
@@ -213,10 +273,6 @@
   title: Your executable is a SQLite database
   link: https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/
   date: '2026-08-24'
-- source: Product Hunt
-  title: CTRL Micro
-  link: https://www.producthunt.com/products/ctrl-micro
-  date: '2026-08-24'
 - source: Simon Willison
   title: Anthropic’s best AI model struggles to attract users as cheaper tools thrive
   link: https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/
@@ -225,10 +281,6 @@
   title: Quoting Drew Breunig
   link: https://simonwillison.net/2026/Aug/23/drew-breunig/
   date: '2026-08-23'
-- source: Simon Willison
-  title: Quoting Linus Torvalds
-  link: https://simonwillison.net/2026/Aug/22/linus-torvalds/
-  date: '2026-08-22'
 - source: Ahead of AI
   title: How Claude Watermarks AI-Generated Text
   link: https://magazine.sebastianraschka.com/p/claude-watermarking
@@ -251,10 +303,6 @@
     What You Need to Know to Make AI Applications Work in Real Life'
   link: https://charonhub.deeplearning.ai/he-ai-engineering-skills-map-in-detail-building-and-deploying-ai-applications/
   date: '2026-08-21'
-- source: Product Hunt
-  title: PageIndex
-  link: https://www.producthunt.com/products/pageindexai
-  date: '2026-08-21'
 - source: MIT Technology Review
   title: Debates over AI consciousness are a trap
   link: https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/
@@ -267,6 +315,10 @@
   title: Up to 3.2x Faster Inference with LFM2.5-DSpark
   link: https://huggingface.co/blog/LiquidAI/lfm25-dspark
   date: '2026-08-20'
+- source: Product Hunt
+  title: Sayscroll
+  link: https://www.producthunt.com/products/sayscroll-ai-teleprompter
+  date: '2026-08-19'
 - source: MIT Technology Review
   title: We still don’t know how people are really using AI
   link: https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/
@@ -300,6 +352,10 @@
   title: Putting sign language AI into users’ hands
   link: https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/
   date: '2026-08-12'
+- source: Product Hunt
+  title: Murfy AI
+  link: https://www.producthunt.com/products/murfy
+  date: '2026-08-10'
 - source: Anthropic
   title: Improving Fable 5's biology safeguards
   link: https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
@@ -317,10 +373,6 @@
   title: Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs
     Officer
   link: https://www.anthropic.com/news/tino-cuellar
-  date: '2026-08-04'
-- source: Product Hunt
-  title: Aramb
-  link: https://www.producthunt.com/products/aramb
   date: '2026-08-04'
 - source: Andrew Ng
   title: 'Open Models, Open Harnesses, Open Security: What we did when Claude Fable
@@ -387,6 +439,10 @@
   title: Controlling Reasoning Effort in LLMs
   link: https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms
   date: '2026-07-18'
+- source: Product Hunt
+  title: Olostep
+  link: https://www.producthunt.com/products/olostep
+  date: '2026-07-17'
 - source: antirez
   title: Control the ideas, not the code
   link: http://antirez.com/news/169
