@@ -1,29 +1,54 @@
+- source: Simon Willison
+  title: Quoting Zach Kehs
+  link: https://simonwillison.net/2026/Sep/6/zach-kehs/
+  date: '2026-09-06'
 - source: GitHub (trending AI/LLM/Agents)
-  title: Nanako0129/sepia (2176★) · De-AI writing skill for any Agent Skills-compatible
+  title: Human-Agent-Society/reef (535★) · Continual learning infra for self-improving
+    agents
+  link: https://github.com/Human-Agent-Society/reef
+  date: '2026-09-06'
+- source: GitHub (trending AI/LLM/Agents)
+  title: mudler/LocalAI (48905★) · LocalAI is the open-source AI engine. Run any model
+    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
+  link: https://github.com/mudler/LocalAI
+  date: '2026-09-06'
+- source: GitHub (trending AI/LLM/Agents)
+  title: HKUDS/nanobot (47740★) · Ultra-lightweight, open-source, self-hosted personal
+    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
+    automation, and ch
+  link: https://github.com/HKUDS/nanobot
+  date: '2026-09-06'
+- source: GitHub (trending AI/LLM/Agents)
+  title: zhayujie/CowAgent (46787★) · Open-source super AI assistant & Agent Harness.
+    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model,
+    multi-channel.
+  link: https://github.com/zhayujie/CowAgent
+  date: '2026-09-06'
+- source: GitHub (trending AI/LLM/Agents)
+  title: sickn33/agentic-awesome-skills (46041★) · AAS Core is the local, agent-first
+    control plane for complete catalog discovery, agent-owned selection, stack validation,
+    and planning, ba
+  link: https://github.com/sickn33/agentic-awesome-skills
+  date: '2026-09-06'
+- source: Simon Willison
+  title: Introducing GPT-6 Astra for developers
+  link: https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
+  date: '2026-09-05'
+- source: Simon Willison
+  title: Using Blender with coding agents on macOS
+  link: https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/
+  date: '2026-09-05'
+- source: GitHub (trending AI/LLM/Agents)
+  title: Nanako0129/sepia (2296★) · De-AI writing skill for any Agent Skills-compatible
     agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok
     Build, and Antigravi
   link: https://github.com/Nanako0129/sepia
   date: '2026-09-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 2akouwu/reverify (910★) · Stop your AI from making things up — it proposes,
+  title: 2akouwu/reverify (932★) · Stop your AI from making things up — it proposes,
     deterministic tools decide, every claim checked against ground truth with evidence.
     Grounded facts and c
   link: https://github.com/2akouwu/reverify
-  date: '2026-09-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: rome-os/rome (473★) · Rome is the agentic OS.
-  link: https://github.com/rome-os/rome
-  date: '2026-09-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (48870★) · LocalAI is the open-source AI engine. Run any model
-    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
-  link: https://github.com/mudler/LocalAI
-  date: '2026-09-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (46001★) · AAS Core is the local, agent-first
-    control plane for complete catalog discovery, agent-owned selection, stack validation,
-    and planning, ba
-  link: https://github.com/sickn33/agentic-awesome-skills
   date: '2026-09-05'
 - source: MIT Technology Review
   title: Architecting memory and storage in the AI era
@@ -51,33 +76,17 @@
   link: https://charonhub.deeplearning.ai/the-ai-engineering-skills-map-in-detail-using-coding-agents/
   date: '2026-09-04'
 - source: Product Hunt
-  title: GitWarren
-  link: https://www.producthunt.com/products/gitwarren
+  title: Experiential Labs
+  link: https://www.producthunt.com/products/experiential-labs
   date: '2026-09-04'
 - source: Product Hunt
   title: Ponytail
   link: https://www.producthunt.com/products/ponytail
   date: '2026-09-04'
-- source: Product Hunt
-  title: Experiential Labs
-  link: https://www.producthunt.com/products/experiential-labs
-  date: '2026-09-04'
 - source: GitHub (trending AI/LLM/Agents)
-  title: XiaoDuoYa/codex-with-chatgpt (2493★) · ChatGPT thinks. Codex works. Use ChatGPT
+  title: XiaoDuoYa/codex-with-chatgpt (2539★) · ChatGPT thinks. Codex works. Use ChatGPT
     as the planning brain while keeping the Codex harness.
   link: https://github.com/XiaoDuoYa/codex-with-chatgpt
-  date: '2026-09-04'
-- source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (47723★) · Ultra-lightweight, open-source, self-hosted personal
-    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
-    automation, and ch
-  link: https://github.com/HKUDS/nanobot
-  date: '2026-09-04'
-- source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (46782★) · Open-source super AI assistant & Agent Harness.
-    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model,
-    multi-channel.
-  link: https://github.com/zhayujie/CowAgent
   date: '2026-09-04'
 - source: OpenAI
   title: 'Daybreak for Frontline Defenders: $1B to protect essential services'
@@ -123,14 +132,6 @@
 - source: Simon Willison
   title: GPT‑6 Astra
   link: https://simonwillison.net/2026/Sep/3/gpt6-astra/
-  date: '2026-09-03'
-- source: Product Hunt
-  title: Inline
-  link: https://www.producthunt.com/products/inline-5
-  date: '2026-09-03'
-- source: Product Hunt
-  title: Snitch
-  link: https://www.producthunt.com/products/snitch-4
   date: '2026-09-03'
 - source: OpenAI
   title: ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT
@@ -184,11 +185,19 @@
   link: https://simonwillison.net/2026/Sep/2/rick-brewster/
   date: '2026-09-02'
 - source: Product Hunt
-  title: BrickForgerAI
-  link: https://www.producthunt.com/products/brickforgerai
+  title: Kit by Speakeasy
+  link: https://www.producthunt.com/products/speakeasydev
+  date: '2026-09-02'
+- source: Product Hunt
+  title: H3 Max by fal
+  link: https://www.producthunt.com/products/fal-ai
+  date: '2026-09-02'
+- source: Product Hunt
+  title: Agentic Video Understanding in Gemini
+  link: https://www.producthunt.com/products/google
   date: '2026-09-02'
 - source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (47634★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+  title: jeecgboot/JeecgBoot (47646★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
     AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
     生成 → 在线配置 → 代码
   link: https://github.com/jeecgboot/JeecgBoot
@@ -239,28 +248,12 @@
   title: 'VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement'
   link: https://huggingface.co/papers/2609.03153
   date: '2026-09-01'
-- source: Simon Willison
-  title: Claude Fable 5.1 made me a really nice animated pelican
-  link: https://simonwillison.net/2026/Sep/1/claude-fable-5-1/
-  date: '2026-09-01'
-- source: Simon Willison
-  title: Codex bundles LibreOffice
-  link: https://simonwillison.net/2026/Sep/1/codex-libreoffice/
-  date: '2026-09-01'
-- source: Simon Willison
-  title: GeoJSON Map Viewer
-  link: https://simonwillison.net/2026/Sep/1/geojson/
-  date: '2026-09-01'
 - source: Product Hunt
   title: Reflexio
   link: https://www.producthunt.com/products/reflexio-2
   date: '2026-09-01'
-- source: Product Hunt
-  title: TrackMCP
-  link: https://www.producthunt.com/products/trackmcp
-  date: '2026-09-01'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'Player-YN/PawWork_ZhuaZhua (1162★) · Paw Work - selection-first web agent
+  title: 'Player-YN/PawWork_ZhuaZhua (1271★) · Paw Work - selection-first web agent
     for Chrome: select on the live page, describe the outcome, take away an editable
     office file. BYOK, sandbo'
   link: https://github.com/Player-YN/PawWork_ZhuaZhua
@@ -435,6 +428,10 @@
   title: Being Linux Torvalds
   link: http://antirez.com/news/171
   date: '2026-07-25'
+- source: Product Hunt
+  title: AI Toolbox 3.0
+  link: https://www.producthunt.com/products/chatgpt-toolbox
+  date: '2026-07-25'
 - source: One Useful Thing
   title: An opinionated guide to which AI to use to do stuff
   link: https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22
@@ -568,6 +565,10 @@
   title: Chemical hygiene
   link: https://karpathy.bearblog.dev/chemical-hygiene/
   date: '2025-12-18'
+- source: Product Hunt
+  title: Tadata
+  link: https://www.producthunt.com/products/tadata
+  date: '2025-12-16'
 - source: Andrej Karpathy
   title: Auto-grading decade-old Hacker News discussions with hindsight
   link: https://karpathy.bearblog.dev/auto-grade-hn/
