@@ -1,41 +1,83 @@
+- source: Product Hunt
+  title: Catenary
+  link: https://www.producthunt.com/products/catenary
+  date: '2026-09-08'
+- source: Product Hunt
+  title: bonds
+  link: https://www.producthunt.com/products/bonds-2
+  date: '2026-09-08'
+- source: GitHub (trending AI/LLM/Agents)
+  title: Nanako0129/sepia (2440★) · De-AI writing skill for any Agent Skills-compatible
+    agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok
+    Build, and Antigravi
+  link: https://github.com/Nanako0129/sepia
+  date: '2026-09-08'
+- source: GitHub (trending AI/LLM/Agents)
+  title: Human-Agent-Society/reef (736★) · Continual learning infra for self-improving
+    agents
+  link: https://github.com/Human-Agent-Society/reef
+  date: '2026-09-08'
+- source: GitHub (trending AI/LLM/Agents)
+  title: mudler/LocalAI (48973★) · LocalAI is the open-source AI engine. Run any model
+    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
+  link: https://github.com/mudler/LocalAI
+  date: '2026-09-08'
+- source: GitHub (trending AI/LLM/Agents)
+  title: HKUDS/nanobot (47878★) · Ultra-lightweight, open-source, self-hosted personal
+    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
+    automation, and ch
+  link: https://github.com/HKUDS/nanobot
+  date: '2026-09-08'
+- source: GitHub (trending AI/LLM/Agents)
+  title: zhayujie/CowAgent (46829★) · Open-source super AI assistant & Agent Harness.
+    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model,
+    multi-channel.
+  link: https://github.com/zhayujie/CowAgent
+  date: '2026-09-08'
 - source: OpenAI
   title: Supporting independent journalism in Ukraine
   link: https://openai.com/index/supporting-independent-journalism-in-ukraine
   date: '2026-09-07'
+- source: Simon Willison
+  title: llm 0.35
+  link: https://simonwillison.net/2026/Sep/7/llm/
+  date: '2026-09-07'
+- source: Simon Willison
+  title: Creepy crawlies
+  link: https://simonwillison.net/2026/Sep/7/creepy-crawlies/
+  date: '2026-09-07'
+- source: Simon Willison
+  title: Quoting Jakub Pachocki
+  link: https://simonwillison.net/2026/Sep/7/jakub-pachocki/
+  date: '2026-09-07'
+- source: Simon Willison
+  title: Video compressor
+  link: https://simonwillison.net/2026/Sep/7/video-compressor/
+  date: '2026-09-07'
+- source: Simon Willison
+  title: Mercator ↔ Equal Earth
+  link: https://simonwillison.net/2026/Sep/7/equal-earth/
+  date: '2026-09-07'
 - source: Product Hunt
-  title: Clipnote
-  link: https://www.producthunt.com/products/clipnote-2
+  title: Kopai
+  link: https://www.producthunt.com/products/kopai-the-marketplace-for-ai-agents
+  date: '2026-09-07'
+- source: Product Hunt
+  title: Tables.so
+  link: https://www.producthunt.com/products/tables-so
+  date: '2026-09-07'
+- source: Product Hunt
+  title: Knockin'
+  link: https://www.producthunt.com/products/knockin
   date: '2026-09-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: '2akouwu/reverify (1001★) · Stop your AI from making things up — it proposes,
+  title: '2akouwu/reverify (1024★) · Stop your AI from making things up — it proposes,
     deterministic tools decide, every claim checked against ground truth with evidence.
     Grounded facts and '
   link: https://github.com/2akouwu/reverify
   date: '2026-09-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: Human-Agent-Society/reef (648★) · Continual learning infra for self-improving
-    agents
-  link: https://github.com/Human-Agent-Society/reef
-  date: '2026-09-07'
-- source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (48952★) · LocalAI is the open-source AI engine. Run any model
-    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
-  link: https://github.com/mudler/LocalAI
-  date: '2026-09-07'
-- source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (47832★) · Ultra-lightweight, open-source, self-hosted personal
-    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
-    automation, and ch
-  link: https://github.com/HKUDS/nanobot
-  date: '2026-09-07'
-- source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (46802★) · Open-source super AI assistant & Agent Harness.
-    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model,
-    multi-channel.
-  link: https://github.com/zhayujie/CowAgent
-  date: '2026-09-07'
-- source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (46090★) · AAS Core is the local, agent-first
+  title: sickn33/agentic-awesome-skills (46144★) · AAS Core is the local, agent-first
     control plane for complete catalog discovery, agent-owned selection, stack validation,
     and planning, ba
   link: https://github.com/sickn33/agentic-awesome-skills
@@ -65,26 +107,12 @@
   link: https://simonwillison.net/2026/Sep/6/zach-kehs/
   date: '2026-09-06'
 - source: Product Hunt
-  title: Tucky
-  link: https://www.producthunt.com/products/tucky
-  date: '2026-09-06'
-- source: Product Hunt
-  title: Airuncode
-  link: https://www.producthunt.com/products/airuncode
+  title: GoodLads
+  link: https://www.producthunt.com/products/good-lads-1-0
   date: '2026-09-06'
 - source: Simon Willison
   title: Introducing GPT-6 Astra for developers
   link: https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
-  date: '2026-09-05'
-- source: Simon Willison
-  title: Using Blender with coding agents on macOS
-  link: https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/
-  date: '2026-09-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: Nanako0129/sepia (2374★) · De-AI writing skill for any Agent Skills-compatible
-    agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok
-    Build, and Antigravi
-  link: https://github.com/Nanako0129/sepia
   date: '2026-09-05'
 - source: MIT Technology Review
   title: Architecting memory and storage in the AI era
@@ -94,29 +122,13 @@
   title: Data from drones in Ukraine is fueling a new Wild West marketplace
   link: https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/
   date: '2026-09-04'
-- source: Simon Willison
-  title: The Pelican comparison grid for Astra is pretty interesting
-  link: https://simonwillison.net/2026/Sep/4/astra-pelicans/
-  date: '2026-09-04'
-- source: Simon Willison
-  title: OpenAI's rogue agents were caught communicating via public wikis
-  link: https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/
-  date: '2026-09-04'
-- source: Simon Willison
-  title: August newsletter is out
-  link: https://simonwillison.net/2026/Sep/4/august-newsletter/
-  date: '2026-09-04'
 - source: Andrew Ng
   title: 'The AI Engineering Skills Map In Detail — Using Coding Agents: How to Use
     Coding Agents Effectively from Planning to Execution and Monitoring'
   link: https://charonhub.deeplearning.ai/the-ai-engineering-skills-map-in-detail-using-coding-agents/
   date: '2026-09-04'
-- source: Product Hunt
-  title: Scriptly
-  link: https://www.producthunt.com/products/sciptly
-  date: '2026-09-04'
 - source: GitHub (trending AI/LLM/Agents)
-  title: XiaoDuoYa/codex-with-chatgpt (2576★) · ChatGPT thinks. Codex works. Use ChatGPT
+  title: XiaoDuoYa/codex-with-chatgpt (2901★) · ChatGPT thinks. Codex works. Use ChatGPT
     as the planning brain while keeping the Codex harness.
   link: https://github.com/XiaoDuoYa/codex-with-chatgpt
   date: '2026-09-04'
@@ -161,24 +173,6 @@
   title: Training a coding model to paint watercolours with TRL and OpenEnv
   link: https://huggingface.co/blog/train-to-paint-with-code
   date: '2026-09-03'
-- source: Hugging Face Papers
-  title: 'Beneath the Surface of Chains-of-Thought: A Mechanistic Interpretation of
-    Reasoning Operations in LLMs'
-  link: https://huggingface.co/papers/2609.04753
-  date: '2026-09-03'
-- source: Hugging Face Papers
-  title: 'τ^τ-Bench: An Environment for End-To-End, Realistic Agent Construction'
-  link: https://huggingface.co/papers/2609.04611
-  date: '2026-09-03'
-- source: Hugging Face Papers
-  title: 'Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive
-    Optimization'
-  link: https://huggingface.co/papers/2609.05258
-  date: '2026-09-03'
-- source: Simon Willison
-  title: GPT‑6 Astra
-  link: https://simonwillison.net/2026/Sep/3/gpt6-astra/
-  date: '2026-09-03'
 - source: OpenAI
   title: ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT
   link: https://openai.com/index/atv-big-air-tour
@@ -200,23 +194,29 @@
   link: https://huggingface.co/blog/ibm-research/real-time-intelligence
   date: '2026-09-02'
 - source: Hugging Face Papers
-  title: The Attention Triangle in Audio-Video Models
-  link: https://huggingface.co/papers/2609.03586
+  title: Unlocking Lossless Speedups in LLMs via Discrete Diffusion
+  link: https://huggingface.co/papers/2609.04010
   date: '2026-09-02'
 - source: Hugging Face Papers
-  title: 'AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition'
-  link: https://huggingface.co/papers/2609.04369
+  title: 'FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning
+    Experience'
+  link: https://huggingface.co/papers/2609.03241
   date: '2026-09-02'
-- source: Product Hunt
-  title: H3 Max by fal
-  link: https://www.producthunt.com/products/fal-ai
+- source: Hugging Face Papers
+  title: What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision
+    Propagation in Artifacts Generated Through Conversation
+  link: https://huggingface.co/papers/2609.03254
   date: '2026-09-02'
-- source: Product Hunt
-  title: Kit by Speakeasy
-  link: https://www.producthunt.com/products/speakeasydev
+- source: Hugging Face Papers
+  title: 'Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning'
+  link: https://huggingface.co/papers/2609.03729
+  date: '2026-09-02'
+- source: Hugging Face Papers
+  title: 'HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals'
+  link: https://huggingface.co/papers/2609.04444
   date: '2026-09-02'
 - source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (47659★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+  title: jeecgboot/JeecgBoot (47671★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
     AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
     生成 → 在线配置 → 代码
   link: https://github.com/jeecgboot/JeecgBoot
@@ -242,16 +242,15 @@
   link: https://huggingface.co/blog/webgpu-kernels
   date: '2026-09-01'
 - source: Hugging Face Papers
-  title: 'Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent
-    LLM Systems'
-  link: https://huggingface.co/papers/2609.02750
+  title: 'Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation'
+  link: https://huggingface.co/papers/2609.02998
   date: '2026-09-01'
-- source: Hugging Face Papers
-  title: 'ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding'
-  link: https://huggingface.co/papers/2609.02780
+- source: Product Hunt
+  title: Relaticle
+  link: https://www.producthunt.com/products/relaticle
   date: '2026-09-01'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'Player-YN/PawWork_ZhuaZhua (1478★) · Paw Work - selection-first web agent
+  title: 'Player-YN/PawWork_ZhuaZhua (1843★) · Paw Work - selection-first web agent
     for Chrome: select on the live page, describe the outcome, take away an editable
     office file. BYOK, sandbo'
   link: https://github.com/Player-YN/PawWork_ZhuaZhua
@@ -265,29 +264,34 @@
   link: https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/
   date: '2026-08-31'
 - source: Hugging Face Papers
-  title: 'Enoki: Efficient Multi-Level Hallucination Detection'
-  link: https://huggingface.co/papers/2609.00581
+  title: 'EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying
+    VLA Agents'
+  link: https://huggingface.co/papers/2609.01281
   date: '2026-08-31'
 - source: One Useful Thing
   title: Agency and Agents
   link: https://www.oneusefulthing.org/p/agency-and-agents
   date: '2026-08-31'
+- source: Product Hunt
+  title: OpenMarket
+  link: https://www.producthunt.com/products/openmarket
+  date: '2026-08-31'
+- source: Hugging Face Papers
+  title: 'Dr. Claw: An AI Scientist Workspace for Vibe Research'
+  link: https://huggingface.co/papers/2609.00365
+  date: '2026-08-30'
+- source: Product Hunt
+  title: AppGacha
+  link: https://www.producthunt.com/products/appgacha
+  date: '2026-08-30'
 - source: Hugging Face Blog
   title: The Open ASR Leaderboard Adds Its First Global South Language
   link: https://huggingface.co/blog/open-asr-leaderboard-global-south
-  date: '2026-08-28'
-- source: Hugging Face Papers
-  title: 'To See a World in a Living Context: Unified Indoor-Outdoor Urban World Generation'
-  link: https://huggingface.co/papers/2608.05879
   date: '2026-08-28'
 - source: Andrew Ng
   title: 'The AI Engineering Skills Map In Detail — Software Engineering Fundamentals:
     Why Software Fundamentals Remain Essential for AI Developers'
   link: https://charonhub.deeplearning.ai/the-ai-engineering-skills-map-in-detail-software-engineering-fundamentals/
-  date: '2026-08-28'
-- source: Product Hunt
-  title: Nina by Antalpha
-  link: https://www.producthunt.com/products/antalpha
   date: '2026-08-28'
 - source: Anthropic
   title: Previewing the Model Hardware Standard
@@ -306,8 +310,8 @@
   link: https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/
   date: '2026-08-27'
 - source: Product Hunt
-  title: Routines by Databox
-  link: https://www.producthunt.com/products/databox
+  title: Switch
+  link: https://www.producthunt.com/products/switch-11
   date: '2026-08-27'
 - source: Google DeepMind
   title: Intelligent transcription with Gemini 3.5 Transcribe
@@ -345,9 +349,17 @@
   title: 'Granite 4.2 LLMs: How They''re Built'
   link: https://huggingface.co/blog/ibm-granite/granite-4-2
   date: '2026-08-25'
+- source: Hugging Face Papers
+  title: 'One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation'
+  link: https://huggingface.co/papers/2608.25936
+  date: '2026-08-25'
 - source: MIT Technology Review
   title: How to encourage smarter AI use in the classroom
   link: https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/
+  date: '2026-08-24'
+- source: Hugging Face Papers
+  title: Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing
+  link: https://huggingface.co/papers/2608.24263
   date: '2026-08-24'
 - source: Ahead of AI
   title: How Claude Watermarks AI-Generated Text
@@ -392,10 +404,6 @@
     AI provider'
   link: https://charonhub.deeplearning.ai/what-comes-after-tokenmaxxing-how-to-avoid-getting-locked-in-to-just-one-ai-provider/
   date: '2026-08-07'
-- source: Hugging Face Papers
-  title: Training-Free Speech-Centric Omni Understanding with Frozen VLMs
-  link: https://huggingface.co/papers/2609.04242
-  date: '2026-08-06'
 - source: Anthropic
   title: Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs
     Officer
@@ -425,10 +433,6 @@
 - source: antirez
   title: Being Linux Torvalds
   link: http://antirez.com/news/171
-  date: '2026-07-25'
-- source: Product Hunt
-  title: AI Toolbox 3.0
-  link: https://www.producthunt.com/products/chatgpt-toolbox
   date: '2026-07-25'
 - source: One Useful Thing
   title: An opinionated guide to which AI to use to do stuff
@@ -563,10 +567,6 @@
   title: Chemical hygiene
   link: https://karpathy.bearblog.dev/chemical-hygiene/
   date: '2025-12-18'
-- source: Product Hunt
-  title: Tadata
-  link: https://www.producthunt.com/products/tadata
-  date: '2025-12-16'
 - source: Andrej Karpathy
   title: Auto-grading decade-old Hacker News discussions with hindsight
   link: https://karpathy.bearblog.dev/auto-grade-hn/
