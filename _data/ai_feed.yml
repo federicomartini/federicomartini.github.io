@@ -1,18 +1,110 @@
+- source: Simon Willison
+  title: Quoting Calif Research
+  link: https://simonwillison.net/2026/Sep/10/calif-research/
+  date: '2026-09-10'
+- source: Product Hunt
+  title: Modeinspect
+  link: https://www.producthunt.com/products/modeinspect-1-0
+  date: '2026-09-10'
+- source: Product Hunt
+  title: Suno v6
+  link: https://www.producthunt.com/products/suno
+  date: '2026-09-10'
+- source: GitHub (trending AI/LLM/Agents)
+  title: Nanako0129/sepia (2512★) · De-AI writing skill for any Agent Skills-compatible
+    agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok
+    Build, and Antigravi
+  link: https://github.com/Nanako0129/sepia
+  date: '2026-09-10'
+- source: GitHub (trending AI/LLM/Agents)
+  title: Human-Agent-Society/reef (903★) · Continual learning infra for self-improving
+    agents
+  link: https://github.com/Human-Agent-Society/reef
+  date: '2026-09-10'
+- source: GitHub (trending AI/LLM/Agents)
+  title: mudler/LocalAI (49020★) · LocalAI is the open-source AI engine. Run any model
+    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
+  link: https://github.com/mudler/LocalAI
+  date: '2026-09-10'
+- source: GitHub (trending AI/LLM/Agents)
+  title: HKUDS/nanobot (47971★) · Ultra-lightweight, open-source, self-hosted personal
+    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
+    automation, and ch
+  link: https://github.com/HKUDS/nanobot
+  date: '2026-09-10'
+- source: GitHub (trending AI/LLM/Agents)
+  title: jeecgboot/JeecgBoot (47710★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+    AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
+    生成 → 在线配置 → 代码
+  link: https://github.com/jeecgboot/JeecgBoot
+  date: '2026-09-10'
+- source: GitHub (trending AI/LLM/Agents)
+  title: zhayujie/CowAgent (46871★) · Open-source super AI assistant & Agent Harness.
+    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
+    multi-model, m
+  link: https://github.com/zhayujie/CowAgent
+  date: '2026-09-10'
+- source: OpenAI
+  title: The AI policy window is open. We need to act.
+  link: https://openai.com/index/ai-policy-window
+  date: '2026-09-09'
+- source: OpenAI
+  title: 'GPT-6 Astra: The next generation in intelligence for work'
+  link: https://openai.com/index/gpt-6-astra-next-generation-work
+  date: '2026-09-09'
+- source: OpenAI
+  title: Paul Christiano joins OpenAI Foundation Board
+  link: https://openai.com/index/paul-christiano-joins-openai-foundation-board
+  date: '2026-09-09'
 - source: MIT Technology Review
   title: What OpenAI’s latest controversy tells us about the future of math
   link: https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/
+  date: '2026-09-09'
+- source: Hugging Face Blog
+  title: IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly
+    license
+  link: https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series
+  date: '2026-09-09'
+- source: Simon Willison
+  title: .blend URL Viewer
+  link: https://simonwillison.net/2026/Sep/9/blender-viewer/
   date: '2026-09-09'
 - source: Simon Willison
   title: Quoting Terence Tao
   link: https://simonwillison.net/2026/Sep/9/terence-tao/
   date: '2026-09-09'
-- source: Product Hunt
-  title: AlphaGenome Atlas
-  link: https://www.producthunt.com/products/alphagenome-atlas
+- source: Ahead of AI
+  title: GPT-6 Astra, Looped Transformers, and Hidden Reasoning
+  link: https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and
   date: '2026-09-09'
 - source: Product Hunt
-  title: Type.com
-  link: https://www.producthunt.com/products/type-com
+  title: hob
+  link: https://www.producthunt.com/products/hob-2
+  date: '2026-09-09'
+- source: Product Hunt
+  title: Desert Ant Labs
+  link: https://www.producthunt.com/products/desert-ant-labs
+  date: '2026-09-09'
+- source: Product Hunt
+  title: Whip
+  link: https://www.producthunt.com/products/whip
+  date: '2026-09-09'
+- source: GitHub (trending AI/LLM/Agents)
+  title: XiaoDuoYa/codex-with-chatgpt (3885★) · ChatGPT thinks. Codex works. Use ChatGPT
+    as the planning brain while keeping the Codex harness.
+  link: https://github.com/XiaoDuoYa/codex-with-chatgpt
+  date: '2026-09-09'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'Player-YN/PawWork_ZhuaZhua (2452★) · Paw Work - selection-first web agent
+    for Chrome: select on the live page, describe the outcome, take away an editable
+    office file. BYOK, sandbo'
+  link: https://github.com/Player-YN/PawWork_ZhuaZhua
+  date: '2026-09-09'
+- source: GitHub (trending AI/LLM/Agents)
+  title: sickn33/agentic-awesome-skills (46229★) · AAS Core is the local, agent-first
+    control plane for complete catalog discovery, agent-owned selection, stack validation,
+    and planning, ba
+  link: https://github.com/sickn33/agentic-awesome-skills
   date: '2026-09-09'
 - source: OpenAI
   title: How GPT-5.6 Sol helps run quantum computing experiments
@@ -55,6 +147,16 @@
   title: Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic
   link: https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom
   date: '2026-09-08'
+- source: Hugging Face Papers
+  title: Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms
+    in Video and Audiovisual LLMs
+  link: https://huggingface.co/papers/2609.10355
+  date: '2026-09-08'
+- source: Hugging Face Papers
+  title: Reference-Based Bias Detection in LLMs via Relative Representations of Hidden
+    States
+  link: https://huggingface.co/papers/2609.10060
+  date: '2026-09-08'
 - source: Simon Willison
   title: On the Navier–Stokes Millennium Prize Problem
   link: https://simonwillison.net/2026/Sep/8/on-navier-stokes/
@@ -63,33 +165,23 @@
   title: Introducing ChatGPT Images 2.5
   link: https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/
   date: '2026-09-08'
-- source: Product Hunt
-  title: DuckFightClub
-  link: https://www.producthunt.com/products/duckfightclub
-  date: '2026-09-08'
-- source: Product Hunt
-  title: Frigade Assist API
-  link: https://www.producthunt.com/products/frigade
-  date: '2026-09-08'
-- source: Product Hunt
-  title: ChatGPT Images 2.5
-  link: https://www.producthunt.com/products/openai
-  date: '2026-09-08'
-- source: Product Hunt
-  title: bonds
-  link: https://www.producthunt.com/products/bonds-2
-  date: '2026-09-08'
-- source: OpenAI
-  title: Supporting independent journalism in Ukraine
-  link: https://openai.com/index/supporting-independent-journalism-in-ukraine
+- source: Hugging Face Papers
+  title: 'SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents'
+  link: https://huggingface.co/papers/2609.08149
   date: '2026-09-07'
 - source: Hugging Face Papers
-  title: 'A*-Thought-V2: Efficient Latent Reasoning via Geometric Dynamics of LLM'
-  link: https://huggingface.co/papers/2609.07821
+  title: 'SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators'
+  link: https://huggingface.co/papers/2609.09155
   date: '2026-09-07'
 - source: Hugging Face Papers
-  title: 'Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation'
-  link: https://huggingface.co/papers/2609.08084
+  title: 'SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability
+    Research?'
+  link: https://huggingface.co/papers/2609.09113
+  date: '2026-09-07'
+- source: Hugging Face Papers
+  title: 'Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models
+    Catch Up Where Imitation Fails'
+  link: https://huggingface.co/papers/2609.09134
   date: '2026-09-07'
 - source: Simon Willison
   title: llm 0.35
@@ -115,55 +207,20 @@
   title: Diiverge
   link: https://www.producthunt.com/products/diiverge-co
   date: '2026-09-07'
-- source: OpenAI
-  title: An Alien Mind
-  link: https://openai.com/index/an-alien-mind
-  date: '2026-09-06'
-- source: OpenAI
-  title: 'Research acceleration: The view inside OpenAI'
-  link: https://openai.com/index/research-acceleration-view-inside-openai
+- source: GitHub (trending AI/LLM/Agents)
+  title: '2akouwu/reverify (1086★) · Stop your AI from making things up — it proposes,
+    deterministic tools decide, every claim checked against ground truth with evidence.
+    Grounded facts and '
+  link: https://github.com/2akouwu/reverify
+  date: '2026-09-07'
+- source: Hugging Face Papers
+  title: 'DF26: We Cannot Tell Fake From Real Anymore'
+  link: https://huggingface.co/papers/2609.07369
   date: '2026-09-06'
 - source: Hugging Face Papers
-  title: 'OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model
-    Pretraining'
-  link: https://huggingface.co/papers/2609.07398
-  date: '2026-09-06'
-- source: Hugging Face Papers
-  title: 'RelightFormer: Feed-forward Generative Transformer for Multiview Object
-    Relighting'
-  link: https://huggingface.co/papers/2609.07414
-  date: '2026-09-06'
-- source: Hugging Face Papers
-  title: 'Harnessing CLIP and DINO: An Uncertainty-Aware Cascaded Fusion Network for
-    Generalizable Deepfake Image Detection'
-  link: https://huggingface.co/papers/2609.07670
-  date: '2026-09-06'
-- source: Hugging Face Papers
-  title: 'Encoded Early, Used Late: Where Transformers Begin to Act on an Inferred
-    Partner''s Expertise'
-  link: https://huggingface.co/papers/2609.07139
-  date: '2026-09-06'
-- source: Hugging Face Papers
-  title: 'Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3
-    Vision-Language-Action Policy'
-  link: https://huggingface.co/papers/2609.07470
-  date: '2026-09-06'
-- source: Hugging Face Papers
-  title: 'SQS: Bayesian DNN Compression through Sparse Quantized Sub-distributions'
-  link: https://huggingface.co/papers/2510.08999
-  date: '2026-09-06'
-- source: Hugging Face Papers
-  title: 'ReactVAU: A Slow-Fast Decoupled Framework for Streaming Video Anomaly Understanding'
-  link: https://huggingface.co/papers/2609.07941
-  date: '2026-09-06'
-- source: Simon Willison
-  title: 'Research acceleration: The view inside OpenAI'
-  link: https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/
-  date: '2026-09-06'
-- source: Simon Willison
-  title: The purpose of DNS is to spread scams
-  link: https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/
-  date: '2026-09-06'
+  title: 'Train Smarter, Not Harder: Switching Signal-Guided Training in Active Learning'
+  link: https://huggingface.co/papers/2609.06806
+  date: '2026-09-05'
 - source: MIT Technology Review
   title: Architecting memory and storage in the AI era
   link: https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/
@@ -173,13 +230,13 @@
   link: https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/
   date: '2026-09-04'
 - source: Hugging Face Papers
-  title: 'Cadence: Error-Bounded Lossy Compression of Demand Time Series with a Time-Series
-    Foundation Model'
-  link: https://huggingface.co/papers/2609.06008
+  title: 'Diffs vs. Whole Files: An Empirical Comparison of Iterative Edit-Based and
+    Direct Generation for Flutter/Dart Code Models'
+  link: https://huggingface.co/papers/2609.05779
   date: '2026-09-04'
 - source: Andrew Ng
-  title: 'The AI Engineering Skills Map In Detail — Using Coding Agents: How to Use
-    Coding Agents Effectively from Planning to Execution and Monitoring'
+  title: 'The AI Engineering Skills Map Part 4 — Coding Agents: How to Use Coding
+    Agents Effectively from Planning to Execution and Monitoring'
   link: https://charonhub.deeplearning.ai/the-ai-engineering-skills-map-in-detail-using-coding-agents/
   date: '2026-09-04'
 - source: Google DeepMind
@@ -203,6 +260,14 @@
   title: Training a coding model to paint watercolours with TRL and OpenEnv
   link: https://huggingface.co/blog/train-to-paint-with-code
   date: '2026-09-03'
+- source: Hugging Face Papers
+  title: 'WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data'
+  link: https://huggingface.co/papers/2609.05405
+  date: '2026-09-03'
+- source: Product Hunt
+  title: Typewise Nova
+  link: https://www.producthunt.com/products/typewise
+  date: '2026-09-03'
 - source: Google DeepMind
   title: Proactive cyber defense for governments and enterprises
   link: https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/
@@ -214,10 +279,6 @@
 - source: MIT Technology Review
   title: Facilitating AI integration with simplicity at scale
   link: https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/
-  date: '2026-09-02'
-- source: Hugging Face Blog
-  title: Real-Time Intelligence with IBM Time Series Models on Confluent
-  link: https://huggingface.co/blog/ibm-research/real-time-intelligence
   date: '2026-09-02'
 - source: Anthropic
   title: Developing Enterprise Frontier Safeguards with our customers
@@ -235,6 +296,10 @@
   title: 'Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI'
   link: https://huggingface.co/blog/webgpu-kernels
   date: '2026-09-01'
+- source: Product Hunt
+  title: Live Captions by Subanana
+  link: https://www.producthunt.com/products/subanana
+  date: '2026-09-01'
 - source: Anthropic
   title: Improving our alignment and security efforts
   link: https://www.anthropic.com/news/improving-alignment-security-efforts
@@ -247,17 +312,13 @@
   title: Agency and Agents
   link: https://www.oneusefulthing.org/p/agency-and-agents
   date: '2026-08-31'
-- source: Product Hunt
-  title: Harden
-  link: https://www.producthunt.com/products/agent-integrity-foundation-aif
-  date: '2026-08-29'
 - source: Hugging Face Blog
   title: The Open ASR Leaderboard Adds Its First Global South Language
   link: https://huggingface.co/blog/open-asr-leaderboard-global-south
   date: '2026-08-28'
 - source: Andrew Ng
-  title: 'The AI Engineering Skills Map In Detail — Software Engineering Fundamentals:
-    Why Software Fundamentals Remain Essential for AI Developers'
+  title: 'The AI Engineering Skills Map Part 3 —  Fundamentals: Why Software Engineering
+    Fundamentals Remain Essential for AI Developers'
   link: https://charonhub.deeplearning.ai/the-ai-engineering-skills-map-in-detail-software-engineering-fundamentals/
   date: '2026-08-28'
 - source: Anthropic
@@ -300,10 +361,6 @@
   title: Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers
   link: https://huggingface.co/blog/train-multi-vector-encoder
   date: '2026-08-26'
-- source: Product Hunt
-  title: Noodle Seed
-  link: https://www.producthunt.com/products/noodle-seed
-  date: '2026-08-26'
 - source: Anthropic
   title: Funding better evaluations of AI’s impact on wellbeing
   link: https://www.anthropic.com/news/wellbeing-research-grants
@@ -317,14 +374,18 @@
   link: https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/
   date: '2026-08-21'
 - source: Andrew Ng
-  title: 'The AI Engineering Skills Map In Detail — Building and Deploying AI Applications:
-    What You Need to Know to Make AI Applications Work in Real Life'
+  title: 'The AI Engineering Skills Map Part 2 —  AI Applications: What You Need to
+    Know to Build and Deploy AI Applications In Real Life'
   link: https://charonhub.deeplearning.ai/he-ai-engineering-skills-map-in-detail-building-and-deploying-ai-applications/
   date: '2026-08-21'
 - source: Product Hunt
-  title: Mastra Factory
-  link: https://www.producthunt.com/products/mastra
+  title: AI Observability by OpenObserve
+  link: https://www.producthunt.com/products/openobserve
   date: '2026-08-21'
+- source: Product Hunt
+  title: Viso Now
+  link: https://www.producthunt.com/products/viso-now
+  date: '2026-08-17'
 - source: Ahead of AI
   title: Building an AI Text Detector From Scratch
   link: https://magazine.sebastianraschka.com/p/ai-detector-from-scratch
@@ -334,8 +395,8 @@
   link: https://www.anthropic.com/news/claude-text-watermark
   date: '2026-08-14'
 - source: Andrew Ng
-  title: 'The AI Engineering Skills Map: Andrew Ng and DeepLearning.AI Present the
-    Essential Skills Every AI Engineer Needs in 2026'
+  title: 'The AI Engineering Skills Map Part 1: Andrew Ng and DeepLearning.AI Present
+    the Essential Skills Every AI Engineer Needs to Know'
   link: https://charonhub.deeplearning.ai/the-ai-engineering-skills-map/
   date: '2026-08-14'
 - source: Google DeepMind
@@ -494,10 +555,6 @@
   title: The Shape of the Thing
   link: https://www.oneusefulthing.org/p/the-shape-of-the-thing
   date: '2026-03-12'
-- source: Ahead of AI
-  title: 'A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026'
-  link: https://magazine.sebastianraschka.com/p/a-dream-of-spring-for-open-weight
-  date: '2026-02-25'
 - source: One Useful Thing
   title: A Guide to Which AI to Use in the Agentic Era
   link: https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the
