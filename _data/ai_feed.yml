@@ -1,43 +1,31 @@
+- source: OpenAI
+  title: Proaction boosts sales 60% and saves 75+ hours with Codex
+  link: https://openai.com/index/proaction
+  date: '2026-09-25'
 - source: MIT Technology Review
   title: The Pentagon wants $30 million to build an AI-powered lie detector
   link: https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/
   date: '2026-09-25'
+- source: Simon Willison
+  title: Quoting John Gruber
+  link: https://simonwillison.net/2026/Sep/25/john-gruber/
+  date: '2026-09-25'
+- source: Simon Willison
+  title: Northern Gannet, Great Blue Heron, California Brown Pelican
+  link: https://simonwillison.net/2026/Sep/25/sighting-403293902/
+  date: '2026-09-25'
+- source: Andrew Ng
+  title: 'What Stage Is Your Project? Takeaways For AI Engineering: How to Adjust
+    Your Tactics to Fit Your Project''s Maturity'
+  link: https://charonhub.deeplearning.ai/what-stage-is-your-project-takeaways-for-ai-engineering/
+  date: '2026-09-25'
+- source: Product Hunt
+  title: GoodSocials
+  link: https://www.producthunt.com/products/goodsocials
+  date: '2026-09-25'
 - source: Product Hunt
   title: SocialGPT
   link: https://www.producthunt.com/products/socialgpt
-  date: '2026-09-25'
-- source: GitHub (trending AI/LLM/Agents)
-  title: jev-chat/jev-chat-jarvis (6426★) · 装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不
-    hook 不改包。
-  link: https://github.com/jev-chat/jev-chat-jarvis
-  date: '2026-09-25'
-- source: GitHub (trending AI/LLM/Agents)
-  title: yibie/awesome-jev (1644★) · A curated list of public projects, integrations,
-    and discussions built on Jev — TypeSafe AI's System One model for typed decisions.
-  link: https://github.com/yibie/awesome-jev
-  date: '2026-09-25'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'mikehasa/golive-skill (919★) · Take your agent-built product live: hosting,
-    database, domain, email, payments — on your own accounts. Open-source Agent Skill
-    + zero-dependency Node'
-  link: https://github.com/mikehasa/golive-skill
-  date: '2026-09-25'
-- source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (49263★) · LocalAI is the open-source AI engine. Run any model
-    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
-  link: https://github.com/mudler/LocalAI
-  date: '2026-09-25'
-- source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (48562★) · Ultra-lightweight, open-source, self-hosted personal
-    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
-    automation, and ch
-  link: https://github.com/HKUDS/nanobot
-  date: '2026-09-25'
-- source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (46888★) · AAS Core is the local, agent-first
-    control plane for complete catalog discovery, agent-owned selection, stack validation,
-    and planning, ba
-  link: https://github.com/sickn33/agentic-awesome-skills
   date: '2026-09-25'
 - source: Google DeepMind
   title: Introducing Gemini 3.8 Live with Live Avatar
@@ -46,6 +34,10 @@
 - source: Hugging Face Blog
   title: Accelerating vision-language models with LFM2.5-VL-DSpark
   link: https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark
+  date: '2026-09-24'
+- source: Simon Willison
+  title: Note on 24th September 2026
+  link: https://simonwillison.net/2026/Sep/24/harder/
   date: '2026-09-24'
 - source: Simon Willison
   title: commit-rewriter 0.2
@@ -60,14 +52,16 @@
   link: https://www.producthunt.com/products/decktly
   date: '2026-09-24'
 - source: Product Hunt
-  title: HireOtto
-  link: https://www.producthunt.com/products/hireotto
+  title: DokBot
+  link: https://www.producthunt.com/products/dokbot
   date: '2026-09-24'
-- source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (47111★) · Open-source super AI assistant & Agent Harness.
-    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
-    multi-model, m
-  link: https://github.com/zhayujie/CowAgent
+- source: Product Hunt
+  title: Quiver GTM
+  link: https://www.producthunt.com/products/quiver-gtm
+  date: '2026-09-24'
+- source: Product Hunt
+  title: Basedash MCP write
+  link: https://www.producthunt.com/products/basedash
   date: '2026-09-24'
 - source: OpenAI
   title: Two years of OpenAI Academy
@@ -105,10 +99,6 @@
   title: Airbnb widens access to GPT-6 Astra and OpenAI frontier models
   link: https://openai.com/index/airbnb-gpt-6-astra
   date: '2026-09-23'
-- source: OpenAI
-  title: Grab and OpenAI bring practical AI skills to Southeast Asia
-  link: https://openai.com/index/grab-openai-ai-skills-southeast-asia
-  date: '2026-09-23'
 - source: Anthropic
   title: Claude discovers a novel enzyme system with CRISPR-like repeats
   link: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
@@ -131,6 +121,25 @@
   link: https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp
   date: '2026-09-23'
 - source: Hugging Face Papers
+  title: 'RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation'
+  link: https://huggingface.co/papers/2609.29028
+  date: '2026-09-23'
+- source: Hugging Face Papers
+  title: 'AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for
+    Joint Audio-Video Generation'
+  link: https://huggingface.co/papers/2609.29816
+  date: '2026-09-23'
+- source: Hugging Face Papers
+  title: 'Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition
+    in LLMs'
+  link: https://huggingface.co/papers/2609.29845
+  date: '2026-09-23'
+- source: Hugging Face Papers
+  title: 'Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot
+    Detector of AI Alignment Failures'
+  link: https://huggingface.co/papers/2609.29429
+  date: '2026-09-23'
+- source: Hugging Face Papers
   title: Parts-of-Speech as Emergent Categories in SAE Latent Space
   link: https://huggingface.co/papers/2609.29362
   date: '2026-09-23'
@@ -141,19 +150,6 @@
 - source: Hugging Face Papers
   title: 'Rufus-Air: An Open LLM Post-Training Recipe'
   link: https://huggingface.co/papers/2609.29421
-  date: '2026-09-23'
-- source: Hugging Face Papers
-  title: 'IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis'
-  link: https://huggingface.co/papers/2609.29444
-  date: '2026-09-23'
-- source: Hugging Face Papers
-  title: 'ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video
-    Generation'
-  link: https://huggingface.co/papers/2609.28923
-  date: '2026-09-23'
-- source: Hugging Face Papers
-  title: 'PUBG Ally: A Conversational Embodied Agent as an AI Teammate'
-  link: https://huggingface.co/papers/2609.29837
   date: '2026-09-23'
 - source: Simon Willison
   title: Gemini 3.8 TTS Playground
@@ -168,13 +164,8 @@
   link: https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/
   date: '2026-09-23'
 - source: Product Hunt
-  title: Aks.ai
-  link: https://www.producthunt.com/products/aks-ai
-  date: '2026-09-23'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'awlevin/typesafe-computer-use (955★) · Computer use for about $0.0002 a
-    step: OCR the screen, classify the next action with TypeSafe, click. macOS.'
-  link: https://github.com/awlevin/typesafe-computer-use
+  title: Lisen
+  link: https://www.producthunt.com/products/lisen
   date: '2026-09-23'
 - source: MIT Technology Review
   title: 'Roundtables: The Deadly Failures of The Virtual Border Wall'
@@ -198,6 +189,10 @@
   link: https://huggingface.co/blog/omlx
   date: '2026-09-22'
 - source: Hugging Face Papers
+  title: Learning to Discover Interesting Mathematics
+  link: https://huggingface.co/papers/2609.28603
+  date: '2026-09-22'
+- source: Hugging Face Papers
   title: 'DeltaWAM: Delta World Action Models for Bimanual Manipulation'
   link: https://huggingface.co/papers/2609.28811
   date: '2026-09-22'
@@ -213,35 +208,9 @@
   title: llm 0.36
   link: https://simonwillison.net/2026/Sep/22/llm/
   date: '2026-09-22'
-- source: Simon Willison
-  title: Quoting @therealcornpop
-  link: https://simonwillison.net/2026/Sep/22/therealcornpop/
-  date: '2026-09-22'
-- source: Simon Willison
-  title: llm-anthropic 0.29
-  link: https://simonwillison.net/2026/Sep/22/llm-anthropic/
-  date: '2026-09-22'
-- source: Simon Willison
-  title: llm-typesafe 0.1a0
-  link: https://simonwillison.net/2026/Sep/22/llm-typesafe/
-  date: '2026-09-22'
 - source: Product Hunt
-  title: Kairn
-  link: https://www.producthunt.com/products/kairn-2
-  date: '2026-09-22'
-- source: Product Hunt
-  title: Kelam
-  link: https://www.producthunt.com/products/kelam
-  date: '2026-09-22'
-- source: Product Hunt
-  title: AgreeGuard
-  link: https://www.producthunt.com/products/agreeguard-ai-terms-privacy-analyzer
-  date: '2026-09-22'
-- source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (47976★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
-    AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
-    生成 → 在线配置 → 代码
-  link: https://github.com/jeecgboot/JeecgBoot
+  title: Hemory
+  link: https://www.producthunt.com/products/hemory
   date: '2026-09-22'
 - source: MIT Technology Review
   title: How we made the first comprehensive map of deaths along the US border’s “virtual
@@ -269,19 +238,6 @@
   title: 'tokenizers v1: encode, decode and scaling, measured'
   link: https://huggingface.co/blog/tokenizers-v1
   date: '2026-09-21'
-- source: Hugging Face Papers
-  title: 'OmniEcho: Spatial Audio Understanding for Embodied Agents'
-  link: https://huggingface.co/papers/2609.23407
-  date: '2026-09-19'
-- source: Product Hunt
-  title: NexusAXI
-  link: https://www.producthunt.com/products/nexusaxi
-  date: '2026-09-19'
-- source: GitHub (trending AI/LLM/Agents)
-  title: youngyangyang04/llm-master (948★) · 大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI
-    Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。
-  link: https://github.com/youngyangyang04/llm-master
-  date: '2026-09-19'
 - source: Anthropic
   title: Partnering with Accenture on embedded evaluation
   link: https://www.anthropic.com/news/accenture-embedded-evaluation
@@ -303,6 +259,10 @@
   title: 'Who’s Responsible for Irresponsible AI?: Separating Out AI Facts, Fears,
     and Fiction'
   link: https://charonhub.deeplearning.ai/whos-responsible-for-irresponsible-ai/
+  date: '2026-09-18'
+- source: Product Hunt
+  title: Howseen AI
+  link: https://www.producthunt.com/products/howseen-ai
   date: '2026-09-18'
 - source: Anthropic
   title: Introducing the Life Sciences Verification Program
@@ -346,10 +306,6 @@
     in the human genome'
   link: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/
   date: '2026-09-08'
-- source: Product Hunt
-  title: FinalFrame
-  link: https://www.producthunt.com/products/finalframe
-  date: '2026-09-08'
 - source: Andrew Ng
   title: 'The AI Engineering Skills Map Part 4 — Coding Agents: How to Use Coding
     Agents Effectively from Planning to Execution and Monitoring'
@@ -384,10 +340,10 @@
   title: Agency and Agents
   link: https://www.oneusefulthing.org/p/agency-and-agents
   date: '2026-08-31'
-- source: Hugging Face Papers
-  title: 'AgentKernel: The Trust-Native Agentic Operating System'
-  link: https://huggingface.co/papers/2609.29647
-  date: '2026-08-28'
+- source: Product Hunt
+  title: Eclatira
+  link: https://www.producthunt.com/products/eclatira
+  date: '2026-08-31'
 - source: Andrew Ng
   title: 'The AI Engineering Skills Map Part 3 —  Fundamentals: Why Software Engineering
     Fundamentals Remain Essential for AI Developers'
@@ -409,10 +365,6 @@
   title: Funding better evaluations of AI’s impact on wellbeing
   link: https://www.anthropic.com/news/wellbeing-research-grants
   date: '2026-08-25'
-- source: Product Hunt
-  title: shadow-planner
-  link: https://www.producthunt.com/products/shadow-planner
-  date: '2026-08-23'
 - source: Ahead of AI
   title: How Claude Watermarks AI-Generated Text
   link: https://magazine.sebastianraschka.com/p/claude-watermarking
@@ -429,11 +381,6 @@
 - source: Anthropic
   title: How Claude’s text watermark works
   link: https://www.anthropic.com/news/claude-text-watermark
-  date: '2026-08-14'
-- source: Andrew Ng
-  title: 'The AI Engineering Skills Map Part 1: Andrew Ng and DeepLearning.AI Present
-    the Essential Skills Every AI Engineer Needs to Know'
-  link: https://charonhub.deeplearning.ai/the-ai-engineering-skills-map/
   date: '2026-08-14'
 - source: Anthropic
   title: Improving Fable 5's biology safeguards
