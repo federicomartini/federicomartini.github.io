@@ -1,3 +1,7 @@
+- source: Simon Willison
+  title: Kākāpō Party
+  link: https://simonwillison.net/2026/Sep/26/kakapo-party/
+  date: '2026-09-26'
 - source: OpenAI
   title: Proaction boosts sales 60% and saves 75+ hours with Codex
   link: https://openai.com/index/proaction
@@ -23,10 +27,6 @@
   title: GoodSocials
   link: https://www.producthunt.com/products/goodsocials
   date: '2026-09-25'
-- source: Product Hunt
-  title: SocialGPT
-  link: https://www.producthunt.com/products/socialgpt
-  date: '2026-09-25'
 - source: Google DeepMind
   title: Introducing Gemini 3.8 Live with Live Avatar
   link: https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/
@@ -46,22 +46,6 @@
 - source: Simon Willison
   title: datasette 1.0a41
   link: https://simonwillison.net/2026/Sep/24/datasette/
-  date: '2026-09-24'
-- source: Product Hunt
-  title: Decktly
-  link: https://www.producthunt.com/products/decktly
-  date: '2026-09-24'
-- source: Product Hunt
-  title: DokBot
-  link: https://www.producthunt.com/products/dokbot
-  date: '2026-09-24'
-- source: Product Hunt
-  title: Quiver GTM
-  link: https://www.producthunt.com/products/quiver-gtm
-  date: '2026-09-24'
-- source: Product Hunt
-  title: Basedash MCP write
-  link: https://www.producthunt.com/products/basedash
   date: '2026-09-24'
 - source: OpenAI
   title: Two years of OpenAI Academy
@@ -204,9 +188,13 @@
   title: Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war
   link: https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/
   date: '2026-09-22'
-- source: Simon Willison
-  title: llm 0.36
-  link: https://simonwillison.net/2026/Sep/22/llm/
+- source: Product Hunt
+  title: GPT-6 Sol & Luna
+  link: https://www.producthunt.com/products/openai
+  date: '2026-09-22'
+- source: Product Hunt
+  title: Superhuman Go
+  link: https://www.producthunt.com/products/superhuman-go
   date: '2026-09-22'
 - source: Product Hunt
   title: Hemory
@@ -238,6 +226,10 @@
   title: 'tokenizers v1: encode, decode and scaling, measured'
   link: https://huggingface.co/blog/tokenizers-v1
   date: '2026-09-21'
+- source: Product Hunt
+  title: Harmony
+  link: https://www.producthunt.com/products/harmony-it
+  date: '2026-09-19'
 - source: Anthropic
   title: Partnering with Accenture on embedded evaluation
   link: https://www.anthropic.com/news/accenture-embedded-evaluation
@@ -259,10 +251,6 @@
   title: 'Who’s Responsible for Irresponsible AI?: Separating Out AI Facts, Fears,
     and Fiction'
   link: https://charonhub.deeplearning.ai/whos-responsible-for-irresponsible-ai/
-  date: '2026-09-18'
-- source: Product Hunt
-  title: Howseen AI
-  link: https://www.producthunt.com/products/howseen-ai
   date: '2026-09-18'
 - source: Anthropic
   title: Introducing the Life Sciences Verification Program
@@ -332,6 +320,10 @@
   title: Introducing agentic video understanding with Gemini
   link: https://deepmind.google/blog/introducing-agentic-video-in-gemini/
   date: '2026-09-01'
+- source: Product Hunt
+  title: Humalike x GTA RP
+  link: https://www.producthunt.com/products/humalike-2
+  date: '2026-09-01'
 - source: Anthropic
   title: Improving our alignment and security efforts
   link: https://www.anthropic.com/news/improving-alignment-security-efforts
@@ -365,6 +357,10 @@
   title: Funding better evaluations of AI’s impact on wellbeing
   link: https://www.anthropic.com/news/wellbeing-research-grants
   date: '2026-08-25'
+- source: Product Hunt
+  title: shadow-planner
+  link: https://www.producthunt.com/products/shadow-planner
+  date: '2026-08-23'
 - source: Ahead of AI
   title: How Claude Watermarks AI-Generated Text
   link: https://magazine.sebastianraschka.com/p/claude-watermarking
@@ -405,6 +401,10 @@
 - source: antirez
   title: Not just development, distribution of software may change as well
   link: http://antirez.com/news/170
+  date: '2026-07-22'
+- source: Product Hunt
+  title: Cuey
+  link: https://www.producthunt.com/products/cuey-2
   date: '2026-07-22'
 - source: Ahead of AI
   title: Controlling Reasoning Effort in LLMs
