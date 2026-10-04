@@ -1,49 +1,30 @@
+- source: Hugging Face Blog
+  title: The Agent Said It Was Done. The Database Disagreed.
+  link: https://huggingface.co/blog/microsoft/thinkingbox
+  date: '2026-10-03'
+- source: Simon Willison
+  title: We're going to need default hard budget caps on pretty much everything
+  link: https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
+  date: '2026-10-03'
+- source: Simon Willison
+  title: September sponsors-only newsletter
+  link: https://simonwillison.net/2026/Oct/3/newsletter/
+  date: '2026-10-03'
 - source: Product Hunt
-  title: Muse Gadgets
-  link: https://www.producthunt.com/products/muse-22
+  title: Aperture
+  link: https://www.producthunt.com/products/aperture-7
   date: '2026-10-03'
-- source: GitHub (trending AI/LLM/Agents)
-  title: jev-chat/jev-chat-jarvis (7280★) · 装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不
-    hook 不改包。
-  link: https://github.com/jev-chat/jev-chat-jarvis
+- source: Product Hunt
+  title: Sellio
+  link: https://www.producthunt.com/products/sellio-2
   date: '2026-10-03'
-- source: GitHub (trending AI/LLM/Agents)
-  title: KKKKhazix/AIHOT (5066★) · 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
-  link: https://github.com/KKKKhazix/AIHOT
+- source: Product Hunt
+  title: FlexChords
+  link: https://www.producthunt.com/products/flexchords
   date: '2026-10-03'
-- source: GitHub (trending AI/LLM/Agents)
-  title: yetone/magpie (4373★) · Every agent's model. One place. Codex on DeepSeek,
-    Claude Code on Kimi, from the menu bar.
-  link: https://github.com/yetone/magpie
-  date: '2026-10-03'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'Louis-CFM/coucou (3106★) · A tiny friend that lives in your notch (macOS)
-    or at the top of your screen (Windows, Linux) and keeps an eye on your coding
-    agents: Claude Code, Codex, '
-  link: https://github.com/Louis-CFM/coucou
-  date: '2026-10-03'
-- source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (49370★) · LocalAI is the open-source AI engine. Run any model
-    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
-  link: https://github.com/mudler/LocalAI
-  date: '2026-10-03'
-- source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (48753★) · Ultra-lightweight, open-source, self-hosted personal
-    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
-    automation, and ch
-  link: https://github.com/HKUDS/nanobot
-  date: '2026-10-03'
-- source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (47219★) · Open-source personal AI assistant & Agent Harness.
-    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
-    multi-model
-  link: https://github.com/zhayujie/CowAgent
-  date: '2026-10-03'
-- source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (47211★) · AAS Core is the local, agent-first
-    control plane for complete catalog discovery, agent-owned selection, stack validation,
-    and planning, ba
-  link: https://github.com/sickn33/agentic-awesome-skills
+- source: Product Hunt
+  title: Thinking Orbs
+  link: https://www.producthunt.com/products/thinking-orbs
   date: '2026-10-03'
 - source: OpenAI
   title: A model guide for the GPT-6 family
@@ -74,14 +55,18 @@
   title: 'AutoSynthData: Generating Training Data for Enterprise Agents'
   link: https://huggingface.co/blog/ServiceNow-AI/autosynthdata
   date: '2026-10-02'
+- source: Simon Willison
+  title: Rex's Dino Store
+  link: https://simonwillison.net/2026/Oct/2/rex-s-dino-store/
+  date: '2026-10-02'
 - source: Andrew Ng
   title: 'We Should Be Encouraged By AI’s Cybersecurity Abilities: Why GLM-5.3’s High
     ExploitBench score is good news'
   link: https://charonhub.deeplearning.ai/we-should-be-encouraged-by-ais-cybersecurity-abilities-why-glm-5-3s-high-exploitbench-score-is-good-news/
   date: '2026-10-02'
 - source: Product Hunt
-  title: eu/jev
-  link: https://www.producthunt.com/products/bevel-software
+  title: qarunbook
+  link: https://www.producthunt.com/products/qarunbook
   date: '2026-10-02'
 - source: OpenAI
   title: The eternal complement
@@ -106,10 +91,6 @@
 - source: One Useful Thing
   title: The Dot and the Swarm
   link: https://www.oneusefulthing.org/p/the-dot-and-the-swarm
-  date: '2026-10-01'
-- source: Product Hunt
-  title: Singularity
-  link: https://www.producthunt.com/products/singularity-2
   date: '2026-10-01'
 - source: OpenAI
   title: Disrupting a coordinated model-distillation campaign
@@ -149,14 +130,6 @@
 - source: Simon Willison
   title: He Built This City
   link: https://simonwillison.net/2026/Sep/30/he-built-this-city/
-  date: '2026-09-30'
-- source: Product Hunt
-  title: Agent Activity
-  link: https://www.producthunt.com/products/agent-activity
-  date: '2026-09-30'
-- source: Product Hunt
-  title: Thanor AI
-  link: https://www.producthunt.com/products/thanor-ai
   date: '2026-09-30'
 - source: OpenAI
   title: DevDay 2026 Recap
@@ -212,13 +185,8 @@
   link: https://magazine.sebastianraschka.com/p/classifier-history-and-jev
   date: '2026-09-29'
 - source: Product Hunt
-  title: Cubicle
-  link: https://www.producthunt.com/products/cubicle-2
-  date: '2026-09-29'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'feder-cr/dots (2566★) · Open-source dots for the web: an AI agent with its
-    own browser, one that does not get blocked.'
-  link: https://github.com/feder-cr/dots
+  title: ChatGPT Space
+  link: https://www.producthunt.com/products/chatgpt-space
   date: '2026-09-29'
 - source: MIT Technology Review
   title: 'Roundtables: The Deadly Failures of The Virtual Border Wall'
@@ -249,21 +217,13 @@
   title: Claude Sonnet 5.5
   link: https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/
   date: '2026-09-28'
-- source: Simon Willison
-  title: Quoting @joedaroo
-  link: https://simonwillison.net/2026/Sep/28/joedaroo/
-  date: '2026-09-28'
-- source: Simon Willison
-  title: Quoting Muse AI Agent
-  link: https://simonwillison.net/2026/Sep/28/muse-ai-agent/
-  date: '2026-09-28'
 - source: Hugging Face Papers
   title: 'Persona Dosing: Calibrated Activation Steering for Graded Trait Control'
   link: https://huggingface.co/papers/2609.36388
   date: '2026-09-27'
-- source: Simon Willison
-  title: 2026 in LLMs (so far)
-  link: https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/
+- source: Product Hunt
+  title: Rival Workshop
+  link: https://www.producthunt.com/products/rival-workshop
   date: '2026-09-27'
 - source: MIT Technology Review
   title: The Pentagon wants $30 million to build an AI-powered lie detector
@@ -296,10 +256,6 @@
   title: Accelerating vision-language models with LFM2.5-VL-DSpark
   link: https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark
   date: '2026-09-24'
-- source: Product Hunt
-  title: ZooWork
-  link: https://www.producthunt.com/products/zoowork
-  date: '2026-09-24'
 - source: Anthropic
   title: Claude discovers a novel enzyme system with CRISPR-like repeats
   link: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
@@ -328,29 +284,10 @@
   title: Transformers now runs llama.cpp quants
   link: https://huggingface.co/blog/transformers-llama-cpp-quants
   date: '2026-09-22'
-- source: Hugging Face Blog
-  title: Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX
-    community
-  link: https://huggingface.co/blog/omlx
-  date: '2026-09-22'
 - source: arXiv (DeepSeek/Qwen/Kimi/GLM)
   title: 'Qwen3.8-Omni: Towards Native Omni-Modal Agents'
   link: https://arxiv.org/abs/2609.25611v1
   date: '2026-09-22'
-- source: Product Hunt
-  title: Kilo
-  link: https://www.producthunt.com/products/kilo
-  date: '2026-09-22'
-- source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (48065★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
-    AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
-    生成 → 在线配置 → 代码
-  link: https://github.com/jeecgboot/JeecgBoot
-  date: '2026-09-22'
-- source: Product Hunt
-  title: SCMD
-  link: https://www.producthunt.com/products/scmd
-  date: '2026-09-21'
 - source: Anthropic
   title: Partnering with Accenture on embedded evaluation
   link: https://www.anthropic.com/news/accenture-embedded-evaluation
@@ -364,10 +301,6 @@
     and Fiction'
   link: https://charonhub.deeplearning.ai/whos-responsible-for-irresponsible-ai/
   date: '2026-09-18'
-- source: Product Hunt
-  title: miso.com
-  link: https://www.producthunt.com/products/miso-com
-  date: '2026-09-18'
 - source: Anthropic
   title: Introducing the Life Sciences Verification Program
   link: https://www.anthropic.com/news/life-sciences-verification-program
@@ -376,10 +309,18 @@
   title: 'DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression'
   link: https://arxiv.org/abs/2609.19969v1
   date: '2026-09-17'
+- source: Product Hunt
+  title: Sente
+  link: https://www.producthunt.com/products/sente-2
+  date: '2026-09-16'
 - source: Google DeepMind
   title: Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking
   link: https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/
   date: '2026-09-15'
+- source: Product Hunt
+  title: Sorcrr
+  link: https://www.producthunt.com/products/sorcrr
+  date: '2026-09-12'
 - source: Andrew Ng
   title: 'The AI Engineering Skills Map Part 5 — Shaping the Build: AI Engineering
     Adds New Responsiiblities and Opportunities for Product Leadership'
@@ -449,6 +390,10 @@
   title: Building an AI Text Detector From Scratch
   link: https://magazine.sebastianraschka.com/p/ai-detector-from-scratch
   date: '2026-08-15'
+- source: Product Hunt
+  title: WikiFix for Confluence
+  link: https://www.producthunt.com/products/wikifix
+  date: '2026-08-07'
 - source: antirez
   title: The real AI risk is inside the labs
   link: http://antirez.com/news/172
