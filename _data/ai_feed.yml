@@ -1,73 +1,132 @@
+- source: Hugging Face Blog
+  title: 'Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance'
+  link: https://huggingface.co/blog/tiiuae/falcon-emirati
+  date: '2026-10-06'
+- source: GitHub (trending AI/LLM/Agents)
+  title: KKKKhazix/AIHOT (6118★) · 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
+  link: https://github.com/KKKKhazix/AIHOT
+  date: '2026-10-06'
+- source: GitHub (trending AI/LLM/Agents)
+  title: yetone/magpie (5343★) · Every agent's model. One place. Codex on DeepSeek,
+    Claude Code on Kimi, from the menu bar.
+  link: https://github.com/yetone/magpie
+  date: '2026-10-06'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'Louis-CFM/coucou (3765★) · A tiny friend in your Mac''s notch and on your
+    iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor,
+    Gemini CLI, Antigravity and '
+  link: https://github.com/Louis-CFM/coucou
+  date: '2026-10-06'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'Ebony-Vinyl/dsh-our-free-model (1937★) · 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括
+    DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin
+    in dsh: no login,'
+  link: https://github.com/Ebony-Vinyl/dsh-our-free-model
+  date: '2026-10-06'
+- source: GitHub (trending AI/LLM/Agents)
+  title: mudler/LocalAI (49408★) · LocalAI is the open-source AI engine. Run any model
+    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
+  link: https://github.com/mudler/LocalAI
+  date: '2026-10-06'
+- source: GitHub (trending AI/LLM/Agents)
+  title: HKUDS/nanobot (48820★) · Ultra-lightweight, open-source, self-hosted personal
+    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
+    automation, and ch
+  link: https://github.com/HKUDS/nanobot
+  date: '2026-10-06'
+- source: GitHub (trending AI/LLM/Agents)
+  title: sickn33/agentic-awesome-skills (47292★) · AAS Core is the local, agent-first
+    control plane for complete catalog discovery, agent-owned selection, stack validation,
+    and planning, ba
+  link: https://github.com/sickn33/agentic-awesome-skills
+  date: '2026-10-06'
+- source: GitHub (trending AI/LLM/Agents)
+  title: zhayujie/CowAgent (47244★) · Open-source personal AI assistant & Agent Harness.
+    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
+    multi-model
+  link: https://github.com/zhayujie/CowAgent
+  date: '2026-10-06'
+- source: OpenAI
+  title: Our approach to EU text provenance rules
+  link: https://openai.com/index/eu-text-provenance
+  date: '2026-10-05'
 - source: OpenAI
   title: Building advertising for the way people use AI
   link: https://openai.com/index/new-chatgpt-ads-format-and-measurement
   date: '2026-10-05'
 - source: MIT Technology Review
+  title: Connecting AI agents to enterprise knowledge
+  link: https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/
+  date: '2026-10-05'
+- source: MIT Technology Review
+  title: Bringing predictive analytics to the agentic AI era
+  link: https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/
+  date: '2026-10-05'
+- source: MIT Technology Review
   title: People really hate AI, so why can’t they get enough?
   link: https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/
   date: '2026-10-05'
-- source: Product Hunt
-  title: Marv
-  link: https://www.producthunt.com/products/marv-3
+- source: MIT Technology Review
+  title: 'EmTech Future 2026: When AI Meets Everything'
+  link: https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/
+  date: '2026-10-05'
+- source: Simon Willison
+  title: Quoting Felix Rieseberg
+  link: https://simonwillison.net/2026/Oct/5/felix-rieseberg/
   date: '2026-10-05'
 - source: Product Hunt
-  title: Spira Maxima
-  link: https://www.producthunt.com/products/spira-ai
+  title: EasyCut
+  link: https://www.producthunt.com/products/easycut-2
   date: '2026-10-05'
 - source: Product Hunt
-  title: crosswalk
-  link: https://www.producthunt.com/products/crosswalk
-  date: '2026-10-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: yetone/magpie (5030★) · Every agent's model. One place. Codex on DeepSeek,
-    Claude Code on Kimi, from the menu bar.
-  link: https://github.com/yetone/magpie
-  date: '2026-10-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'Louis-CFM/coucou (3593★) · A tiny friend that lives in your notch (macOS)
-    or at the top of your screen (Windows, Linux) and keeps an eye on your coding
-    agents: Claude Code, Codex, '
-  link: https://github.com/Louis-CFM/coucou
-  date: '2026-10-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: nanaism/yomiyasu (1476★) · AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill
-    for Refining AI-Generated Japanese into Natural Japanese
-  link: https://github.com/nanaism/yomiyasu
-  date: '2026-10-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (49394★) · LocalAI is the open-source AI engine. Run any model
-    - LLMs, vision, voice, image, video - on any hardware. No GPU required.
-  link: https://github.com/mudler/LocalAI
-  date: '2026-10-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (48794★) · Ultra-lightweight, open-source, self-hosted personal
-    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
-    automation, and ch
-  link: https://github.com/HKUDS/nanobot
-  date: '2026-10-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (47225★) · Open-source personal AI assistant & Agent Harness.
-    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
-    multi-model
-  link: https://github.com/zhayujie/CowAgent
+  title: Rill Browser
+  link: https://www.producthunt.com/products/rill-3
   date: '2026-10-05'
 - source: Product Hunt
-  title: Reviu
-  link: https://www.producthunt.com/products/reviu
+  title: Floani
+  link: https://www.producthunt.com/products/floani
+  date: '2026-10-05'
+- source: Product Hunt
+  title: Brnch
+  link: https://www.producthunt.com/products/brnch
+  date: '2026-10-05'
+- source: Product Hunt
+  title: ruOS
+  link: https://www.producthunt.com/products/ruos
+  date: '2026-10-05'
+- source: Product Hunt
+  title: Cosmic AI Support Agent
+  link: https://www.producthunt.com/products/cosmic
+  date: '2026-10-05'
+- source: GitHub (trending AI/LLM/Agents)
+  title: milvus-io/milvus (46326★) · Milvus is a high-performance, cloud-native vector
+    database built for scalable vector ANN search
+  link: https://github.com/milvus-io/milvus
+  date: '2026-10-05'
+- source: Hugging Face Papers
+  title: 'SoK: Semantic Decision Engines in Network Control Loops'
+  link: https://huggingface.co/papers/2610.06425
   date: '2026-10-04'
-- source: GitHub (trending AI/LLM/Agents)
-  title: KKKKhazix/AIHOT (5917★) · 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
-  link: https://github.com/KKKKhazix/AIHOT
+- source: Hugging Face Papers
+  title: What Matters for Latent Reasoning with Flow Matching
+  link: https://huggingface.co/papers/2610.06666
   date: '2026-10-04'
-- source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (47261★) · AAS Core is the local, agent-first
-    control plane for complete catalog discovery, agent-owned selection, stack validation,
-    and planning, ba
-  link: https://github.com/sickn33/agentic-awesome-skills
+- source: Simon Willison
+  title: Qwen3.8 27B addition in words
+  link: https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/
+  date: '2026-10-04'
+- source: Product Hunt
+  title: The Sentient World
+  link: https://www.producthunt.com/products/the-sentient-world
   date: '2026-10-04'
 - source: Hugging Face Blog
   title: The Agent Said It Was Done. The Database Disagreed.
   link: https://huggingface.co/blog/microsoft/thinkingbox
+  date: '2026-10-03'
+- source: Hugging Face Papers
+  title: 'UndoBench: Separating Task Competence from Recovery Capability in Tool-Using
+    AI Agents'
+  link: https://huggingface.co/papers/2610.05622
   date: '2026-10-03'
 - source: Simon Willison
   title: We're going to need default hard budget caps on pretty much everything
@@ -77,12 +136,8 @@
   title: September sponsors-only newsletter
   link: https://simonwillison.net/2026/Oct/3/newsletter/
   date: '2026-10-03'
-- source: Product Hunt
-  title: Unscary AI
-  link: https://www.producthunt.com/products/unscary-ai
-  date: '2026-10-03'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'feder-cr/dots (2610★) · Open-source dots for the web: an AI agent with its
+  title: 'feder-cr/dots (2628★) · Open-source dots for the web: an AI agent with its
     own browser, one that does not get blocked.'
   link: https://github.com/feder-cr/dots
   date: '2026-10-03'
@@ -125,12 +180,12 @@
   link: https://charonhub.deeplearning.ai/we-should-be-encouraged-by-ais-cybersecurity-abilities-why-glm-5-3s-high-exploitbench-score-is-good-news/
   date: '2026-10-02'
 - source: Product Hunt
-  title: devpit
-  link: https://www.producthunt.com/products/devpit
+  title: Banger
+  link: https://www.producthunt.com/products/banger-mail
   date: '2026-10-02'
 - source: Product Hunt
-  title: Siteprint
-  link: https://www.producthunt.com/products/siteprint
+  title: MeetNote
+  link: https://www.producthunt.com/products/meetnote-3
   date: '2026-10-02'
 - source: OpenAI
   title: The eternal complement
@@ -149,16 +204,22 @@
   link: https://www.anthropic.com/news/barclays-scales-claude
   date: '2026-10-01'
 - source: Hugging Face Papers
-  title: 'Multilingual GSM-Symbolic: What determines capability transfer across languages?'
-  link: https://huggingface.co/papers/2610.03367
+  title: 'Intent Interpretation at RIC Timescales: Jev Decision Models versus Large
+    Language Models in 6G Open RAN'
+  link: https://huggingface.co/papers/2609.23136
   date: '2026-10-01'
 - source: Hugging Face Papers
-  title: Collective Bias Mitigation via Model Routing and Collaboration
-  link: https://huggingface.co/papers/2610.03240
+  title: What Gradients Add to Text Leakage in Split Language Models, Counted per
+    Token and per Document
+  link: https://huggingface.co/papers/2610.04128
   date: '2026-10-01'
 - source: Hugging Face Papers
-  title: Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability
-  link: https://huggingface.co/papers/2610.03509
+  title: 'DEPICT: Scoring Text-to-Image Alignment by Answer Agreement'
+  link: https://huggingface.co/papers/2610.03617
+  date: '2026-10-01'
+- source: Simon Willison
+  title: pwasm 0.2a0
+  link: https://simonwillison.net/2026/Oct/1/pwasm/
   date: '2026-10-01'
 - source: Simon Willison
   title: Quoting Matthew Green
@@ -167,6 +228,10 @@
 - source: One Useful Thing
   title: The Dot and the Swarm
   link: https://www.oneusefulthing.org/p/the-dot-and-the-swarm
+  date: '2026-10-01'
+- source: Product Hunt
+  title: Fuse AI
+  link: https://www.producthunt.com/products/fuseai
   date: '2026-10-01'
 - source: OpenAI
   title: Disrupting a coordinated model-distillation campaign
@@ -194,30 +259,13 @@
     and Voice Cloning'
   link: https://huggingface.co/blog/open-tts-leaderboard
   date: '2026-09-30'
-- source: Hugging Face Papers
-  title: World Action Modeling with Progressive Visual Planning
-  link: https://huggingface.co/papers/2610.02508
-  date: '2026-09-30'
-- source: Hugging Face Papers
-  title: 'Spatial Memory Intelligence: Endowing World Models with Understanding-Driven
-    Long-Term Memory'
-  link: https://huggingface.co/papers/2610.02521
-  date: '2026-09-30'
 - source: Simon Willison
   title: He Built This City
   link: https://simonwillison.net/2026/Sep/30/he-built-this-city/
   date: '2026-09-30'
-- source: Product Hunt
-  title: FastRouter.ai
-  link: https://www.producthunt.com/products/fastrouter-ai
-  date: '2026-09-30'
 - source: OpenAI
   title: DevDay 2026 Recap
   link: https://openai.com/index/devday-2026-recap
-  date: '2026-09-29'
-- source: OpenAI
-  title: Introducing GPT-6.1 Sol
-  link: https://openai.com/index/introducing-gpt-6-1-sol
   date: '2026-09-29'
 - source: MIT Technology Review
   title: Making AI an asset, not an expense
@@ -233,13 +281,8 @@
   link: https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source
   date: '2026-09-29'
 - source: Hugging Face Papers
-  title: Can Computation from Earlier Problems Help LLMs Solve New Ones?
-  link: https://huggingface.co/papers/2609.39394
-  date: '2026-09-29'
-- source: Hugging Face Papers
-  title: 'Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action
-    Modeling'
-  link: https://huggingface.co/papers/2609.40153
+  title: 'OmniReasoning: Pushing the Limits of Audio-Visual Joint Reasoning'
+  link: https://huggingface.co/papers/2609.39490
   date: '2026-09-29'
 - source: Simon Willison
   title: Quoting Anthropic Frontier Red Team
@@ -249,21 +292,9 @@
   title: 'GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price'
   link: https://simonwillison.net/2026/Sep/29/hn-49898129/
   date: '2026-09-29'
-- source: Simon Willison
-  title: Photo Scrubber — local face blur & metadata removal
-  link: https://simonwillison.net/2026/Sep/29/photo-scrubber/
-  date: '2026-09-29'
-- source: Simon Willison
-  title: OpenAI DevDay 2026 live blog
-  link: https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/
-  date: '2026-09-29'
 - source: Ahead of AI
   title: 'Language Models for Text Classification: From Bag-of-Words to Jev'
   link: https://magazine.sebastianraschka.com/p/classifier-history-and-jev
-  date: '2026-09-29'
-- source: Product Hunt
-  title: DailyHelm
-  link: https://www.producthunt.com/products/dailyhelm
   date: '2026-09-29'
 - source: MIT Technology Review
   title: 'Roundtables: The Deadly Failures of The Virtual Border Wall'
@@ -273,35 +304,22 @@
   title: When can we say AI made a scientific discovery?
   link: https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/
   date: '2026-09-28'
-- source: MIT Technology Review
-  title: Who’s liable when AI agents go rogue?
-  link: https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/
-  date: '2026-09-28'
 - source: Hugging Face Blog
   title: 'Holo4: powering generalist computer-use agents'
   link: https://huggingface.co/blog/Hcompany/holo4
   date: '2026-09-28'
-- source: Hugging Face Papers
-  title: Rollout-Marginal Distillation for Long-Horizon Autoregressive Video Generation
-  link: https://huggingface.co/papers/2609.37925
+- source: Hugging Face Blog
+  title: Welcome RL Environments to the hub
+  link: https://huggingface.co/blog/rl-environments
   date: '2026-09-28'
 - source: Hugging Face Papers
-  title: 'LVMT: Video Mask Transformer for Long-term Video Segmentation'
-  link: https://huggingface.co/papers/2609.34895
-  date: '2026-09-28'
-- source: Simon Willison
-  title: Claude Sonnet 5.5
-  link: https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/
-  date: '2026-09-28'
+  title: 'How to Loop MoE: Flatten the Experts, Untie the Attention'
+  link: https://huggingface.co/papers/2609.35751
+  date: '2026-09-27'
 - source: Hugging Face Papers
-  title: 'Rethinking Token Reweighting for SFT: Suppress, Reverse, and Extrapolate
-    Learned Features'
-  link: https://huggingface.co/papers/2609.33463
-  date: '2026-09-26'
-- source: MIT Technology Review
-  title: The Pentagon wants $30 million to build an AI-powered lie detector
-  link: https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/
-  date: '2026-09-25'
+  title: Data Unlearning via Inverse Distillation
+  link: https://huggingface.co/papers/2609.36099
+  date: '2026-09-27'
 - source: Andrew Ng
   title: 'What Stage Is Your Project? Takeaways For AI Engineering: How to Adjust
     Your Tactics to Fit Your Project''s Maturity'
@@ -327,31 +345,9 @@
   title: Gemini 3.8 text-to-speech says hello
   link: https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/
   date: '2026-09-23'
-- source: MIT Technology Review
-  title: 'The AI Hype Index: AI loves cheating'
-  link: https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/
-  date: '2026-09-23'
-- source: Product Hunt
-  title: Invofox Self Serve
-  link: https://www.producthunt.com/products/invofox
-  date: '2026-09-23'
-- source: Hugging Face Blog
-  title: How UK AISI and EvalEval Are Making Benchmark Results Reproducible
-  link: https://huggingface.co/blog/evaleval-aisi
-  date: '2026-09-22'
-- source: Hugging Face Blog
-  title: Transformers now runs llama.cpp quants
-  link: https://huggingface.co/blog/transformers-llama-cpp-quants
-  date: '2026-09-22'
 - source: arXiv (DeepSeek/Qwen/Kimi/GLM)
   title: 'Qwen3.8-Omni: Towards Native Omni-Modal Agents'
   link: https://arxiv.org/abs/2609.25611v1
-  date: '2026-09-22'
-- source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (48082★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
-    AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
-    生成 → 在线配置 → 代码
-  link: https://github.com/jeecgboot/JeecgBoot
   date: '2026-09-22'
 - source: Anthropic
   title: Partnering with Accenture on embedded evaluation
@@ -378,6 +374,11 @@
   title: Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking
   link: https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/
   date: '2026-09-15'
+- source: Hugging Face Papers
+  title: 'Learning Steadily: Accumulating Relative Point Margin Scores for Face Image
+    Quality Assessment'
+  link: https://huggingface.co/papers/2609.31662
+  date: '2026-09-14'
 - source: Andrew Ng
   title: 'The AI Engineering Skills Map Part 5 — Shaping the Build: AI Engineering
     Adds New Responsiiblities and Opportunities for Product Leadership'
