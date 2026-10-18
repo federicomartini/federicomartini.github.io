@@ -1,45 +1,72 @@
-- source: Product Hunt
-  title: GPU Terminal by Context.dev
-  link: https://www.producthunt.com/products/context-dev
-  date: '2026-10-17'
-- source: Product Hunt
-  title: Salience
-  link: https://www.producthunt.com/products/salience
-  date: '2026-10-17'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'onehumanbeing/esp32-iphone-agent (2930★) · Let an AI model use a real iPhone
+  title: 'onehumanbeing/esp32-iphone-agent (3046★) · Let an AI model use a real iPhone
     with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model.
     No Mac, no developer '
   link: https://github.com/onehumanbeing/esp32-iphone-agent
-  date: '2026-10-17'
+  date: '2026-10-18'
 - source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (49593★) · LocalAI is the open-source AI engine. Run any model
+  title: deeplethe/solid-glass (1946★) · A design system for AI applications. Material,
+    physical, tactile, technical.
+  link: https://github.com/deeplethe/solid-glass
+  date: '2026-10-18'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'marclou/mailcheap (1212★) · Newsletters where you pay for the emails you
+    send, not for dormant subscribers, at a fraction of the price of beehiiv and the
+    like. Open source: self-ho'
+  link: https://github.com/marclou/mailcheap
+  date: '2026-10-18'
+- source: GitHub (trending AI/LLM/Agents)
+  title: mudler/LocalAI (49614★) · LocalAI is the open-source AI engine. Run any model
     - LLMs, vision, voice, image, video - on any hardware. No GPU required.
   link: https://github.com/mudler/LocalAI
-  date: '2026-10-17'
+  date: '2026-10-18'
 - source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (49114★) · Ultra-lightweight, open-source, self-hosted personal
+  title: HKUDS/nanobot (49143★) · Ultra-lightweight, open-source, self-hosted personal
     AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
     automation, and ch
   link: https://github.com/HKUDS/nanobot
-  date: '2026-10-17'
+  date: '2026-10-18'
 - source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (47747★) · AAS Core is the local, agent-first
+  title: sickn33/agentic-awesome-skills (47822★) · AAS Core is the local, agent-first
     control plane for complete catalog discovery, agent-owned selection, stack validation,
     and planning, ba
   link: https://github.com/sickn33/agentic-awesome-skills
+  date: '2026-10-18'
+- source: GitHub (trending AI/LLM/Agents)
+  title: zhayujie/CowAgent (47449★) · Open-source personal AI assistant & Agent Harness.
+    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
+    multi-model
+  link: https://github.com/zhayujie/CowAgent
+  date: '2026-10-18'
+- source: Simon Willison
+  title: Inline rendering with document​.currentScript
+  link: https://simonwillison.net/2026/Oct/17/document-currentscript/
+  date: '2026-10-17'
+- source: Simon Willison
+  title: web-edit 0.1a2
+  link: https://simonwillison.net/2026/Oct/17/web-edit/
+  date: '2026-10-17'
+- source: Product Hunt
+  title: Tomo for ChatGPT
+  link: https://www.producthunt.com/products/tomo-for-chatgpt
+  date: '2026-10-17'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'LosaLosSantos/aurelio-finance (3952★) · Open-source personal finance app
+    with an AI financial advisor: track your net worth, investments, ETFs, cash and
+    debts on your own computer.'
+  link: https://github.com/LosaLosSantos/aurelio-finance
   date: '2026-10-17'
 - source: OpenAI
   title: How Itaú is building generative AI for its entire customer base
   link: https://openai.com/index/itau-generative-ai
   date: '2026-10-16'
 - source: OpenAI
-  title: Stack Overflow for Agents triples signups with ChatGPT plugin
-  link: https://openai.com/index/stack-overflow-chatgpt-plugin
-  date: '2026-10-16'
-- source: OpenAI
   title: Benefit Street Partners answers questions faster with Codex
   link: https://openai.com/index/benefit-street-partners
+  date: '2026-10-16'
+- source: OpenAI
+  title: Stack Overflow for Agents triples signups with ChatGPT plugin
+  link: https://openai.com/index/stack-overflow-chatgpt-plugin
   date: '2026-10-16'
 - source: MIT Technology Review
   title: 'Roundtables: A Conversation With the Creator of AI-Designed Viruses'
@@ -61,35 +88,26 @@
 - source: Andrew Ng
   title: 'Formal Verification Meets Unverifiable Judgement: Don’t Overgeneralize from
     Progress in Math and Code — The Hardest AI Problems Still Require More Work'
-  link: https://charonhub.deeplearning.ai/formal-verification-meets-unverifiable-judgement/
+  link: https://charonhub.deeplearning.ai/404/
   date: '2026-10-16'
 - source: Product Hunt
-  title: Step 5 Preview
-  link: https://www.producthunt.com/products/step-3-5-flash
+  title: MyLens
+  link: https://www.producthunt.com/products/mylens-ai
+  date: '2026-10-16'
+- source: Product Hunt
+  title: 3AM Super Intelligence
+  link: https://www.producthunt.com/products/3am-super-intelligence
+  date: '2026-10-16'
+- source: Product Hunt
+  title: Krea 3
+  link: https://www.producthunt.com/products/krea
   date: '2026-10-16'
 - source: Product Hunt
   title: Emochi
   link: https://www.producthunt.com/products/emochi-2
   date: '2026-10-16'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'LosaLosSantos/aurelio-finance (3947★) · Open-source personal finance app
-    with an AI financial advisor: track your net worth, investments, ETFs, cash and
-    debts on your own computer.'
-  link: https://github.com/LosaLosSantos/aurelio-finance
-  date: '2026-10-16'
-- source: GitHub (trending AI/LLM/Agents)
-  title: deeplethe/solid-glass (1621★) · A design system for AI applications. Material,
-    physical, tactile, technical.
-  link: https://github.com/deeplethe/solid-glass
-  date: '2026-10-16'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'marclou/mailcheap (1188★) · Newsletters where you pay for the emails you
-    send, not for dormant subscribers, at a fraction of the price of beehiiv and the
-    like. Open source: self-ho'
-  link: https://github.com/marclou/mailcheap
-  date: '2026-10-16'
-- source: GitHub (trending AI/LLM/Agents)
-  title: feder-cr/git-ai (1090★) · Git designed for AI agents.
+  title: feder-cr/git-ai (1159★) · Git designed for AI agents.
   link: https://github.com/feder-cr/git-ai
   date: '2026-10-16'
 - source: OpenAI
@@ -139,14 +157,8 @@
   link: https://simonwillison.net/2026/Oct/15/latex/
   date: '2026-10-15'
 - source: Product Hunt
-  title: Craft Agents
-  link: https://www.producthunt.com/products/craft-agents
-  date: '2026-10-15'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'MadsLorentzen/ai-job-search (49019★) · The job search that runs on your
-    machine. AI job application framework built on Claude Code: evaluate postings,
-    tailor CVs, write cover lette'
-  link: https://github.com/MadsLorentzen/ai-job-search
+  title: Bee Frontier and Bee Eclipse
+  link: https://www.producthunt.com/products/bee-frontier-and-bee-eclipse
   date: '2026-10-15'
 - source: OpenAI
   title: Amp puts AI agents to work beyond code with OpenAI models
@@ -207,16 +219,8 @@
   title: AI is mass decompiling games. That's both awesome and scary.
   link: https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/
   date: '2026-10-14'
-- source: Product Hunt
-  title: 'Notion: Context for your agents'
-  link: https://www.producthunt.com/products/notion
-  date: '2026-10-14'
-- source: Product Hunt
-  title: CrewTower Mod for Claude Code
-  link: https://www.producthunt.com/products/crew-tower
-  date: '2026-10-14'
 - source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (48238★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+  title: jeecgboot/JeecgBoot (48245★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
     AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
     生成 → 在线配置 → 代码
   link: https://github.com/jeecgboot/JeecgBoot
@@ -266,18 +270,6 @@
   title: llm-gemini 0.35
   link: https://simonwillison.net/2026/Oct/13/llm-gemini/
   date: '2026-10-13'
-- source: Simon Willison
-  title: Quoting Geoffrey Huntley
-  link: https://simonwillison.net/2026/Oct/13/geoffrey-huntley/
-  date: '2026-10-13'
-- source: Simon Willison
-  title: web-edit 0.1a1
-  link: https://simonwillison.net/2026/Oct/13/web-edit/
-  date: '2026-10-13'
-- source: Product Hunt
-  title: Train with Pasta
-  link: https://www.producthunt.com/products/train-with-pasta
-  date: '2026-10-13'
 - source: Hugging Face Papers
   title: 'LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification'
   link: https://huggingface.co/papers/2610.17697
@@ -286,9 +278,17 @@
   title: Copy-Paste Language Models
   link: https://huggingface.co/papers/2610.19247
   date: '2026-10-12'
+- source: Product Hunt
+  title: Openbroca
+  link: https://www.producthunt.com/products/openbroca
+  date: '2026-10-12'
 - source: Hugging Face Papers
   title: Scalable Weak-to-Strong Verifier Hardening for Agent Environments
   link: https://huggingface.co/papers/2610.15924
+  date: '2026-10-10'
+- source: Product Hunt
+  title: Inbox Zero
+  link: https://www.producthunt.com/products/inbox-zero-2
   date: '2026-10-10'
 - source: MIT Technology Review
   title: We’re putting too much faith in AI’s ability to say no
@@ -321,10 +321,6 @@
 - source: Hugging Face Blog
   title: The model that didn't exist, so you made it yourself
   link: https://huggingface.co/blog/building-with-ml-intern
-  date: '2026-10-08'
-- source: Product Hunt
-  title: NitroStack
-  link: https://www.producthunt.com/products/nitrostack
   date: '2026-10-08'
 - source: Hugging Face Blog
   title: Introducing Falcon ASR
@@ -387,6 +383,10 @@
 - source: Ahead of AI
   title: 'Language Models for Text Classification: From Bag-of-Words to Jev'
   link: https://magazine.sebastianraschka.com/p/classifier-history-and-jev
+  date: '2026-09-29'
+- source: Product Hunt
+  title: Popcraft
+  link: https://www.producthunt.com/products/popcraft
   date: '2026-09-29'
 - source: Andrew Ng
   title: 'What Stage Is Your Project? Takeaways For AI Engineering: How to Adjust
