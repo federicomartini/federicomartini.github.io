@@ -1,14 +1,95 @@
+- source: MIT Technology Review
+  title: Making the case for context-aware AI
+  link: https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/
+  date: '2026-10-22'
+- source: MIT Technology Review
+  title: 'AI’s hidden storage bill: What inference leaves behind'
+  link: https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/
+  date: '2026-10-22'
+- source: Hugging Face Blog
+  title: Ensemble forecasting with IBM Granite time-series models
+  link: https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1
+  date: '2026-10-22'
+- source: Product Hunt
+  title: Agentic CleanSlop
+  link: https://www.producthunt.com/products/cleanslop
+  date: '2026-10-22'
+- source: OpenAI
+  title: How AT&T is rethinking in-house legal work with OpenAI
+  link: https://openai.com/index/att-legal
+  date: '2026-10-21'
+- source: OpenAI
+  title: Broad access through consistent standards
+  link: https://openai.com/index/broad-access-through-consistent-standards
+  date: '2026-10-21'
+- source: OpenAI
+  title: OpenAI models are coming to Google Cloud
+  link: https://openai.com/index/openai-models-google-cloud
+  date: '2026-10-21'
+- source: OpenAI
+  title: 'Patch the Planet: global response coordination as agents uncover critical
+    vulnerabilities'
+  link: https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities
+  date: '2026-10-21'
+- source: OpenAI
+  title: ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have
+    used the platform
+  link: https://openai.com/index/chatgpt-ads-expands-26-new-countries
+  date: '2026-10-21'
+- source: OpenAI
+  title: Using thousands of AI agents to uncover new leads in biological data
+  link: https://openai.com/index/scaling-ai-research-for-complex-biological-data
+  date: '2026-10-21'
+- source: OpenAI
+  title: Cloudflare links vulnerability discovery to defense with OpenAI
+  link: https://openai.com/index/cloudflare-cyber
+  date: '2026-10-21'
+- source: OpenAI
+  title: How we built ChatGPT’s novel ad stack for user trust and relevance
+  link: https://openai.com/index/building-chatgpt-ad-stack
+  date: '2026-10-21'
+- source: OpenAI
+  title: 'Democratic governance of frontier AI, part II: Empowering cyber defenders'
+  link: https://openai.com/index/empowering-cyber-defenders
+  date: '2026-10-21'
+- source: Hugging Face Blog
+  title: NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational
+    Data, No Training Required
+  link: https://huggingface.co/blog/nvidia/kumo-relational
+  date: '2026-10-21'
+- source: Hugging Face Blog
+  title: How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in
+    Real Applications
+  link: https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization
+  date: '2026-10-21'
+- source: Hugging Face Blog
+  title: 'Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.'
+  link: https://huggingface.co/blog/amazon/profiling-torchneuron-part-1
+  date: '2026-10-21'
+- source: Hugging Face Blog
+  title: 'Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately
+    and Faster'
+  link: https://huggingface.co/blog/ibm-granite/granite-speech-5
+  date: '2026-10-21'
+- source: Simon Willison
+  title: Today's PHP Security Release, and How We're Strengthening PHP Security
+  link: https://simonwillison.net/2026/Oct/21/php-security-release/
+  date: '2026-10-21'
+- source: Simon Willison
+  title: Panache — RTS Belle Époque pour mobile
+  link: https://simonwillison.net/2026/Oct/21/panache/
+  date: '2026-10-21'
+- source: Product Hunt
+  title: Mercury 3
+  link: https://www.producthunt.com/products/mercury-412
+  date: '2026-10-21'
+- source: Product Hunt
+  title: Claude Duet
+  link: https://www.producthunt.com/products/claude
+  date: '2026-10-21'
 - source: OpenAI
   title: Franchisee reconciles cash in 94% less time with ChatGPT Work
   link: https://openai.com/index/ted-taylor-restaurant
-  date: '2026-10-20'
-- source: OpenAI
-  title: Terminal X matches senior investor judgment 88.6% with GPT-6.1
-  link: https://openai.com/index/terminal-x
-  date: '2026-10-20'
-- source: OpenAI
-  title: OpenAI acquires Orchestra Bio
-  link: https://openai.com/index/openai-to-acquire-orchestra-bio
   date: '2026-10-20'
 - source: MIT Technology Review
   title: The new economics of enterprise AI
@@ -23,18 +104,8 @@
   link: https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/
   date: '2026-10-20'
 - source: Hugging Face Blog
-  title: 'NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative
-    Simulation'
-  link: https://huggingface.co/blog/nvidia/cosmos3-h-dreams
-  date: '2026-10-20'
-- source: Hugging Face Blog
   title: 'FairStress: A deeper evaluation of fairness in LLM decision-making'
   link: https://huggingface.co/blog/allenai/fairstress
-  date: '2026-10-20'
-- source: Hugging Face Blog
-  title: 'ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer
-    service tasks without a frontier model'
-  link: https://huggingface.co/blog/ibm-research/altk-evolve-bc
   date: '2026-10-20'
 - source: Hugging Face Blog
   title: 'Hugging Face ❤️ TorchTPU: TPUs, Natively'
@@ -47,6 +118,24 @@
 - source: Hugging Face Blog
   title: MPS in PyTorch 2.15
   link: https://huggingface.co/blog/mps-pytorch-2-15
+  date: '2026-10-20'
+- source: Hugging Face Papers
+  title: 'From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent
+    Manipulation'
+  link: https://huggingface.co/papers/2610.29560
+  date: '2026-10-20'
+- source: Hugging Face Papers
+  title: 'PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States'
+  link: https://huggingface.co/papers/2610.29545
+  date: '2026-10-20'
+- source: Hugging Face Papers
+  title: 'RealMe: Immersive Volumetric Video from Minimal Captures'
+  link: https://huggingface.co/papers/2610.30023
+  date: '2026-10-20'
+- source: Hugging Face Papers
+  title: 'Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential
+    Recommendation'
+  link: https://huggingface.co/papers/2610.30128
   date: '2026-10-20'
 - source: Simon Willison
   title: eMudhra Intermediate CA Compromise
@@ -61,33 +150,13 @@
   link: https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts
   date: '2026-10-20'
 - source: Product Hunt
-  title: Lea by LeanAIOS
-  link: https://www.producthunt.com/products/lea-by-leanaios
+  title: Voxelo 3.0
+  link: https://www.producthunt.com/products/voxelo-ai
   date: '2026-10-20'
 - source: Product Hunt
-  title: Notion Auto
-  link: https://www.producthunt.com/products/notion-99
+  title: Mistral Voxtral 3
+  link: https://www.producthunt.com/products/mistral-7b
   date: '2026-10-20'
-- source: Product Hunt
-  title: AskDoozy
-  link: https://www.producthunt.com/products/askdoozy
-  date: '2026-10-20'
-- source: Product Hunt
-  title: The Brains
-  link: https://www.producthunt.com/products/the-brains
-  date: '2026-10-20'
-- source: Product Hunt
-  title: Woven Video
-  link: https://www.producthunt.com/products/woven-video
-  date: '2026-10-20'
-- source: Product Hunt
-  title: Tend
-  link: https://www.producthunt.com/products/tend-5
-  date: '2026-10-20'
-- source: OpenAI
-  title: Advancing coding in low‑resource programming languages
-  link: https://openai.com/index/low-resource-programming-languages
-  date: '2026-10-19'
 - source: MIT Technology Review
   title: Making the internet better for AI agents might make it worse for everyone
     else
@@ -108,25 +177,30 @@
   link: https://huggingface.co/blog/hf-torchneuron
   date: '2026-10-19'
 - source: Hugging Face Papers
-  title: Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs
-  link: https://huggingface.co/papers/2610.28632
+  title: 'From RL Papers to Framework Code: Inclusion and Review in Seven Open-Source
+    Training Frameworks'
+  link: https://huggingface.co/papers/2610.28027
+  date: '2026-10-19'
+- source: Hugging Face Papers
+  title: 'WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning
+    and Persistent State'
+  link: https://huggingface.co/papers/2610.28827
   date: '2026-10-19'
 - source: Simon Willison
   title: My obituary for programming
   link: https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/
   date: '2026-10-19'
+- source: Product Hunt
+  title: Whiteboard
+  link: https://www.producthunt.com/products/whiteboard-5
+  date: '2026-10-19'
+- source: Product Hunt
+  title: Causo
+  link: https://www.producthunt.com/products/causo
+  date: '2026-10-19'
 - source: Hugging Face Papers
-  title: 'PVBench: Quantifying Physical Plausibility in Video Generation with Object-Level
-    Physical Measurements'
-  link: https://huggingface.co/papers/2610.26711
-  date: '2026-10-18'
-- source: Hugging Face Papers
-  title: Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics
-  link: https://huggingface.co/papers/2610.27327
-  date: '2026-10-18'
-- source: Hugging Face Papers
-  title: 'On the Limits of Scale: Inverse Scaling in Vision-Language Models'
-  link: https://huggingface.co/papers/2610.27360
+  title: 'SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?'
+  link: https://huggingface.co/papers/2610.26659
   date: '2026-10-18'
 - source: Simon Willison
   title: llm-tools-datasette 0.1.1
@@ -136,14 +210,6 @@
   title: llm-echo 0.5
   link: https://simonwillison.net/2026/Oct/18/llm-echo/
   date: '2026-10-18'
-- source: Product Hunt
-  title: ilha
-  link: https://www.producthunt.com/products/ilha
-  date: '2026-10-18'
-- source: Hugging Face Papers
-  title: 'PhysLDM: Latent Diffusion for High-Fidelity Deformable Simulation'
-  link: https://huggingface.co/papers/2610.07609
-  date: '2026-10-17'
 - source: Simon Willison
   title: Inline rendering with document​.currentScript
   link: https://simonwillison.net/2026/Oct/17/document-currentscript/
@@ -152,29 +218,9 @@
   title: web-edit 0.1a2
   link: https://simonwillison.net/2026/Oct/17/web-edit/
   date: '2026-10-17'
-- source: OpenAI
-  title: How Itaú is building generative AI for its entire customer base
-  link: https://openai.com/index/itau-generative-ai
-  date: '2026-10-16'
-- source: OpenAI
-  title: Stack Overflow for Agents triples signups with ChatGPT plugin
-  link: https://openai.com/index/stack-overflow-chatgpt-plugin
-  date: '2026-10-16'
-- source: OpenAI
-  title: Benefit Street Partners answers questions faster with Codex
-  link: https://openai.com/index/benefit-street-partners
-  date: '2026-10-16'
 - source: MIT Technology Review
   title: 'Roundtables: A Conversation With the Creator of AI-Designed Viruses'
   link: https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/
-  date: '2026-10-16'
-- source: Hugging Face Blog
-  title: 'Welcome Beam: a 501B open model you can own, customize, and scale'
-  link: https://huggingface.co/blog/reflection-beam
-  date: '2026-10-16'
-- source: Hugging Face Papers
-  title: 'Muse Glimmer 30B: An On-Device Agentic Model'
-  link: https://huggingface.co/papers/2610.24628
   date: '2026-10-16'
 - source: Simon Willison
   title: Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang
@@ -185,47 +231,14 @@
     Progress in Math and Code — The Hardest AI Problems Still Require More Work'
   link: https://charonhub.deeplearning.ai/formal-verification-meets-unverifiable-judgement/
   date: '2026-10-16'
-- source: OpenAI
-  title: Bringing GPT-Rosalind to academic research labs
-  link: https://openai.com/index/introducing-the-rosalind-academic-plan
-  date: '2026-10-15'
-- source: OpenAI
-  title: Teaching students to think and learn through questions
-  link: https://openai.com/index/teaching-students-to-think-and-learn-through-questions
-  date: '2026-10-15'
-- source: OpenAI
-  title: Sullivan & Cromwell brings legal expertise into agreement review
-  link: https://openai.com/index/sullivan-cromwell
-  date: '2026-10-15'
 - source: Google DeepMind
   title: Accelerating the search for antimicrobial peptides with Google Antigravity
   link: https://deepmind.google/blog/accelerating-antimicrobial-discovery/
-  date: '2026-10-15'
-- source: Hugging Face Blog
-  title: 'Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint'
-  link: https://huggingface.co/blog/ibm-granite/granite-switch-4-1
-  date: '2026-10-15'
-- source: Hugging Face Blog
-  title: Apertus 1.5 Release Notes
-  link: https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes
-  date: '2026-10-15'
-- source: Simon Willison
-  title: Chirp Pong
-  link: https://simonwillison.net/2026/Oct/15/chirp-pong/
-  date: '2026-10-15'
-- source: Simon Willison
-  title: Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead
-    of IPO
-  link: https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/
   date: '2026-10-15'
 - source: Google DeepMind
   title: Google DeepMind and Singapore Government collaborate to build fine-tuned
     AI model for scam detection
   link: https://deepmind.google/blog/on-device-ai-scam-detection-mddi/
-  date: '2026-10-14'
-- source: Hugging Face Papers
-  title: 'Event-STVG: Spatio-Temporal Video Grounding for Long-Form Event Reasoning'
-  link: https://huggingface.co/papers/2610.22444
   date: '2026-10-14'
 - source: Google DeepMind
   title: Developing Gemini 4 Argon responsibly and safely
@@ -243,37 +256,31 @@
   title: Open models have real benefits. Do they outweigh the risks?
   link: https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/
   date: '2026-10-13'
-- source: MIT Technology Review
-  title: AI labs are buying data from dead startups to train their models
-  link: https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/
-  date: '2026-10-13'
 - source: Hugging Face Papers
-  title: 'Evaluating Agentic Capabilities Before Post-Training: An End-to-End Approach'
-  link: https://huggingface.co/papers/2610.19425
+  title: 'PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence
+    through Decomposed Rubric Synthesis'
+  link: https://huggingface.co/papers/2610.20538
   date: '2026-10-13'
-- source: Hugging Face Papers
-  title: 'LLM2R: From Large Language Models to 3D Reassemblers'
-  link: https://huggingface.co/papers/2610.18604
-  date: '2026-10-12'
 - source: Product Hunt
-  title: BAND for Developers
-  link: https://www.producthunt.com/products/band
-  date: '2026-10-12'
-- source: MIT Technology Review
-  title: We’re putting too much faith in AI’s ability to say no
-  link: https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/
-  date: '2026-10-09'
+  title: Concierge by Juniors AI
+  link: https://www.producthunt.com/products/concierge-by-juniors-ai
+  date: '2026-10-11'
+- source: Product Hunt
+  title: CutBay
+  link: https://www.producthunt.com/products/cutbay
+  date: '2026-10-10'
 - source: Andrew Ng
   title: 'Scaling Up for Future AI Demands: More Agents Demand More Compute'
   link: https://charonhub.deeplearning.ai/scaling-up-for-future-ai-demands/
   date: '2026-10-09'
-- source: Product Hunt
-  title: Needle
-  link: https://www.producthunt.com/products/needle-3
-  date: '2026-10-09'
 - source: Hugging Face Papers
-  title: 'FlowState: Execution State as Memory for Long-Horizon LLM Agents'
-  link: https://huggingface.co/papers/2609.34565
+  title: 'CompactSplat: Spatially Adaptive Gaussian Distribution for Feedforward Scene
+    Reconstruction'
+  link: https://huggingface.co/papers/2610.13177
+  date: '2026-10-08'
+- source: Hugging Face Papers
+  title: 'Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents'
+  link: https://huggingface.co/papers/2610.11942
   date: '2026-10-07'
 - source: Google DeepMind
   title: 'EmbeddingGemma 2: an open, lightweight multimodal embedding model'
@@ -287,6 +294,10 @@
 - source: One Useful Thing
   title: The Dot and the Swarm
   link: https://www.oneusefulthing.org/p/the-dot-and-the-swarm
+  date: '2026-10-01'
+- source: Product Hunt
+  title: heal.dev
+  link: https://www.producthunt.com/products/heal-dev
   date: '2026-10-01'
 - source: Google DeepMind
   title: 'Gemini 4 Argon: our next era of frontier intelligence'
@@ -378,10 +389,6 @@
 - source: antirez
   title: Control the ideas, not the code
   link: http://antirez.com/news/169
-  date: '2026-07-13'
-- source: Product Hunt
-  title: TwinMind for Desktop
-  link: https://www.producthunt.com/products/twinmind
   date: '2026-07-13'
 - source: One Useful Thing
   title: The twilight of the chatbots
