@@ -1,31 +1,51 @@
+- source: Product Hunt
+  title: AgentGrid.io
+  link: https://www.producthunt.com/products/agentgrid-io
+  date: '2026-10-25'
 - source: GitHub (trending AI/LLM/Agents)
-  title: mudler/LocalAI (49904★) · LocalAI is the open-source AI engine. Run any model
+  title: mudler/LocalAI (49941★) · LocalAI is the open-source AI engine. Run any model
     - LLMs, vision, voice, image, video - on any hardware. No GPU required.
   link: https://github.com/mudler/LocalAI
-  date: '2026-10-24'
+  date: '2026-10-25'
 - source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (49317★) · Ultra-lightweight, open-source, self-hosted personal
+  title: HKUDS/nanobot (49339★) · Ultra-lightweight, open-source, self-hosted personal
     AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
     automation, and ch
   link: https://github.com/HKUDS/nanobot
+  date: '2026-10-25'
+- source: GitHub (trending AI/LLM/Agents)
+  title: zhayujie/CowAgent (47567★) · Open-source personal AI assistant & Agent Harness.
+    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
+    multi-model
+  link: https://github.com/zhayujie/CowAgent
+  date: '2026-10-25'
+- source: Simon Willison
+  title: 'battledrones v14: Compass Rose, a four player map'
+  link: https://simonwillison.net/2026/Oct/24/battledrones/
+  date: '2026-10-24'
+- source: Ahead of AI
+  title: 'Building Reasoning Models from the Ground Up: A Full Video Course'
+  link: https://magazine.sebastianraschka.com/p/building-reasoning-models
+  date: '2026-10-24'
+- source: Product Hunt
+  title: Yourcast 2.0
+  link: https://www.producthunt.com/products/yourcast
+  date: '2026-10-24'
+- source: Product Hunt
+  title: Llama Windows
+  link: https://www.producthunt.com/products/llama-windows
   date: '2026-10-24'
 - source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (48424★) · AAS Core is the local, agent-first
+  title: sickn33/agentic-awesome-skills (48478★) · AAS Core is the local, agent-first
     control plane for complete catalog discovery, agent-owned selection, stack validation,
     and planning, ba
   link: https://github.com/sickn33/agentic-awesome-skills
   date: '2026-10-24'
 - source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (48270★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+  title: jeecgboot/JeecgBoot (48278★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
     AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
     生成 → 在线配置 → 代码
   link: https://github.com/jeecgboot/JeecgBoot
-  date: '2026-10-24'
-- source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (47536★) · Open-source personal AI assistant & Agent Harness.
-    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
-    multi-model
-  link: https://github.com/zhayujie/CowAgent
   date: '2026-10-24'
 - source: OpenAI
   title: Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part
@@ -70,12 +90,8 @@
   title: Basedash Scheduled CSV Exports
   link: https://www.producthunt.com/products/basedash
   date: '2026-10-23'
-- source: Product Hunt
-  title: ShogunAI
-  link: https://www.producthunt.com/products/shogunai
-  date: '2026-10-23'
 - source: GitHub (trending AI/LLM/Agents)
-  title: feder-cr/git-ai (984★) · Git designed for AI agents.
+  title: feder-cr/git-ai (995★) · Git designed for AI agents.
   link: https://github.com/feder-cr/git-ai
   date: '2026-10-23'
 - source: OpenAI
@@ -134,29 +150,21 @@
   title: 1Password for Agents
   link: https://www.producthunt.com/products/1password
   date: '2026-10-22'
-- source: Product Hunt
-  title: Gerty
-  link: https://www.producthunt.com/products/gerty
-  date: '2026-10-22'
-- source: Product Hunt
-  title: Peras
-  link: https://www.producthunt.com/products/peras
-  date: '2026-10-22'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'onehumanbeing/esp32-iphone-agent (3710★) · Let an AI model use a real iPhone
-    with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model.
-    No Mac, no developer '
-  link: https://github.com/onehumanbeing/esp32-iphone-agent
-  date: '2026-10-22'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'Leonxlnx/earshot (2527★) · Ears for coding agents: let AI hear, review and
+  title: 'Leonxlnx/earshot (2692★) · Ears for coding agents: let AI hear, review and
     make sound. CPU-only, open source.'
   link: https://github.com/Leonxlnx/earshot
   date: '2026-10-22'
 - source: GitHub (trending AI/LLM/Agents)
-  title: deeplethe/solid-glass (2192★) · A design system for AI applications. Material,
+  title: deeplethe/solid-glass (2199★) · A design system for AI applications. Material,
     physical, tactile, technical.
   link: https://github.com/deeplethe/solid-glass
+  date: '2026-10-22'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'Zfinix/eleven (869★) · Agent-first reverse engineering for macOS, Windows
+    and Linux: any ACP agent reads, renames and patches binaries, Android apps and
+    GPU kernels next to you.'
+  link: https://github.com/Zfinix/eleven
   date: '2026-10-22'
 - source: OpenAI
   title: How AT&T is rethinking in-house legal work with OpenAI
@@ -212,12 +220,13 @@
   link: https://simonwillison.net/2026/Oct/21/panache/
   date: '2026-10-21'
 - source: Product Hunt
-  title: Polylane for Cloudflare
-  link: https://www.producthunt.com/products/polylane
-  date: '2026-10-21'
-- source: Product Hunt
   title: Dots Phone
   link: https://www.producthunt.com/products/dots-phone
+  date: '2026-10-21'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'outcrawlai/scout (938★) · Scout: the open-source browser agent, by Outcrawl.
+    Mirrored automatically from Outcrawl''s own repository.'
+  link: https://github.com/outcrawlai/scout
   date: '2026-10-21'
 - source: MIT Technology Review
   title: The new economics of enterprise AI
@@ -287,16 +296,10 @@
   title: 'HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second'
   link: https://huggingface.co/papers/2610.28950
   date: '2026-10-19'
-- source: Simon Willison
-  title: My obituary for programming
-  link: https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/
-  date: '2026-10-19'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'jwuthri-cloud/Tracely-ai (1160★) · Trace-native CI/CD for AI agents: grade
-    production traces, cluster failures, freeze them into replayable regression tests,
-    and block PRs that reg'
-  link: https://github.com/jwuthri-cloud/Tracely-ai
-  date: '2026-10-19'
+- source: Product Hunt
+  title: Specsight
+  link: https://www.producthunt.com/products/specsight
+  date: '2026-10-18'
 - source: Hugging Face Papers
   title: 'Bridging Exploration and Persona: Information-Directed Dueling for Test-Time
     Agent Personalization'
@@ -343,14 +346,14 @@
   title: 'Gemini 4 Argon: Built to solve your hardest problems'
   link: https://deepmind.google/blog/introducing-gemini-4-argon/
   date: '2026-10-13'
+- source: Product Hunt
+  title: Moli by Lexmount
+  link: https://www.producthunt.com/products/lexmount-browser
+  date: '2026-10-13'
 - source: Andrew Ng
   title: 'Scaling Up for Future AI Demands: More Agents Demand More Compute'
   link: https://charonhub.deeplearning.ai/scaling-up-for-future-ai-demands/
   date: '2026-10-09'
-- source: Product Hunt
-  title: Ovren Live Preview
-  link: https://www.producthunt.com/products/ovren
-  date: '2026-10-08'
 - source: Google DeepMind
   title: 'EmbeddingGemma 2: an open, lightweight multimodal embedding model'
   link: https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/
@@ -523,10 +526,6 @@
   title: AI cybersecurity is not proof of work
   link: http://antirez.com/news/163
   date: '2026-04-16'
-- source: Ahead of AI
-  title: Components of A Coding Agent
-  link: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent
-  date: '2026-04-04'
 - source: arXiv (DeepSeek/Qwen/Kimi/GLM)
   title: Attention Residuals
   link: https://arxiv.org/abs/2603.15031v1
