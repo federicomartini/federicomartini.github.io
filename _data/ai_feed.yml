@@ -2,6 +2,38 @@
   title: We urgently need to monitor AI agents’ actions in real time
   link: https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/
   date: '2026-10-29'
+- source: Hugging Face Blog
+  title: Granite Switch 4.1.1 — Update models like you update software
+  link: https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1
+  date: '2026-10-29'
+- source: Hugging Face Blog
+  title: 'Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready'
+  link: https://huggingface.co/blog/announcing-project-protostar
+  date: '2026-10-29'
+- source: Hugging Face Blog
+  title: 'Welcome Le Chonk: Mistral Large 4 on Hugging Face'
+  link: https://huggingface.co/blog/mistral-large4
+  date: '2026-10-29'
+- source: Hugging Face Blog
+  title: 'Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech
+    and Decisions on Apple Platforms'
+  link: https://huggingface.co/blog/anydecisionmodel
+  date: '2026-10-29'
+- source: Simon Willison
+  title: Quoting Ben Hylak
+  link: https://simonwillison.net/2026/Oct/29/ben-hylak/
+  date: '2026-10-29'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'daveebbelaar/bama (714★) · BAMA: Build Any Mac App. Agent skills to research,
+    clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.'
+  link: https://github.com/daveebbelaar/bama
+  date: '2026-10-29'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'reacher-z/Awesome-REA (586★) · Awesome Reverse Engineering Anything: tools,
+    projects, case studies and research papers for websites, games, apps, binaries,
+    firmware and communicati'
+  link: https://github.com/reacher-z/Awesome-REA
+  date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
   title: 'C4rohan/Lampline (547★) · Build AI phone agents on your own computer and
     test every change with an AI caller. Open source, runs free with no API keys,
@@ -9,35 +41,26 @@
   link: https://github.com/C4rohan/Lampline
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: ChannelCooperStart/capri-ai (386★) · 🌃 Capri — Edgerunners-inspired AI agent
-    for your desktop. Works with Claude Code, Codex, Antigravity & more.
-  link: https://github.com/ChannelCooperStart/capri-ai
+  title: HKUDS/nanobot (49626★) · Ultra-lightweight, open-source, self-hosted personal
+    AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows,
+    automation, and ch
+  link: https://github.com/HKUDS/nanobot
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: Charonyuu/whatsmyagentdoing (284★) · See what every Claude Code and Codex
-    agent on your machine is doing — live, in a little office.
-  link: https://github.com/Charonyuu/whatsmyagentdoing
-  date: '2026-10-29'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'HKUDS/DeepTutor (49021★) · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.'
+  title: 'HKUDS/DeepTutor (49339★) · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.'
   link: https://github.com/HKUDS/DeepTutor
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (48705★) · 2,877+ reusable AI agent skills
+  title: sickn33/agentic-awesome-skills (48717★) · 2,877+ reusable AI agent skills
     for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery,
     agent-owned selectio
   link: https://github.com/sickn33/agentic-awesome-skills
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (47664★) · Open-source personal AI assistant & Agent Harness.
+  title: zhayujie/CowAgent (47666★) · Open-source personal AI assistant & Agent Harness.
     Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
     multi-model
   link: https://github.com/zhayujie/CowAgent
-  date: '2026-10-29'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'paperless-ngx/paperless-ngx (47274★) · A community-supported supercharged
-    document management system: scan, index and archive all your documents'
-  link: https://github.com/paperless-ngx/paperless-ngx
   date: '2026-10-29'
 - source: OpenAI
   title: OpenAI and ServiceNow expand partnership across enterprise workflows
@@ -50,6 +73,10 @@
 - source: OpenAI
   title: Legora is building the agentic operating system for legal work
   link: https://openai.com/index/legora
+  date: '2026-10-28'
+- source: Anthropic
+  title: AI for Science expands to foundations and institutions
+  link: https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions
   date: '2026-10-28'
 - source: Google DeepMind
   title: 'Gemini 4 Carbon: Our next frontier model'
@@ -85,27 +112,19 @@
   link: https://simonwillison.net/2026/Oct/28/terk-terkowitz/
   date: '2026-10-28'
 - source: Product Hunt
-  title: IFTTT.ai
-  link: https://www.producthunt.com/products/ifttt
-  date: '2026-10-28'
-- source: Product Hunt
-  title: StoreLocale
-  link: https://www.producthunt.com/products/storelocale
-  date: '2026-10-28'
-- source: Product Hunt
   title: Floot in ChatGPT
   link: https://www.producthunt.com/products/floot
   date: '2026-10-28'
 - source: Product Hunt
-  title: Suno MCP
-  link: https://www.producthunt.com/products/suno
+  title: Smart Jelly
+  link: https://www.producthunt.com/products/smart-jelly
   date: '2026-10-28'
 - source: Product Hunt
-  title: Polylane for ChatGPT
-  link: https://www.producthunt.com/products/polylane
+  title: IFTTT.ai
+  link: https://www.producthunt.com/products/ifttt
   date: '2026-10-28'
 - source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (48325★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+  title: jeecgboot/JeecgBoot (48328★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
     AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
     生成 → 在线配置 → 代码
   link: https://github.com/jeecgboot/JeecgBoot
@@ -121,6 +140,10 @@
 - source: OpenAI
   title: How Check Point accelerates vulnerability research with Daybreak
   link: https://openai.com/index/check-point-daybreak
+  date: '2026-10-27'
+- source: Anthropic
+  title: Expanding our partnership with GSA to bring Claude to all levels of government
+  link: https://www.anthropic.com/news/expanding-partnership-gsa
   date: '2026-10-27'
 - source: Google DeepMind
   title: 'Genie 4: A new generation of world simulation'
@@ -143,6 +166,14 @@
   link: https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/
   date: '2026-10-27'
 - source: Product Hunt
+  title: Empacer
+  link: https://www.producthunt.com/products/empacer
+  date: '2026-10-27'
+- source: Product Hunt
+  title: Voxel51 Multimodal
+  link: https://www.producthunt.com/products/voxel51
+  date: '2026-10-27'
+- source: Product Hunt
   title: Radar
   link: https://www.producthunt.com/products/radar-7
   date: '2026-10-27'
@@ -161,6 +192,10 @@
 - source: OpenAI
   title: ChatGPT’s expanding world of work
   link: https://openai.com/index/chatgpt-expanding-world-of-work
+  date: '2026-10-26'
+- source: Anthropic
+  title: Anthropic files S-1 with the SEC for proposed initial public offering
+  link: https://www.anthropic.com/news/s1-sec
   date: '2026-10-26'
 - source: MIT Technology Review
   title: Will the real Anthropic please stand up
@@ -191,21 +226,16 @@
   link: https://www.producthunt.com/products/intrascope-app
   date: '2026-10-26'
 - source: Hugging Face Papers
-  title: 'OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View
-    Images'
-  link: https://huggingface.co/papers/2610.35684
-  date: '2026-10-25'
-- source: Hugging Face Papers
-  title: 'DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion
-    Language Models'
-  link: https://huggingface.co/papers/2610.35201
+  title: Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation
+    risks
+  link: https://huggingface.co/papers/2610.35671
   date: '2026-10-25'
 - source: Simon Willison
   title: Seam Cutter
   link: https://simonwillison.net/2026/Oct/25/seam-cutter/
   date: '2026-10-25'
 - source: GitHub (trending AI/LLM/Agents)
-  title: eliasbiondo/antirion (436★) · ⚡ The fastest open-source AI Gateway and LLM
+  title: eliasbiondo/antirion (443★) · ⚡ The fastest open-source AI Gateway and LLM
     Gateway — one binary with built-in console to route, secure, budget and observe
     every LLM call across Ope
   link: https://github.com/eliasbiondo/antirion
@@ -214,10 +244,6 @@
   title: 'HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric
     Experience'
   link: https://huggingface.co/papers/2610.34186
-  date: '2026-10-24'
-- source: Simon Willison
-  title: 'battledrones v14: Compass Rose, a four player map'
-  link: https://simonwillison.net/2026/Oct/24/battledrones/
   date: '2026-10-24'
 - source: Ahead of AI
   title: 'Building Reasoning Models from the Ground Up: A Full Video Course'
@@ -232,6 +258,14 @@
     Team'
   link: https://charonhub.deeplearning.ai/the-four-ps/
   date: '2026-10-23'
+- source: Anthropic
+  title: Open call for guest investigators in the life sciences
+  link: https://www.anthropic.com/news/open-call-guest-investigators-life-sciences
+  date: '2026-10-22'
+- source: Anthropic
+  title: Donating Agent Skills to the Agentic AI Foundation
+  link: https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation
+  date: '2026-10-22'
 - source: Google DeepMind
   title: 'Beyond tree cover: mapping the world’s forest types'
   link: https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/
@@ -269,40 +303,21 @@
   title: 'Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success'
   link: https://huggingface.co/papers/2610.31670
   date: '2026-10-22'
-- source: Hugging Face Papers
-  title: Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World
-    Acoustic Scenes
-  link: https://huggingface.co/papers/2610.32749
-  date: '2026-10-22'
-- source: Hugging Face Papers
-  title: 'AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science'
-  link: https://huggingface.co/papers/2610.33245
-  date: '2026-10-22'
 - source: Product Hunt
   title: Gologin Cloud Browser
   link: https://www.producthunt.com/products/gologin
   date: '2026-10-22'
-- source: Hugging Face Blog
-  title: How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in
-    Real Applications
-  link: https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization
-  date: '2026-10-21'
-- source: Hugging Face Blog
-  title: 'Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.'
-  link: https://huggingface.co/blog/amazon/profiling-torchneuron-part-1
-  date: '2026-10-21'
-- source: Hugging Face Blog
-  title: 'Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately
-    and Faster'
-  link: https://huggingface.co/blog/ibm-granite/granite-speech-5
+- source: Anthropic
+  title: Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust
+  link: https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust
   date: '2026-10-21'
 - source: Product Hunt
   title: Scape
   link: https://www.producthunt.com/products/scape-4
   date: '2026-10-21'
-- source: Hugging Face Blog
-  title: 'Hugging Face ❤️ TorchTPU: TPUs, Natively'
-  link: https://huggingface.co/blog/hf-torchtpu
+- source: Hugging Face Papers
+  title: 'LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data'
+  link: https://huggingface.co/papers/2610.30132
   date: '2026-10-20'
 - source: Hugging Face Papers
   title: 'CausGround: Causal Interaction Grounding for Adaptive Embodied Planning'
@@ -313,18 +328,26 @@
   link: https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts
   date: '2026-10-20'
 - source: GitHub (trending AI/LLM/Agents)
-  title: MemTensor/MemT-1.0 (466★) · Official repository for MemT-1.0
+  title: MemTensor/MemT-1.0 (468★) · Official repository for MemT-1.0
   link: https://github.com/MemTensor/MemT-1.0
   date: '2026-10-20'
 - source: Product Hunt
   title: OutreachGuy
   link: https://www.producthunt.com/products/outreachguy
   date: '2026-10-19'
+- source: Anthropic
+  title: Investing in the public benefit
+  link: https://www.anthropic.com/news/public-benefit-fund
+  date: '2026-10-18'
 - source: Andrew Ng
   title: 'Formal Verification Meets Unverifiable Judgement: Don’t Overgeneralize from
     Progress in Math and Code — The Hardest AI Problems Still Require More Work'
   link: https://charonhub.deeplearning.ai/formal-verification-meets-unverifiable-judgement/
   date: '2026-10-16'
+- source: Anthropic
+  title: Anthropic update on independent evaluators
+  link: https://www.anthropic.com/news/an-update-on-independent-evaluators
+  date: '2026-10-15'
 - source: Google DeepMind
   title: Accelerating the search for antimicrobial peptides with Google Antigravity
   link: https://deepmind.google/blog/accelerating-antimicrobial-discovery/
@@ -333,6 +356,11 @@
   title: Google DeepMind and Singapore Government collaborate to build fine-tuned
     AI model for scam detection
   link: https://deepmind.google/blog/on-device-ai-scam-detection-mddi/
+  date: '2026-10-14'
+- source: Hugging Face Papers
+  title: 'RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI
+    Agents'
+  link: https://huggingface.co/papers/2610.22507
   date: '2026-10-14'
 - source: Google DeepMind
   title: Developing Gemini 4 Argon responsibly and safely
@@ -345,6 +373,10 @@
 - source: Google DeepMind
   title: 'Gemini 4 Argon: Built to solve your hardest problems'
   link: https://deepmind.google/blog/introducing-gemini-4-argon/
+  date: '2026-10-13'
+- source: Hugging Face Papers
+  title: Amortizing Sequential Experimental Design in Reasoning LLMs
+  link: https://huggingface.co/papers/2610.20832
   date: '2026-10-13'
 - source: Andrew Ng
   title: 'Scaling Up for Future AI Demands: More Agents Demand More Compute'
@@ -385,6 +417,10 @@
   title: 'Qwen3.8-Omni: Towards Native Omni-Modal Agents'
   link: https://arxiv.org/abs/2609.25611v1
   date: '2026-09-22'
+- source: Anthropic
+  title: Partnering with Accenture on embedded evaluation
+  link: https://www.anthropic.com/news/accenture-embedded-evaluation
+  date: '2026-09-18'
 - source: One Useful Thing
   title: The Overhang
   link: https://www.oneusefulthing.org/p/the-overhang
@@ -402,6 +438,10 @@
   title: GPT-6 Astra, Looped Transformers, and Hidden Reasoning
   link: https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and
   date: '2026-09-09'
+- source: Anthropic
+  title: Developing Enterprise Frontier Safeguards with our customers
+  link: https://www.anthropic.com/news/enterprise-frontier-safeguards
+  date: '2026-09-01'
 - source: One Useful Thing
   title: Agency and Agents
   link: https://www.oneusefulthing.org/p/agency-and-agents
