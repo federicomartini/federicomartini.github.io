@@ -2,8 +2,9 @@
 leggere sia tool AI nuovi da provare (prodotti, librerie, progetti open source).
 
 Fonti con RSS nativo: Hugging Face Blog, OpenAI News, Google DeepMind Blog,
-MIT Technology Review (AI), Simon Willison, Ahead of AI, One Useful Thing, antirez,
-Andrej Karpathy, Product Hunt (AI).
+MIT Technology Review (AI), Mistral News, NVIDIA Developer (Generative AI),
+NVIDIA Blog (Generative AI), Ollama Blog, Simon Willison, Ahead of AI,
+One Useful Thing, antirez, Andrej Karpathy, Product Hunt (AI).
 Anthropic non pubblica RSS: sitemap.xml + Open Graph / article:published_time su
 ogni articolo, sia per News (/news/) sia per Research (/research/) — piu' stabile
 del markup CSS delle listing. Research e' una fonte separata (report/risultati,
@@ -307,6 +308,19 @@ SOURCES = [
     ("OpenAI News", lambda: parse_rss("https://openai.com/news/rss.xml", "OpenAI")),
     ("Anthropic News", fetch_anthropic_news),
     ("Anthropic Research", fetch_anthropic_research),
+    ("Mistral News", lambda: parse_rss("https://mistral.ai/news/rss", "Mistral")),
+    (
+        "NVIDIA Developer (Generative AI)",
+        lambda: parse_rss(
+            "https://developer.nvidia.com/blog/category/generative-ai/feed/", "NVIDIA Developer"
+        ),
+    ),
+    (
+        "NVIDIA Blog (Generative AI)",
+        lambda: parse_rss(
+            "https://blogs.nvidia.com/blog/category/generative-ai/feed/", "NVIDIA Blog"
+        ),
+    ),
     ("Google DeepMind Blog", lambda: parse_rss("https://deepmind.google/blog/rss.xml", "Google DeepMind")),
     (
         "MIT Technology Review (AI)",
@@ -323,6 +337,7 @@ SOURCES = [
     ("antirez (Salvatore Sanfilippo)", lambda: parse_rss("https://antirez.com/rss", "antirez")),
     ("Andrew Ng (writing)", fetch_andrew_ng_writing),
     ("Andrej Karpathy", lambda: parse_rss("https://karpathy.bearblog.dev/feed/", "Andrej Karpathy")),
+    ("Ollama Blog", lambda: parse_rss("https://ollama.com/blog/rss.xml", "Ollama")),
     ("Product Hunt (AI)", fetch_product_hunt),
     ("GitHub (trending AI/LLM/Agents)", fetch_github_new_repos),
 ]
