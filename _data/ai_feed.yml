@@ -24,12 +24,12 @@
   link: https://simonwillison.net/2026/Oct/29/ben-hylak/
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'daveebbelaar/bama (714★) · BAMA: Build Any Mac App. Agent skills to research,
+  title: 'daveebbelaar/bama (716★) · BAMA: Build Any Mac App. Agent skills to research,
     clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.'
   link: https://github.com/daveebbelaar/bama
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'reacher-z/Awesome-REA (586★) · Awesome Reverse Engineering Anything: tools,
+  title: 'reacher-z/Awesome-REA (587★) · Awesome Reverse Engineering Anything: tools,
     projects, case studies and research papers for websites, games, apps, binaries,
     firmware and communicati'
   link: https://github.com/reacher-z/Awesome-REA
@@ -47,11 +47,11 @@
   link: https://github.com/HKUDS/nanobot
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'HKUDS/DeepTutor (49339★) · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.'
+  title: 'HKUDS/DeepTutor (49361★) · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.'
   link: https://github.com/HKUDS/DeepTutor
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (48717★) · 2,877+ reusable AI agent skills
+  title: sickn33/agentic-awesome-skills (48720★) · 2,877+ reusable AI agent skills
     for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery,
     agent-owned selectio
   link: https://github.com/sickn33/agentic-awesome-skills
@@ -112,19 +112,27 @@
   link: https://simonwillison.net/2026/Oct/28/terk-terkowitz/
   date: '2026-10-28'
 - source: Product Hunt
+  title: Smart Jelly
+  link: https://www.producthunt.com/products/smart-jelly
+  date: '2026-10-28'
+- source: Product Hunt
   title: Floot in ChatGPT
   link: https://www.producthunt.com/products/floot
   date: '2026-10-28'
 - source: Product Hunt
-  title: Smart Jelly
-  link: https://www.producthunt.com/products/smart-jelly
+  title: Polylane for ChatGPT
+  link: https://www.producthunt.com/products/polylane
+  date: '2026-10-28'
+- source: Product Hunt
+  title: StoreLocale
+  link: https://www.producthunt.com/products/storelocale
   date: '2026-10-28'
 - source: Product Hunt
   title: IFTTT.ai
   link: https://www.producthunt.com/products/ifttt
   date: '2026-10-28'
 - source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (48328★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+  title: jeecgboot/JeecgBoot (48329★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
     AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
     生成 → 在线配置 → 代码
   link: https://github.com/jeecgboot/JeecgBoot
@@ -144,6 +152,19 @@
 - source: Anthropic
   title: Expanding our partnership with GSA to bring Claude to all levels of government
   link: https://www.anthropic.com/news/expanding-partnership-gsa
+  date: '2026-10-27'
+- source: Anthropic Research
+  title: Early progress on accelerating drug development with Claude
+  link: https://www.anthropic.com/research/early-progress-drug-development
+  date: '2026-10-27'
+- source: Anthropic Research
+  title: Discovering and exploiting vulnerabilities in critical, real-world software
+    with Claude
+  link: https://www.anthropic.com/research/discovering-vulnerabilities-with-claude
+  date: '2026-10-27'
+- source: Anthropic Research
+  title: How AI agents shape experts’ judgment calls
+  link: https://www.anthropic.com/research/agents-judgment-calls
   date: '2026-10-27'
 - source: Google DeepMind
   title: 'Genie 4: A new generation of world simulation'
@@ -168,14 +189,6 @@
 - source: Product Hunt
   title: Empacer
   link: https://www.producthunt.com/products/empacer
-  date: '2026-10-27'
-- source: Product Hunt
-  title: Voxel51 Multimodal
-  link: https://www.producthunt.com/products/voxel51
-  date: '2026-10-27'
-- source: Product Hunt
-  title: Radar
-  link: https://www.producthunt.com/products/radar-7
   date: '2026-10-27'
 - source: OpenAI
   title: Greptile takes bug detection beyond code review with GPT-6 Astra
@@ -303,17 +316,9 @@
   title: 'Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success'
   link: https://huggingface.co/papers/2610.31670
   date: '2026-10-22'
-- source: Product Hunt
-  title: Gologin Cloud Browser
-  link: https://www.producthunt.com/products/gologin
-  date: '2026-10-22'
 - source: Anthropic
   title: Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust
   link: https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust
-  date: '2026-10-21'
-- source: Product Hunt
-  title: Scape
-  link: https://www.producthunt.com/products/scape-4
   date: '2026-10-21'
 - source: Hugging Face Papers
   title: 'LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data'
@@ -332,8 +337,16 @@
   link: https://github.com/MemTensor/MemT-1.0
   date: '2026-10-20'
 - source: Product Hunt
+  title: TopAgent
+  link: https://www.producthunt.com/products/topmessage
+  date: '2026-10-19'
+- source: Product Hunt
   title: OutreachGuy
   link: https://www.producthunt.com/products/outreachguy
+  date: '2026-10-19'
+- source: Product Hunt
+  title: Viggle JST-2
+  link: https://www.producthunt.com/products/viggle-ai
   date: '2026-10-19'
 - source: Anthropic
   title: Investing in the public benefit
@@ -413,6 +426,10 @@
     Your Tactics to Fit Your Project''s Maturity'
   link: https://charonhub.deeplearning.ai/what-stage-is-your-project-takeaways-for-ai-engineering/
   date: '2026-09-25'
+- source: Anthropic Research
+  title: Claude discovers a novel enzyme system
+  link: https://www.anthropic.com/research/claude-discovers-novel-enzyme-system
+  date: '2026-09-23'
 - source: arXiv (DeepSeek/Qwen/Kimi/GLM)
   title: 'Qwen3.8-Omni: Towards Native Omni-Modal Agents'
   link: https://arxiv.org/abs/2609.25611v1
@@ -454,6 +471,10 @@
   title: Building an AI Text Detector From Scratch
   link: https://magazine.sebastianraschka.com/p/ai-detector-from-scratch
   date: '2026-08-15'
+- source: Anthropic Research
+  title: Discovering cryptographic weaknesses with Claude
+  link: https://www.anthropic.com/research/discovering-cryptographic-weaknesses
+  date: '2026-07-28'
 - source: antirez
   title: The real AI risk is inside the labs
   link: http://antirez.com/news/172
@@ -490,6 +511,10 @@
   title: Using Local Coding Agents
   link: https://magazine.sebastianraschka.com/p/using-local-coding-agents
   date: '2026-06-27'
+- source: Anthropic Research
+  title: 'Anthropic Economic Index report: Cadences'
+  link: https://www.anthropic.com/research/economic-index-june-2026-report
+  date: '2026-06-26'
 - source: One Useful Thing
   title: What it feels like to work with Mythos
   link: https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos
@@ -506,6 +531,10 @@
   title: Co-Existence and the End of Co-Intelligence
   link: https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence
   date: '2026-06-04'
+- source: Anthropic Research
+  title: Coding agents in the social sciences
+  link: https://www.anthropic.com/research/coding-agents-social-sciences
+  date: '2026-05-27'
 - source: One Useful Thing
   title: Choosing to Stay Human
   link: https://www.oneusefulthing.org/p/choosing-to-stay-human
@@ -559,10 +588,22 @@
   title: AI cybersecurity is not proof of work
   link: http://antirez.com/news/163
   date: '2026-04-16'
+- source: Anthropic Research
+  title: Claude Mythos Preview's cybersecurity capabilities
+  link: https://www.anthropic.com/research/mythos-preview
+  date: '2026-04-07'
 - source: arXiv (DeepSeek/Qwen/Kimi/GLM)
   title: Attention Residuals
   link: https://arxiv.org/abs/2603.15031v1
   date: '2026-03-16'
+- source: Anthropic Research
+  title: Reverse engineering Claude's CVE-2026-2796 exploit
+  link: https://www.anthropic.com/research/exploit
+  date: '2026-03-06'
+- source: Anthropic Research
+  title: LLM-discovered 0 days
+  link: https://www.anthropic.com/research/zero-days
+  date: '2026-02-05'
 - source: arXiv (DeepSeek/Qwen/Kimi/GLM)
   title: 'Kimi K2.5: Visual Agentic Intelligence'
   link: https://arxiv.org/abs/2602.02276v2
