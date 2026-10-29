@@ -51,7 +51,7 @@
   link: https://github.com/HKUDS/nanobot
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'HKUDS/DeepTutor (49426★) · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.'
+  title: 'HKUDS/DeepTutor (49429★) · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.'
   link: https://github.com/HKUDS/DeepTutor
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
@@ -120,16 +120,12 @@
   link: https://www.producthunt.com/products/suno
   date: '2026-10-28'
 - source: Product Hunt
-  title: Flatbread
-  link: https://www.producthunt.com/products/flatbread
-  date: '2026-10-28'
-- source: Product Hunt
   title: IFTTT.ai
   link: https://www.producthunt.com/products/ifttt
   date: '2026-10-28'
 - source: Product Hunt
-  title: Smart Jelly
-  link: https://www.producthunt.com/products/smart-jelly
+  title: Flatbread
+  link: https://www.producthunt.com/products/flatbread
   date: '2026-10-28'
 - source: GitHub (trending AI/LLM/Agents)
   title: jeecgboot/JeecgBoot (48329★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
@@ -199,12 +195,16 @@
   link: https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/
   date: '2026-10-27'
 - source: Product Hunt
-  title: Radar
-  link: https://www.producthunt.com/products/radar-7
+  title: Empacer
+  link: https://www.producthunt.com/products/empacer
   date: '2026-10-27'
 - source: Product Hunt
   title: Voxel51 Multimodal
   link: https://www.producthunt.com/products/voxel51
+  date: '2026-10-27'
+- source: Product Hunt
+  title: Radar
+  link: https://www.producthunt.com/products/radar-7
   date: '2026-10-27'
 - source: OpenAI
   title: Greptile takes bug detection beyond code review with GPT-6 Astra
@@ -426,16 +426,16 @@
   link: https://ollama.com/blog/clef
   date: '2026-10-19'
 - source: Product Hunt
+  title: Viggle JST-2
+  link: https://www.producthunt.com/products/viggle-ai
+  date: '2026-10-19'
+- source: Product Hunt
   title: TopAgent
   link: https://www.producthunt.com/products/topmessage
   date: '2026-10-19'
 - source: Product Hunt
   title: OutreachGuy
   link: https://www.producthunt.com/products/outreachguy
-  date: '2026-10-19'
-- source: Product Hunt
-  title: Viggle JST-2
-  link: https://www.producthunt.com/products/viggle-ai
   date: '2026-10-19'
 - source: Anthropic
   title: Investing in the public benefit
