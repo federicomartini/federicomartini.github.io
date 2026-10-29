@@ -4,7 +4,9 @@ leggere sia tool AI nuovi da provare (prodotti, librerie, progetti open source).
 Fonti con RSS nativo: Hugging Face Blog, OpenAI News, Google DeepMind Blog,
 MIT Technology Review (AI), Simon Willison, Ahead of AI, One Useful Thing, antirez,
 Andrej Karpathy, Product Hunt (AI).
-Fonti senza RSS (scraping mirato sulla pagina di listing): Anthropic News, Andrew Ng
+Anthropic non pubblica RSS: sitemap.xml + Open Graph / article:published_time su
+ogni articolo (piu' stabile del markup CSS della listing /news).
+Fonti senza RSS (scraping mirato sulla pagina di listing): Andrew Ng
 (andrewng.org/writing, le sue lettere personali, non il sito di The Batch).
 Hugging Face Papers: API JSON pubblica usata dalla loro stessa pagina /papers.
 arXiv (DeepSeek/Qwen/Kimi/GLM): API di ricerca arXiv per autore, non un feed fisso.
@@ -20,6 +22,7 @@ le altre continuano a essere aggiornate normalmente.
 """
 
 import time
+import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta
 
 import feedparser
@@ -76,36 +79,56 @@ def fetch_hf_papers() -> list[dict]:
     return items
 
 
+# Pagine indice/filtro nel sitemap /news/, non articoli.
+ANTHROPIC_NEWS_INDEX_SLUGS = frozenset({"announcements", "features", "policy", "product"})
+SITEMAP_NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+
+
 def fetch_anthropic_news() -> list[dict]:
-    r = requests.get("https://www.anthropic.com/news", headers=HEADERS, timeout=20)
+    r = requests.get("https://www.anthropic.com/sitemap.xml", headers=HEADERS, timeout=20)
     r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
-    items = []
-    seen_links = set()
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if not href.startswith("/news/"):
+    root = ET.fromstring(r.content)
+
+    candidates: list[tuple[str, str]] = []
+    for url_el in root.findall("sm:url", SITEMAP_NS):
+        loc = (url_el.findtext("sm:loc", default="", namespaces=SITEMAP_NS) or "").strip()
+        if not loc.startswith("https://www.anthropic.com/news/"):
             continue
-        title_el = a.find("span", class_=lambda c: c and "title" in c)
-        if not title_el:
+        slug = loc.rstrip("/").rsplit("/", 1)[-1]
+        if slug in ANTHROPIC_NEWS_INDEX_SLUGS:
             continue
-        link = "https://www.anthropic.com" + href
-        if link in seen_links:
+        lastmod = (url_el.findtext("sm:lastmod", default="", namespaces=SITEMAP_NS) or "").strip()
+        candidates.append((lastmod, loc))
+
+    candidates.sort(reverse=True)
+    # Oversample: lastmod puo' riflettere un edit su un pezzo vecchio; dopo il fetch
+    # si riordina per article:published_time e si tengono i MAX_PER_SOURCE piu' recenti.
+    fetch_budget = MAX_PER_SOURCE * 2
+
+    items: list[dict] = []
+    for _, link in candidates[:fetch_budget]:
+        ar = requests.get(link, headers=HEADERS, timeout=20)
+        ar.raise_for_status()
+        soup = BeautifulSoup(ar.text, "html.parser")
+
+        title_meta = soup.find("meta", property="og:title")
+        title = (title_meta.get("content") or "").strip() if title_meta else ""
+        if not title:
             continue
-        seen_links.add(link)
 
         date_str = ""
-        time_el = a.find("time")
-        if time_el:
-            try:
-                date_str = datetime.strptime(time_el.get_text(strip=True), "%b %d, %Y").strftime("%Y-%m-%d")
-            except ValueError:
-                date_str = ""
+        pub_meta = soup.find("meta", property="article:published_time")
+        if pub_meta and pub_meta.get("content"):
+            date_str = pub_meta["content"][:10]
+        else:
+            time_el = soup.find("time", attrs={"datetime": True})
+            if time_el and time_el.get("datetime"):
+                date_str = time_el["datetime"][:10]
 
-        items.append({"source": "Anthropic", "title": title_el.get_text(strip=True), "link": link, "date": date_str})
-        if len(items) >= MAX_PER_SOURCE:
-            break
-    return items
+        items.append({"source": "Anthropic", "title": title, "link": link, "date": date_str})
+
+    items.sort(key=lambda x: x.get("date") or "", reverse=True)
+    return items[:MAX_PER_SOURCE]
 
 
 def fetch_andrew_ng_writing() -> list[dict]:
