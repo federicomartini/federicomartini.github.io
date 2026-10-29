@@ -5,7 +5,9 @@ Fonti con RSS nativo: Hugging Face Blog, OpenAI News, Google DeepMind Blog,
 MIT Technology Review (AI), Simon Willison, Ahead of AI, One Useful Thing, antirez,
 Andrej Karpathy, Product Hunt (AI).
 Anthropic non pubblica RSS: sitemap.xml + Open Graph / article:published_time su
-ogni articolo (piu' stabile del markup CSS della listing /news).
+ogni articolo, sia per News (/news/) sia per Research (/research/) — piu' stabile
+del markup CSS delle listing. Research e' una fonte separata (report/risultati,
+non gli annunci della newsroom).
 Fonti senza RSS (scraping mirato sulla pagina di listing): Andrew Ng
 (andrewng.org/writing, le sue lettere personali, non il sito di The Batch).
 Hugging Face Papers: API JSON pubblica usata dalla loro stessa pagina /papers.
@@ -79,23 +81,40 @@ def fetch_hf_papers() -> list[dict]:
     return items
 
 
-# Pagine indice/filtro nel sitemap /news/, non articoli.
+# Pagine indice/filtro nel sitemap, non articoli.
 ANTHROPIC_NEWS_INDEX_SLUGS = frozenset({"announcements", "features", "policy", "product"})
 SITEMAP_NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+_ANTHROPIC_SITEMAP_ROOT: ET.Element | None = None
 
 
-def fetch_anthropic_news() -> list[dict]:
-    r = requests.get("https://www.anthropic.com/sitemap.xml", headers=HEADERS, timeout=20)
-    r.raise_for_status()
-    root = ET.fromstring(r.content)
+def _anthropic_sitemap_root() -> ET.Element:
+    global _ANTHROPIC_SITEMAP_ROOT
+    if _ANTHROPIC_SITEMAP_ROOT is None:
+        r = requests.get("https://www.anthropic.com/sitemap.xml", headers=HEADERS, timeout=20)
+        r.raise_for_status()
+        _ANTHROPIC_SITEMAP_ROOT = ET.fromstring(r.content)
+    return _ANTHROPIC_SITEMAP_ROOT
+
+
+def _fetch_anthropic_section(
+    url_prefix: str,
+    source: str,
+    *,
+    skip_slugs: frozenset[str] = frozenset(),
+    skip_url_prefixes: tuple[str, ...] = (),
+) -> list[dict]:
+    """News/Research Anthropic via sitemap + Open Graph (niente RSS ufficiale)."""
+    root = _anthropic_sitemap_root()
 
     candidates: list[tuple[str, str]] = []
     for url_el in root.findall("sm:url", SITEMAP_NS):
         loc = (url_el.findtext("sm:loc", default="", namespaces=SITEMAP_NS) or "").strip()
-        if not loc.startswith("https://www.anthropic.com/news/"):
+        if not loc.startswith(url_prefix):
+            continue
+        if any(loc.startswith(p) for p in skip_url_prefixes):
             continue
         slug = loc.rstrip("/").rsplit("/", 1)[-1]
-        if slug in ANTHROPIC_NEWS_INDEX_SLUGS:
+        if slug in skip_slugs:
             continue
         lastmod = (url_el.findtext("sm:lastmod", default="", namespaces=SITEMAP_NS) or "").strip()
         candidates.append((lastmod, loc))
@@ -125,10 +144,27 @@ def fetch_anthropic_news() -> list[dict]:
             if time_el and time_el.get("datetime"):
                 date_str = time_el["datetime"][:10]
 
-        items.append({"source": "Anthropic", "title": title, "link": link, "date": date_str})
+        items.append({"source": source, "title": title, "link": link, "date": date_str})
 
     items.sort(key=lambda x: x.get("date") or "", reverse=True)
     return items[:MAX_PER_SOURCE]
+
+
+def fetch_anthropic_news() -> list[dict]:
+    return _fetch_anthropic_section(
+        "https://www.anthropic.com/news/",
+        "Anthropic",
+        skip_slugs=ANTHROPIC_NEWS_INDEX_SLUGS,
+    )
+
+
+def fetch_anthropic_research() -> list[dict]:
+    return _fetch_anthropic_section(
+        "https://www.anthropic.com/research/",
+        "Anthropic Research",
+        # Pagine team (Alignment, Economics, ...), non singoli report.
+        skip_url_prefixes=("https://www.anthropic.com/research/team/",),
+    )
 
 
 def fetch_andrew_ng_writing() -> list[dict]:
@@ -270,6 +306,7 @@ def fetch_chinese_labs_papers() -> list[dict]:
 SOURCES = [
     ("OpenAI News", lambda: parse_rss("https://openai.com/news/rss.xml", "OpenAI")),
     ("Anthropic News", fetch_anthropic_news),
+    ("Anthropic Research", fetch_anthropic_research),
     ("Google DeepMind Blog", lambda: parse_rss("https://deepmind.google/blog/rss.xml", "Google DeepMind")),
     (
         "MIT Technology Review (AI)",
