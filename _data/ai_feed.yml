@@ -47,7 +47,7 @@
   link: https://github.com/HKUDS/nanobot
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'HKUDS/DeepTutor (49361★) · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.'
+  title: 'HKUDS/DeepTutor (49368★) · DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.'
   link: https://github.com/HKUDS/DeepTutor
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
@@ -112,12 +112,12 @@
   link: https://simonwillison.net/2026/Oct/28/terk-terkowitz/
   date: '2026-10-28'
 - source: Product Hunt
-  title: Smart Jelly
-  link: https://www.producthunt.com/products/smart-jelly
-  date: '2026-10-28'
-- source: Product Hunt
   title: Floot in ChatGPT
   link: https://www.producthunt.com/products/floot
+  date: '2026-10-28'
+- source: Product Hunt
+  title: Flatbread
+  link: https://www.producthunt.com/products/flatbread
   date: '2026-10-28'
 - source: Product Hunt
   title: Polylane for ChatGPT
@@ -126,10 +126,6 @@
 - source: Product Hunt
   title: StoreLocale
   link: https://www.producthunt.com/products/storelocale
-  date: '2026-10-28'
-- source: Product Hunt
-  title: IFTTT.ai
-  link: https://www.producthunt.com/products/ifttt
   date: '2026-10-28'
 - source: GitHub (trending AI/LLM/Agents)
   title: jeecgboot/JeecgBoot (48329★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
@@ -190,6 +186,10 @@
   title: Empacer
   link: https://www.producthunt.com/products/empacer
   date: '2026-10-27'
+- source: Product Hunt
+  title: Voxel51 Multimodal
+  link: https://www.producthunt.com/products/voxel51
+  date: '2026-10-27'
 - source: OpenAI
   title: Greptile takes bug detection beyond code review with GPT-6 Astra
   link: https://openai.com/index/greptile-code-review-codex-astra
@@ -248,7 +248,7 @@
   link: https://simonwillison.net/2026/Oct/25/seam-cutter/
   date: '2026-10-25'
 - source: GitHub (trending AI/LLM/Agents)
-  title: eliasbiondo/antirion (443★) · ⚡ The fastest open-source AI Gateway and LLM
+  title: eliasbiondo/antirion (444★) · ⚡ The fastest open-source AI Gateway and LLM
     Gateway — one binary with built-in console to route, secure, budget and observe
     every LLM call across Ope
   link: https://github.com/eliasbiondo/antirion
@@ -316,9 +316,17 @@
   title: 'Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success'
   link: https://huggingface.co/papers/2610.31670
   date: '2026-10-22'
+- source: Product Hunt
+  title: Gologin Cloud Browser
+  link: https://www.producthunt.com/products/gologin
+  date: '2026-10-22'
 - source: Anthropic
   title: Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust
   link: https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust
+  date: '2026-10-21'
+- source: Product Hunt
+  title: Scape
+  link: https://www.producthunt.com/products/scape-4
   date: '2026-10-21'
 - source: Hugging Face Papers
   title: 'LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data'
@@ -337,16 +345,8 @@
   link: https://github.com/MemTensor/MemT-1.0
   date: '2026-10-20'
 - source: Product Hunt
-  title: TopAgent
-  link: https://www.producthunt.com/products/topmessage
-  date: '2026-10-19'
-- source: Product Hunt
   title: OutreachGuy
   link: https://www.producthunt.com/products/outreachguy
-  date: '2026-10-19'
-- source: Product Hunt
-  title: Viggle JST-2
-  link: https://www.producthunt.com/products/viggle-ai
   date: '2026-10-19'
 - source: Anthropic
   title: Investing in the public benefit
