@@ -1,31 +1,101 @@
 - source: Product Hunt
-  title: Axonnic
-  link: https://www.producthunt.com/products/axonnic
-  date: '2026-10-30'
+  title: Godwit
+  link: https://www.producthunt.com/products/godwit
+  date: '2026-10-31'
 - source: GitHub (trending AI/LLM/Agents)
-  title: ccch1mneyyy/dsh-Go (1638★) · dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
+  title: ccch1mneyyy/dsh-Go (3160★) · dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
   link: https://github.com/ccch1mneyyy/dsh-Go
-  date: '2026-10-30'
+  date: '2026-10-31'
 - source: GitHub (trending AI/LLM/Agents)
-  title: actionow-ai/vvv (491★) · 一次构建视频模板，多次复用：给 Claude Code、Codex 等 25+ 个 Agent
-    的开源可编辑婚礼视频模板与 Agent Skill。Build a video template once, reuse it across coding
-    agents.
-  link: https://github.com/actionow-ai/vvv
-  date: '2026-10-30'
+  title: wangzan101/Mika (2092★) · Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device
+    AI agent for Android that operates apps and the web to get things done for you.
+  link: https://github.com/wangzan101/Mika
+  date: '2026-10-31'
 - source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (49672★) · Your lightweight open-source personal agent.
+  title: jackwener/DSH-Android (580★) · 免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌
+    App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku
+  link: https://github.com/jackwener/DSH-Android
+  date: '2026-10-31'
+- source: GitHub (trending AI/LLM/Agents)
+  title: HKUDS/nanobot (49696★) · Your lightweight open-source personal agent.
   link: https://github.com/HKUDS/nanobot
-  date: '2026-10-30'
+  date: '2026-10-31'
 - source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (47691★) · Open-source personal AI assistant & Agent Harness.
+  title: sickn33/agentic-awesome-skills (48878★) · 2,884+ reusable AI agent skills
+    for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery,
+    agent-owned selectio
+  link: https://github.com/sickn33/agentic-awesome-skills
+  date: '2026-10-31'
+- source: GitHub (trending AI/LLM/Agents)
+  title: jeecgboot/JeecgBoot (48352★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+    AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
+    生成 → 在线配置 → 代码
+  link: https://github.com/jeecgboot/JeecgBoot
+  date: '2026-10-31'
+- source: GitHub (trending AI/LLM/Agents)
+  title: zhayujie/CowAgent (47710★) · Open-source personal AI assistant & Agent Harness.
     Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
     multi-model
   link: https://github.com/zhayujie/CowAgent
-  date: '2026-10-30'
+  date: '2026-10-31'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'paperless-ngx/paperless-ngx (47354★) · A community-supported supercharged
+  title: 'paperless-ngx/paperless-ngx (47425★) · A community-supported supercharged
     document management system: scan, index and archive all your documents'
   link: https://github.com/paperless-ngx/paperless-ngx
+  date: '2026-10-31'
+- source: OpenAI
+  title: Making it easier for websites to express AI training preferences
+  link: https://openai.com/index/helping-websites-express-ai-training-preferences
+  date: '2026-10-30'
+- source: OpenAI
+  title: Community safety report and new protections for teens
+  link: https://openai.com/index/community-safety-report-and-new-protections-for-teens
+  date: '2026-10-30'
+- source: OpenAI
+  title: Fair use benefits everyone
+  link: https://openai.com/index/fair-use-benefits-everyone
+  date: '2026-10-30'
+- source: NVIDIA Developer
+  title: Build a Validated Kubernetes Runtime for NVIDIA Dynamo
+  link: https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo/
+  date: '2026-10-30'
+- source: NVIDIA Developer
+  title: Run AI Models for Edge Application Development with Just a Few Commands
+  link: https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands/
+  date: '2026-10-30'
+- source: NVIDIA Developer
+  title: Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw
+  link: https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw/
+  date: '2026-10-30'
+- source: NVIDIA Blog
+  title: 'Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial
+    Signals'
+  link: https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/
+  date: '2026-10-30'
+- source: Hugging Face Blog
+  title: nemotron-halloween
+  link: https://huggingface.co/blog/nvidia/nemotron-halloween
+  date: '2026-10-30'
+- source: Simon Willison
+  title: dbreunig/nesformer
+  link: https://simonwillison.net/2026/Oct/30/nesformer/
+  date: '2026-10-30'
+- source: Andrew Ng
+  title: 'How to Face Your AI Fears This Year: Introduction to a special Halloween
+    2026 edition of The Batch'
+  link: https://charonhub.deeplearning.ai/how-to-face-your-ai-fears-this-year/
+  date: '2026-10-30'
+- source: Product Hunt
+  title: Agnos
+  link: https://www.producthunt.com/products/agnos
+  date: '2026-10-30'
+- source: Product Hunt
+  title: Pluto Door
+  link: https://www.producthunt.com/products/pluto-door
+  date: '2026-10-30'
+- source: Product Hunt
+  title: SKI
+  link: https://www.producthunt.com/products/ski
   date: '2026-10-30'
 - source: OpenAI
   title: An updated Model Spec for more capable and beneficial AI
@@ -38,6 +108,10 @@
 - source: OpenAI
   title: How Ropes & Gray is developing AI for transactional diligence
   link: https://openai.com/index/ropes-gray-ai-diligence
+  date: '2026-10-29'
+- source: OpenAI
+  title: Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot
+  link: https://openai.com/index/credit-saison
   date: '2026-10-29'
 - source: Mistral
   title: 'Le Chonk: Built for Coders, Trusted by Defenders.'
@@ -77,47 +151,19 @@
   link: https://simonwillison.net/2026/Oct/29/ben-hylak/
   date: '2026-10-29'
 - source: Product Hunt
-  title: Canva Brush
-  link: https://www.producthunt.com/products/canva
-  date: '2026-10-29'
-- source: Product Hunt
-  title: fastbrowse
-  link: https://www.producthunt.com/products/fastbrowse
-  date: '2026-10-29'
-- source: Product Hunt
-  title: ilse
-  link: https://www.producthunt.com/products/ilse
-  date: '2026-10-29'
-- source: Product Hunt
-  title: Chopstick
-  link: https://www.producthunt.com/products/chopstick
-  date: '2026-10-29'
-- source: Product Hunt
-  title: Faylee
-  link: https://www.producthunt.com/products/faylee
+  title: telemetry.dev
+  link: https://www.producthunt.com/products/telemetry-dev
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'daveebbelaar/bama (847★) · BAMA: Build Any Mac App. Agent skills to research,
+  title: 'daveebbelaar/bama (1000★) · BAMA: Build Any Mac App. Agent skills to research,
     clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.'
   link: https://github.com/daveebbelaar/bama
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'C4rohan/Lampline (547★) · Build AI phone agents on your own computer and
+  title: 'C4rohan/Lampline (548★) · Build AI phone agents on your own computer and
     test every change with an AI caller. Open source, runs free with no API keys,
     cents per call with your own '
   link: https://github.com/C4rohan/Lampline
-  date: '2026-10-29'
-- source: GitHub (trending AI/LLM/Agents)
-  title: eliasbiondo/antirion (482★) · 🕷️ The fastest open-source AI Gateway and LLM
-    Gateway — one binary with built-in console to route, secure, budget and observe
-    every LLM call across Op
-  link: https://github.com/eliasbiondo/antirion
-  date: '2026-10-29'
-- source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (48798★) · 2,877+ reusable AI agent skills
-    for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery,
-    agent-owned selectio
-  link: https://github.com/sickn33/agentic-awesome-skills
   date: '2026-10-29'
 - source: OpenAI
   title: OpenAI and ServiceNow expand partnership across enterprise workflows
@@ -135,6 +181,11 @@
   title: AI for Science expands to foundations and institutions
   link: https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions
   date: '2026-10-28'
+- source: NVIDIA Blog
+  title: 'Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain
+    New Models, Agent Tools and Games'
+  link: https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/
+  date: '2026-10-28'
 - source: Google DeepMind
   title: 'Gemini 4 Carbon: Our next frontier model'
   link: https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/
@@ -147,43 +198,26 @@
   title: Pairing industrial AI autonomy and human control
   link: https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/
   date: '2026-10-28'
-- source: Hugging Face Blog
-  title: 'NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual
-    Transcription You Can Prompt and Adapt'
-  link: https://huggingface.co/blog/nvidia/nemotron-transcribe-granary
+- source: Hugging Face Papers
+  title: 'EPSBench: Benchmarking LLM Agents for Earnings Forecasting'
+  link: https://huggingface.co/papers/2610.38293
   date: '2026-10-28'
 - source: Hugging Face Papers
-  title: 'Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities'
-  link: https://huggingface.co/papers/2610.39301
+  title: Unlocking Any-Order Generation in Pretrained Autoregressive Image Models
+  link: https://huggingface.co/papers/2610.39293
   date: '2026-10-28'
 - source: Hugging Face Papers
-  title: 'OpenFlyV2: An onboard vision-language-action model for aerial perception
-    and navigation'
-  link: https://huggingface.co/papers/2610.39287
+  title: Training Foundation Models with a Single Algorithm
+  link: https://huggingface.co/papers/2610.40564
   date: '2026-10-28'
 - source: Hugging Face Papers
-  title: 'PhysInsert: Physically Plausible Object Insertion with Geometric Priors
-    and Bidirectional Object-Scene Interactions'
-  link: https://huggingface.co/papers/2610.40453
+  title: Proving and Improving the Platonic Representation Hypothesis with JEPAs
+  link: https://huggingface.co/papers/2610.39302
   date: '2026-10-28'
 - source: Hugging Face Papers
-  title: 'AB-Attention: Accurate Block Attention for Accelerating Video Diffusion
-    Transformers'
-  link: https://huggingface.co/papers/2610.39663
-  date: '2026-10-28'
-- source: Hugging Face Papers
-  title: 'Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative
-    Transformers'
-  link: https://huggingface.co/papers/2610.40647
-  date: '2026-10-28'
-- source: Hugging Face Papers
-  title: 'L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory'
-  link: https://huggingface.co/papers/2610.40614
-  date: '2026-10-28'
-- source: Hugging Face Papers
-  title: Online Dense Reinforcement Learning with Planning-Grounding Agent for UI
-    Navigation on Live IOS Apps
-  link: https://huggingface.co/papers/2610.39264
+  title: 'FDSML: Formula-Driven Supervised Metric Learning with Parameter-Aware Triplet
+    Loss'
+  link: https://huggingface.co/papers/2610.39423
   date: '2026-10-28'
 - source: Simon Willison
   title: Quoting Ted Sanders
@@ -202,39 +236,21 @@
   link: https://simonwillison.net/2026/Oct/28/terk-terkowitz/
   date: '2026-10-28'
 - source: Product Hunt
-  title: Vaani Developer Platform
-  link: https://www.producthunt.com/products/vaani-developer-platfrom
+  title: Mo
+  link: https://www.producthunt.com/products/mo-5
   date: '2026-10-28'
-- source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (48343★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
-    AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
-    生成 → 在线配置 → 代码
-  link: https://github.com/jeecgboot/JeecgBoot
-  date: '2026-10-28'
-- source: OpenAI
-  title: Retell uses OpenAI models to help power 100M monthly calls
-  link: https://openai.com/index/retell-ai
-  date: '2026-10-27'
-- source: OpenAI
-  title: OpenAI expands partnership with Oracle to bring its apps to ChatGPT
-  link: https://openai.com/index/oracle-apps-in-chatgpt
-  date: '2026-10-27'
-- source: OpenAI
-  title: How Check Point accelerates vulnerability research with Daybreak
-  link: https://openai.com/index/check-point-daybreak
-  date: '2026-10-27'
 - source: Anthropic
   title: Expanding our partnership with GSA to bring Claude to all levels of government
   link: https://www.anthropic.com/news/expanding-partnership-gsa
   date: '2026-10-27'
 - source: Anthropic Research
-  title: Early progress on accelerating drug development with Claude
-  link: https://www.anthropic.com/research/early-progress-drug-development
-  date: '2026-10-27'
-- source: Anthropic Research
   title: Discovering and exploiting vulnerabilities in critical, real-world software
     with Claude
   link: https://www.anthropic.com/research/discovering-vulnerabilities-with-claude
+  date: '2026-10-27'
+- source: Anthropic Research
+  title: Early progress on accelerating drug development with Claude
+  link: https://www.anthropic.com/research/early-progress-drug-development
   date: '2026-10-27'
 - source: Anthropic Research
   title: How AI agents shape experts’ judgment calls
@@ -269,30 +285,18 @@
   link: https://huggingface.co/blog/allenai/novelty-bench
   date: '2026-10-27'
 - source: Hugging Face Papers
-  title: Multi-Token Prediction Done Right
-  link: https://huggingface.co/papers/2610.38331
+  title: 'Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for
+    Large Reasoning Models'
+  link: https://huggingface.co/papers/2610.38681
   date: '2026-10-27'
 - source: Hugging Face Papers
-  title: 'Investor''s Last Exam: Can AI Agents Do Equity Investment Without Seeing
-    the Future?'
-  link: https://huggingface.co/papers/2610.38342
+  title: Scaling Lean Theorem Proving for Real-World Code Verification
+  link: https://huggingface.co/papers/2610.38174
   date: '2026-10-27'
 - source: Simon Willison
   title: Game Boy Color on My Conference Badge
   link: https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/
   date: '2026-10-27'
-- source: Product Hunt
-  title: Teable Mobile
-  link: https://www.producthunt.com/products/teable-4
-  date: '2026-10-27'
-- source: Product Hunt
-  title: SparkBots AI (Powered by Jev)
-  link: https://www.producthunt.com/products/sparkbots-ai-analyze-pages-and-pdfs
-  date: '2026-10-27'
-- source: OpenAI
-  title: Greptile takes bug detection beyond code review with GPT-6 Astra
-  link: https://openai.com/index/greptile-code-review-codex-astra
-  date: '2026-10-26'
 - source: Anthropic
   title: Anthropic files S-1 with the SEC for proposed initial public offering
   link: https://www.anthropic.com/news/s1-sec
@@ -309,10 +313,16 @@
   title: GPT-6.1 Terra
   link: https://simonwillison.net/2026/Oct/26/gpt-61-terra/
   date: '2026-10-26'
-- source: Simon Willison
-  title: Quoting Jason Koebler
-  link: https://simonwillison.net/2026/Oct/26/jason-koebler/
-  date: '2026-10-26'
+- source: Hugging Face Papers
+  title: 'Matched Capabilities, Different Behaviors: A Controlled Study of MCP and
+    CLI Interfaces for Language Agents'
+  link: https://huggingface.co/papers/2610.34298
+  date: '2026-10-24'
+- source: Hugging Face Papers
+  title: 'Broken on Arrival: Non-Functional Quantized LLM Artifacts in Public Model
+    Registries and How to Catch Them'
+  link: https://huggingface.co/papers/2609.05881
+  date: '2026-10-24'
 - source: Ahead of AI
   title: 'Building Reasoning Models from the Ground Up: A Full Video Course'
   link: https://magazine.sebastianraschka.com/p/building-reasoning-models
@@ -421,16 +431,6 @@
   title: Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA
   link: https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/
   date: '2026-10-21'
-- source: NVIDIA Blog
-  title: NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific
-    Simulations
-  link: https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/
-  date: '2026-10-21'
-- source: NVIDIA Blog
-  title: NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to
-    Securely Scale Across Global Infrastructure
-  link: https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/
-  date: '2026-10-21'
 - source: Mistral
   title: Voxtral 3
   link: https://mistral.ai/news/voxtral-3/
@@ -439,18 +439,26 @@
   title: 30 Months on the Exponential (in Charts)
   link: https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts
   date: '2026-10-20'
+- source: Product Hunt
+  title: Coding Wrapped
+  link: https://www.producthunt.com/products/coding-wrapped
+  date: '2026-10-20'
 - source: Ollama
   title: Clef is available on Ollama's cloud
   link: https://ollama.com/blog/clef
+  date: '2026-10-19'
+- source: Product Hunt
+  title: CubbyPad
+  link: https://www.producthunt.com/products/cubbypad
   date: '2026-10-19'
 - source: Anthropic
   title: Investing in the public benefit
   link: https://www.anthropic.com/news/public-benefit-fund
   date: '2026-10-18'
-- source: Hugging Face Papers
-  title: 'Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion'
-  link: https://huggingface.co/papers/2610.25276
-  date: '2026-10-17'
+- source: Product Hunt
+  title: Specsight
+  link: https://www.producthunt.com/products/specsight
+  date: '2026-10-18'
 - source: NVIDIA Developer
   title: Code, Test, and Deploy on One Machine with NVIDIA RTX Spark
   link: https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/
@@ -464,10 +472,6 @@
   title: Reflection's Beam is freely available on Ollama for a limited time
   link: https://ollama.com/blog/reflection-beam
   date: '2026-10-16'
-- source: Product Hunt
-  title: Cluinn
-  link: https://www.producthunt.com/products/cluinn
-  date: '2026-10-16'
 - source: Anthropic
   title: Anthropic update on independent evaluators
   link: https://www.anthropic.com/news/an-update-on-independent-evaluators
@@ -476,24 +480,14 @@
   title: Introducing Timestral
   link: https://mistral.ai/news/timestral/
   date: '2026-10-15'
-- source: NVIDIA Developer
-  title: NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning
-  link: https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/
-  date: '2026-10-15'
-- source: NVIDIA Developer
-  title: Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300
-    NVL72
-  link: https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/
-  date: '2026-10-15'
 - source: Google DeepMind
   title: Accelerating the search for antimicrobial peptides with Google Antigravity
   link: https://deepmind.google/blog/accelerating-antimicrobial-discovery/
   date: '2026-10-15'
-- source: NVIDIA Developer
-  title: Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design
-    Using NVIDIA NeMo Gym
-  link: https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/
-  date: '2026-10-14'
+- source: Hugging Face Papers
+  title: 'ABF-Bench: A Verifiable Benchmark for Agentic Blockchain Forensics'
+  link: https://huggingface.co/papers/2610.23656
+  date: '2026-10-15'
 - source: Google DeepMind
   title: Google DeepMind and Singapore Government collaborate to build fine-tuned
     AI model for scam detection
@@ -527,6 +521,10 @@
   title: 'EmbeddingGemma 2: an open, lightweight multimodal embedding model'
   link: https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/
   date: '2026-10-06'
+- source: Product Hunt
+  title: SpaceO
+  link: https://www.producthunt.com/products/spaceo
+  date: '2026-10-04'
 - source: Andrew Ng
   title: 'We Should Be Encouraged By AI’s Cybersecurity Abilities: Why GLM-5.3’s High
     ExploitBench score is good news'
@@ -573,11 +571,6 @@
   title: The Overhang
   link: https://www.oneusefulthing.org/p/the-overhang
   date: '2026-09-18'
-- source: Andrew Ng
-  title: 'Who’s Responsible for Irresponsible AI?: Separating Out AI Facts, Fears,
-    and Fiction'
-  link: https://charonhub.deeplearning.ai/whos-responsible-for-irresponsible-ai/
-  date: '2026-09-18'
 - source: arXiv (DeepSeek/Qwen/Kimi/GLM)
   title: 'DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression'
   link: https://arxiv.org/abs/2609.19969v1
@@ -616,6 +609,10 @@
   title: Ollama's transparent pricing
   link: https://ollama.com/blog/transparent-pricing
   date: '2026-08-31'
+- source: Anthropic Research
+  title: Enabling independent research on how people use Claude
+  link: https://www.anthropic.com/research/enabling-independent-research
+  date: '2026-08-26'
 - source: Ollama
   title: Claude Desktop support with Ollama
   link: https://ollama.com/blog/claude-desktop
@@ -753,10 +750,6 @@
   title: Scaling Managed Agents with stable interfaces
   link: https://www.anthropic.com/research/managed-agents
   date: '2026-04-08'
-- source: Anthropic Research
-  title: Claude Mythos Preview's cybersecurity capabilities
-  link: https://www.anthropic.com/research/mythos-preview
-  date: '2026-04-07'
 - source: arXiv (DeepSeek/Qwen/Kimi/GLM)
   title: Attention Residuals
   link: https://arxiv.org/abs/2603.15031v1
