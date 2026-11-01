@@ -1,47 +1,63 @@
-- source: Product Hunt
-  title: Godwit
-  link: https://www.producthunt.com/products/godwit
-  date: '2026-10-31'
 - source: GitHub (trending AI/LLM/Agents)
-  title: ccch1mneyyy/dsh-Go (3160★) · dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
+  title: ccch1mneyyy/dsh-Go (4203★) · dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
   link: https://github.com/ccch1mneyyy/dsh-Go
-  date: '2026-10-31'
+  date: '2026-11-01'
 - source: GitHub (trending AI/LLM/Agents)
-  title: wangzan101/Mika (2092★) · Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device
-    AI agent for Android that operates apps and the web to get things done for you.
+  title: wangzan101/Mika (3317★) · An on-device AI agent for Android that operates
+    apps and the web to get things done for you.
   link: https://github.com/wangzan101/Mika
-  date: '2026-10-31'
+  date: '2026-11-01'
 - source: GitHub (trending AI/LLM/Agents)
-  title: jackwener/DSH-Android (580★) · 免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌
+  title: jackwener/DSH-Android (665★) · 免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌
     App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku
   link: https://github.com/jackwener/DSH-Android
-  date: '2026-10-31'
+  date: '2026-11-01'
 - source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (49696★) · Your lightweight open-source personal agent.
-  link: https://github.com/HKUDS/nanobot
-  date: '2026-10-31'
-- source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (48878★) · 2,884+ reusable AI agent skills
+  title: sickn33/agentic-awesome-skills (48950★) · 2,884+ reusable AI agent skills
     for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery,
     agent-owned selectio
   link: https://github.com/sickn33/agentic-awesome-skills
-  date: '2026-10-31'
+  date: '2026-11-01'
 - source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (48352★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
+  title: jeecgboot/JeecgBoot (48360★) · 【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。
     AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills
     生成 → 在线配置 → 代码
   link: https://github.com/jeecgboot/JeecgBoot
-  date: '2026-10-31'
+  date: '2026-11-01'
 - source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (47710★) · Open-source personal AI assistant & Agent Harness.
+  title: zhayujie/CowAgent (47727★) · Open-source personal AI assistant & Agent Harness.
     Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
     multi-model
   link: https://github.com/zhayujie/CowAgent
-  date: '2026-10-31'
+  date: '2026-11-01'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'paperless-ngx/paperless-ngx (47425★) · A community-supported supercharged
+  title: 'paperless-ngx/paperless-ngx (47494★) · A community-supported supercharged
     document management system: scan, index and archive all your documents'
   link: https://github.com/paperless-ngx/paperless-ngx
+  date: '2026-11-01'
+- source: Simon Willison
+  title: How We Took Over ChatGPT Accounts
+  link: https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/
+  date: '2026-10-31'
+- source: Simon Willison
+  title: datasette-llm 0.1a9
+  link: https://simonwillison.net/2026/Oct/31/datasette-llm/
+  date: '2026-10-31'
+- source: Andrej Karpathy
+  title: HackerTube
+  link: https://karpathy.bearblog.dev/hacker-tube/
+  date: '2026-10-31'
+- source: Product Hunt
+  title: agentmash
+  link: https://www.producthunt.com/products/agentmash
+  date: '2026-10-31'
+- source: Product Hunt
+  title: ernd
+  link: https://www.producthunt.com/products/ernd
+  date: '2026-10-31'
+- source: GitHub (trending AI/LLM/Agents)
+  title: HKUDS/nanobot (49720★) · Your lightweight open-source personal agent.
+  link: https://github.com/HKUDS/nanobot
   date: '2026-10-31'
 - source: OpenAI
   title: Making it easier for websites to express AI training preferences
@@ -86,16 +102,12 @@
   link: https://charonhub.deeplearning.ai/how-to-face-your-ai-fears-this-year/
   date: '2026-10-30'
 - source: Product Hunt
+  title: Embage
+  link: https://www.producthunt.com/products/embage
+  date: '2026-10-30'
+- source: Product Hunt
   title: Agnos
   link: https://www.producthunt.com/products/agnos
-  date: '2026-10-30'
-- source: Product Hunt
-  title: Pluto Door
-  link: https://www.producthunt.com/products/pluto-door
-  date: '2026-10-30'
-- source: Product Hunt
-  title: SKI
-  link: https://www.producthunt.com/products/ski
   date: '2026-10-30'
 - source: OpenAI
   title: An updated Model Spec for more capable and beneficial AI
@@ -151,16 +163,20 @@
   link: https://simonwillison.net/2026/Oct/29/ben-hylak/
   date: '2026-10-29'
 - source: Product Hunt
-  title: telemetry.dev
-  link: https://www.producthunt.com/products/telemetry-dev
+  title: Usage for Claude + ChatGPT 4.0
+  link: https://www.producthunt.com/products/usage-for-claude
+  date: '2026-10-29'
+- source: Product Hunt
+  title: Precise Edit by Ideogram
+  link: https://www.producthunt.com/products/ideogram
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'daveebbelaar/bama (1000★) · BAMA: Build Any Mac App. Agent skills to research,
+  title: 'daveebbelaar/bama (1187★) · BAMA: Build Any Mac App. Agent skills to research,
     clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.'
   link: https://github.com/daveebbelaar/bama
   date: '2026-10-29'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'C4rohan/Lampline (548★) · Build AI phone agents on your own computer and
+  title: 'C4rohan/Lampline (531★) · Build AI phone agents on your own computer and
     test every change with an AI caller. Open source, runs free with no API keys,
     cents per call with your own '
   link: https://github.com/C4rohan/Lampline
@@ -236,8 +252,8 @@
   link: https://simonwillison.net/2026/Oct/28/terk-terkowitz/
   date: '2026-10-28'
 - source: Product Hunt
-  title: Mo
-  link: https://www.producthunt.com/products/mo-5
+  title: Modelpeers
+  link: https://www.producthunt.com/products/modelpeers
   date: '2026-10-28'
 - source: Anthropic
   title: Expanding our partnership with GSA to bring Claude to all levels of government
@@ -293,10 +309,6 @@
   title: Scaling Lean Theorem Proving for Real-World Code Verification
   link: https://huggingface.co/papers/2610.38174
   date: '2026-10-27'
-- source: Simon Willison
-  title: Game Boy Color on My Conference Badge
-  link: https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/
-  date: '2026-10-27'
 - source: Anthropic
   title: Anthropic files S-1 with the SEC for proposed initial public offering
   link: https://www.anthropic.com/news/s1-sec
@@ -309,9 +321,13 @@
   title: The focus on AI safety disasters ignores everyday harms
   link: https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/
   date: '2026-10-26'
-- source: Simon Willison
-  title: GPT-6.1 Terra
-  link: https://simonwillison.net/2026/Oct/26/gpt-61-terra/
+- source: Product Hunt
+  title: ClawsGO Science
+  link: https://www.producthunt.com/products/clawsgo-science
+  date: '2026-10-26'
+- source: Product Hunt
+  title: Riverside Agents
+  link: https://www.producthunt.com/products/riverside-fm
   date: '2026-10-26'
 - source: Hugging Face Papers
   title: 'Matched Capabilities, Different Behaviors: A Controlled Study of MCP and
@@ -440,24 +456,16 @@
   link: https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts
   date: '2026-10-20'
 - source: Product Hunt
-  title: Coding Wrapped
-  link: https://www.producthunt.com/products/coding-wrapped
+  title: Click
+  link: https://www.producthunt.com/products/click-6
   date: '2026-10-20'
 - source: Ollama
   title: Clef is available on Ollama's cloud
   link: https://ollama.com/blog/clef
   date: '2026-10-19'
-- source: Product Hunt
-  title: CubbyPad
-  link: https://www.producthunt.com/products/cubbypad
-  date: '2026-10-19'
 - source: Anthropic
   title: Investing in the public benefit
   link: https://www.anthropic.com/news/public-benefit-fund
-  date: '2026-10-18'
-- source: Product Hunt
-  title: Specsight
-  link: https://www.producthunt.com/products/specsight
   date: '2026-10-18'
 - source: NVIDIA Developer
   title: Code, Test, and Deploy on One Machine with NVIDIA RTX Spark
@@ -521,10 +529,6 @@
   title: 'EmbeddingGemma 2: an open, lightweight multimodal embedding model'
   link: https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/
   date: '2026-10-06'
-- source: Product Hunt
-  title: SpaceO
-  link: https://www.producthunt.com/products/spaceo
-  date: '2026-10-04'
 - source: Andrew Ng
   title: 'We Should Be Encouraged By AI’s Cybersecurity Abilities: Why GLM-5.3’s High
     ExploitBench score is good news'
@@ -810,7 +814,3 @@
   title: 'Power to the people: How LLMs flip the script on technology diffusion'
   link: https://karpathy.bearblog.dev/power-to-the-people/
   date: '2025-04-07'
-- source: Andrej Karpathy
-  title: Finding the Best Sleep Tracker
-  link: https://karpathy.bearblog.dev/finding-the-best-sleep-tracker/
-  date: '2025-03-24'
