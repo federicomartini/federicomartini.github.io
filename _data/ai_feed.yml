@@ -36,7 +36,7 @@
   link: https://www.producthunt.com/products/textkit-2
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: ccch1mneyyy/dsh-Go (11297★) · dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
+  title: ccch1mneyyy/dsh-Go (11299★) · dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
   link: https://github.com/ccch1mneyyy/dsh-Go
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
@@ -45,7 +45,7 @@
   link: https://github.com/wangzan101/Mika
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: KKKKhazix/agent-autoloop (3182★) · 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
+  title: KKKKhazix/agent-autoloop (3184★) · 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
   link: https://github.com/KKKKhazix/agent-autoloop
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
@@ -238,6 +238,10 @@
   link: https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/
   date: '2026-11-03'
 - source: Product Hunt
+  title: Rerun
+  link: https://www.producthunt.com/products/rerun-2
+  date: '2026-11-03'
+- source: Product Hunt
   title: Stitch.ai
   link: https://www.producthunt.com/products/stitch-ai
   date: '2026-11-03'
@@ -297,10 +301,6 @@
 - source: Product Hunt
   title: Living Brain
   link: https://www.producthunt.com/products/chatandbuild
-  date: '2026-11-02'
-- source: Product Hunt
-  title: Clocknext
-  link: https://www.producthunt.com/products/clocknext
   date: '2026-11-02'
 - source: Hugging Face Papers
   title: 'Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse
