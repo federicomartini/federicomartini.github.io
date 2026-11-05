@@ -4,7 +4,7 @@ leggere sia tool AI nuovi da provare (prodotti, librerie, progetti open source).
 Fonti con RSS nativo: Hugging Face Blog, OpenAI News, Google DeepMind Blog,
 MIT Technology Review (AI), Mistral News, NVIDIA Developer (Generative AI),
 NVIDIA Blog (Generative AI), Ollama Blog, Simon Willison, Ahead of AI,
-One Useful Thing, antirez, Andrej Karpathy, Product Hunt (AI).
+One Useful Thing, Latent Space (AINews), antirez, Andrej Karpathy, Product Hunt (AI).
 Anthropic non pubblica RSS: sitemap.xml + Open Graph / article:published_time su
 ogni articolo, sia per News (/news/) sia per Research (/research/) — piu' stabile
 del markup CSS delle listing. Research e' una fonte separata (report/risultati,
@@ -333,6 +333,7 @@ SOURCES = [
     ("arXiv (DeepSeek/Qwen/Kimi/GLM)", fetch_chinese_labs_papers),
     ("Simon Willison", lambda: parse_rss("https://simonwillison.net/atom/everything/", "Simon Willison")),
     ("Ahead of AI (Sebastian Raschka)", lambda: parse_rss("https://magazine.sebastianraschka.com/feed", "Ahead of AI")),
+    ("Latent Space (AINews)", lambda: parse_rss("https://latent.space/feeds/news.xml", "Latent Space")),
     ("One Useful Thing (Ethan Mollick)", lambda: parse_rss("https://www.oneusefulthing.org/feed", "One Useful Thing")),
     ("antirez (Salvatore Sanfilippo)", lambda: parse_rss("https://antirez.com/rss", "antirez")),
     ("Andrew Ng (writing)", fetch_andrew_ng_writing),
