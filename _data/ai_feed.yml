@@ -43,12 +43,13 @@
   title: '[AINews] It''s Swapping Season'
   link: https://latent.space/p/ainews-it-s-swapping-season/
   date: '2026-11-05'
-- source: Product Hunt
-  title: CC Auto Review
-  link: https://www.producthunt.com/products/cc-auto-review
+- source: Lobsters
+  title: Software Line Specialist (14 pts, 2 comments)
+  link: https://lovro-bikic.github.io/software-line-specialist/
+  comments_link: https://lobste.rs/s/yoywed/software_line_specialist
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: ccch1mneyyy/dsh-Go (11335★) · dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
+  title: ccch1mneyyy/dsh-Go (11336★) · dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
   link: https://github.com/ccch1mneyyy/dsh-Go
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
@@ -57,7 +58,7 @@
   link: https://github.com/wangzan101/Mika
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: KKKKhazix/agent-autoloop (3200★) · 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
+  title: KKKKhazix/agent-autoloop (3201★) · 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
   link: https://github.com/KKKKhazix/agent-autoloop
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
@@ -161,7 +162,7 @@
   link: https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/
   date: '2026-11-04'
 - source: Hacker News
-  title: AI is forcing us to pay off 40 years of technical debt (1248 pts, 730 comments)
+  title: AI is forcing us to pay off 40 years of technical debt (1248 pts, 731 comments)
   link: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability
   comments_link: https://news.ycombinator.com/item?id=50364336
   date: '2026-11-04'
@@ -188,12 +189,12 @@
   comments_link: https://news.ycombinator.com/item?id=50366117
   date: '2026-11-04'
 - source: Product Hunt
-  title: Polylane for Google Cloud
-  link: https://www.producthunt.com/products/polylane
+  title: AI Employees by Easy-Peasy.AI
+  link: https://www.producthunt.com/products/easy-peasy-ai
   date: '2026-11-04'
 - source: Product Hunt
-  title: Tencent Hy4
-  link: https://www.producthunt.com/products/hunyuan-a13b
+  title: Polylane for Google Cloud
+  link: https://www.producthunt.com/products/polylane
   date: '2026-11-04'
 - source: OpenAI
   title: Accelerating engineering for the physical world
@@ -304,6 +305,10 @@
   comments_link: https://news.ycombinator.com/item?id=50352757
   date: '2026-11-03'
 - source: Product Hunt
+  title: Rerun
+  link: https://www.producthunt.com/products/rerun-2
+  date: '2026-11-03'
+- source: Product Hunt
   title: Stitch.ai
   link: https://www.producthunt.com/products/stitch-ai
   date: '2026-11-03'
@@ -316,7 +321,7 @@
   link: https://www.producthunt.com/products/seamcult
   date: '2026-11-03'
 - source: GitHub (trending AI/LLM/Agents)
-  title: herdrdev/herdr (48283★) · the runtime your coding agents live on
+  title: herdrdev/herdr (48284★) · the runtime your coding agents live on
   link: https://github.com/herdrdev/herdr
   date: '2026-11-03'
 - source: Anthropic Research
@@ -377,6 +382,12 @@
   link: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11
   comments_link: https://news.ycombinator.com/item?id=50339494
   date: '2026-11-02'
+- source: Lobsters
+  title: 'Sparks of Weight-Space Programming: LLMs can natively read & write neural
+    network weights (50 pts, 16 comments)'
+  link: https://rikiyat.github.io/blog/weight-space-programming/
+  comments_link: https://lobste.rs/s/u7wdqj/sparks_weight_space_programming_llms_can
+  date: '2026-11-02'
 - source: Product Hunt
   title: Living Brain
   link: https://www.producthunt.com/products/chatandbuild
@@ -410,6 +421,10 @@
   comments_link: https://news.ycombinator.com/item?id=50322173
   date: '2026-11-01'
 - source: Product Hunt
+  title: Maritime
+  link: https://www.producthunt.com/products/maritime
+  date: '2026-11-01'
+- source: Product Hunt
   title: Pushary for Teams
   link: https://www.producthunt.com/products/pushary
   date: '2026-11-01'
@@ -438,6 +453,11 @@
   title: 'Do the math: How we took over ChatGPT accounts (365 pts, 177 comments)'
   link: https://www.parameter.ai/labs/we-found-a-gap-at-openai
   comments_link: https://news.ycombinator.com/item?id=50314699
+  date: '2026-10-31'
+- source: Lobsters
+  title: Let’s Build a Brain (20 pts, 1 comments)
+  link: https://aatishb.com/myriad/lets-build-a-brain/
+  comments_link: https://lobste.rs/s/bmmj1e/let_s_build_brain
   date: '2026-10-31'
 - source: NVIDIA Developer
   title: Build a Validated Kubernetes Runtime for NVIDIA Dynamo
@@ -511,6 +531,12 @@
   link: https://labs.ycombinator.com/projects/games/index.html
   comments_link: https://news.ycombinator.com/item?id=50296486
   date: '2026-10-29'
+- source: Lobsters
+  title: 'Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen3.5
+    (44 pts, 9 comments)'
+  link: https://divagr.com/blog/qwenputer
+  comments_link: https://lobste.rs/s/zftely/qwenputer_fully_functioning
+  date: '2026-10-29'
 - source: Anthropic
   title: AI for Science expands to foundations and institutions
   link: https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions
@@ -539,10 +565,6 @@
 - source: Product Hunt
   title: SnapTiles
   link: https://www.producthunt.com/products/snaptiles
-  date: '2026-10-28'
-- source: Product Hunt
-  title: Bridge
-  link: https://www.producthunt.com/products/meetonbridge
   date: '2026-10-28'
 - source: Anthropic
   title: Expanding our partnership with GSA to bring Claude to all levels of government
@@ -574,6 +596,17 @@
     of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash
     in bank and $10B lifetime burn'
   link: https://latent.space/p/ainews-anthropic-s1/
+  date: '2026-10-27'
+- source: Lobsters
+  title: Compile-Time Dependent Types (30 pts, 11 comments)
+  link: https://thenumb.at/Syl-Intro/
+  comments_link: https://lobste.rs/s/d09iy3/compile_time_dependent_types
+  date: '2026-10-27'
+- source: Lobsters
+  title: 'Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines (21
+    pts, 4 comments)'
+  link: https://projectzero.google/2026/10/fuzzing-v-AI.html
+  comments_link: https://lobste.rs/s/rswyzt/fuzzers_vs_ai_comparing_fuzzilli
   date: '2026-10-27'
 - source: Anthropic
   title: Anthropic files S-1 with the SEC for proposed initial public offering
