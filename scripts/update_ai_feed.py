@@ -263,13 +263,27 @@ def fetch_github_new_repos() -> list[dict]:
 HN_QUERIES = ["LLM", "AI", "GPT", "Claude", "agents", "RAG", "local models"]
 HN_MIN_POINTS = 150
 HN_DAYS = 7
-HN_TITLE_RE = re.compile(
-    r"\b(AI|A\.I\.|LLMs?|GPT[-\w.]*|ChatGPT|Claude|Anthropic|OpenAI|Gemini|Gemma|Llama|Qwen|"
-    r"DeepSeek|Mistral|Ollama|GLM|Kimi|agents?|agentic|RAG|MCP|transformers?|"
-    r"language models?|machine learning|neural|inference|fine-?tun\w*|embeddings?|"
-    r"diffusion|copilot|cursor|codex)\b",
+# Due livelli: termini specifici (modelli, prodotti, tecniche) bastano con HN_MIN_POINTS;
+# termini generici ("AI" da sola, ecc.) compaiono in titoli di costume o tangenziali, quindi
+# richiedono HN_MIN_POINTS_GENERIC. 600 e non 400: nel primo campione una storia tangenziale
+# (archiviazione su nastro) aveva 532 punti.
+HN_MIN_POINTS_GENERIC = 600
+HN_STRONG_RE = re.compile(
+    r"\b(LLMs?|GPT[-\w.]*|ChatGPT|Claude|Anthropic|OpenAI|Gemini|Gemma|Llama|Qwen|"
+    r"DeepSeek|Mistral|Ollama|GLM|Kimi|agents?|agentic|RAG|MCP|"
+    r"language models?|machine learning|fine-?tun\w*|embeddings?)\b",
     re.IGNORECASE,
 )
+HN_GENERIC_RE = re.compile(
+    r"\b(AI|A\.I\.|transformers?|neural|inference|diffusion|copilot|cursor|codex)\b",
+    re.IGNORECASE,
+)
+
+
+def _hn_title_passes(title: str, points: int) -> bool:
+    if HN_STRONG_RE.search(title):
+        return True
+    return bool(HN_GENERIC_RE.search(title)) and points >= HN_MIN_POINTS_GENERIC
 
 
 def fetch_hacker_news() -> list[dict]:
@@ -294,7 +308,7 @@ def fetch_hacker_news() -> list[dict]:
         r.raise_for_status()
         for hit in r.json().get("hits", []):
             title = (hit.get("title") or "").strip()
-            if hit["objectID"] in found or not HN_TITLE_RE.search(title):
+            if hit["objectID"] in found or not _hn_title_passes(title, hit["points"]):
                 continue
             found[hit["objectID"]] = hit
 
