@@ -260,24 +260,44 @@ def fetch_github_new_repos() -> list[dict]:
     return items
 
 
-HN_QUERIES = ["LLM", "AI", "GPT", "Claude", "agents", "RAG", "local models"]
 HN_MIN_POINTS = 150
 HN_DAYS = 7
-# Due livelli: termini specifici (modelli, prodotti, tecniche) bastano con HN_MIN_POINTS;
-# termini generici ("AI" da sola, ecc.) compaiono in titoli di costume o tangenziali, quindi
-# richiedono HN_MIN_POINTS_GENERIC. 600 e non 400: nel primo campione una storia tangenziale
+# Due livelli: termini specifici (aziende/modelli/servizi AI e tecniche) bastano con
+# HN_MIN_POINTS; termini generici ("AI" da sola, grandi aziende non solo AI, parole con
+# altri significati) compaiono in titoli di costume o tangenziali, quindi richiedono
+# HN_MIN_POINTS_GENERIC. 600 e non 400: nel primo campione una storia tangenziale
 # (archiviazione su nastro) aveva 532 punti.
 HN_MIN_POINTS_GENERIC = 600
-HN_STRONG_RE = re.compile(
-    r"\b(LLMs?|GPT[-\w.]*|ChatGPT|Claude|Anthropic|OpenAI|Gemini|Gemma|Llama|Qwen|"
-    r"DeepSeek|Mistral|Ollama|GLM|Kimi|agents?|agentic|RAG|MCP|"
-    r"language models?|machine learning|fine-?tun\w*|embeddings?)\b",
-    re.IGNORECASE,
-)
-HN_GENERIC_RE = re.compile(
-    r"\b(AI|A\.I\.|transformers?|neural|inference|diffusion|copilot|cursor|codex)\b",
-    re.IGNORECASE,
-)
+# Ogni termine e' sia una ricerca su Algolia sia un filtro sul titolo: la ricerca decide
+# cosa si trova, il filtro scarta i falsi positivi. Un termine solo nel filtro non trova nulla.
+HN_STRONG_TERMS = [
+    # aziende, modelli, servizi
+    "Anthropic", "Claude", "Claude Code", "OpenAI", "ChatGPT", "GPT", "Codex",
+    "Gemini", "Gemini CLI", "Gemma", "DeepMind", "Llama", "Qwen", "DeepSeek",
+    "Kimi", "Moonshot", "Mistral", "GLM", "Zhipu", "Grok", "Perplexity",
+    "Ollama", "vLLM", "llama.cpp", "Hugging Face", "LangChain", "LlamaIndex",
+    "Windsurf", "GitHub Copilot",
+    # tecnologie e tecniche
+    "LLM", "language model", "agent", "agentic", "multi-agent", "RAG", "MCP",
+    "evals", "prompt injection", "fine-tuning", "fine-tune", "embedding",
+    "vector database", "context window", "tool calling", "reasoning model",
+    "open weights", "quantization", "distillation", "guardrails", "machine learning",
+]
+HN_GENERIC_TERMS = [
+    "AI", "A.I.", "Google", "Alibaba", "Microsoft", "Meta", "NVIDIA", "xAI",
+    "orchestrator", "orchestration", "Cursor", "Copilot", "transformer", "neural",
+    "inference", "diffusion",
+]
+
+
+def _terms_regex(terms: list[str]) -> re.Pattern:
+    # Ammette plurale e suffissi di versione (GPT-5, Qwen3.5, agents) dopo il termine.
+    body = "|".join(re.escape(t) for t in terms)
+    return re.compile(rf"(?<!\w)(?:{body})(?:e?s|[-.]?\d[\w.]*|-\w+)?(?!\w)", re.IGNORECASE)
+
+
+HN_STRONG_RE = _terms_regex(HN_STRONG_TERMS)
+HN_GENERIC_RE = _terms_regex(HN_GENERIC_TERMS)
 
 
 def _hn_title_passes(title: str, points: int) -> bool:
@@ -293,14 +313,17 @@ def fetch_hacker_news() -> list[dict]:
     il valore sta nella discussione, non nell'articolo (che puo' essere un tweet o un repo)."""
     since = int(time.time()) - HN_DAYS * 86400
     found: dict[str, dict] = {}
-    for query in HN_QUERIES:
+    queries = [(t, HN_MIN_POINTS) for t in HN_STRONG_TERMS] + [
+        (t, HN_MIN_POINTS_GENERIC) for t in HN_GENERIC_TERMS
+    ]
+    for query, min_points in queries:
         r = requests.get(
             "https://hn.algolia.com/api/v1/search",
             params={
                 "query": query,
                 "tags": "story",
-                "numericFilters": f"points>{HN_MIN_POINTS},created_at_i>{since}",
-                "hitsPerPage": 30,
+                "numericFilters": f"points>{min_points},created_at_i>{since}",
+                "hitsPerPage": 20,
             },
             headers=HEADERS,
             timeout=20,
