@@ -43,52 +43,6 @@
   title: CC Auto Review
   link: https://www.producthunt.com/products/cc-auto-review
   date: '2026-11-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: ccch1mneyyy/dsh-Go (11330★) · dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
-  link: https://github.com/ccch1mneyyy/dsh-Go
-  date: '2026-11-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: wangzan101/Mika (7052★) · An on-device AI agent for Android that operates
-    apps and the web to get things done for you.
-  link: https://github.com/wangzan101/Mika
-  date: '2026-11-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: KKKKhazix/agent-autoloop (3195★) · 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
-  link: https://github.com/KKKKhazix/agent-autoloop
-  date: '2026-11-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'modelflare-ai/AnyModelBot (2708★) · 🤖 Open-source, local-first alternative
-    to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT,
-    Claude, Gemini, Grok, DeepS'
-  link: https://github.com/modelflare-ai/AnyModelBot
-  date: '2026-11-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'daveebbelaar/bama (1593★) · BAMA: Build Any Mac App. Agent skills to research,
-    clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.'
-  link: https://github.com/daveebbelaar/bama
-  date: '2026-11-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (49856★) · Your lightweight open-source personal agent.
-  link: https://github.com/HKUDS/nanobot
-  date: '2026-11-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (49211★) · 2,926+ reusable AI agent skills
-    for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery,
-    agent-owned selectio
-  link: https://github.com/sickn33/agentic-awesome-skills
-  date: '2026-11-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (48384★) · 【AI 时代的业务系统基座】企业级 AI 低代码平台：权限、多租户、工作流、报表、大屏、AI
-    知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置
-    AI 应用平台（聊天、知识库、流程编
-  link: https://github.com/jeecgboot/JeecgBoot
-  date: '2026-11-05'
-- source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (47805★) · Open-source personal AI assistant & Agent Harness.
-    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
-    multi-model
-  link: https://github.com/zhayujie/CowAgent
-  date: '2026-11-05'
 - source: OpenAI
   title: OpenAI to acquire Pierre Computer Company, Inc.
   link: https://openai.com/index/openai-to-acquire-pierre
@@ -157,7 +111,7 @@
   link: https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/
   date: '2026-11-04'
 - source: Hacker News
-  title: AI is forcing us to pay off 40 years of technical debt (1246 pts, 729 comments)
+  title: AI is forcing us to pay off 40 years of technical debt (1247 pts, 729 comments)
   link: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability
   comments_link: https://news.ycombinator.com/item?id=50364336
   date: '2026-11-04'
@@ -167,6 +121,26 @@
   link: https://news.ycombinator.com/item?id=50363461
   comments_link: https://news.ycombinator.com/item?id=50363461
   date: '2026-11-04'
+- source: Hacker News
+  title: Kimi K3.1 Pro model weights are out (610 pts, 180 comments)
+  link: https://huggingface.co/moonshotai/Kimi-K3.1-Pro
+  comments_link: https://news.ycombinator.com/item?id=50366999
+  date: '2026-11-04'
+- source: Hacker News
+  title: Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux
+    (607 pts, 284 comments)
+  link: https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop
+  comments_link: https://news.ycombinator.com/item?id=50362905
+  date: '2026-11-04'
+- source: Hacker News
+  title: 'Ask HN: What''s your current AI agentic setup? (488 pts, 593 comments)'
+  link: https://news.ycombinator.com/item?id=50366117
+  comments_link: https://news.ycombinator.com/item?id=50366117
+  date: '2026-11-04'
+- source: Product Hunt
+  title: Tencent Hy4
+  link: https://www.producthunt.com/products/hunyuan-a13b
+  date: '2026-11-04'
 - source: Product Hunt
   title: Polylane for Google Cloud
   link: https://www.producthunt.com/products/polylane
@@ -174,10 +148,6 @@
 - source: Product Hunt
   title: AI Employees by Easy-Peasy.AI
   link: https://www.producthunt.com/products/easy-peasy-ai
-  date: '2026-11-04'
-- source: Product Hunt
-  title: Tencent Hy4
-  link: https://www.producthunt.com/products/hunyuan-a13b
   date: '2026-11-04'
 - source: OpenAI
   title: Accelerating engineering for the physical world
@@ -287,21 +257,19 @@
   link: https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html
   comments_link: https://news.ycombinator.com/item?id=50353192
   date: '2026-11-03'
-- source: Product Hunt
-  title: Stitch.ai
-  link: https://www.producthunt.com/products/stitch-ai
+- source: Hacker News
+  title: OpenAI seems to be silently re-enabling model training on Codex chats (522
+    pts, 161 comments)
+  link: https://news.ycombinator.com/item?id=50352757
+  comments_link: https://news.ycombinator.com/item?id=50352757
   date: '2026-11-03'
 - source: Product Hunt
   title: Seamcult
   link: https://www.producthunt.com/products/seamcult
   date: '2026-11-03'
 - source: Product Hunt
-  title: DearCameo
-  link: https://www.producthunt.com/products/dearcameo
-  date: '2026-11-03'
-- source: GitHub (trending AI/LLM/Agents)
-  title: herdrdev/herdr (48282★) · the runtime your coding agents live on
-  link: https://github.com/herdrdev/herdr
+  title: Stitch.ai
+  link: https://www.producthunt.com/products/stitch-ai
   date: '2026-11-03'
 - source: Anthropic Research
   title: Progress on provable inference for large language models
@@ -349,6 +317,12 @@
   link: https://rikiyat.github.io/blog/weight-space-programming/
   comments_link: https://news.ycombinator.com/item?id=50341174
   date: '2026-11-02'
+- source: Hacker News
+  title: The SEC Should Block Anthropic's IPO to Protect the Public (405 pts, 321
+    comments)
+  link: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/
+  comments_link: https://news.ycombinator.com/item?id=50344919
+  date: '2026-11-02'
 - source: Product Hunt
   title: Living Brain
   link: https://www.producthunt.com/products/chatandbuild
@@ -379,6 +353,10 @@
     History Compaction on Future Generation and Agent Cost
   link: https://huggingface.co/papers/2611.03852
   date: '2026-11-01'
+- source: Product Hunt
+  title: Pushary for Teams
+  link: https://www.producthunt.com/products/pushary
+  date: '2026-11-01'
 - source: Latent Space
   title: '[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst
     since 2004 IPO. AI Bear Market coming?'
@@ -387,6 +365,18 @@
 - source: Andrej Karpathy
   title: HackerTube
   link: https://karpathy.bearblog.dev/hacker-tube/
+  date: '2026-10-31'
+- source: Hacker News
+  title: Anthropic blocks users for anything touching training larger models (493
+    pts, 270 comments)
+  link: https://twitter.com/jiahaoshao1/status/2116475922190922088
+  comments_link: https://news.ycombinator.com/item?id=50319358
+  date: '2026-10-31'
+- source: Hacker News
+  title: 'Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard
+    (465 pts, 232 comments)'
+  link: https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve
+  comments_link: https://news.ycombinator.com/item?id=50320995
   date: '2026-10-31'
 - source: NVIDIA Developer
   title: Build a Validated Kubernetes Runtime for NVIDIA Dynamo
@@ -435,6 +425,17 @@
   link: https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead
   comments_link: https://news.ycombinator.com/item?id=50302814
   date: '2026-10-30'
+- source: Hacker News
+  title: Backdoors in official Claude Code extensions (662 pts, 17 comments)
+  link: https://cyberplace.social/@GossiTheDog/117528831681803563
+  comments_link: https://news.ycombinator.com/item?id=50302334
+  date: '2026-10-30'
+- source: Hacker News
+  title: Claude Code VS Code extension with backdoor released on Cursor marketplace
+    (399 pts, 1 comments)
+  link: https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2
+  comments_link: https://news.ycombinator.com/item?id=50301983
+  date: '2026-10-30'
 - source: Mistral
   title: 'Le Chonk: Built for Coders, Trusted by Defenders.'
   link: https://mistral.ai/news/mistral-large-4-oss/
@@ -458,6 +459,11 @@
 - source: Latent Space
   title: '[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders'
   link: https://latent.space/p/ainews-gemini-4-carbon/
+  date: '2026-10-29'
+- source: Hacker News
+  title: We ran AI agent swarms in Minecraft and Mindustry (423 pts, 174 comments)
+  link: https://labs.ycombinator.com/projects/games/index.html
+  comments_link: https://news.ycombinator.com/item?id=50296486
   date: '2026-10-29'
 - source: Anthropic
   title: AI for Science expands to foundations and institutions
