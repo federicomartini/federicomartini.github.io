@@ -13,6 +13,8 @@ Fonti senza RSS (scraping mirato sulla pagina di listing): Andrew Ng
 (andrewng.org/writing, le sue lettere personali, non il sito di The Batch).
 Hugging Face Papers: API JSON pubblica usata dalla loro stessa pagina /papers.
 arXiv (DeepSeek/Qwen/Kimi/GLM): API di ricerca arXiv per autore, non un feed fisso.
+Hacker News: API Algolia pubblica, storie con 150+ punti negli ultimi 7 giorni, filtrate
+per parole chiave AI sul titolo; porta anche il link ai commenti.
 GitHub: API di ricerca pubblica, repo taggati "llm" creati di recente per stelle.
 
 The Batch (deeplearning.ai) e Nate's Newsletter (Substack) sono stati valutati e
@@ -24,6 +26,7 @@ Ogni fonte è isolata in try/except: se una fonte cambia struttura o è irraggiu
 le altre continuano a essere aggiornate normalmente.
 """
 
+import re
 import time
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta
@@ -257,6 +260,58 @@ def fetch_github_new_repos() -> list[dict]:
     return items
 
 
+HN_QUERIES = ["LLM", "AI", "GPT", "Claude", "agents", "RAG", "local models"]
+HN_MIN_POINTS = 150
+HN_DAYS = 7
+HN_TITLE_RE = re.compile(
+    r"\b(AI|A\.I\.|LLMs?|GPT[-\w.]*|ChatGPT|Claude|Anthropic|OpenAI|Gemini|Gemma|Llama|Qwen|"
+    r"DeepSeek|Mistral|Ollama|GLM|Kimi|agents?|agentic|RAG|MCP|transformers?|"
+    r"language models?|machine learning|neural|inference|fine-?tun\w*|embeddings?|"
+    r"diffusion|copilot|cursor|codex)\b",
+    re.IGNORECASE,
+)
+
+
+def fetch_hacker_news() -> list[dict]:
+    """Storie HN con molti punti negli ultimi giorni, via API Algolia pubblica. La ricerca
+    Algolia e' larga (trova anche storie non pertinenti), quindi ogni titolo passa un
+    secondo filtro a parole intere. Il link ai commenti e' in comments_link perche' spesso
+    il valore sta nella discussione, non nell'articolo (che puo' essere un tweet o un repo)."""
+    since = int(time.time()) - HN_DAYS * 86400
+    found: dict[str, dict] = {}
+    for query in HN_QUERIES:
+        r = requests.get(
+            "https://hn.algolia.com/api/v1/search",
+            params={
+                "query": query,
+                "tags": "story",
+                "numericFilters": f"points>{HN_MIN_POINTS},created_at_i>{since}",
+                "hitsPerPage": 30,
+            },
+            headers=HEADERS,
+            timeout=20,
+        )
+        r.raise_for_status()
+        for hit in r.json().get("hits", []):
+            title = (hit.get("title") or "").strip()
+            if hit["objectID"] in found or not HN_TITLE_RE.search(title):
+                continue
+            found[hit["objectID"]] = hit
+
+    top = sorted(found.values(), key=lambda h: h["points"], reverse=True)[:MAX_PER_SOURCE]
+    comments = "https://news.ycombinator.com/item?id="
+    return [
+        {
+            "source": "Hacker News",
+            "title": f"{h['title'].strip()} ({h['points']} pts, {h.get('num_comments') or 0} comments)",
+            "link": h.get("url") or comments + h["objectID"],
+            "comments_link": comments + h["objectID"],
+            "date": h["created_at"][:10],
+        }
+        for h in top
+    ]
+
+
 def fetch_chinese_labs_papers() -> list[dict]:
     """Paper dei team dietro i modelli cinesi piu' rilevanti (DeepSeek, Qwen, Kimi,
     GLM). Cerca per autore, non per parola nel titolo: "DeepSeek-AI", "Qwen Team" e
@@ -339,6 +394,7 @@ SOURCES = [
     ("Andrew Ng (writing)", fetch_andrew_ng_writing),
     ("Andrej Karpathy", lambda: parse_rss("https://karpathy.bearblog.dev/feed/", "Andrej Karpathy")),
     ("Ollama Blog", lambda: parse_rss("https://ollama.com/blog/rss.xml", "Ollama")),
+    ("Hacker News", fetch_hacker_news),
     ("Product Hunt (AI)", fetch_product_hunt),
     ("GitHub (trending AI/LLM/Agents)", fetch_github_new_repos),
 ]

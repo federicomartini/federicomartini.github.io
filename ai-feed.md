@@ -5,14 +5,14 @@ author_profile: true
 permalink: /ai-feed/
 ---
 
-Automatic digest from Hugging Face, arXiv, OpenAI, Anthropic (News + Research), Mistral, NVIDIA, Google DeepMind, MIT Technology Review, independent voices (Simon Willison, Ahead of AI, Latent Space, One Useful Thing, antirez, Andrew Ng), and tools for local/new AI (Ollama, Product Hunt, GitHub). Updated daily, every title links to the original source.
+Automatic digest from Hugging Face, arXiv, OpenAI, Anthropic (News + Research), Mistral, NVIDIA, Google DeepMind, MIT Technology Review, Hacker News (high-signal AI threads), independent voices (Simon Willison, Ahead of AI, Latent Space, One Useful Thing, antirez, Andrew Ng), and tools for local/new AI (Ollama, Product Hunt, GitHub). Updated daily, every title links to the original source.
 
 {% assign items = site.data.ai_feed %}
 {% if items and items.size > 0 %}
 
 ## Reading
 
-{% assign reading_sources = "OpenAI,Anthropic,Anthropic Research,Mistral,NVIDIA Developer,NVIDIA Blog,Google DeepMind,MIT Technology Review,Hugging Face Blog,Hugging Face Papers,arXiv (DeepSeek/Qwen/Kimi/GLM),Simon Willison,Ahead of AI,Latent Space,One Useful Thing,antirez,Andrew Ng,Andrej Karpathy" | split: "," %}
+{% assign reading_sources = "OpenAI,Anthropic,Anthropic Research,Mistral,NVIDIA Developer,NVIDIA Blog,Google DeepMind,MIT Technology Review,Hugging Face Blog,Hugging Face Papers,arXiv (DeepSeek/Qwen/Kimi/GLM),Simon Willison,Ahead of AI,Latent Space,One Useful Thing,antirez,Andrew Ng,Andrej Karpathy,Hacker News" | split: "," %}
 {% for source in reading_sources %}
   {% assign group_items = items | where: "source", source %}
   {% if group_items.size > 0 %}
@@ -22,6 +22,7 @@ Automatic digest from Hugging Face, arXiv, OpenAI, Anthropic (News + Research), 
   <li class="ai-feed-item">
     {% if item.date and item.date != "" %}<span class="ai-feed-date">{{ item.date }}</span>{% endif %}
     <a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>
+    {% if item.comments_link %}<a class="ai-feed-comments" href="{{ item.comments_link }}" target="_blank" rel="noopener">[comments]</a>{% endif %}
   </li>
 {% endfor %}
 </ul>
