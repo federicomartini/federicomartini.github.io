@@ -13,6 +13,7 @@ Fonti senza RSS (scraping mirato sulla pagina di listing): Andrew Ng
 (andrewng.org/writing, le sue lettere personali, non il sito di The Batch).
 Hugging Face Papers: API JSON pubblica usata dalla loro stessa pagina /papers.
 arXiv (DeepSeek/Qwen/Kimi/GLM): API di ricerca arXiv per autore, non un feed fisso.
+Lobsters: JSON dei tag ai e ml, soglia 10 punti, ultimi 14 giorni; porta il link ai commenti.
 Hacker News: API Algolia pubblica, storie con 150+ punti negli ultimi 7 giorni, filtrate
 per parole chiave AI sul titolo; porta anche il link ai commenti.
 GitHub: API di ricerca pubblica, repo taggati "llm" creati di recente per stelle.
@@ -196,6 +197,39 @@ def fetch_andrew_ng_writing() -> list[dict]:
         if len(items) >= MAX_PER_SOURCE:
             break
     return items
+
+
+LOBSTERS_TAGS = ["ai", "ml"]
+LOBSTERS_MIN_SCORE = 10
+LOBSTERS_DAYS = 14
+LOBSTERS_MAX_ITEMS = 10
+
+
+def fetch_lobsters() -> list[dict]:
+    """Storie Lobsters con tag ai o ml (tag curati dalla community, quindi niente filtro
+    per parole chiave). Punteggi molto piu' bassi di HN (0-50): soglia 10, finestra 14
+    giorni perche' il volume e' basso. comments_link come per HN."""
+    cutoff = (datetime.utcnow() - timedelta(days=LOBSTERS_DAYS)).strftime("%Y-%m-%d")
+    found: dict[str, dict] = {}
+    for tag in LOBSTERS_TAGS:
+        r = requests.get(f"https://lobste.rs/t/{tag}.json", headers=HEADERS, timeout=20)
+        r.raise_for_status()
+        for story in r.json():
+            if story["score"] >= LOBSTERS_MIN_SCORE and story["created_at"][:10] >= cutoff:
+                found.setdefault(story["short_id"], story)
+
+    ranked = sorted(found.values(), key=lambda x: x["score"], reverse=True)
+    top = ranked[:LOBSTERS_MAX_ITEMS]
+    return [
+        {
+            "source": "Lobsters",
+            "title": f"{x['title'].strip()} ({x['score']} pts, {x['comment_count']} comments)",
+            "link": x.get("url") or x["comments_url"],
+            "comments_link": x["comments_url"],
+            "date": x["created_at"][:10],
+        }
+        for x in top
+    ]
 
 
 def fetch_product_hunt() -> list[dict]:
@@ -470,6 +504,7 @@ SOURCES = [
     ("Andrej Karpathy", lambda: parse_rss("https://karpathy.bearblog.dev/feed/", "Andrej Karpathy")),
     ("Ollama Blog", lambda: parse_rss("https://ollama.com/blog/rss.xml", "Ollama")),
     ("Hacker News", fetch_hacker_news),
+    ("Lobsters", fetch_lobsters),
     ("Product Hunt (AI)", fetch_product_hunt),
     ("GitHub (trending AI/LLM/Agents)", fetch_github_new_repos),
 ]
