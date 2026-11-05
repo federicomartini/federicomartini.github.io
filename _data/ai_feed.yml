@@ -39,17 +39,21 @@
   title: '[AINews] It''s Swapping Season'
   link: https://latent.space/p/ainews-it-s-swapping-season/
   date: '2026-11-05'
+- source: Product Hunt
+  title: CC Auto Review
+  link: https://www.producthunt.com/products/cc-auto-review
+  date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: ccch1mneyyy/dsh-Go (11321★) · dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
+  title: ccch1mneyyy/dsh-Go (11330★) · dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
   link: https://github.com/ccch1mneyyy/dsh-Go
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: wangzan101/Mika (7049★) · An on-device AI agent for Android that operates
+  title: wangzan101/Mika (7052★) · An on-device AI agent for Android that operates
     apps and the web to get things done for you.
   link: https://github.com/wangzan101/Mika
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: KKKKhazix/agent-autoloop (3191★) · 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
+  title: KKKKhazix/agent-autoloop (3195★) · 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
   link: https://github.com/KKKKhazix/agent-autoloop
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
@@ -59,7 +63,7 @@
   link: https://github.com/modelflare-ai/AnyModelBot
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'daveebbelaar/bama (1591★) · BAMA: Build Any Mac App. Agent skills to research,
+  title: 'daveebbelaar/bama (1593★) · BAMA: Build Any Mac App. Agent skills to research,
     clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.'
   link: https://github.com/daveebbelaar/bama
   date: '2026-11-05'
@@ -80,7 +84,7 @@
   link: https://github.com/jeecgboot/JeecgBoot
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (47806★) · Open-source personal AI assistant & Agent Harness.
+  title: zhayujie/CowAgent (47805★) · Open-source personal AI assistant & Agent Harness.
     Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
     multi-model
   link: https://github.com/zhayujie/CowAgent
@@ -153,7 +157,7 @@
   link: https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/
   date: '2026-11-04'
 - source: Hacker News
-  title: AI is forcing us to pay off 40 years of technical debt (1243 pts, 725 comments)
+  title: AI is forcing us to pay off 40 years of technical debt (1246 pts, 729 comments)
   link: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability
   comments_link: https://news.ycombinator.com/item?id=50364336
   date: '2026-11-04'
@@ -163,18 +167,13 @@
   link: https://news.ycombinator.com/item?id=50363461
   comments_link: https://news.ycombinator.com/item?id=50363461
   date: '2026-11-04'
-- source: Hacker News
-  title: 'Ask HN: What''s your current AI agentic setup? (486 pts, 591 comments)'
-  link: https://news.ycombinator.com/item?id=50366117
-  comments_link: https://news.ycombinator.com/item?id=50366117
-  date: '2026-11-04'
 - source: Product Hunt
   title: Polylane for Google Cloud
   link: https://www.producthunt.com/products/polylane
   date: '2026-11-04'
 - source: Product Hunt
-  title: ChatNest
-  link: https://www.producthunt.com/products/chatnest-2
+  title: AI Employees by Easy-Peasy.AI
+  link: https://www.producthunt.com/products/easy-peasy-ai
   date: '2026-11-04'
 - source: Product Hunt
   title: Tencent Hy4
@@ -272,26 +271,36 @@
   comments_link: https://news.ycombinator.com/item?id=50354960
   date: '2026-11-03'
 - source: Hacker News
+  title: The 'Astra can read and write weights to improve Qwen' post is misleading
+    (1034 pts, 209 comments)
+  link: https://honnibal.dev/blog/astra-read-write-misleading
+  comments_link: https://news.ycombinator.com/item?id=50351111
+  date: '2026-11-03'
+- source: Hacker News
+  title: Qwen 3.8 27B on my laptop can interpret model weights, too (734 pts, 213
+    comments)
+  link: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/
+  comments_link: https://news.ycombinator.com/item?id=50355251
+  date: '2026-11-03'
+- source: Hacker News
   title: Google will turn off search for schools that reject AI (671 pts, 463 comments)
   link: https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html
   comments_link: https://news.ycombinator.com/item?id=50353192
-  date: '2026-11-03'
-- source: Hacker News
-  title: OpenAI seems to be silently re-enabling model training on Codex chats (522
-    pts, 161 comments)
-  link: https://news.ycombinator.com/item?id=50352757
-  comments_link: https://news.ycombinator.com/item?id=50352757
   date: '2026-11-03'
 - source: Product Hunt
   title: Stitch.ai
   link: https://www.producthunt.com/products/stitch-ai
   date: '2026-11-03'
 - source: Product Hunt
-  title: Rerun
-  link: https://www.producthunt.com/products/rerun-2
+  title: Seamcult
+  link: https://www.producthunt.com/products/seamcult
+  date: '2026-11-03'
+- source: Product Hunt
+  title: DearCameo
+  link: https://www.producthunt.com/products/dearcameo
   date: '2026-11-03'
 - source: GitHub (trending AI/LLM/Agents)
-  title: herdrdev/herdr (48280★) · the runtime your coding agents live on
+  title: herdrdev/herdr (48282★) · the runtime your coding agents live on
   link: https://github.com/herdrdev/herdr
   date: '2026-11-03'
 - source: Anthropic Research
@@ -341,16 +350,12 @@
   comments_link: https://news.ycombinator.com/item?id=50341174
   date: '2026-11-02'
 - source: Product Hunt
-  title: Glasshand
-  link: https://www.producthunt.com/products/glasshand
-  date: '2026-11-02'
-- source: Product Hunt
-  title: Clocknext
-  link: https://www.producthunt.com/products/clocknext
-  date: '2026-11-02'
-- source: Product Hunt
   title: Living Brain
   link: https://www.producthunt.com/products/chatandbuild
+  date: '2026-11-02'
+- source: Product Hunt
+  title: Glasshand
+  link: https://www.producthunt.com/products/glasshand
   date: '2026-11-02'
 - source: Hugging Face Papers
   title: 'Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse
@@ -373,10 +378,6 @@
   title: Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning
     History Compaction on Future Generation and Agent Cost
   link: https://huggingface.co/papers/2611.03852
-  date: '2026-11-01'
-- source: Product Hunt
-  title: Pushary for Teams
-  link: https://www.producthunt.com/products/pushary
   date: '2026-11-01'
 - source: Latent Space
   title: '[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst
@@ -429,9 +430,10 @@
   comments_link: https://news.ycombinator.com/item?id=50305693
   date: '2026-10-30'
 - source: Hacker News
-  title: Backdoors in official Claude Code extensions (662 pts, 17 comments)
-  link: https://cyberplace.social/@GossiTheDog/117528831681803563
-  comments_link: https://news.ycombinator.com/item?id=50302334
+  title: US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech
+    (669 pts, 532 comments)
+  link: https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead
+  comments_link: https://news.ycombinator.com/item?id=50302814
   date: '2026-10-30'
 - source: Mistral
   title: 'Le Chonk: Built for Coders, Trusted by Defenders.'
@@ -483,8 +485,8 @@
   link: https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/
   date: '2026-10-28'
 - source: Product Hunt
-  title: Bridge
-  link: https://www.producthunt.com/products/meetonbridge
+  title: SnapTiles
+  link: https://www.producthunt.com/products/snaptiles
   date: '2026-10-28'
 - source: Anthropic
   title: Expanding our partnership with GSA to bring Claude to all levels of government
