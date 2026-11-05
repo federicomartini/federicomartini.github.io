@@ -262,6 +262,7 @@ def fetch_github_new_repos() -> list[dict]:
 
 HN_MIN_POINTS = 150
 HN_DAYS = 7
+HN_MAX_ITEMS = 20  # piu' di MAX_PER_SOURCE: con tanti termini i candidati sono 40+
 # Due livelli: termini specifici (aziende/modelli/servizi AI e tecniche) bastano con
 # HN_MIN_POINTS; termini generici ("AI" da sola, grandi aziende non solo AI, parole con
 # altri significati) compaiono in titoli di costume o tangenziali, quindi richiedono
@@ -335,7 +336,7 @@ def fetch_hacker_news() -> list[dict]:
                 continue
             found[hit["objectID"]] = hit
 
-    top = sorted(found.values(), key=lambda h: h["points"], reverse=True)[:MAX_PER_SOURCE]
+    top = sorted(found.values(), key=lambda h: h["points"], reverse=True)[:HN_MAX_ITEMS]
     comments = "https://news.ycombinator.com/item?id="
     return [
         {
