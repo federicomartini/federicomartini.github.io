@@ -307,6 +307,42 @@ def _hn_title_passes(title: str, points: int) -> bool:
     return bool(HN_GENERIC_RE.search(title)) and points >= HN_MIN_POINTS_GENERIC
 
 
+HN_STOPWORDS = {
+    "the", "and", "for", "with", "that", "this", "from", "are", "was", "not", "its",
+    "has", "have", "how", "why", "what", "into", "your", "you", "our", "but", "about",
+    "show", "ask", "tell",
+}
+HN_DEDUP_OVERLAP = 0.6  # quota di parole del titolo piu' corto presenti anche nell'altro
+HN_DEDUP_MIN_SHARED = 3  # e comunque almeno 3 parole in comune, per non fondere titoli brevi
+
+
+def _hn_title_words(title: str) -> set[str]:
+    words = set()
+    for w in re.findall(r"[a-z0-9]+", title.lower()):
+        if len(w) < 3 or w in HN_STOPWORDS:
+            continue
+        words.add(w[:-1] if w.endswith("s") and len(w) > 3 else w)
+    return words
+
+
+def _hn_dedup(hits: list[dict]) -> list[dict]:
+    """Un solo thread per notizia: i thread sulla stessa notizia (URL diversi, titoli quasi
+    uguali) occupavano 3 posti su 20. `hits` e' gia' ordinato per punti: vince il piu' votato."""
+    kept: list[tuple[dict, set[str]]] = []
+    for hit in hits:
+        words = _hn_title_words(hit.get("title") or "")
+        duplicate = False
+        for _, other in kept:
+            shared = len(words & other)
+            smaller = min(len(words), len(other))
+            if shared >= HN_DEDUP_MIN_SHARED and smaller and shared / smaller >= HN_DEDUP_OVERLAP:
+                duplicate = True
+                break
+        if not duplicate:
+            kept.append((hit, words))
+    return [hit for hit, _ in kept]
+
+
 def fetch_hacker_news() -> list[dict]:
     """Storie HN con molti punti negli ultimi giorni, via API Algolia pubblica. La ricerca
     Algolia e' larga (trova anche storie non pertinenti), quindi ogni titolo passa un
@@ -336,7 +372,8 @@ def fetch_hacker_news() -> list[dict]:
                 continue
             found[hit["objectID"]] = hit
 
-    top = sorted(found.values(), key=lambda h: h["points"], reverse=True)[:HN_MAX_ITEMS]
+    ranked = sorted(found.values(), key=lambda h: h["points"], reverse=True)
+    top = _hn_dedup(ranked)[:HN_MAX_ITEMS]
     comments = "https://news.ycombinator.com/item?id="
     return [
         {
