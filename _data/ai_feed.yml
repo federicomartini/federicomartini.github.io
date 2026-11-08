@@ -1,39 +1,60 @@
+- source: Hacker News
+  title: Goodbye Claude, Hello Pi (367 pts, 228 comments)
+  link: https://caleb.software/posts/claude-to-pi.html
+  comments_link: https://news.ycombinator.com/item?id=50410107
+  date: '2026-11-08'
+- source: GitHub (trending AI/LLM/Agents)
+  title: KKKKhazix/agent-autoloop (4046★) · 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
+  link: https://github.com/KKKKhazix/agent-autoloop
+  date: '2026-11-08'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'modelflare-ai/AnyModelBot (2739★) · 🤖 Open-source, local-first alternative
+    to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT,
+    Claude, Gemini, Grok, DeepS'
+  link: https://github.com/modelflare-ai/AnyModelBot
+  date: '2026-11-08'
+- source: GitHub (trending AI/LLM/Agents)
+  title: HKUDS/nanobot (49921★) · Your lightweight open-source personal agent.
+  link: https://github.com/HKUDS/nanobot
+  date: '2026-11-08'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'paperless-ngx/paperless-ngx (47865★) · A community-supported supercharged
+    document management system: scan, index and archive all your documents'
+  link: https://github.com/paperless-ngx/paperless-ngx
+  date: '2026-11-08'
+- source: Simon Willison
+  title: 'datasette #3046: Don''t serve link: rel=next HTTP headers to Firefox for
+    HTML pages'
+  link: https://simonwillison.net/2026/Nov/7/link-rel-next/
+  date: '2026-11-07'
 - source: Latent Space
   title: '[AINews] Anthropic IPO: Whither Now?'
   link: https://latent.space/p/ainews-anthropic-ipo-whither-now/
   date: '2026-11-07'
+- source: Hacker News
+  title: Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub
+    files (434 pts, 292 comments)
+  link: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again
+  comments_link: https://news.ycombinator.com/item?id=50407882
+  date: '2026-11-07'
 - source: Product Hunt
-  title: Trace by Context.dev
-  link: https://www.producthunt.com/products/context-dev
+  title: Agent Clan
+  link: https://www.producthunt.com/products/agent-clan
   date: '2026-11-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: ccch1mneyyy/dsh-Go (13544★) · dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
-  link: https://github.com/ccch1mneyyy/dsh-Go
-  date: '2026-11-07'
-- source: GitHub (trending AI/LLM/Agents)
-  title: wangzan101/Mika (7504★) · An on-device AI agent for Android that operates
+  title: wangzan101/Mika (7681★) · An on-device AI agent for Android that operates
     apps and the web to get things done for you.
   link: https://github.com/wangzan101/Mika
   date: '2026-11-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: KKKKhazix/agent-autoloop (3862★) · 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
-  link: https://github.com/KKKKhazix/agent-autoloop
-  date: '2026-11-07'
-- source: GitHub (trending AI/LLM/Agents)
-  title: N1nEmAn/sapper-v2 (1514★) · Autonomous pentest legion — AI commander + worker
+  title: N1nEmAn/sapper-v2 (1544★) · Autonomous pentest legion — AI commander + worker
     swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online
     champion (634 teams ·
   link: https://github.com/N1nEmAn/sapper-v2
   date: '2026-11-07'
 - source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (49899★) · Your lightweight open-source personal agent.
-  link: https://github.com/HKUDS/nanobot
-  date: '2026-11-07'
-- source: GitHub (trending AI/LLM/Agents)
-  title: zhayujie/CowAgent (47828★) · Open-source personal AI assistant & Agent Harness.
-    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
-    multi-model
-  link: https://github.com/zhayujie/CowAgent
+  title: herdrdev/herdr (49268★) · the runtime your coding agents live on
+  link: https://github.com/herdrdev/herdr
   date: '2026-11-07'
 - source: OpenAI
   title: Partnering with Hacktron to find vulnerabilities in OpenAI’s systems
@@ -44,12 +65,12 @@
   link: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science
   date: '2026-11-06'
 - source: Anthropic Research
-  title: The components of agent memory
-  link: https://www.anthropic.com/research/components-of-agent-memory
-  date: '2026-11-06'
-- source: Anthropic Research
   title: Teaching AI to build scientific models
   link: https://www.anthropic.com/research/teaching-ai-to-build-scientific-models
+  date: '2026-11-06'
+- source: Anthropic Research
+  title: The components of agent memory
+  link: https://www.anthropic.com/research/components-of-agent-memory
   date: '2026-11-06'
 - source: Anthropic Research
   title: 'Project EVE: Claude plays MMORPGs'
@@ -97,31 +118,33 @@
   date: '2026-11-06'
 - source: Hacker News
   title: Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS
-    (636 pts, 416 comments)
+    (648 pts, 424 comments)
   link: https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105
   comments_link: https://news.ycombinator.com/item?id=50390124
   date: '2026-11-06'
 - source: Hacker News
-  title: Gemini Omni 1.2 Flash (341 pts, 231 comments)
+  title: Gemini Omni 1.2 Flash (365 pts, 251 comments)
   link: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/
   comments_link: https://news.ycombinator.com/item?id=50392118
   date: '2026-11-06'
 - source: Product Hunt
-  title: Muse Realtime Avatar
-  link: https://www.producthunt.com/products/meta-ai
+  title: Frameboy by World Labs
+  link: https://www.producthunt.com/products/marble-by-world-labs
+  date: '2026-11-06'
+- source: Product Hunt
+  title: Inkling 2 Small
+  link: https://www.producthunt.com/products/tinker-2
   date: '2026-11-06'
 - source: Product Hunt
   title: Instagram Edits for Desktop
   link: https://www.producthunt.com/products/instagram
   date: '2026-11-06'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'modelflare-ai/AnyModelBot (2735★) · 🤖 Open-source, local-first alternative
-    to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT,
-    Claude, Gemini, Grok, DeepS'
-  link: https://github.com/modelflare-ai/AnyModelBot
+  title: Sandflow-ai/sand3d (1214★) · 3D modeling in Python, built for LLMs.
+  link: https://github.com/Sandflow-ai/sand3d
   date: '2026-11-06'
 - source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (49305★) · 2,926+ reusable AI agent skills
+  title: sickn33/agentic-awesome-skills (49349★) · 2,926+ reusable AI agent skills
     for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery,
     agent-owned selectio
   link: https://github.com/sickn33/agentic-awesome-skills
@@ -206,34 +229,31 @@
   link: https://latent.space/p/ainews-it-s-swapping-season/
   date: '2026-11-05'
 - source: Hacker News
-  title: Claude Code sends your email address to websites (1577 pts, 504 comments)
+  title: Claude Code sends your email address to websites (1596 pts, 523 comments)
   link: https://github.com/anthropics/claude-code/issues/107757
   comments_link: https://news.ycombinator.com/item?id=50385272
   date: '2026-11-05'
 - source: Hacker News
-  title: GPT-6 Astra covertly underperforms on safety research (341 pts, 189 comments)
+  title: MCP Explained (343 pts, 135 comments)
+  link: https://mcp-explained.com/
+  comments_link: https://news.ycombinator.com/item?id=50379249
+  date: '2026-11-05'
+- source: Hacker News
+  title: GPT-6 Astra covertly underperforms on safety research (341 pts, 193 comments)
   link: https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/
   comments_link: https://news.ycombinator.com/item?id=50376313
   date: '2026-11-05'
 - source: Lobsters
-  title: Reflections on Rust in the LLM Age (21 pts, 6 comments)
+  title: Reflections on Rust in the LLM Age (25 pts, 8 comments)
   link: https://www.youtube.com/watch?v=5D7QPOIZ7gY
   comments_link: https://lobste.rs/s/yomksa/reflections_on_rust_llm_age
   date: '2026-11-05'
 - source: Product Hunt
-  title: Google Omni 1.2 Flash
-  link: https://www.producthunt.com/products/google-omni-1-2-flash
-  date: '2026-11-05'
-- source: Product Hunt
-  title: GPT‑6 Cyber
-  link: https://www.producthunt.com/products/openai
-  date: '2026-11-05'
-- source: Product Hunt
-  title: ChatGPT Images 2.6
-  link: https://www.producthunt.com/products/openai
+  title: outages.live
+  link: https://www.producthunt.com/products/polylane
   date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (48396★) · 【AI 时代的业务系统基座】企业级 AI 低代码平台：权限、多租户、工作流、报表、大屏、AI
+  title: jeecgboot/JeecgBoot (48400★) · 【AI 时代的业务系统基座】企业级 AI 低代码平台：权限、多租户、工作流、报表、大屏、AI
     知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置
     AI 应用平台（聊天、知识库、流程编
   link: https://github.com/jeecgboot/JeecgBoot
@@ -304,34 +324,34 @@
   link: https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/
   date: '2026-11-04'
 - source: Hacker News
-  title: AI is forcing us to pay off 40 years of technical debt (1292 pts, 748 comments)
+  title: AI is forcing us to pay off 40 years of technical debt (1299 pts, 749 comments)
   link: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability
   comments_link: https://news.ycombinator.com/item?id=50364336
   date: '2026-11-04'
 - source: Hacker News
   title: 'Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)
-    (726 pts, 200 comments)'
+    (730 pts, 200 comments)'
   link: https://news.ycombinator.com/item?id=50363461
   comments_link: https://news.ycombinator.com/item?id=50363461
   date: '2026-11-04'
 - source: Hacker News
-  title: Kimi K3.1 Pro model weights are out (636 pts, 189 comments)
+  title: Kimi K3.1 Pro model weights are out (637 pts, 191 comments)
   link: https://huggingface.co/moonshotai/Kimi-K3.1-Pro
   comments_link: https://news.ycombinator.com/item?id=50366999
   date: '2026-11-04'
 - source: Hacker News
   title: Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux
-    (614 pts, 289 comments)
+    (616 pts, 289 comments)
   link: https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop
   comments_link: https://news.ycombinator.com/item?id=50362905
   date: '2026-11-04'
 - source: Hacker News
-  title: 'Ask HN: What''s your current AI agentic setup? (546 pts, 678 comments)'
+  title: 'Ask HN: What''s your current AI agentic setup? (557 pts, 691 comments)'
   link: https://news.ycombinator.com/item?id=50366117
   comments_link: https://news.ycombinator.com/item?id=50366117
   date: '2026-11-04'
 - source: Hacker News
-  title: 'Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding (339 pts, 127
+  title: 'Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding (340 pts, 127
     comments)'
   link: https://www.ricursive.com/ripple
   comments_link: https://news.ycombinator.com/item?id=50369925
@@ -402,30 +422,26 @@
   date: '2026-11-03'
 - source: Hacker News
   title: Postman silently auto-installs AI plugins and attempts to share all API data
-    (1523 pts, 494 comments)
+    (1525 pts, 495 comments)
   link: https://github.com/postmanlabs/postman-app-support/issues/14370
   comments_link: https://news.ycombinator.com/item?id=50354960
   date: '2026-11-03'
 - source: Hacker News
-  title: Qwen 3.8 27B on my laptop can interpret model weights, too (736 pts, 214
+  title: Qwen 3.8 27B on my laptop can interpret model weights, too (739 pts, 214
     comments)
   link: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/
   comments_link: https://news.ycombinator.com/item?id=50355251
   date: '2026-11-03'
 - source: Hacker News
-  title: Google will turn off search for schools that reject AI (672 pts, 469 comments)
+  title: Google will turn off search for schools that reject AI (672 pts, 470 comments)
   link: https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html
   comments_link: https://news.ycombinator.com/item?id=50353192
   date: '2026-11-03'
 - source: Hacker News
-  title: OpenAI seems to be silently re-enabling model training on Codex chats (530
+  title: OpenAI seems to be silently re-enabling model training on Codex chats (531
     pts, 163 comments)
   link: https://news.ycombinator.com/item?id=50352757
   comments_link: https://news.ycombinator.com/item?id=50352757
-  date: '2026-11-03'
-- source: GitHub (trending AI/LLM/Agents)
-  title: herdrdev/herdr (48897★) · the runtime your coding agents live on
-  link: https://github.com/herdrdev/herdr
   date: '2026-11-03'
 - source: Anthropic Research
   title: Progress on provable inference for large language models
@@ -460,24 +476,20 @@
     Models'
   link: https://huggingface.co/papers/2611.04386
   date: '2026-11-02'
-- source: Simon Willison
-  title: llm 0.37
-  link: https://simonwillison.net/2026/Nov/2/llm/
-  date: '2026-11-02'
 - source: Hacker News
-  title: Astra can read and write weights to improve Qwen (2958 pts, 899 comments)
+  title: Astra can read and write weights to improve Qwen (2960 pts, 899 comments)
   link: https://rikiyat.github.io/blog/weight-space-programming/
   comments_link: https://news.ycombinator.com/item?id=50341174
   date: '2026-11-02'
 - source: Hacker News
-  title: The SEC Should Block Anthropic's IPO to Protect the Public (406 pts, 322
+  title: The SEC Should Block Anthropic's IPO to Protect the Public (406 pts, 323
     comments)
   link: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/
   comments_link: https://news.ycombinator.com/item?id=50344919
   date: '2026-11-02'
 - source: Hacker News
   title: Anthropic's internal AI use, at retail prices, now exceeds its employee pay
-    (352 pts, 272 comments)
+    (352 pts, 273 comments)
   link: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11
   comments_link: https://news.ycombinator.com/item?id=50339494
   date: '2026-11-02'
@@ -488,15 +500,13 @@
   comments_link: https://lobste.rs/s/u7wdqj/sparks_weight_space_programming_llms_can
   date: '2026-11-02'
 - source: Product Hunt
-  title: Deal Pilot
-  link: https://www.producthunt.com/products/deal-pilot
+  title: Sage2 by Levanto Labs
+  link: https://www.producthunt.com/products/sagecraft
   date: '2026-11-02'
-- source: Hacker News
-  title: Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing (348
-    pts, 220 comments)
-  link: https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/
-  comments_link: https://news.ycombinator.com/item?id=50322173
-  date: '2026-11-01'
+- source: Product Hunt
+  title: Exa Monitors v2
+  link: https://www.producthunt.com/products/exa-ai
+  date: '2026-11-02'
 - source: Latent Space
   title: '[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst
     since 2004 IPO. AI Bear Market coming?'
@@ -506,20 +516,8 @@
   title: HackerTube
   link: https://karpathy.bearblog.dev/hacker-tube/
   date: '2026-10-31'
-- source: Hacker News
-  title: Anthropic blocks users for anything touching training larger models (494
-    pts, 271 comments)
-  link: https://twitter.com/jiahaoshao1/status/2116475922190922088
-  comments_link: https://news.ycombinator.com/item?id=50319358
-  date: '2026-10-31'
-- source: Hacker News
-  title: 'Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard
-    (465 pts, 232 comments)'
-  link: https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve
-  comments_link: https://news.ycombinator.com/item?id=50320995
-  date: '2026-10-31'
 - source: Lobsters
-  title: Let’s Build a Brain (20 pts, 1 comments)
+  title: Let’s Build a Brain (21 pts, 1 comments)
   link: https://aatishb.com/myriad/lets-build-a-brain/
   comments_link: https://lobste.rs/s/bmmj1e/let_s_build_brain
   date: '2026-10-31'
@@ -544,6 +542,10 @@
   title: 'How to Face Your AI Fears This Year: Introduction to a special Halloween
     2026 edition of The Batch'
   link: https://charonhub.deeplearning.ai/how-to-face-your-ai-fears-this-year/
+  date: '2026-10-30'
+- source: Product Hunt
+  title: AXL
+  link: https://www.producthunt.com/products/axl-2
   date: '2026-10-30'
 - source: Mistral
   title: 'Le Chonk: Built for Coders, Trusted by Defenders.'
@@ -644,12 +646,8 @@
   link: https://huggingface.co/papers/2610.37739
   date: '2026-10-26'
 - source: Product Hunt
-  title: LiveReview
-  link: https://www.producthunt.com/products/livereview
-  date: '2026-10-26'
-- source: Product Hunt
-  title: ClarifierAI for Chrome
-  link: https://www.producthunt.com/products/clarifierai-rewrite-text-2
+  title: NoMac
+  link: https://www.producthunt.com/products/nomac
   date: '2026-10-26'
 - source: Ahead of AI
   title: 'Building Reasoning Models from the Ground Up: A Full Video Course'
@@ -701,10 +699,6 @@
   title: Mistral Advances AI for Engineering with NVIDIA
   link: https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/
   date: '2026-10-21'
-- source: Product Hunt
-  title: Quest
-  link: https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279
-  date: '2026-10-21'
 - source: Mistral
   title: Voxtral 3
   link: https://mistral.ai/news/voxtral-3/
@@ -722,7 +716,7 @@
   link: https://www.anthropic.com/news/public-benefit-fund
   date: '2026-10-18'
 - source: Andrew Ng
-  title: 'Formal Verification Meets Unverifiable Judgement: Don’t Overgeneralize from
+  title: 'Judgement Tasks Is Where Humans Have the Edge: Don’t Overgeneralize from
     Progress in Math and Code — The Hardest AI Problems Still Require More Work'
   link: https://charonhub.deeplearning.ai/formal-verification-meets-unverifiable-judgement/
   date: '2026-10-16'
@@ -758,6 +752,10 @@
 - source: Ollama
   title: Run AI agents safely with Ollama and Fly.io
   link: https://ollama.com/blog/fly-io-sprites
+  date: '2026-10-13'
+- source: Product Hunt
+  title: Memorias
+  link: https://www.producthunt.com/products/memorias-3
   date: '2026-10-13'
 - source: Andrew Ng
   title: 'Scaling Up for Future AI Demands: More Agents Demand More Compute'
