@@ -1,19 +1,134 @@
 - source: OpenAI
+  title: Gilbert + Tobin rethinks the business of law with AI
+  link: https://openai.com/index/gilbert-tobin-sam-nickless
+  date: '2026-11-12'
+- source: OpenAI
+  title: ChatGPT Plus for veterans and servicemembers
+  link: https://openai.com/index/chatgpt-plus-for-veterans
+  date: '2026-11-11'
+- source: NVIDIA Blog
+  title: How AI Helps Recyclers Turn Mixed Waste Into Reusable Material
+  link: https://blogs.nvidia.com/blog/ai-recycling-startups/
+  date: '2026-11-11'
+- source: Hugging Face Blog
+  title: 'BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic
+    Language Model'
+  link: https://huggingface.co/blog/qvac/botpsy
+  date: '2026-11-11'
+- source: Latent Space
+  title: '[AINews] Mercor $750m Series D at $20B valuation, $3B run rate'
+  link: https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/
+  date: '2026-11-11'
+- source: Product Hunt
+  title: RigSpark
+  link: https://www.producthunt.com/products/rigspark
+  date: '2026-11-11'
+- source: Product Hunt
+  title: Mister Blocks
+  link: https://www.producthunt.com/products/mister-blocks
+  date: '2026-11-11'
+- source: Product Hunt
+  title: bonds chat
+  link: https://www.producthunt.com/products/bonds-2
+  date: '2026-11-11'
+- source: GitHub (trending AI/LLM/Agents)
+  title: wangzan101/Mika (8195★) · An on-device AI agent for Android that operates
+    apps and the web to get things done for you.
+  link: https://github.com/wangzan101/Mika
+  date: '2026-11-11'
+- source: GitHub (trending AI/LLM/Agents)
+  title: KKKKhazix/agent-autoloop (4503★) · 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
+  link: https://github.com/KKKKhazix/agent-autoloop
+  date: '2026-11-11'
+- source: GitHub (trending AI/LLM/Agents)
+  title: expo/exact (2629★) · Write an app once. It runs natively on the web, macOS,
+    iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every
+    one of them.
+  link: https://github.com/expo/exact
+  date: '2026-11-11'
+- source: GitHub (trending AI/LLM/Agents)
+  title: N1nEmAn/sapper-v2 (1940★) · Autonomous pentest legion — AI commander + worker
+    swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online
+    champion (634 teams ·
+  link: https://github.com/N1nEmAn/sapper-v2
+  date: '2026-11-11'
+- source: GitHub (trending AI/LLM/Agents)
+  title: Sandflow-ai/sand3d (1825★) · 3D modeling in Python, built for LLMs.
+  link: https://github.com/Sandflow-ai/sand3d
+  date: '2026-11-11'
+- source: GitHub (trending AI/LLM/Agents)
+  title: sickn33/agentic-awesome-skills (49526★) · 2,955+ reusable AI agent skills
+    for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery,
+    agent-owned selectio
+  link: https://github.com/sickn33/agentic-awesome-skills
+  date: '2026-11-11'
+- source: GitHub (trending AI/LLM/Agents)
+  title: 'paperless-ngx/paperless-ngx (48008★) · A community-supported supercharged
+    document management system: scan, index and archive all your documents'
+  link: https://github.com/paperless-ngx/paperless-ngx
+  date: '2026-11-11'
+- source: GitHub (trending AI/LLM/Agents)
+  title: zhayujie/CowAgent (47878★) · Open-source personal AI assistant & Agent Harness.
+    Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent,
+    multi-model
+  link: https://github.com/zhayujie/CowAgent
+  date: '2026-11-11'
+- source: OpenAI
   title: Helping caregivers use AI in everyday life
   link: https://openai.com/index/helping-caregivers-use-ai-in-everyday-life
+  date: '2026-11-10'
+- source: OpenAI
+  title: Introducing Businesses in ChatGPT
+  link: https://openai.com/index/introducing-businesses-chatgpt
   date: '2026-11-10'
 - source: OpenAI
   title: Closing the AI guidance gap in education
   link: https://openai.com/index/closing-ai-guidance-gap-education
   date: '2026-11-10'
+- source: OpenAI
+  title: Singapore Airlines elevates travel & work with OpenAI technology
+  link: https://openai.com/index/singapore-airlines-travel-work
+  date: '2026-11-10'
+- source: OpenAI
+  title: 'Work at the Frontier: AI’s effect on freelance work'
+  link: https://openai.com/index/ai-effect-on-freelance-work
+  date: '2026-11-10'
+- source: OpenAI
+  title: Cogent and OpenAI build cyber defense factories for enterprises
+  link: https://openai.com/index/cogent-security
+  date: '2026-11-10'
 - source: Anthropic
   title: Anthropic launches roadshow for proposed initial public offering
   link: https://www.anthropic.com/news/roadshow-launch
+  date: '2026-11-10'
+- source: NVIDIA Developer
+  title: 'Agent Substrate: Advancing Kubernetes for Agents at Scale'
+  link: https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/
+  date: '2026-11-10'
+- source: NVIDIA Developer
+  title: Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot
+  link: https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/
+  date: '2026-11-10'
+- source: Google DeepMind
+  title: Gemini 4 Carbon is now available
+  link: https://deepmind.google/blog/gemini-4-carbon-is-now-available/
   date: '2026-11-10'
 - source: Google DeepMind
   title: 'Introducing AlphaProof Code: a breakthrough in verifying complex software
     at depth'
   link: https://deepmind.google/blog/introducing-alphaproof-code/
+  date: '2026-11-10'
+- source: Hugging Face Blog
+  title: Pay for Hugging Face Hub with your Google Cloud Account
+  link: https://huggingface.co/blog/hub-gcp-marketplace
+  date: '2026-11-10'
+- source: Hugging Face Blog
+  title: Decision Models in Hugging Face
+  link: https://huggingface.co/blog/decision
+  date: '2026-11-10'
+- source: Simon Willison
+  title: llm-gemini 0.36
+  link: https://simonwillison.net/2026/Nov/10/llm-gemini/
   date: '2026-11-10'
 - source: Simon Willison
   title: 'Introducing Our Smallest, Most Efficient Model: Muse Ember'
@@ -31,42 +146,39 @@
   title: '[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins'
   link: https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/
   date: '2026-11-10'
+- source: Hacker News
+  title: Tracking Anthropic-discovered vulnerabilities (422 pts, 203 comments)
+  link: https://www.vulncheck.com/blog/anthropic-glasswing-november-update
+  comments_link: https://news.ycombinator.com/item?id=50447074
+  date: '2026-11-10'
+- source: Hacker News
+  title: 'Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives
+    (388 pts, 123 comments)'
+  link: https://github.com/GoogleChrome/modern-web-guidance
+  comments_link: https://news.ycombinator.com/item?id=50443812
+  date: '2026-11-10'
+- source: Hacker News
+  title: Gemini 4 Carbon is now available (287 pts, 159 comments)
+  link: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/
+  comments_link: https://news.ycombinator.com/item?id=50442303
+  date: '2026-11-10'
 - source: Product Hunt
-  title: Clive
-  link: https://www.producthunt.com/products/clive
+  title: Xolace
+  link: https://www.producthunt.com/products/xolace
+  date: '2026-11-10'
+- source: Product Hunt
+  title: Scribe v3 by ElevenLabs
+  link: https://www.producthunt.com/products/elevenlabs
+  date: '2026-11-10'
+- source: Product Hunt
+  title: Mitra MCP
+  link: https://www.producthunt.com/products/mitra-5
   date: '2026-11-10'
 - source: GitHub (trending AI/LLM/Agents)
-  title: wangzan101/Mika (8008★) · An on-device AI agent for Android that operates
-    apps and the web to get things done for you.
-  link: https://github.com/wangzan101/Mika
-  date: '2026-11-10'
-- source: GitHub (trending AI/LLM/Agents)
-  title: KKKKhazix/agent-autoloop (4396★) · 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
-  link: https://github.com/KKKKhazix/agent-autoloop
-  date: '2026-11-10'
-- source: GitHub (trending AI/LLM/Agents)
-  title: Sandflow-ai/sand3d (1714★) · 3D modeling in Python, built for LLMs.
-  link: https://github.com/Sandflow-ai/sand3d
-  date: '2026-11-10'
-- source: GitHub (trending AI/LLM/Agents)
-  title: voyager-so/vork (1344★) · Headless 3D and VFX engine for agents. Research
-    preview.
-  link: https://github.com/voyager-so/vork
-  date: '2026-11-10'
-- source: GitHub (trending AI/LLM/Agents)
-  title: HKUDS/nanobot (49990★) · Your lightweight open-source personal agent.
-  link: https://github.com/HKUDS/nanobot
-  date: '2026-11-10'
-- source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (49466★) · 2,955+ reusable AI agent skills
-    for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery,
-    agent-owned selectio
-  link: https://github.com/sickn33/agentic-awesome-skills
-  date: '2026-11-10'
-- source: GitHub (trending AI/LLM/Agents)
-  title: 'paperless-ngx/paperless-ngx (47974★) · A community-supported supercharged
-    document management system: scan, index and archive all your documents'
-  link: https://github.com/paperless-ngx/paperless-ngx
+  title: 'AstrBotDevs/AstrBot (46684★) · AI Agent Assistant & development framework
+    that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be
+    your openclaw alternative. '
+  link: https://github.com/AstrBotDevs/AstrBot
   date: '2026-11-10'
 - source: OpenAI
   title: ChatGPT Enterprise now available in AWS Marketplace
@@ -76,14 +188,6 @@
   title: 'Control Room: A central system to track and stop model workloads across
     our research infrastructure'
   link: https://openai.com/index/control-room
-  date: '2026-11-09'
-- source: OpenAI
-  title: CodeRabbit scales agentic software development and ships 20x more
-  link: https://openai.com/index/coderabbit-codex-daybreak
-  date: '2026-11-09'
-- source: OpenAI
-  title: Kuken Industries searches 70 years of drawings in minutes
-  link: https://openai.com/index/kuken
   date: '2026-11-09'
 - source: Anthropic Research
   title: Claude can design electronic prototypes from start to finish
@@ -106,6 +210,10 @@
   title: NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production
   link: https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/
   date: '2026-11-09'
+- source: Google DeepMind
+  title: Gemini Robotics 2.5 accelerates real-world general dexterity
+  link: https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/
+  date: '2026-11-09'
 - source: MIT Technology Review
   title: The backlash about data centers might really just be about electricity
   link: https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/
@@ -126,6 +234,28 @@
 - source: Hugging Face Blog
   title: Your Experts Have Partners. There's HOPE for Keeping Them Together
   link: https://huggingface.co/blog/amazon/higher-order-pruning-experts
+  date: '2026-11-09'
+- source: Hugging Face Papers
+  title: 'TorchCurves: Differentiable Parametric Curves'
+  link: https://huggingface.co/papers/2611.14516
+  date: '2026-11-09'
+- source: Hugging Face Papers
+  title: Are Causal Neuron Circuits Unique and Transferable?
+  link: https://huggingface.co/papers/2611.13885
+  date: '2026-11-09'
+- source: Hugging Face Papers
+  title: 'Sable: A Small-Field Sumcheck Argument for Bit-Exact Inference of Large
+    Language Models'
+  link: https://huggingface.co/papers/2611.14083
+  date: '2026-11-09'
+- source: Hugging Face Papers
+  title: 'Don''t Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced
+    Degradation in LLM Agents'
+  link: https://huggingface.co/papers/2611.14320
+  date: '2026-11-09'
+- source: Hugging Face Papers
+  title: Lipschitz-Controlled Flow Matching for Robust Image Restoration
+  link: https://huggingface.co/papers/2611.13995
   date: '2026-11-09'
 - source: Simon Willison
   title: llm-anthropic 0.31
@@ -148,92 +278,60 @@
   link: https://www.oneusefulthing.org/p/fable-52-and-jagged-agi
   date: '2026-11-09'
 - source: Hacker News
-  title: Claude Fable 5.2 and Mythos 5.2 (980 pts, 6 comments)
+  title: Claude Fable 5.2 and Mythos 5.2 (993 pts, 8 comments)
   link: https://www.anthropic.com/claude-fable-and-mythos-5-2
   comments_link: https://news.ycombinator.com/item?id=50429906
   date: '2026-11-09'
 - source: Hacker News
   title: Google Gemini routes personal Drive files and emails to human annotators
-    (665 pts, 141 comments)
+    (721 pts, 147 comments)
   link: https://github.com/thisisme6598/gemini_files/
   comments_link: https://news.ycombinator.com/item?id=50429426
   date: '2026-11-09'
 - source: Hacker News
-  title: Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far (356 pts,
-    256 comments)
+  title: Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far (375 pts,
+    273 comments)
   link: https://artificialanalysis.ai/models/claude-fable-5-2
   comments_link: https://news.ycombinator.com/item?id=50431144
   date: '2026-11-09'
 - source: Product Hunt
-  title: QuotedPart
-  link: https://www.producthunt.com/products/quotedpart
-  date: '2026-11-09'
-- source: Product Hunt
-  title: MoreFrame
-  link: https://www.producthunt.com/products/moreframe
-  date: '2026-11-09'
-- source: GitHub (trending AI/LLM/Agents)
-  title: N1nEmAn/sapper-v2 (1846★) · Autonomous pentest legion — AI commander + worker
-    swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online
-    champion (634 teams ·
-  link: https://github.com/N1nEmAn/sapper-v2
+  title: Muse Ember by Meta
+  link: https://www.producthunt.com/products/meta-ai
   date: '2026-11-09'
 - source: Hugging Face Papers
-  title: 'Training Vision Transformers to Focus: Emergence of Spatial Attention Head
-    Specialization'
-  link: https://huggingface.co/papers/2611.11890
-  date: '2026-11-08'
-- source: Hugging Face Papers
-  title: 'InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure'
-  link: https://huggingface.co/papers/2611.11558
-  date: '2026-11-08'
-- source: Hugging Face Papers
-  title: 'Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic
-    Visual Reasoning'
-  link: https://huggingface.co/papers/2611.12886
+  title: 'Blind Variation, Selective Retention: Improving Creative Idea Generation
+    in AI Scientists'
+  link: https://huggingface.co/papers/2611.12184
   date: '2026-11-08'
 - source: Simon Willison
   title: 'parse_number() as a SQLite extension: C vs Rust'
   link: https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/
   date: '2026-11-08'
 - source: Hacker News
-  title: Nvidia CEO Jensen Huang's letter to staff about affair (964 pts, 1243 comments)
+  title: Nvidia CEO Jensen Huang's letter to staff about affair (980 pts, 1281 comments)
   link: https://nvidianews.nvidia.com/news/a-message-to-our-company
   comments_link: https://news.ycombinator.com/item?id=50418016
   date: '2026-11-08'
 - source: Hacker News
-  title: Goldman Sachs is pulling Claude Code from its bankers and traders (891 pts,
-    483 comments)
+  title: Goldman Sachs is pulling Claude Code from its bankers and traders (901 pts,
+    492 comments)
   link: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers
   comments_link: https://news.ycombinator.com/item?id=50415628
   date: '2026-11-08'
 - source: Hacker News
-  title: Goodbye Claude, hello Pi (809 pts, 488 comments)
+  title: Goodbye Claude, hello Pi (817 pts, 492 comments)
   link: https://caleb.software/posts/claude-to-pi.html
   comments_link: https://news.ycombinator.com/item?id=50410107
   date: '2026-11-08'
 - source: Hacker News
-  title: 'Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU (481 pts, 205 comments)'
+  title: 'Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU (483 pts, 208 comments)'
   link: https://github.com/synchopate/llama-modchip
   comments_link: https://news.ycombinator.com/item?id=50411961
   date: '2026-11-08'
-- source: Hugging Face Papers
-  title: 'Spatial Harness: Grounding Spatial Reasoning in Executable World States
-    with Physics Engines'
-  link: https://huggingface.co/papers/2611.11344
-  date: '2026-11-07'
-- source: Hugging Face Papers
-  title: How Much Training-Inference Mismatch Can On-Policy Distillation Tolerate?
-  link: https://huggingface.co/papers/2611.11450
-  date: '2026-11-07'
 - source: Simon Willison
   title: 'datasette #3046: Don''t serve link: rel=next HTTP headers to Firefox for
     HTML pages'
   link: https://simonwillison.net/2026/Nov/7/link-rel-next/
-  date: '2026-11-07'
-- source: Simon Willison
-  title: Terry Pratchett's Study
-  link: https://simonwillison.net/2026/Nov/7/hn-50407316/
   date: '2026-11-07'
 - source: Latent Space
   title: '[AINews] Anthropic IPO: Whither Now?'
@@ -241,30 +339,14 @@
   date: '2026-11-07'
 - source: Hacker News
   title: Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub
-    files (623 pts, 424 comments)
+    files (626 pts, 427 comments)
   link: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again
   comments_link: https://news.ycombinator.com/item?id=50407882
   date: '2026-11-07'
 - source: Product Hunt
-  title: Levo
-  link: https://www.producthunt.com/products/levo-3
+  title: Stiro
+  link: https://www.producthunt.com/products/stiro
   date: '2026-11-07'
-- source: Product Hunt
-  title: RunThru
-  link: https://www.producthunt.com/products/runthru
-  date: '2026-11-07'
-- source: GitHub (trending AI/LLM/Agents)
-  title: herdrdev/herdr (49900★) · the runtime your coding agents live on
-  link: https://github.com/herdrdev/herdr
-  date: '2026-11-07'
-- source: OpenAI
-  title: Partnering with Hacktron to find vulnerabilities in OpenAI’s systems
-  link: https://openai.com/index/partnering-with-hacktron
-  date: '2026-11-06'
-- source: OpenAI
-  title: Measuring how AI agents handle everyday wet-lab science
-  link: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science
-  date: '2026-11-06'
 - source: Anthropic Research
   title: Teaching AI to build scientific models
   link: https://www.anthropic.com/research/teaching-ai-to-build-scientific-models
@@ -304,16 +386,13 @@
   link: https://huggingface.co/blog/open-asr-leaderboard-liva
   date: '2026-11-06'
 - source: Hugging Face Papers
-  title: 'Energy-Tweedie: Score meets Score, Energy meets Energy'
-  link: https://huggingface.co/papers/2512.23818
+  title: The Surprising Effectiveness of Deleting Weights in LLM Post-Training
+  link: https://huggingface.co/papers/2611.10866
   date: '2026-11-06'
 - source: Hugging Face Papers
-  title: 'Longtail-SWE: High-Quality SWE Tasks for Underrepresented Languages'
-  link: https://huggingface.co/papers/2611.10304
-  date: '2026-11-06'
-- source: Hugging Face Papers
-  title: 'InstantHMR : Real-Time Human Mesh Recovery on Your Phone'
-  link: https://huggingface.co/papers/2611.09195
+  title: 'MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights
+    and Activations'
+  link: https://huggingface.co/papers/2611.10649
   date: '2026-11-06'
 - source: Latent Space
   title: '[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating
@@ -327,7 +406,7 @@
   date: '2026-11-06'
 - source: Hacker News
   title: Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS
-    (658 pts, 436 comments)
+    (658 pts, 437 comments)
   link: https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105
   comments_link: https://news.ycombinator.com/item?id=50390124
   date: '2026-11-06'
@@ -336,18 +415,11 @@
   link: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/
   comments_link: https://news.ycombinator.com/item?id=50392118
   date: '2026-11-06'
-- source: Product Hunt
-  title: VeilCC
-  link: https://www.producthunt.com/products/veilcc
+- source: Hacker News
+  title: Anthropic IPO buyers see valuation as low as $1.1T (322 pts, 634 comments)
+  link: https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout
+  comments_link: https://news.ycombinator.com/item?id=50394906
   date: '2026-11-06'
-- source: OpenAI
-  title: Australian universities are creating AI-native graduates
-  link: https://openai.com/index/australian-universities-ai-native-graduates
-  date: '2026-11-05'
-- source: OpenAI
-  title: Cult.fit builds operational muscle with Codex
-  link: https://openai.com/index/cultfit-builds-with-codex
-  date: '2026-11-05'
 - source: Anthropic Research
   title: How scientists use Claude
   link: https://www.anthropic.com/research/how-researchers-use-claude
@@ -377,31 +449,32 @@
     Tops the Benchmarks.
   link: https://huggingface.co/blog/phonon-tts
   date: '2026-11-05'
-- source: Hugging Face Papers
-  title: 'SkinMind: Equipping Agentic RAG with Human-Inspired Graph Probing for Reliable
-    Dermatology AI'
-  link: https://huggingface.co/papers/2611.08935
-  date: '2026-11-05'
 - source: Latent Space
   title: '[AINews] It''s Swapping Season'
   link: https://latent.space/p/ainews-it-s-swapping-season/
   date: '2026-11-05'
 - source: Hacker News
-  title: Claude Code sends your email address to websites (1612 pts, 535 comments)
+  title: Claude Code sends your email address to websites (1614 pts, 535 comments)
   link: https://github.com/anthropics/claude-code/issues/107757
   comments_link: https://news.ycombinator.com/item?id=50385272
+  date: '2026-11-05'
+- source: Hacker News
+  title: MCP Explained (347 pts, 135 comments)
+  link: https://mcp-explained.com/
+  comments_link: https://news.ycombinator.com/item?id=50379249
+  date: '2026-11-05'
+- source: Hacker News
+  title: GPT-6 Astra covertly underperforms on safety research (342 pts, 195 comments)
+  link: https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/
+  comments_link: https://news.ycombinator.com/item?id=50376313
   date: '2026-11-05'
 - source: Lobsters
   title: Reflections on Rust in the LLM Age (28 pts, 8 comments)
   link: https://www.youtube.com/watch?v=5D7QPOIZ7gY
   comments_link: https://lobste.rs/s/yomksa/reflections_on_rust_llm_age
   date: '2026-11-05'
-- source: Product Hunt
-  title: Quillo
-  link: https://www.producthunt.com/products/quillo-2
-  date: '2026-11-05'
 - source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (48420★) · 【AI 时代的业务系统基座】企业级 AI 低代码平台：权限、多租户、工作流、报表、大屏、AI
+  title: jeecgboot/JeecgBoot (48424★) · 【AI 时代的业务系统基座】企业级 AI 低代码平台：权限、多租户、工作流、报表、大屏、AI
     知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置
     AI 应用平台（聊天、知识库、流程编
   link: https://github.com/jeecgboot/JeecgBoot
@@ -436,20 +509,13 @@
   title: 'Dharma Field Extractor: Any Document In, Structured Fields in JSON Out'
   link: https://huggingface.co/blog/Dharma-AI/dharma-field-extractor
   date: '2026-11-04'
+- source: Hugging Face Papers
+  title: 'FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance'
+  link: https://huggingface.co/papers/2611.07464
+  date: '2026-11-04'
 - source: Latent Space
   title: '[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai'
   link: https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/
-  date: '2026-11-04'
-- source: Hacker News
-  title: AI is forcing us to pay off 40 years of technical debt (1308 pts, 749 comments)
-  link: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability
-  comments_link: https://news.ycombinator.com/item?id=50364336
-  date: '2026-11-04'
-- source: Hacker News
-  title: 'Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)
-    (737 pts, 201 comments)'
-  link: https://news.ycombinator.com/item?id=50363461
-  comments_link: https://news.ycombinator.com/item?id=50363461
   date: '2026-11-04'
 - source: Hacker News
   title: Kimi K3.1 Pro model weights are out (640 pts, 191 comments)
@@ -457,19 +523,19 @@
   comments_link: https://news.ycombinator.com/item?id=50366999
   date: '2026-11-04'
 - source: Hacker News
-  title: Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux
-    (617 pts, 292 comments)
-  link: https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop
-  comments_link: https://news.ycombinator.com/item?id=50362905
-  date: '2026-11-04'
-- source: Hacker News
-  title: 'Ask HN: What''s your current AI agentic setup? (570 pts, 703 comments)'
+  title: 'Ask HN: What''s your current AI agentic setup? (571 pts, 711 comments)'
   link: https://news.ycombinator.com/item?id=50366117
   comments_link: https://news.ycombinator.com/item?id=50366117
   date: '2026-11-04'
+- source: Hacker News
+  title: 'Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding (341 pts, 127
+    comments)'
+  link: https://www.ricursive.com/ripple
+  comments_link: https://news.ycombinator.com/item?id=50369925
+  date: '2026-11-04'
 - source: Product Hunt
-  title: Gesso
-  link: https://www.producthunt.com/products/gesso-2
+  title: Relay
+  link: https://www.producthunt.com/products/relaytoai
   date: '2026-11-04'
 - source: NVIDIA Blog
   title: AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster
@@ -497,41 +563,14 @@
   title: 'Palette: teaching a small model to build decks in your design language'
   link: https://huggingface.co/blog/ibm-research/palette-deck-building
   date: '2026-11-03'
-- source: Hugging Face Blog
-  title: 'CWE-bench v2: More coverage, quality, and transparency'
-  link: https://huggingface.co/blog/cwe-bench
-  date: '2026-11-03'
-- source: Hugging Face Blog
-  title: Transformers Model Integration Contracts
-  link: https://huggingface.co/blog/transformers-mic
+- source: Hugging Face Papers
+  title: 'Micius-Flash: Lightweight Agentic Intelligence for Engineering'
+  link: https://huggingface.co/papers/2611.10015
   date: '2026-11-03'
 - source: Latent Space
   title: '[AINews] LLMs can read & write neural network weights: "Weight Space Programming"
     cuts Autoresearch out of the RSI loop'
   link: https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/
-  date: '2026-11-03'
-- source: Hacker News
-  title: Postman silently auto-installs AI plugins and attempts to share all API data
-    (1529 pts, 499 comments)
-  link: https://github.com/postmanlabs/postman-app-support/issues/14370
-  comments_link: https://news.ycombinator.com/item?id=50354960
-  date: '2026-11-03'
-- source: Hacker News
-  title: Qwen 3.8 27B on my laptop can interpret model weights, too (740 pts, 214
-    comments)
-  link: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/
-  comments_link: https://news.ycombinator.com/item?id=50355251
-  date: '2026-11-03'
-- source: Hacker News
-  title: Google will turn off search for schools that reject AI (674 pts, 471 comments)
-  link: https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html
-  comments_link: https://news.ycombinator.com/item?id=50353192
-  date: '2026-11-03'
-- source: Hacker News
-  title: OpenAI seems to be silently re-enabling model training on Codex chats (535
-    pts, 163 comments)
-  link: https://news.ycombinator.com/item?id=50352757
-  comments_link: https://news.ycombinator.com/item?id=50352757
   date: '2026-11-03'
 - source: Anthropic Research
   title: Progress on provable inference for large language models
@@ -540,14 +579,6 @@
 - source: NVIDIA Developer
   title: Keep Distributed Training Running with Automated Workload Recovery
   link: https://developer.nvidia.com/blog/keep-distributed-training-running-with-automated-workload-recovery/
-  date: '2026-11-02'
-- source: NVIDIA Developer
-  title: Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One
-  link: https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one/
-  date: '2026-11-02'
-- source: NVIDIA Developer
-  title: Build World Models for Interactive Simulation with NVIDIA Cosmos
-  link: https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos/
   date: '2026-11-02'
 - source: MIT Technology Review
   title: Raising the quality of insights in agentic analytics
@@ -563,10 +594,6 @@
   link: https://rikiyat.github.io/blog/weight-space-programming/
   comments_link: https://lobste.rs/s/u7wdqj/sparks_weight_space_programming_llms_can
   date: '2026-11-02'
-- source: Hugging Face Papers
-  title: Stochastic Deep Supervision for Gallery-Consistent Early-Exit Face Recognition
-  link: https://huggingface.co/papers/2611.09987
-  date: '2026-11-01'
 - source: Latent Space
   title: '[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst
     since 2004 IPO. AI Bear Market coming?'
@@ -603,10 +630,6 @@
   title: 'Le Chonk: Built for Coders, Trusted by Defenders.'
   link: https://mistral.ai/news/mistral-large-4-oss/
   date: '2026-10-29'
-- source: Hugging Face Blog
-  title: Granite Switch 4.1.1 — Update models like you update software
-  link: https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1
-  date: '2026-10-29'
 - source: Latent Space
   title: '[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders'
   link: https://latent.space/p/ainews-gemini-4-carbon/
@@ -621,22 +644,13 @@
   title: AI for Science expands to foundations and institutions
   link: https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions
   date: '2026-10-28'
-- source: NVIDIA Blog
-  title: 'Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain
-    New Models, Agent Tools and Games'
-  link: https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/
-  date: '2026-10-28'
 - source: Google DeepMind
   title: 'Gemini 4 Carbon: Our next frontier model'
   link: https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/
   date: '2026-10-28'
-- source: Latent Space
-  title: '[AINews] Anthropic ends Coding Interviews: "Hunger beats tenure"'
-  link: https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/
-  date: '2026-10-28'
 - source: Product Hunt
-  title: Latch.ai
-  link: https://www.producthunt.com/products/latch-ai-2
+  title: CALL-E
+  link: https://www.producthunt.com/products/call-e
   date: '2026-10-28'
 - source: Anthropic
   title: Expanding our partnership with GSA to bring Claude to all levels of government
@@ -658,17 +672,6 @@
 - source: Google DeepMind
   title: 'Genie 4: A new generation of world simulation'
   link: https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/
-  date: '2026-10-27'
-- source: Lobsters
-  title: Compile-Time Dependent Types (30 pts, 11 comments)
-  link: https://thenumb.at/Syl-Intro/
-  comments_link: https://lobste.rs/s/d09iy3/compile_time_dependent_types
-  date: '2026-10-27'
-- source: Lobsters
-  title: 'Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines (21
-    pts, 4 comments)'
-  link: https://projectzero.google/2026/10/fuzzing-v-AI.html
-  comments_link: https://lobste.rs/s/rswyzt/fuzzers_vs_ai_comparing_fuzzilli
   date: '2026-10-27'
 - source: Anthropic
   title: Anthropic files S-1 with the SEC for proposed initial public offering
@@ -707,10 +710,6 @@
   title: Mistral Advances AI for Engineering with NVIDIA
   link: https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/
   date: '2026-10-21'
-- source: Product Hunt
-  title: Alsona
-  link: https://www.producthunt.com/products/alsona
-  date: '2026-10-21'
 - source: Mistral
   title: Voxtral 3
   link: https://mistral.ai/news/voxtral-3/
@@ -748,15 +747,6 @@
   title: Accelerating the search for antimicrobial peptides with Google Antigravity
   link: https://deepmind.google/blog/accelerating-antimicrobial-discovery/
   date: '2026-10-15'
-- source: Google DeepMind
-  title: Google DeepMind and Singapore Government collaborate to build fine-tuned
-    AI model for scam detection
-  link: https://deepmind.google/blog/on-device-ai-scam-detection-mddi/
-  date: '2026-10-14'
-- source: Google DeepMind
-  title: Developing Gemini 4 Argon responsibly and safely
-  link: https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/
-  date: '2026-10-13'
 - source: Ollama
   title: Run AI agents safely with Ollama and Fly.io
   link: https://ollama.com/blog/fly-io-sprites
@@ -790,6 +780,10 @@
   title: Hallo, Deutschland!
   link: https://mistral.ai/news/hallo-deutschland/
   date: '2026-09-28'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'Qwen3.8-Omni: Towards Native Omni-Modal Agents'
+  link: https://arxiv.org/abs/2609.25611v1
+  date: '2026-09-22'
 - source: Anthropic
   title: Partnering with Accenture on embedded evaluation
   link: https://www.anthropic.com/news/accenture-embedded-evaluation
@@ -798,6 +792,10 @@
   title: The Overhang
   link: https://www.oneusefulthing.org/p/the-overhang
   date: '2026-09-18'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression'
+  link: https://arxiv.org/abs/2609.19969v1
+  date: '2026-09-17'
 - source: Mistral
   title: Mistral and Mozilla are bringing open, private and multilingual AI to your
     web browser
@@ -848,6 +846,10 @@
   title: The real AI risk is inside the labs
   link: http://antirez.com/news/172
   date: '2026-07-28'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'Kimi K3: Open Frontier Intelligence'
+  link: https://arxiv.org/abs/2607.24653v2
+  date: '2026-07-27'
 - source: antirez
   title: Being Linux Torvalds
   link: http://antirez.com/news/171
@@ -925,14 +927,34 @@
   title: Sequoia Ascent 2026 summary
   link: https://karpathy.bearblog.dev/sequoia-ascent-2026/
   date: '2026-04-30'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents'
+  link: https://arxiv.org/abs/2604.26752v3
+  date: '2026-04-29'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence'
+  link: https://arxiv.org/abs/2606.19348v1
+  date: '2026-04-26'
 - source: Ahead of AI
   title: My Workflow for Understanding LLM Architectures
   link: https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms
   date: '2026-04-18'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: Qwen3.5-Omni Technical Report
+  link: https://arxiv.org/abs/2604.15804v2
+  date: '2026-04-17'
 - source: antirez
   title: AI cybersecurity is not proof of work
   link: http://antirez.com/news/163
   date: '2026-04-16'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: Attention Residuals
+  link: https://arxiv.org/abs/2603.15031v1
+  date: '2026-03-16'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'Kimi K2.5: Visual Agentic Intelligence'
+  link: https://arxiv.org/abs/2602.02276v2
+  date: '2026-02-02'
 - source: Andrej Karpathy
   title: 2025 LLM Year in Review
   link: https://karpathy.bearblog.dev/year-in-review-2025/
@@ -945,6 +967,10 @@
   title: Auto-grading decade-old Hacker News discussions with hindsight
   link: https://karpathy.bearblog.dev/auto-grade-hn/
   date: '2025-12-10'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models'
+  link: https://arxiv.org/abs/2512.02556v1
+  date: '2025-12-02'
 - source: Andrej Karpathy
   title: The space of minds
   link: https://karpathy.bearblog.dev/the-space-of-minds/
@@ -953,6 +979,10 @@
   title: Verifiability
   link: https://karpathy.bearblog.dev/verifiability/
   date: '2025-11-17'
+- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
+  title: 'Kimi Linear: An Expressive, Efficient Attention Architecture'
+  link: https://arxiv.org/abs/2510.26692v2
+  date: '2025-10-30'
 - source: Andrej Karpathy
   title: Animals vs Ghosts
   link: https://karpathy.bearblog.dev/animals-vs-ghosts/
