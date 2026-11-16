@@ -2,27 +2,31 @@
   title: LVMH’s Media Division announces strategic partnership with OpenAI
   link: https://openai.com/index/lvmh-media-division-partnership
   date: '2026-11-16'
+- source: OpenAI
+  title: The King’s Trust and OpenAI launch £1m partnership
+  link: https://openai.com/index/the-kings-trust-and-openai
+  date: '2026-11-16'
 - source: Hacker News
-  title: Qwen4-Max (589 pts, 248 comments)
+  title: Qwen4-Max (671 pts, 312 comments)
   link: https://qwen.ai/blog?id=qwen4-max
   comments_link: https://news.ycombinator.com/item?id=50513215
   date: '2026-11-16'
 - source: GitHub (trending AI/LLM/Agents)
-  title: KKKKhazix/agent-autoloop (5627★) · 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
+  title: KKKKhazix/agent-autoloop (5649★) · 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
   link: https://github.com/KKKKhazix/agent-autoloop
   date: '2026-11-16'
 - source: GitHub (trending AI/LLM/Agents)
-  title: Sandflow-ai/sand3d (2064★) · 3D modeling in Python, built for LLMs.
+  title: Sandflow-ai/sand3d (2067★) · 3D modeling in Python, built for LLMs.
   link: https://github.com/Sandflow-ai/sand3d
   date: '2026-11-16'
 - source: GitHub (trending AI/LLM/Agents)
-  title: agentes-chat/agentes-chat (1590★) · Open-source, self-hosted Slack alternative
+  title: agentes-chat/agentes-chat (1595★) · Open-source, self-hosted Slack alternative
     where your team and AI agents work together in channels and DMs. Agents run on
     Claude, ChatGPT/Codex,
   link: https://github.com/agentes-chat/agentes-chat
   date: '2026-11-16'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'paperless-ngx/paperless-ngx (48160★) · A community-supported supercharged
+  title: 'paperless-ngx/paperless-ngx (48164★) · A community-supported supercharged
     document management system: scan, index and archive all your documents'
   link: https://github.com/paperless-ngx/paperless-ngx
   date: '2026-11-16'
@@ -33,7 +37,7 @@
   link: https://github.com/zhayujie/CowAgent
   date: '2026-11-16'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'AstrBotDevs/AstrBot (47029★) · AI Agent Assistant & development framework
+  title: 'AstrBotDevs/AstrBot (47037★) · AI Agent Assistant & development framework
     that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be
     your openclaw alternative. '
   link: https://github.com/AstrBotDevs/AstrBot
@@ -71,9 +75,21 @@
   link: https://magazine.sebastianraschka.com/p/understanding-positional-embeddings
   date: '2026-11-15'
 - source: Hacker News
-  title: All AI-generated code should be Open Source (1174 pts, 620 comments)
+  title: All AI-generated code should be Open Source (1193 pts, 636 comments)
   link: https://jakub.jankiewicz.org/blog/ai-code-open-source/
   comments_link: https://news.ycombinator.com/item?id=50507303
+  date: '2026-11-15'
+- source: Product Hunt
+  title: UI SDK by Vercel
+  link: https://www.producthunt.com/products/ui-sdk
+  date: '2026-11-15'
+- source: Product Hunt
+  title: Glifa
+  link: https://www.producthunt.com/products/glifa
+  date: '2026-11-15'
+- source: Product Hunt
+  title: Punchcutter
+  link: https://www.producthunt.com/products/punchcutter
   date: '2026-11-15'
 - source: Product Hunt
   title: StateWeave
@@ -83,21 +99,13 @@
   title: LexiCAD
   link: https://www.producthunt.com/products/lexicad
   date: '2026-11-15'
-- source: Product Hunt
-  title: UI SDK by Vercel
-  link: https://www.producthunt.com/products/ui-sdk
-  date: '2026-11-15'
-- source: Product Hunt
-  title: Cal.com v7
-  link: https://www.producthunt.com/products/cal
-  date: '2026-11-15'
 - source: GitHub (trending AI/LLM/Agents)
-  title: voyager-so/vork (1598★) · Headless 3D and VFX engine for agents. Research
+  title: voyager-so/vork (1599★) · Headless 3D and VFX engine for agents. Research
     preview.
   link: https://github.com/voyager-so/vork
   date: '2026-11-15'
 - source: GitHub (trending AI/LLM/Agents)
-  title: sickn33/agentic-awesome-skills (49785★) · 2,955+ reusable AI agent skills
+  title: sickn33/agentic-awesome-skills (49790★) · 2,955+ reusable AI agent skills
     for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery,
     agent-owned selectio
   link: https://github.com/sickn33/agentic-awesome-skills
@@ -116,7 +124,7 @@
   date: '2026-11-14'
 - source: Hacker News
   title: Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs
-    (1103 pts, 651 comments)
+    (1104 pts, 651 comments)
   link: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus
   comments_link: https://news.ycombinator.com/item?id=50493251
   date: '2026-11-14'
@@ -188,8 +196,8 @@
   comments_link: https://lobste.rs/s/0aungk/little_book_generative_ai_foundations
   date: '2026-11-13'
 - source: Product Hunt
-  title: Kafkador
-  link: https://www.producthunt.com/products/kafkador
+  title: Blomma for Organizations
+  link: https://www.producthunt.com/products/blomma
   date: '2026-11-13'
 - source: OpenAI
   title: How Amplitude ships product improvements in 1–2 days with OpenAI
@@ -206,10 +214,6 @@
 - source: OpenAI
   title: Supporting research on AI and children’s safety
   link: https://openai.com/index/children-first-declaration
-  date: '2026-11-12'
-- source: OpenAI
-  title: Gilbert + Tobin rethinks the business of law with AI
-  link: https://openai.com/index/gilbert-tobin-sam-nickless
   date: '2026-11-12'
 - source: Google DeepMind
   title: Introducing Gemini 4 Hydrogen
@@ -229,6 +233,16 @@
   link: https://huggingface.co/blog/3d-lora-finetuning
   date: '2026-11-12'
 - source: Hugging Face Papers
+  title: 'WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web
+    Agents'
+  link: https://huggingface.co/papers/2611.17955
+  date: '2026-11-12'
+- source: Hugging Face Papers
+  title: 'G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving
+    Demands'
+  link: https://huggingface.co/papers/2611.17814
+  date: '2026-11-12'
+- source: Hugging Face Papers
   title: 'V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned
     Representations'
   link: https://huggingface.co/papers/2611.17831
@@ -246,11 +260,6 @@
   title: 'JFinBench: A Continuously Refreshable Japanese Financial Benchmark from
     the Latest Certification Exams'
   link: https://huggingface.co/papers/2611.18130
-  date: '2026-11-12'
-- source: Hugging Face Papers
-  title: 'eDIAR: Training-Free Open-Speaker Streaming Diarization for Long Meetings
-    and Large Archives via e-means'
-  link: https://huggingface.co/papers/2611.18529
   date: '2026-11-12'
 - source: Simon Willison
   title: llm-gemini 0.37
@@ -287,7 +296,7 @@
   date: '2026-11-12'
 - source: Hacker News
   title: Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino
-    [video] (428 pts, 211 comments)
+    [video] (432 pts, 216 comments)
   link: https://www.youtube.com/watch?v=WPj3aQ-xxpI
   comments_link: https://news.ycombinator.com/item?id=50463399
   date: '2026-11-12'
@@ -296,8 +305,12 @@
   link: https://libreagi.com/
   comments_link: https://lobste.rs/s/7c4iar/libreagi_save_os_models
   date: '2026-11-12'
+- source: Product Hunt
+  title: Laurence
+  link: https://www.producthunt.com/products/laurence
+  date: '2026-11-12'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'hitkeeen/blender-ai-mcp-addon (1920★) · AI assistant and MCP server for
+  title: 'hitkeeen/blender-ai-mcp-addon (1931★) · AI assistant and MCP server for
     Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT,
     Claude, Gemini, Ollama, Op'
   link: https://github.com/hitkeeen/blender-ai-mcp-addon
@@ -364,7 +377,7 @@
   link: https://www.producthunt.com/products/pharen-hub
   date: '2026-11-11'
 - source: GitHub (trending AI/LLM/Agents)
-  title: jeecgboot/JeecgBoot (48494★) · 一款免费开源的 AI 低代码平台，也是 AI 时代构建复杂业务系统的开源基座！权限、多租户、工作流、报表、大屏、AI
+  title: jeecgboot/JeecgBoot (48497★) · 一款免费开源的 AI 低代码平台，也是 AI 时代构建复杂业务系统的开源基座！权限、多租户、工作流、报表、大屏、AI
     知识库等通用能力开箱即用，AI 只需生成业务差异部分。AI Skills 一句话生成完整系统——建表、前后端代码、菜单权限、BPM 流程、表单、报表、大屏全自动。内置
     AI 应用平
   link: https://github.com/jeecgboot/JeecgBoot
@@ -411,7 +424,7 @@
   link: https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/
   date: '2026-11-10'
 - source: Hacker News
-  title: AI usage generates a fragile codebase (646 pts, 626 comments)
+  title: AI usage generates a fragile codebase (647 pts, 626 comments)
   link: https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/
   comments_link: https://news.ycombinator.com/item?id=50438318
   date: '2026-11-10'
@@ -545,10 +558,6 @@
     AI Job Creation, Growth, Careers'
   link: https://charonhub.deeplearning.ai/ai-job-anxieties-meet-ai-job-opporunities/
   date: '2026-11-06'
-- source: Product Hunt
-  title: Zoom Slides
-  link: https://www.producthunt.com/products/zoom
-  date: '2026-11-06'
 - source: Anthropic Research
   title: How scientists use Claude
   link: https://www.anthropic.com/research/how-researchers-use-claude
@@ -649,15 +658,6 @@
   link: https://rikiyat.github.io/blog/weight-space-programming/
   comments_link: https://lobste.rs/s/u7wdqj/sparks_weight_space_programming_llms_can
   date: '2026-11-02'
-- source: Hugging Face Papers
-  title: 'Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive
-    Video Diffusion'
-  link: https://huggingface.co/papers/2611.02822
-  date: '2026-11-01'
-- source: Product Hunt
-  title: Newsology
-  link: https://www.producthunt.com/products/newsology
-  date: '2026-11-01'
 - source: Andrej Karpathy
   title: HackerTube
   link: https://karpathy.bearblog.dev/hacker-tube/
@@ -797,18 +797,10 @@
   title: Hallo, Deutschland!
   link: https://mistral.ai/news/hallo-deutschland/
   date: '2026-09-28'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'Qwen3.8-Omni: Towards Native Omni-Modal Agents'
-  link: https://arxiv.org/abs/2609.25611v1
-  date: '2026-09-22'
 - source: One Useful Thing
   title: The Overhang
   link: https://www.oneusefulthing.org/p/the-overhang
   date: '2026-09-18'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression'
-  link: https://arxiv.org/abs/2609.19969v1
-  date: '2026-09-17'
 - source: Mistral
   title: Mistral and Mozilla are bringing open, private and multilingual AI to your
     web browser
@@ -859,10 +851,6 @@
   title: The real AI risk is inside the labs
   link: http://antirez.com/news/172
   date: '2026-07-28'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'Kimi K3: Open Frontier Intelligence'
-  link: https://arxiv.org/abs/2607.24653v2
-  date: '2026-07-27'
 - source: antirez
   title: Being Linux Torvalds
   link: http://antirez.com/news/171
@@ -940,30 +928,10 @@
   title: Sequoia Ascent 2026 summary
   link: https://karpathy.bearblog.dev/sequoia-ascent-2026/
   date: '2026-04-30'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents'
-  link: https://arxiv.org/abs/2604.26752v3
-  date: '2026-04-29'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence'
-  link: https://arxiv.org/abs/2606.19348v1
-  date: '2026-04-26'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: Qwen3.5-Omni Technical Report
-  link: https://arxiv.org/abs/2604.15804v2
-  date: '2026-04-17'
 - source: antirez
   title: AI cybersecurity is not proof of work
   link: http://antirez.com/news/163
   date: '2026-04-16'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: Attention Residuals
-  link: https://arxiv.org/abs/2603.15031v1
-  date: '2026-03-16'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'Kimi K2.5: Visual Agentic Intelligence'
-  link: https://arxiv.org/abs/2602.02276v2
-  date: '2026-02-02'
 - source: Andrej Karpathy
   title: 2025 LLM Year in Review
   link: https://karpathy.bearblog.dev/year-in-review-2025/
@@ -976,10 +944,6 @@
   title: Auto-grading decade-old Hacker News discussions with hindsight
   link: https://karpathy.bearblog.dev/auto-grade-hn/
   date: '2025-12-10'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models'
-  link: https://arxiv.org/abs/2512.02556v1
-  date: '2025-12-02'
 - source: Andrej Karpathy
   title: The space of minds
   link: https://karpathy.bearblog.dev/the-space-of-minds/
@@ -988,10 +952,6 @@
   title: Verifiability
   link: https://karpathy.bearblog.dev/verifiability/
   date: '2025-11-17'
-- source: arXiv (DeepSeek/Qwen/Kimi/GLM)
-  title: 'Kimi Linear: An Expressive, Efficient Attention Architecture'
-  link: https://arxiv.org/abs/2510.26692v2
-  date: '2025-10-30'
 - source: Andrej Karpathy
   title: Animals vs Ghosts
   link: https://karpathy.bearblog.dev/animals-vs-ghosts/
