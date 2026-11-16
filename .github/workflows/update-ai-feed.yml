@@ -35,6 +35,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _data/ai_feed.yml
+          # registro delle pagine Anthropic gia' lette (puo' non esistere se la fonte e' fallita)
+          if [ -f _data/anthropic_seen.json ]; then git add _data/anthropic_seen.json; fi
           if git diff --staged --quiet; then
             echo "Nessuna novità nel feed"
             exit 0

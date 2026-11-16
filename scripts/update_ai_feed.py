@@ -8,7 +8,10 @@ One Useful Thing, Latent Space (AINews), antirez, Andrej Karpathy, Product Hunt 
 Anthropic non pubblica RSS: sitemap.xml + Open Graph / article:published_time su
 ogni articolo, sia per News (/news/) sia per Research (/research/) — piu' stabile
 del markup CSS delle listing. Research e' una fonte separata (report/risultati,
-non gli annunci della newsroom).
+non gli annunci della newsroom). Il `lastmod` del sitemap non dice quali pagine sono
+recenti (centinaia condividono la stessa data a ogni ripubblicazione del sito), quindi
+si tiene un registro url -> titolo/data in _data/anthropic_seen.json, salvato dal
+workflow: a ogni giro si leggono solo le pagine nuove del sitemap.
 Fonti senza RSS (scraping mirato sulla pagina di listing): Andrew Ng
 (andrewng.org/writing, le sue lettere personali, non il sito di The Batch).
 Hugging Face Papers: API JSON pubblica usata dalla loro stessa pagina /papers.
@@ -27,6 +30,7 @@ Ogni fonte è isolata in try/except: se una fonte cambia struttura o è irraggiu
 le altre continuano a essere aggiornate normalmente.
 """
 
+import json
 import re
 import time
 import xml.etree.ElementTree as ET
@@ -101,6 +105,54 @@ def _anthropic_sitemap_root() -> ET.Element:
     return _ANTHROPIC_SITEMAP_ROOT
 
 
+# Registro delle pagine Anthropic gia' lette: url -> {"title", "date"}. Sta nel repo e il
+# workflow lo salva insieme al feed, cosi' i giri nel cloud lo ritrovano. Il `lastmod` del
+# sitemap non serve a trovare le pagine recenti (pochi valori ripetuti su centinaia di URL),
+# quindi si leggono tutte le pagine nuove e si ordina per data di pubblicazione vera.
+ANTHROPIC_SEEN_PATH = "_data/anthropic_seen.json"
+# Tetto di sicurezza per giro: il primo giro legge tutto il sitemap (~500 pagine).
+ANTHROPIC_MAX_NEW_PER_RUN = 700
+_ANTHROPIC_SEEN: dict[str, dict] | None = None
+
+
+def _anthropic_seen() -> dict[str, dict]:
+    global _ANTHROPIC_SEEN
+    if _ANTHROPIC_SEEN is None:
+        try:
+            with open(ANTHROPIC_SEEN_PATH, encoding="utf-8") as f:
+                data = json.load(f)
+            _ANTHROPIC_SEEN = data if isinstance(data, dict) else {}
+        except (OSError, ValueError):
+            _ANTHROPIC_SEEN = {}
+    return _ANTHROPIC_SEEN
+
+
+def _save_anthropic_seen() -> None:
+    with open(ANTHROPIC_SEEN_PATH, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(_anthropic_seen(), f, ensure_ascii=False, indent=1, sort_keys=True)
+        f.write("\n")
+
+
+def _read_anthropic_article(link: str) -> dict:
+    """Titolo (og:title) e data di pubblicazione di una pagina Anthropic."""
+    ar = requests.get(link, headers=HEADERS, timeout=20)
+    ar.raise_for_status()
+    soup = BeautifulSoup(ar.text, "html.parser")
+
+    title_meta = soup.find("meta", property="og:title")
+    title = (title_meta.get("content") or "").strip() if title_meta else ""
+
+    date_str = ""
+    pub_meta = soup.find("meta", property="article:published_time")
+    if pub_meta and pub_meta.get("content"):
+        date_str = pub_meta["content"][:10]
+    else:
+        time_el = soup.find("time", attrs={"datetime": True})
+        if time_el and time_el.get("datetime"):
+            date_str = time_el["datetime"][:10]
+    return {"title": title, "date": date_str}
+
+
 def _fetch_anthropic_section(
     url_prefix: str,
     source: str,
@@ -124,33 +176,36 @@ def _fetch_anthropic_section(
         lastmod = (url_el.findtext("sm:lastmod", default="", namespaces=SITEMAP_NS) or "").strip()
         candidates.append((lastmod, loc))
 
+    # lastmod serve solo a leggere prima le pagine piu' probabilmente nuove se si arriva al tetto.
     candidates.sort(reverse=True)
-    # Oversample: lastmod puo' riflettere un edit su un pezzo vecchio; dopo il fetch
-    # si riordina per article:published_time e si tengono i MAX_PER_SOURCE piu' recenti.
-    fetch_budget = MAX_PER_SOURCE * 2
+    seen = _anthropic_seen()
+    to_read = [link for _, link in candidates if link not in seen]
 
-    items: list[dict] = []
-    for _, link in candidates[:fetch_budget]:
-        ar = requests.get(link, headers=HEADERS, timeout=20)
-        ar.raise_for_status()
-        soup = BeautifulSoup(ar.text, "html.parser")
-
-        title_meta = soup.find("meta", property="og:title")
-        title = (title_meta.get("content") or "").strip() if title_meta else ""
-        if not title:
+    added = 0
+    for link in to_read[:ANTHROPIC_MAX_NEW_PER_RUN]:
+        try:
+            seen[link] = _read_anthropic_article(link)
+        except requests.HTTPError as exc:
+            if exc.response is not None and exc.response.status_code in (404, 410):
+                seen[link] = {"title": "", "date": ""}  # non e' un articolo: non rileggerla
+                added += 1
+            else:
+                print(f"  {source}: {link} non letta ({exc}), riprovo al prossimo giro")
             continue
+        except requests.RequestException as exc:
+            print(f"  {source}: {link} non letta ({exc}), riprovo al prossimo giro")
+            continue
+        added += 1
+        time.sleep(0.1)
+    if added:
+        _save_anthropic_seen()
+        print(f"  {source}: {added} pagine nuove registrate, {len(to_read) - added} ancora da leggere")
 
-        date_str = ""
-        pub_meta = soup.find("meta", property="article:published_time")
-        if pub_meta and pub_meta.get("content"):
-            date_str = pub_meta["content"][:10]
-        else:
-            time_el = soup.find("time", attrs={"datetime": True})
-            if time_el and time_el.get("datetime"):
-                date_str = time_el["datetime"][:10]
-
-        items.append({"source": source, "title": title, "link": link, "date": date_str})
-
+    items = [
+        {"source": source, "title": seen[link]["title"], "link": link, "date": seen[link]["date"]}
+        for _, link in candidates
+        if link in seen and seen[link].get("title")
+    ]
     items.sort(key=lambda x: x.get("date") or "", reverse=True)
     return items[:MAX_PER_SOURCE]
 
