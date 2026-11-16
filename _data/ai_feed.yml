@@ -16,7 +16,7 @@
   link: https://github.com/Sandflow-ai/sand3d
   date: '2026-11-16'
 - source: GitHub (trending AI/LLM/Agents)
-  title: agentes-chat/agentes-chat (1589★) · Open-source, self-hosted Slack alternative
+  title: agentes-chat/agentes-chat (1590★) · Open-source, self-hosted Slack alternative
     where your team and AI agents work together in channels and DMs. Agents run on
     Claude, ChatGPT/Codex,
   link: https://github.com/agentes-chat/agentes-chat
@@ -33,7 +33,7 @@
   link: https://github.com/zhayujie/CowAgent
   date: '2026-11-16'
 - source: GitHub (trending AI/LLM/Agents)
-  title: 'AstrBotDevs/AstrBot (47028★) · AI Agent Assistant & development framework
+  title: 'AstrBotDevs/AstrBot (47029★) · AI Agent Assistant & development framework
     that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be
     your openclaw alternative. '
   link: https://github.com/AstrBotDevs/AstrBot
@@ -76,20 +76,20 @@
   comments_link: https://news.ycombinator.com/item?id=50507303
   date: '2026-11-15'
 - source: Product Hunt
-  title: Punchcutter
-  link: https://www.producthunt.com/products/punchcutter
-  date: '2026-11-15'
-- source: Product Hunt
-  title: Papyras
-  link: https://www.producthunt.com/products/papyras
-  date: '2026-11-15'
-- source: Product Hunt
   title: StateWeave
   link: https://www.producthunt.com/products/stateweave
   date: '2026-11-15'
 - source: Product Hunt
   title: LexiCAD
   link: https://www.producthunt.com/products/lexicad
+  date: '2026-11-15'
+- source: Product Hunt
+  title: UI SDK by Vercel
+  link: https://www.producthunt.com/products/ui-sdk
+  date: '2026-11-15'
+- source: Product Hunt
+  title: Cal.com v7
+  link: https://www.producthunt.com/products/cal
   date: '2026-11-15'
 - source: GitHub (trending AI/LLM/Agents)
   title: voyager-so/vork (1598★) · Headless 3D and VFX engine for agents. Research
@@ -188,12 +188,8 @@
   comments_link: https://lobste.rs/s/0aungk/little_book_generative_ai_foundations
   date: '2026-11-13'
 - source: Product Hunt
-  title: Fluid
-  link: https://www.producthunt.com/products/kugelaudio
-  date: '2026-11-13'
-- source: Product Hunt
-  title: ChatGPT Wallet
-  link: https://www.producthunt.com/products/chatgpt
+  title: Kafkador
+  link: https://www.producthunt.com/products/kafkador
   date: '2026-11-13'
 - source: OpenAI
   title: How Amplitude ships product improvements in 1–2 days with OpenAI
@@ -299,10 +295,6 @@
   title: libreagi - save OS models (10 pts, 6 comments)
   link: https://libreagi.com/
   comments_link: https://lobste.rs/s/7c4iar/libreagi_save_os_models
-  date: '2026-11-12'
-- source: Product Hunt
-  title: AgentWatch
-  link: https://www.producthunt.com/products/agentwatch-ai-traffic-tracker
   date: '2026-11-12'
 - source: GitHub (trending AI/LLM/Agents)
   title: 'hitkeeen/blender-ai-mcp-addon (1920★) · AI assistant and MCP server for
@@ -501,6 +493,10 @@
   link: https://artificialanalysis.ai/models/claude-fable-5-2
   comments_link: https://news.ycombinator.com/item?id=50431144
   date: '2026-11-09'
+- source: Product Hunt
+  title: readywhen
+  link: https://www.producthunt.com/products/readywhen
+  date: '2026-11-09'
 - source: Hugging Face Papers
   title: 'MIRIX-2.0: Multi-Agent Memory System'
   link: https://huggingface.co/papers/2611.12068
@@ -657,6 +653,10 @@
   title: 'Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive
     Video Diffusion'
   link: https://huggingface.co/papers/2611.02822
+  date: '2026-11-01'
+- source: Product Hunt
+  title: Newsology
+  link: https://www.producthunt.com/products/newsology
   date: '2026-11-01'
 - source: Andrej Karpathy
   title: HackerTube
