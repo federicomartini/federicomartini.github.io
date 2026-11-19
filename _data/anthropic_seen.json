@@ -187,6 +187,10 @@
   "date": "2025-02-28",
   "title": "Anthropic joins the 1,000 Scientist AI Jam"
  },
+ "https://www.anthropic.com/news/anthropic-prices-initial-public-offering": {
+  "date": "2026-11-18",
+  "title": "Anthropic prices initial public offering"
+ },
  "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems": {
   "date": "2021-05-28",
   "title": "Anthropic raises $124 million Series A"
@@ -1278,6 +1282,10 @@
  "https://www.anthropic.com/research/claude-4-cyber": {
   "date": "2025-07-15",
   "title": "Cyber evaluations of Claude 4"
+ },
+ "https://www.anthropic.com/research/claude-black-hole-physics": {
+  "date": "2026-11-17",
+  "title": "Claude Fable 5.2 solves two open problems in the physics of black holes"
  },
  "https://www.anthropic.com/research/claude-character": {
   "date": "2024-06-08",
