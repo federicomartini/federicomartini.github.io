@@ -1703,6 +1703,10 @@
   "date": "2022-11-04",
   "title": "Measuring progress on scalable oversight"
  },
+ "https://www.anthropic.com/research/migrating-api-to-rust": {
+  "date": "2026-11-25",
+  "title": "Migrating our Messages API to Rust"
+ },
  "https://www.anthropic.com/research/multi-agent-research-system": {
   "date": "2025-06-13",
   "title": "How we built our multi-agent research system"
